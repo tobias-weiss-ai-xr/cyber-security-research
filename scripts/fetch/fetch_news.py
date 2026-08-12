@@ -60,17 +60,33 @@ SOURCES = {
     "theregister":    ("rss", "https://www.theregister.com/security/headlines.atom", None),
     "cso":            ("rss", "https://www.csoonline.com/rss/", None),
     "infosecurity":   ("rss", "https://www.infosecurity-magazine.com/rss/news/", None),
-    "helpnetsecurity": ("rss", "https://www.helpnetsecurity.com/feed/", None),
     # ── Community / research ──
     "thn":            ("rss", "https://feeds.feedburner.com/TheHackersNews", None),
     "krebs":          ("rss", "https://krebsonsecurity.com/feed/", None),
     "sans":           ("rss", "https://isc.sans.edu/rssfeed.xml", None),
     "eff":            ("rss", "https://www.eff.org/rss/updates.xml", None),
     "schneier":       ("atom", "https://www.schneier.com/feed/atom/", None),
+    "troyhunt":       ("rss", "https://www.troyhunt.com/rss/", None),
+    # ── Vendor threat research (batch 2) ──
+    "checkpoint":     ("rss", "https://research.checkpoint.com/feed", None),
+    "securelist":     ("rss", "https://securelist.com/feed/", None),
+    "welivesecurity": ("rss", "https://www.welivesecurity.com/en/feed/", None),
+    "netskope":       ("rss", "https://www.netskope.com/blog/rss", None),
+    "wiz":            ("rss", "https://www.wiz.io/blog/rss", None),
+    "sentinelone":    ("rss", "https://www.sentinelone.com/blog/feed/", None),
+    "portswigger":    ("rss", "https://portswigger.net/blog/rss", None),
+    # ── News outlets (batch 2) ──
+    "cybersecuritydive": ("rss", "https://www.cybersecuritydive.com/feeds/news/", None),
+    "cyberscoop":     ("rss", "https://cyberscoop.com/feed/", None),
+    "techcrunch":     ("rss", "https://techcrunch.com/category/security/feed/", None),
+    "arstechnica":    ("rss", "https://arstechnica.com/security/feed/", None),
+    "bankinfosecurity": ("rss", "https://www.bankinfosecurity.com/rss-feeds", None),
 }
 # Note: NCSC-UK news is JS-rendered without a public feed (API 404) — pending;
 # GitHub security advisories feed returns 406 to all non-browser clients;
-# Mandiant, HackerOne, MSRC (Access Denied) and ISC2 (Next.js app) serve no usable feed — dropped.
+# Mandiant, HackerOne, MSRC (Access Denied), ISC2 (Next.js app), Sophos/Naked
+# Security (feed redirects to a blog page), Akamai (403), NCSC-NL + FIRST
+# (no clean feed) — dropped.
 
 # keyword -> taxonomy category (first match wins, checked in order of specificity)
 CATEGORY_RULES = [
