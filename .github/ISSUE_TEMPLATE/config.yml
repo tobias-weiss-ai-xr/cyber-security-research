@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: KI-Kompetenz-Training
+    url: https://www.ki-kompetenz-training.org
+    about: The content site this research feeds
+  - name: Tobias Weiss
+    url: mailto:ki-kompetenz-training@tobias-weiss.org
+    about: Contact for questions about the research program

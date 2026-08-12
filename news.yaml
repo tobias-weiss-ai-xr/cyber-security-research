@@ -1,0 +1,577 @@
+news:
+- title: 'ENISA on Air: Our first podcast launches on Frontier AI'
+  url: https://www.cisa.gov/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai
+  date: '2026-08-12'
+  source: enisa
+  category: ai-security
+  summary: ''
+- title: 'NIS360: The bigger picture on maturity and criticality of NIS critical sectors'
+  url: https://www.cisa.gov/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: What’s Driving Cybersecurity Investments and where lie the challenges?
+  url: https://www.cisa.gov/news/whats-driving-cybersecurity-investments-and-where-lie-the-challenges
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: ENISA to operate the EU Cybersecurity Reserve with EUR 36 million
+  url: https://www.cisa.gov/news/enisa-to-operate-the-eu-cybersecurity-reserve-with-eur-36-million
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: ENISA scales up its role in the CVE Program
+  url: 'https://www.cisa.gov/news/enisa-scales-up-its-role-in-the-cve-program '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: Have your say on the certification of EU Managed Security Services
+  url: 'https://www.cisa.gov/news/have-your-say-on-the-certification-of-eu-managed-security-services '
+  date: '2026-08-12'
+  source: enisa
+  category: security-compliance
+  summary: ''
+- title: First steps forward for the implementation of the Health Action Plan
+  url: 'https://www.cisa.gov/news/first-steps-forward-for-the-implementation-of-the-health-action-plan '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: 'ENISA on Air: Our first podcast launches on Frontier AI'
+  url: 'https://www.cisa.gov/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai '
+  date: '2026-08-12'
+  source: enisa
+  category: ai-security
+  summary: ''
+- title: Where do SMEs stand in preparing for the Cyber Resilience Act?
+  url: 'https://www.cisa.gov/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: Team Europe wins 1st ever International Cybersecurity Challenge for women
+  url: 'https://www.cisa.gov/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: 'Your Perspective Matters: Join the NIS360 survey'
+  url: 'https://www.cisa.gov/news/your-perspective-matters-join-the-nis360-survey '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: 'Cyber Europe 2026: All eyes on the EU’s collective response and resilience'
+  url: 'https://www.cisa.gov/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: 'NIS360: The bigger picture on maturity and criticality of NIS critical sectors'
+  url: 'https://www.cisa.gov/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: 5th consecutive victory for Team Europe, the still undefeated EU Champions of the International Cybersecurity Challenge
+  url: 'https://www.cisa.gov/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge '
+  date: '2026-08-12'
+  source: enisa
+  category: vulnerability-management
+  summary: ''
+- title: Pressemitteilung:, Bonn, 06.08.2026 Nur 1,8 Prozent der Webseitenbetreiber nutzen security.txt – BSI und ACS raten zur Umsetzung Nur 1,8 Prozent der Webseitenbetreiber in Deutschland stellen bislang eine security.txt bereit. Das zeigen Messungen des Bundesamt für Sicherheit in der Informationstechnik (BSI) im Rahmen des Cyberdome-Projekts.
+  url: https://www.cisa.govDE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260806_security_txt.html
+  date: '2026-08-12'
+  source: bsi
+  category: application-security
+  summary: ''
+- title: Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+  url: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access
+  url: https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
+  url: https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
+  url: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
+  date: '2026-08-12'
+  source: thn
+  category: cloud-security
+  summary: ''
+- title: ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access
+  url: https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
+  url: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
+  url: https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing
+  url: https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client
+  url: https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html
+  date: '2026-08-12'
+  source: thn
+  category: cloud-security
+  summary: ''
+- title: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
+  url: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE
+  url: https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt
+  url: https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development
+  url: https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices
+  url: https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html
+  date: '2026-08-12'
+  source: thn
+  category: iot-security
+  summary: ''
+- title: Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo
+  url: https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html
+  date: '2026-08-12'
+  source: thn
+  category: cryptography
+  summary: ''
+- title: Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers
+  url: https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11
+  url: https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets
+  url: https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks
+  url: https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine
+  url: https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
+  date: '2026-08-12'
+  source: thn
+  category: network-security
+  summary: ''
+- title: BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
+  url: https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
+  date: '2026-08-12'
+  source: thn
+  category: supply-chain-security
+  summary: ''
+- title: Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development
+  url: https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
+  url: https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: '⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors'
+  url: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  url: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA
+  url: https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html
+  date: '2026-08-12'
+  source: thn
+  category: human-factor
+  summary: ''
+- title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  url: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials
+  url: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
+  date: '2026-08-12'
+  source: thn
+  category: identity-access
+  summary: ''
+- title: OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause
+  url: https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+  url: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
+  url: https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+  url: https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+  url: https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+  url: https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
+  url: https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
+  url: https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+  url: https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+  date: '2026-08-12'
+  source: thn
+  category: human-factor
+  summary: ''
+- title: New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
+  url: https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Growing Up The Hard Way
+  url: https://thehackernews.com/2026/08/growing-up-hard-way.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: 18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers
+  url: https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables
+  url: https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html
+  date: '2026-08-12'
+  source: thn
+  category: network-security
+  summary: ''
+- title: Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails
+  url: https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html
+  date: '2026-08-12'
+  source: thn
+  category: human-factor
+  summary: ''
+- title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+  url: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access
+  url: https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
+  url: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
+  date: '2026-08-12'
+  source: thn
+  category: cloud-security
+  summary: ''
+- title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
+  url: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  date: '2026-08-12'
+  source: thn
+  category: supply-chain-security
+  summary: ''
+- title: New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
+  url: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs
+  url: https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs
+  url: https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: 'ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories'
+  url: https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
+  date: '2026-08-12'
+  source: thn
+  category: malware-analysis
+  summary: ''
+- title: Microsoft Plugs Nearly 400 Security Holes
+  url: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: Canadian Man Pleads Guilty in Snowflake Extortions
+  url: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: Read This Before You Buy That TV Streaming Stick
+  url: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: LG to Ban Residential Proxies from Smart TV Apps
+  url: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft Patches a Record 570 Security Flaws
+  url: https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: Lessons Learned from CISA’s Recent GitHub Leak
+  url: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+  url: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: FBI Seizes NetNut Proxy Platform, Popa Botnet
+  url: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
+  date: '2026-08-12'
+  source: krebs
+  category: malware-analysis
+  summary: ''
+- title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
+  url: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
+  date: '2026-08-12'
+  source: krebs
+  category: vulnerability-management
+  summary: ''
+- title: ‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm
+  url: https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/
+  date: '2026-08-12'
+  source: krebs
+  category: malware-analysis
+  summary: ''
+- title: ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)
+  url: https://isc.sans.edu/diary/rss/33238
+  date: '2026-08-12'
+  source: sans
+  category: ai-security
+  summary: ''
+- title: Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)
+  url: https://isc.sans.edu/diary/rss/33236
+  date: '2026-08-12'
+  source: sans
+  category: vulnerability-management
+  summary: ''
+- title: ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)
+  url: https://isc.sans.edu/diary/rss/33232
+  date: '2026-08-12'
+  source: sans
+  category: ai-security
+  summary: ''
+- title: Scans for Solana (Surfpool?) Endpoints, (Mon, Aug 10th)
+  url: https://isc.sans.edu/diary/rss/33230
+  date: '2026-08-12'
+  source: sans
+  category: vulnerability-management
+  summary: ''
+- title: ISC Stormcast For Monday, August 10th, 2026 https://isc.sans.edu/podcastdetail/10044, (Mon, Aug 10th)
+  url: https://isc.sans.edu/diary/rss/33228
+  date: '2026-08-12'
+  source: sans
+  category: ai-security
+  summary: ''
+- title: 'Linux Shell Forensic: Let?s Dive Into Atuin!, (Fri, Aug 7th)'
+  url: https://isc.sans.edu/diary/rss/33226
+  date: '2026-08-12'
+  source: sans
+  category: vulnerability-management
+  summary: ''
+- title: ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)
+  url: https://isc.sans.edu/diary/rss/33224
+  date: '2026-08-12'
+  source: sans
+  category: ai-security
+  summary: ''
+- title: ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040, (Thu, Aug 6th)
+  url: https://isc.sans.edu/diary/rss/33222
+  date: '2026-08-12'
+  source: sans
+  category: ai-security
+  summary: ''
+- title: '22 Seconds to Compromise: How Automated SSH Actors Move From Login to Persistence Before You Can Blink [Guest Diary], (Thu, Aug 6th)'
+  url: https://isc.sans.edu/diary/rss/33220
+  date: '2026-08-12'
+  source: sans
+  category: vulnerability-management
+  summary: ''
+- title: 'Don''t Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)'
+  url: https://isc.sans.edu/diary/rss/33218
+  date: '2026-08-12'
+  source: sans
+  category: cryptography
+  summary: ''
+- title: 'Cyber Storm X: 20 Years of Readiness, Resilience, and Real‑World Impact'
+  url: https://www.cisa.gov/news-events/news/cyber-storm-x-20-years-readiness-resilience-and-real-world-impact
+  date: '2026-08-12'
+  source: cisa
+  category: vulnerability-management
+  summary: ''
+- title: CISA, FBI and Partners Warn Organizations of Gunra Ransomware Actors Targeting Multiple Critical Infrastructure Sectors
+  url: https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical
+  date: '2026-08-12'
+  source: cisa
+  category: malware-analysis
+  summary: ''
+- title: CISA Guide Helps Federal Agencies Securely and Effectively Use Open Source Software
+  url: https://www.cisa.gov/news-events/news/cisa-guide-helps-federal-agencies-securely-and-effectively-use-open-source-software
+  date: '2026-08-12'
+  source: cisa
+  category: vulnerability-management
+  summary: ''
+- title: CISA and Partners Unveil Updated Software Bill of Materials Resource That Improves Transparency, Security and Risk-Informed Decision Making
+  url: https://www.cisa.gov/news-events/news/cisa-and-partners-unveil-updated-software-bill-materials-resource-improves-transparency-security-and
+  date: '2026-08-12'
+  source: cisa
+  category: risk-management
+  summary: ''
+- title: CISA Joins Australia and Others to Publish Guidance to Isolate Operational Technology and Enabling Systems in Critical Infrastructure
+  url: https://www.cisa.gov/news-events/news/cisa-joins-australia-and-others-publish-guidance-isolate-operational-technology-and-enabling-systems
+  date: '2026-08-12'
+  source: cisa
+  category: security-compliance
+  summary: ''
+- title: CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity
+  url: https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported
+  date: '2026-08-12'
+  source: cisa
+  category: vulnerability-management
+  summary: ''
+- title: CISA, FBI, EPA and U.S. Government Partners Update Warning of Iran-Affiliated Threat Actors Targeting Critical Infrastructure Programmable Logic Controllers
+  url: https://www.cisa.gov/news-events/news/cisa-fbi-epa-and-us-government-partners-update-warning-iran-affiliated-threat-actors-targeting
+  date: '2026-08-12'
+  source: cisa
+  category: cyber-warfare
+  summary: ''
+- title: CISA and Partners Publish Guidance to Help Software Manufacturers and Online Service Providers Work With Security Researchers
+  url: https://www.cisa.gov/news-events/news/cisa-and-partners-publish-guidance-help-software-manufacturers-and-online-service-providers-work
+  date: '2026-08-12'
+  source: cisa
+  category: vulnerability-management
+  summary: ''
+- title: CISA Joins NSA, FBI, DC3 and International Partners Warning of Russian Cyber Threat Activity Targeting Communications, Energy, Government and Other Critical Infrastructure Sectors
+  url: https://www.cisa.gov/news-events/news/cisa-joins-nsa-fbi-dc3-and-international-partners-warning-russian-cyber-threat-activity-targeting
+  date: '2026-08-12'
+  source: cisa
+  category: cyber-warfare
+  summary: ''
+- title: Lessons from CISA’s Cyber Incident
+  url: https://www.cisa.gov/news-events/news/lessons-cisas-cyber-incident
+  date: '2026-08-12'
+  source: cisa
+  category: vulnerability-management
+  summary: ''
+- title: '#StopRansomware: Gunra Ransomware'
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a
+  date: '2026-08-12'
+  source: cisa-advisories
+  category: malware-analysis
+  summary: ''

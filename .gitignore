@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*$py.class
+*.pyo
+*.so
+
+# Generated state files
+tools/*_state.json
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Large data files (optional - uncomment if needed)
+# papers.yaml

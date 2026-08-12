@@ -1,0 +1,262 @@
+# Multi-source queries for cyber-security research
+# CrossRef (journal-heavy) + DBLP (conferences) — no API limits
+
+- source: crossref
+  query: threat intelligence analysis
+  category: threat-intelligence
+  subcategory_hint: theory
+- source: crossref
+  query: cyber threat intelligence sharing
+  category: threat-intelligence
+  subcategory_hint: theory
+- source: crossref
+  query: threat actor profiling
+  category: threat-intelligence
+  subcategory_hint: theory
+
+- source: crossref
+  query: coordinated vulnerability disclosure
+  category: vulnerability-management
+  subcategory_hint: mechanism
+- source: crossref
+  query: vulnerability management CVE
+  category: vulnerability-management
+  subcategory_hint: mechanism
+- source: crossref
+  query: software patching prioritization
+  category: vulnerability-management
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: incident response digital forensics
+  category: incident-response
+  subcategory_hint: method
+- source: crossref
+  query: computer forensics investigation
+  category: incident-response
+  subcategory_hint: method
+- source: crossref
+  query: digital evidence analysis
+  category: incident-response
+  subcategory_hint: method
+
+- source: crossref
+  query: malware analysis reverse engineering
+  category: malware-analysis
+  subcategory_hint: method
+- source: crossref
+  query: ransomware detection
+  category: malware-analysis
+  subcategory_hint: method
+- source: crossref
+  query: malware classification machine learning
+  category: malware-analysis
+  subcategory_hint: method
+
+- source: crossref
+  query: intrusion detection system
+  category: network-security
+  subcategory_hint: method
+- source: crossref
+  query: network anomaly detection
+  category: network-security
+  subcategory_hint: method
+- source: crossref
+  query: network traffic analysis security
+  category: network-security
+  subcategory_hint: method
+
+- source: crossref
+  query: secure software development lifecycle
+  category: application-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: static analysis security
+  category: application-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: web application security
+  category: application-security
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: cloud security misconfiguration
+  category: cloud-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: container security kubernetes
+  category: cloud-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: serverless security
+  category: cloud-security
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: identity access management
+  category: identity-access
+  subcategory_hint: systems
+- source: crossref
+  query: multi-factor authentication security
+  category: identity-access
+  subcategory_hint: systems
+- source: crossref
+  query: privileged access management
+  category: identity-access
+  subcategory_hint: systems
+
+- source: crossref
+  query: post-quantum cryptography
+  category: cryptography
+  subcategory_hint: mechanism
+- source: crossref
+  query: homomorphic encryption
+  category: cryptography
+  subcategory_hint: mechanism
+- source: crossref
+  query: key management security
+  category: cryptography
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: zero trust architecture
+  category: zero-trust
+  subcategory_hint: theory
+- source: crossref
+  query: zero trust network access
+  category: zero-trust
+  subcategory_hint: theory
+- source: crossref
+  query: zero trust security model
+  category: zero-trust
+  subcategory_hint: theory
+
+- source: crossref
+  query: software supply chain security
+  category: supply-chain-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: software bill of materials
+  category: supply-chain-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: dependency vulnerabilities
+  category: supply-chain-security
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: security operations center
+  category: security-operations
+  subcategory_hint: systems
+- source: crossref
+  query: SIEM detection engineering
+  category: security-operations
+  subcategory_hint: systems
+- source: crossref
+  query: threat hunting
+  category: security-operations
+  subcategory_hint: systems
+
+- source: crossref
+  query: adversarial machine learning security
+  category: ai-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: prompt injection large language models
+  category: ai-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: AI model poisoning
+  category: ai-security
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: cybersecurity education training
+  category: security-education
+  subcategory_hint: method
+- source: crossref
+  query: security awareness programs
+  category: security-education
+  subcategory_hint: method
+- source: crossref
+  query: cybersecurity workforce skills gap
+  category: security-education
+  subcategory_hint: method
+
+- source: crossref
+  query: NIST cybersecurity framework
+  category: security-compliance
+  subcategory_hint: application
+- source: crossref
+  query: ISO 27001 implementation
+  category: security-compliance
+  subcategory_hint: application
+- source: crossref
+  query: cybersecurity regulation compliance
+  category: security-compliance
+  subcategory_hint: application
+
+- source: crossref
+  query: cyber risk management
+  category: risk-management
+  subcategory_hint: theory
+- source: crossref
+  query: quantitative cyber risk assessment
+  category: risk-management
+  subcategory_hint: theory
+- source: crossref
+  query: cyber insurance risk
+  category: risk-management
+  subcategory_hint: theory
+
+- source: crossref
+  query: GDPR data protection compliance
+  category: privacy
+  subcategory_hint: theory
+- source: crossref
+  query: privacy enhancing technologies
+  category: privacy
+  subcategory_hint: theory
+- source: crossref
+  query: data breach notification
+  category: privacy
+  subcategory_hint: theory
+
+- source: crossref
+  query: IoT security vulnerabilities
+  category: iot-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: industrial control system security
+  category: iot-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: SCADA security
+  category: iot-security
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: phishing susceptibility users
+  category: human-factor
+  subcategory_hint: mechanism
+- source: crossref
+  query: social engineering attacks
+  category: human-factor
+  subcategory_hint: mechanism
+- source: crossref
+  query: human factor cybersecurity
+  category: human-factor
+  subcategory_hint: mechanism
+
+- source: crossref
+  query: cyber warfare nation state
+  category: cyber-warfare
+  subcategory_hint: theory
+- source: crossref
+  query: cyberattacks critical infrastructure
+  category: cyber-warfare
+  subcategory_hint: theory
+- source: crossref
+  query: cyber deterrence
+  category: cyber-warfare
+  subcategory_hint: theory
