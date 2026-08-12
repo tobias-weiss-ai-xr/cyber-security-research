@@ -575,3 +575,2259 @@ news:
   source: cisa-advisories
   category: malware-analysis
   summary: ''
+- title: NIST Researchers Correct Common Error Confounding Nanotech Measurements
+  url: https://www.cisa.gov/news-events/news/2026/08/nist-researchers-correct-common-error-confounding-nanotech-measurements
+  date: '2026-08-12'
+  source: nist
+  category: security-compliance
+  summary: ''
+- title: ‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network
+  url: https://www.cisa.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network
+  date: '2026-08-12'
+  source: nist
+  category: cryptography
+  summary: ''
+- title: NIST Joins National Genesis Mission to Accelerate AI Innovation
+  url: https://www.cisa.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation
+  date: '2026-08-12'
+  source: nist
+  category: ai-security
+  summary: ''
+- title: NIST Announces Funding Opportunity for 14 MEP Centers to Advance Small and Medium-Sized U.S. Manufacturers
+  url: https://www.cisa.gov/news-events/news/2026/07/nist-announces-funding-opportunity-14-mep-centers-advance-small-and-medium
+  date: '2026-08-12'
+  source: nist
+  category: security-compliance
+  summary: ''
+- title: NIST Receives New Patent for Microbe-Killing Water Heater
+  url: https://www.cisa.gov/news-events/news/2026/07/nist-receives-new-patent-microbe-killing-water-heater
+  date: '2026-08-12'
+  source: nist
+  category: security-compliance
+  summary: ''
+- title: Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain
+  url: https://www.cisa.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million
+  date: '2026-08-12'
+  source: nist
+  category: supply-chain-security
+  summary: ''
+- title: New Fabric Test Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing
+  url: https://www.cisa.gov/news-events/news/2026/07/new-fabric-test-material-could-help-strengthen-domestic-supply-chain
+  date: '2026-08-12'
+  source: nist
+  category: supply-chain-security
+  summary: ''
+- title: Arvind Raman Confirmed as the 18th NIST Director
+  url: https://www.cisa.gov/news-events/news/2026/07/arvind-raman-confirmed-18th-nist-director
+  date: '2026-08-12'
+  source: nist
+  category: security-compliance
+  summary: ''
+- title: NIST Launches Center to Drive the Manufacture of Quantum Technologies
+  url: https://www.cisa.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies
+  date: '2026-08-12'
+  source: nist
+  category: cryptography
+  summary: ''
+- title: NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South
+  url: https://www.cisa.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse
+  date: '2026-08-12'
+  source: nist
+  category: ai-security
+  summary: ''
+- title: NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems
+  url: https://www.cisa.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update
+  date: '2026-08-12'
+  source: nist
+  category: ai-security
+  summary: ''
+- title: NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances
+  url: https://www.cisa.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances
+  date: '2026-08-12'
+  source: nist
+  category: security-compliance
+  summary: ''
+- title: 'Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave'
+  url: https://blog.cloudflare.com/ddos-threat-report-2026-h1/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: Everything we launched during Agents Week
+  url: https://blog.cloudflare.com/agents-week-review-august-2026/
+  date: '2026-08-12'
+  source: cloudflare
+  category: vulnerability-management
+  summary: ''
+- title: 'Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status'
+  url: https://blog.cloudflare.com/fedramp-class-d-certification/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: Unveiling good and bad behaviors on the Agentic Internet
+  url: https://blog.cloudflare.com/good-and-bad-agentic-behaviors/
+  date: '2026-08-12'
+  source: cloudflare
+  category: vulnerability-management
+  summary: ''
+- title: 'Introducing Radar Researcher: An AI tool for exploring Internet data in plain language'
+  url: https://blog.cloudflare.com/introducing-radar-researcher/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding
+  url: https://blog.cloudflare.com/community-program-refresh/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: Unifying Workers AI and AI Gateway into a single AI control plane
+  url: https://blog.cloudflare.com/workers-ai-gateway-unification/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: 'Cloudflare AI Search: give your agents a search engine for your data'
+  url: https://blog.cloudflare.com/ai-search-easier/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: The next generation of MCP
+  url: https://blog.cloudflare.com/mcp-v2/
+  date: '2026-08-12'
+  source: cloudflare
+  category: vulnerability-management
+  summary: ''
+- title: 'From ranking to recommended: get your site ready to thrive in the age of AI agents'
+  url: https://blog.cloudflare.com/aeo/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: 'Building an open Agentic Internet: readable, discoverable, callable, and payable'
+  url: https://blog.cloudflare.com/the-agentic-internet/
+  date: '2026-08-12'
+  source: cloudflare
+  category: vulnerability-management
+  summary: ''
+- title: 'Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers'
+  url: https://blog.cloudflare.com/kitesurf/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: Give any website a WebMCP interface
+  url: https://blog.cloudflare.com/webmcp/
+  date: '2026-08-12'
+  source: cloudflare
+  category: application-security
+  summary: ''
+- title: Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports
+  url: https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: The Agent Access Model
+  url: https://blog.cloudflare.com/the-agent-access-model/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: How we’re rethinking work at Cloudflare with Cloudflare OS
+  url: https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: 'Cloudflare OS: an open platform for agents, apps, and work'
+  url: https://blog.cloudflare.com/cloudflare-os/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: 'WriteGuard: fine-grained controls for MCP Servers'
+  url: https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: Catching rogue AI behavior with identity-aware analytics
+  url: https://blog.cloudflare.com/identity-aware-ai-gateway/
+  date: '2026-08-12'
+  source: cloudflare
+  category: ai-security
+  summary: ''
+- title: The Agent Development Lifecycle has arrived on Cloudflare
+  url: https://blog.cloudflare.com/agent-development-lifecycle/
+  date: '2026-08-12'
+  source: cloudflare
+  category: cloud-security
+  summary: ''
+- title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+  url: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: Why metaphor may dictate your security strategy
+  url: https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+  url: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  date: '2026-08-12'
+  source: talos
+  category: ai-security
+  summary: ''
+- title: '[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents'
+  url: https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/
+  date: '2026-08-12'
+  source: talos
+  category: application-security
+  summary: ''
+- title: You were onto something with “It’s the Climb,” Miley
+  url: https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: 'Black Hat special: Rewind and revisit'
+  url: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: 'IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains'
+  url: https://blog.talosintelligence.com/ir-trends-q2-2026/
+  date: '2026-08-12'
+  source: talos
+  category: human-factor
+  summary: ''
+- title: Don’t swing at everything
+  url: https://blog.talosintelligence.com/dont-swing-at-everything/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: 'Chaos ransomware''s msaRAT: Living off the browser to build a covert C2 channel'
+  url: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
+  date: '2026-08-12'
+  source: talos
+  category: malware-analysis
+  summary: ''
+- title: 'Preview: Cisco Talos at Black Hat USA 2026'
+  url: https://blog.talosintelligence.com/preview-cisco-talos-at-black-hat-usa-2026/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: Begun, the Patch Wars have
+  url: https://blog.talosintelligence.com/begun-the-patch-wars-have/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: 'The Hunter''s Paradox: Is it time to embrace automated threat hunting?'
+  url: https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/
+  date: '2026-08-12'
+  source: talos
+  category: security-operations
+  summary: ''
+- title: UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign
+  url: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
+  date: '2026-08-12'
+  source: talos
+  category: ai-security
+  summary: ''
+- title: Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities
+  url: https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: '[Video] Where protection starts: Cisco Talos Intelligence Integrations'
+  url: https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
+  date: '2026-08-12'
+  source: talos
+  category: vulnerability-management
+  summary: ''
+- title: 'Kimwolf v7: An Evolution of the Kimwolf Botnet'
+  url: https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/
+  date: '2026-08-12'
+  source: unit42
+  category: malware-analysis
+  summary: ''
+- title: 'The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications'
+  url: https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/
+  date: '2026-08-12'
+  source: unit42
+  category: ai-security
+  summary: ''
+- title: 'Inside the Modern SOC: The Identity Front Door'
+  url: https://unit42.paloaltonetworks.com/soc-identity-front-door/
+  date: '2026-08-12'
+  source: unit42
+  category: identity-access
+  summary: ''
+- title: 'ChainDrop: Inside a Self-Propagating npm Worm'
+  url: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  date: '2026-08-12'
+  source: unit42
+  category: ai-security
+  summary: ''
+- title: 'Token Jacking: Cybercriminals Could Be Stealing Your AI Resources'
+  url: https://unit42.paloaltonetworks.com/ai-token-jacking/
+  date: '2026-08-12'
+  source: unit42
+  category: ai-security
+  summary: ''
+- title: 'The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software'
+  url: https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
+  date: '2026-08-12'
+  source: unit42
+  category: vulnerability-management
+  summary: ''
+- title: Almost Half of Malware Samples Communicate Direct to IP
+  url: https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
+  date: '2026-08-12'
+  source: unit42
+  category: malware-analysis
+  summary: ''
+- title: 'Pass the Passkey: A Novel Attack Surface in Passwordless Authentication'
+  url: https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
+  date: '2026-08-12'
+  source: unit42
+  category: identity-access
+  summary: ''
+- title: 'The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version'
+  url: https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/
+  date: '2026-08-12'
+  source: unit42
+  category: vulnerability-management
+  summary: ''
+- title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
+  url: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
+  date: '2026-08-12'
+  source: unit42
+  category: ai-security
+  summary: ''
+- title: Russian Global Webmail Espionage
+  url: https://unit42.paloaltonetworks.com/russian-webmail-espionage/
+  date: '2026-08-12'
+  source: unit42
+  category: ai-security
+  summary: ''
+- title: 'Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy'
+  url: https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
+  date: '2026-08-12'
+  source: unit42
+  category: vulnerability-management
+  summary: ''
+- title: 'AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report'
+  url: https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
+  date: '2026-08-12'
+  source: unit42
+  category: incident-response
+  summary: ''
+- title: 'The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)'
+  url: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+  date: '2026-08-12'
+  source: unit42
+  category: vulnerability-management
+  summary: ''
+- title: 'TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development'
+  url: https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/
+  date: '2026-08-12'
+  source: unit42
+  category: malware-analysis
+  summary: ''
+- title: Microsoft and Adobe Patch Tuesday, August 2026 Security Update Review
+  url: https://blog.qualys.com/vulnerabilities-threat-research/patch-tuesday/2026/08/11/microsoft-patch-tuesday-august-2026-security-update-review
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: 'Audit Fix: Audit Readiness for the Post-Mythos Era'
+  url: https://blog.qualys.com/product-tech/2026/08/10/audit-readiness-frontier-ai-audit-fix
+  date: '2026-08-12'
+  source: qualys
+  category: security-compliance
+  summary: ''
+- title: Zero-Day Remediation Meets Operational Resiliency
+  url: https://blog.qualys.com/product-tech/2026/08/03/zero-day-remediation-operational-resiliency-trurisk-eliminate
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: 'Agent Val Now Validates the Entire Attack Surface: From Network to Host'
+  url: https://blog.qualys.com/product-tech/2026/08/03/truconfirm-cloud-agent-endpoint-exploit-validation
+  date: '2026-08-12'
+  source: qualys
+  category: network-security
+  summary: ''
+- title: 'Say Hello to Agent Insta: Closing the Detection Gap in Exposure Management at Machine Speed'
+  url: https://blog.qualys.com/product-tech/2026/08/03/instascan-agent-insta-scanless-detection
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: Operationalize AI Governance Across Shadow GenAI, MCP, and Agentic Workloads with Qualys TotalAI
+  url: https://blog.qualys.com/product-tech/2026/07/29/ai-governance-evidence-gap-totalai
+  date: '2026-08-12'
+  source: qualys
+  category: ai-security
+  summary: ''
+- title: Qualys Expands Serverless Security with Vulnerability Scanning for AWS Lambda
+  url: https://blog.qualys.com/product-tech/2026/07/27/aws-lambda-vulnerability-scanning-serverless-security
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: 'The Sub-10-Minute Cloud Takeover: How Exposed IAM Keys, Misconfiguration and AI Are Rewriting the Rules of Cloud Breaches'
+  url: https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches
+  date: '2026-08-12'
+  source: qualys
+  category: ai-security
+  summary: ''
+- title: 'RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)'
+  url: https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: Oracle Critical Patch Update, July 2026 Security Update Review
+  url: https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/oracle-critical-patch-update-july-2026-security-update-review
+  date: '2026-08-12'
+  source: qualys
+  category: vulnerability-management
+  summary: ''
+- title: 'How to Create a Secure WordPress Staging Site: Beginner’s Guide'
+  url: https://blog.sucuri.net/2026/08/how-to-create-a-secure-wordpress-staging-site-beginners-guide.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: Upgrading How You Sign In to Your Sucuri Account
+  url: https://blog.sucuri.net/2026/08/upgrading-how-you-sign-in-to-your-sucuri-account.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: Vulnerability & Patch Roundup — July 2026
+  url: https://blog.sucuri.net/2026/07/vulnerability-patch-roundup-july-2026.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: Why Delaying WordPress Updates Increases Security Risks
+  url: https://blog.sucuri.net/2026/07/why-delaying-wordpress-updates-increases-security-risks.html
+  date: '2026-08-12'
+  source: sucuri
+  category: risk-management
+  summary: ''
+- title: Vulnerability & Patch Roundup — June 2026
+  url: https://blog.sucuri.net/2026/07/vulnerability-patch-roundup-june-2026.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: 'PCI Compliance Isn’t a Checkbox: How to Secure Ecommerce Checkouts Before Attackers Arrive'
+  url: https://blog.sucuri.net/2026/06/pci-compliance-isnt-a-checkbox-how-to-secure-ecommerce-checkouts-before-attackers-arrive.html
+  date: '2026-08-12'
+  source: sucuri
+  category: security-compliance
+  summary: ''
+- title: WordPress PBN Plugin Drops Dual Webshells via Database Injection
+  url: https://blog.sucuri.net/2026/06/wordpress-pbn-plugin-drops-dual-webshells-via-database-injection.html
+  date: '2026-08-12'
+  source: sucuri
+  category: application-security
+  summary: ''
+- title: Vulnerability & Patch Roundup — May 2026
+  url: https://blog.sucuri.net/2026/05/vulnerability-patch-roundup-may-2026.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: WordPress Site Down? Here’s How to Get Back Online
+  url: https://blog.sucuri.net/2026/05/wordpress-site-down-heres-how-to-get-back-online.html
+  date: '2026-08-12'
+  source: sucuri
+  category: vulnerability-management
+  summary: ''
+- title: What to Do When a Third-Party Data Breach Puts Your Website at Risk
+  url: https://blog.sucuri.net/2026/05/what-to-do-when-a-third-party-data-breach-puts-your-website-at-risk.html
+  date: '2026-08-12'
+  source: sucuri
+  category: privacy
+  summary: ''
+- title: 'DNSSEC: The Extra Security Layer That Can Break Your Padlock'
+  url: https://blog.sucuri.net/2026/05/dnssec-the-extra-security-layer-that-can-break-your-padlock.html
+  date: '2026-08-12'
+  source: sucuri
+  category: network-security
+  summary: ''
+- title: Three intrusions at UK criminal records office went undetected for two years
+  url: https://therecord.media/uk-criminal-records-office-acro-data-breaches
+  date: '2026-08-12'
+  source: therecord
+  category: vulnerability-management
+  summary: ''
+- title: "Microsoftâ\x80\x99s massive Patch Tuesday releases continue as AI reshapes bug discovery"
+  url: https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai
+  date: '2026-08-12'
+  source: therecord
+  category: vulnerability-management
+  summary: ''
+- title: CISA gives federal agencies two weeks to patch Microsoft bug exploited in DPRK campaign
+  url: https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug
+  date: '2026-08-12'
+  source: therecord
+  category: vulnerability-management
+  summary: ''
+- title: NSA installs DHS lawyer as new general counsel
+  url: https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel
+  date: '2026-08-12'
+  source: therecord
+  category: vulnerability-management
+  summary: ''
+- title: "Ransomware group hijacks hospital systemâ\x80\x99s Facebook page amid ongoing cyberattack fallout"
+  url: https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response
+  date: '2026-08-12'
+  source: therecord
+  category: malware-analysis
+  summary: ''
+- title: Hackers leverage new Microsoft SharePoint exploit in attacks
+  url: https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Signal adds new security feature to thwart man-in-the-middle attacks
+  url: https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges
+  url: https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse
+  url: https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: DeadLock ransomware uses blockchain to resist infrastructure takedown
+  url: https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: malware-analysis
+  summary: ''
+- title: Sandworm hackers target IT pros with trojanized WireGuard VPN client
+  url: https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: malware-analysis
+  summary: ''
+- title: Cisco warns of ASA and FTD VPN flaw exploited to crash devices
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees
+  url: https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft releases Windows 10 KB5120249 extended security update
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Windows 11 KB5121003 & KB5120240 cumulative updates released
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Wesco confirms security incident after ExfilSquad claims data theft
+  url: https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: ai-security
+  summary: ''
+- title: Mozilla updates GPG signing key for Firefox releases after exposure
+  url: https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: cryptography
+  summary: ''
+- title: 'Vague Task, Total Access: When AI Delegation Becomes a Security Risk'
+  url: https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: ai-security
+  summary: ''
+- title: DDoS attacks over 1 Tbps surged fivefold in the second quarter
+  url: https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/
+  date: '2026-08-12'
+  source: bleepingcomputer
+  category: vulnerability-management
+  summary: ''
+- title: Mindgard Raises $30 Million to Protect AI Systems
+  url: https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/
+  date: '2026-08-12'
+  source: securityweek
+  category: ai-security
+  summary: ''
+- title: WhatsApp Unveils New Scam Alert Feature
+  url: https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/
+  date: '2026-08-12'
+  source: securityweek
+  category: security-operations
+  summary: ''
+- title: Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset
+  url: https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: Ceva Logistics Operations Disrupted by Cyberattack
+  url: https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/
+  date: '2026-08-12'
+  source: securityweek
+  category: iot-security
+  summary: ''
+- title: 'Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined'
+  url: https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack
+  url: https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/
+  date: '2026-08-12'
+  source: securityweek
+  category: supply-chain-security
+  summary: ''
+- title: Fresh Windows Zero-Day Exploited in North Korean Cyberattacks
+  url: https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: Ivanti EPM Update Patches Remotely Exploitable Flaws
+  url: https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: 'ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact'
+  url: https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform
+  url: https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/
+  date: '2026-08-12'
+  source: securityweek
+  category: vulnerability-management
+  summary: ''
+- title: Student Loan Breach Exposes 2.5M Records
+  url: https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/
+  date: '2026-08-12'
+  source: threatpost
+  category: vulnerability-management
+  summary: ''
+- title: Watering Hole Attacks Push ScanBox Keylogger
+  url: https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/
+  date: '2026-08-12'
+  source: threatpost
+  category: cryptography
+  summary: ''
+- title: Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms
+  url: https://threatpost.com/0ktapus-victimize-130-firms/180487/
+  date: '2026-08-12'
+  source: threatpost
+  category: vulnerability-management
+  summary: ''
+- title: Ransomware Attacks are on the Rise
+  url: https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/
+  date: '2026-08-12'
+  source: threatpost
+  category: malware-analysis
+  summary: ''
+- title: Cybercriminals Are Selling Access to Chinese Surveillance Cameras
+  url: https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/
+  date: '2026-08-12'
+  source: threatpost
+  category: identity-access
+  summary: ''
+- title: 'Twitter Whistleblower Complaint: The TL;DR Version'
+  url: https://threatpost.com/twitter-whistleblower-tldr-version/180472/
+  date: '2026-08-12'
+  source: threatpost
+  category: ai-security
+  summary: ''
+- title: Firewall Bug Under Active Attack Triggers CISA Warning
+  url: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+  date: '2026-08-12'
+  source: threatpost
+  category: network-security
+  summary: ''
+- title: Fake Reservation Links Prey on Weary Travelers
+  url: https://threatpost.com/reservation-links-prey-on-travelers/180462/
+  date: '2026-08-12'
+  source: threatpost
+  category: vulnerability-management
+  summary: ''
+- title: iPhone Users Urged to Update to Patch 2 Zero-Days
+  url: https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/
+  date: '2026-08-12'
+  source: threatpost
+  category: vulnerability-management
+  summary: ''
+- title: Google Patches Chrome’s Fifth Zero-Day of the Year
+  url: https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/
+  date: '2026-08-12'
+  source: threatpost
+  category: vulnerability-management
+  summary: ''
+- title: Walmart Leaders Transform Security Operations Without Going Bananas
+  url: https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft's Patch Tuesday Deluge Continues With August Updates
+  url: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA
+  url: https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa
+  date: '2026-08-12'
+  source: darkreading
+  category: malware-analysis
+  summary: ''
+- title: '''GhostJacking'' Exposes Identity Governance Gaps in AI Agents'
+  url: https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Multistate Water System Attacks Widen, Iran Suspected
+  url: https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+  url: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: 'The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists'
+  url: https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Coruna, DarkSword iOS Exploits Proliferate Globally
+  url: https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Outdated Cybercrime Laws Put Security Researchers at Risk
+  url: https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk
+  date: '2026-08-12'
+  source: darkreading
+  category: cloud-security
+  summary: ''
+- title: Sherlock Holmes Was the 'OG' Social Engineer
+  url: https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer
+  date: '2026-08-12'
+  source: darkreading
+  category: security-operations
+  summary: ''
+- title: AI-Generated Patches Fail Half the Time
+  url: https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: 'The Coordination Gap: How Attackers Are Outpacing Law Enforcement'
+  url: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
+  url: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Researcher Claims Control of ChatGPT Secure Sandbox
+  url: https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: 'From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture'
+  url: https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: AI Sends Global Crime Syndicates Into Fraud Nirvana
+  url: https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking
+  url: https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: No Perfect Fix for AI Browser Prompt Injection Flaws
+  url: https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: 'CSS: The Hidden Threat Lurking in Your Inbox'
+  url: https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: 15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning
+  url: https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning
+  date: '2026-08-12'
+  source: darkreading
+  category: risk-management
+  summary: ''
+- title: Flaws in Google APK for Python Unlock Agent-to-Agent Attack
+  url: https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack
+  date: '2026-08-12'
+  source: darkreading
+  category: cloud-security
+  summary: ''
+- title: Angola's Largest Telco Breached Hours Before IPO
+  url: https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook
+  url: https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls
+  url: https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Device Code Phishing Up 1,500% in 2026; Vishing Doubles
+  url: https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles
+  date: '2026-08-12'
+  source: darkreading
+  category: human-factor
+  summary: ''
+- title: Attackers Exploit N-able Patch Bypass Flaw on RMM Servers
+  url: https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: New Tool Traces AI Videos Back to Their Source
+  url: https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: 'Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues'
+  url: https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm
+  url: https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Is There Really a Fix for CISO Fatigue?
+  url: https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue
+  date: '2026-08-12'
+  source: darkreading
+  category: security-compliance
+  summary: ''
+- title: CISA Issues Fresh SBOM Guidance. Did They Get It Right?
+  url: https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance
+  date: '2026-08-12'
+  source: darkreading
+  category: supply-chain-security
+  summary: ''
+- title: The Morning After We Pull a Root of Trust, Nobody Owns It
+  url: https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it
+  date: '2026-08-12'
+  source: darkreading
+  category: iot-security
+  summary: ''
+- title: Interpol Leverages Global System to Curtail Fraud Payments
+  url: https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: DROP Platform Lets Californians Reduce Digital Footprint
+  url: https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports
+  url: https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports
+  date: '2026-08-12'
+  source: darkreading
+  category: identity-access
+  summary: ''
+- title: Minnesota Water Utility Attacks Expose Sector's Cyber-Risks
+  url: https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks
+  date: '2026-08-12'
+  source: darkreading
+  category: risk-management
+  summary: ''
+- title: AI Harnesses Burst With Potential Exploit Opps
+  url: https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: 'Claude Mythos — Hype vs. Reality: What Security Teams Need to Know'
+  url: https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: SE Asian Cybercriminal Syndicates Become a Global Power
+  url: https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: '''Flying Eagle'' Full-Service Mobile RAT Builder Wings Across China'
+  url: https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
+  url: https://www.darkreading.com/cyber-risk/cybersecurity-then-now
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: OpenAI's Rogue Model Claims More Victims Beyond Hugging Face
+  url: https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: 'Red Agents vs. Blue Agents: How to Make AI Better at Defense'
+  url: https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions
+  url: https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: 'Hugging Face Hack: Lessons for Cyber Defenders'
+  url: https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: When AppSec Scanners Become a Supply Chain Attack Vector
+  url: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
+  date: '2026-08-12'
+  source: darkreading
+  category: supply-chain-security
+  summary: ''
+- title: Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms
+  url: https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: Ghost Credentials Expose Cloud Systems to Hidden Identity Risks
+  url: https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path
+  date: '2026-08-12'
+  source: darkreading
+  category: cloud-security
+  summary: ''
+- title: Thousands of Data Center Controllers Open to Takeover
+  url: https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover
+  date: '2026-08-12'
+  source: darkreading
+  category: vulnerability-management
+  summary: ''
+- title: When AI Agents Escape Sandboxes, Old Security Rules Apply
+  url: https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply
+  date: '2026-08-12'
+  source: darkreading
+  category: ai-security
+  summary: ''
+- title: Fake CCleaner downloads turn Chrome into a credential-stealing surveillance tool
+  url: https://www.csoonline.com/article/4208565/fake-ccleaner-downloads-turn-chrome-into-a-credential-stealing-surveillance-tool.html
+  date: '2026-08-12'
+  source: cso
+  category: identity-access
+  summary: ''
+- title: 4 gaps slowing AI in enterprise SOCs
+  url: https://www.csoonline.com/article/4208086/4-gaps-slowing-ai-in-enterprise-socs.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: The AI harness is the new attack surface
+  url: https://www.csoonline.com/article/4208236/the-ai-harness-is-the-new-attack-surface.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: 17 old software bugs that took way too long to squash
+  url: https://www.csoonline.com/article/570815/old-software-bugs-that-took-way-too-long-to-squash.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: Metabase SQLi exploit grants attackers total access
+  url: https://www.csoonline.com/article/4208307/metabase-sqli-exploit-grants-attackers-total-access.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: 'Patch Tuesday August 2026: A zero-day WinSock driver hole under exploit, and a maximum severity SAP vulnerability'
+  url: https://www.csoonline.com/article/4208185/patch-tuesday-august-2026-a-zero-day-winsock-driver-hole-under-exploit-and-a-maximum-severity-sap-vulnerability.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: Zoom zero-click RCE flaws allow attackers to compromise meeting participants
+  url: https://www.csoonline.com/article/4208223/zoom-zero-click-rce-flaws-allow-attackers-to-compromise-meeting-participants.html
+  date: '2026-08-12'
+  source: cso
+  category: cloud-security
+  summary: ''
+- title: GitHub already has an EDR. You just have to listen to it
+  url: https://www.csoonline.com/article/4207927/github-already-has-an-edr-you-just-have-to-listen-to-it.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: OpenAI launches GPT-5.6-Cyber as AI narrows vulnerability response window
+  url: https://www.csoonline.com/article/4207896/openai-launches-gpt-5-6-cyber-as-ai-narrows-vulnerability-response-window.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: Security leaders’ rogue AI confidence could actually be disastrous
+  url: https://www.csoonline.com/article/4198038/security-leaders-confident-but-cooked-when-it-comes-to-rogue-ai-agents.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: The future of AI security research isn’t autonomous, it’s human-amplified
+  url: https://www.csoonline.com/article/4207666/the-future-of-ai-security-research-isnt-autonomous-its-human-amplified.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: OpenAI says Astra could reach ‘critical’ cyber capability, tightens safeguards
+  url: https://www.csoonline.com/article/4207311/openai-says-astra-could-reach-critical-cyber-capability-tightens-safeguards.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: One-click flaw in Atlassian Rovo exposed enterprise data via prompt injection attack
+  url: https://www.csoonline.com/article/4207306/one-click-flaw-in-atlassian-rovo-exposed-enterprise-data-via-prompt-injection-attack.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: '4 million fake applications and one blind spot: A SOC playbook for OAuth client ID spoofing'
+  url: https://www.csoonline.com/article/4206750/4-million-fake-applications-and-one-blind-spot-a-soc-playbook-for-oauth-client-id-spoofing.html
+  date: '2026-08-12'
+  source: cso
+  category: security-operations
+  summary: ''
+- title: 7 key trends defining the cybersecurity market today
+  url: https://www.csoonline.com/article/3829666/7-key-trends-defining-the-cybersecurity-market-today.html
+  date: '2026-08-12'
+  source: cso
+  category: cryptography
+  summary: ''
+- title: Trojanized AI skills gain 1.7M installs in agent-targeted attack
+  url: https://www.csoonline.com/article/4206851/trojanized-ai-skills-gain-1-7m-installs-in-agent-targeted-attack.html
+  date: '2026-08-12'
+  source: cso
+  category: malware-analysis
+  summary: ''
+- title: Moonshot’s Kimi AI model has also escaped from a test environment
+  url: https://www.csoonline.com/article/4206782/moonshots-kimi-ai-model-has-also-escaped-from-a-test-environment.html
+  date: '2026-08-12'
+  source: cso
+  category: ai-security
+  summary: ''
+- title: Snowflake attacker pleads guilty to hack of 165 companies’ data
+  url: https://www.csoonline.com/article/4206739/snowflake-attacker-pleads-guilty-to-hack-of-165-companies-data.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: 'Python package security in 2026: How supply chain attacks are targeting your AI development environment'
+  url: https://www.csoonline.com/article/4206245/python-package-security-in-2026.html
+  date: '2026-08-12'
+  source: cso
+  category: supply-chain-security
+  summary: ''
+- title: Human oversight is still critical as AI patching tools miss security risks
+  url: https://www.csoonline.com/article/4206598/human-oversight-is-still-critical-as-ai-patching-tools-miss-security-risks.html
+  date: '2026-08-12'
+  source: cso
+  category: vulnerability-management
+  summary: ''
+- title: Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day
+  url: https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Gunra Ransomware Exploits Fortinet Flaws to Target Critical Infrastructure
+  url: https://www.infosecurity-magazine.com/news/gunra-ransomware-fortinet-flaws/
+  date: '2026-08-12'
+  source: infosecurity
+  category: malware-analysis
+  summary: ''
+- title: NIST Seeks Public Input on AI-Ready NVD Modernization
+  url: https://www.infosecurity-magazine.com/news/nist-seeks-public-input-ai-nvd/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Russian-Linked Hackers Accessed Polish Power Plant OT Network Through Private APN, Says CERT.PL
+  url: https://www.infosecurity-magazine.com/news/attack-polish-power-plant-2025-led/
+  date: '2026-08-12'
+  source: infosecurity
+  category: identity-access
+  summary: ''
+- title: Microsoft Fixes 400 Flaws on August Patch Tuesday
+  url: https://www.infosecurity-magazine.com/news/microsoft-fixes-400-flaws-august/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Six npm Packages Read C2 Addresses From Ethereum Wallet
+  url: https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Cursor Security Bug Allowed Repositories to Execute Commands Before Trust Verification
+  url: https://www.infosecurity-magazine.com/news/cursor-security-bug-command/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Suisan City, California, Responds to Cyber Incident Amid Wave of US Local Government Attacks
+  url: https://www.infosecurity-magazine.com/news/suisan-cyber-incident-government/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: OpenAI Launches Two-Tier Security Access Program Alongside GPT 5.6 Cyber
+  url: https://www.infosecurity-magazine.com/news/openai-daybreak-blue-red-gpt-cyber/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Logistics Giant Ceva Suffers Data Breach Impacting European Clients
+  url: https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/
+  date: '2026-08-12'
+  source: infosecurity
+  category: iot-security
+  summary: ''
+- title: OpenAI Pauses Some Development of Astra Model on Security Concerns
+  url: https://www.infosecurity-magazine.com/news/openai-pauses-development-astra/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Only Half of UK Manufacturers Have a Cyber Incident Response Plan
+  url: https://www.infosecurity-magazine.com/news/half-uk-manufacturers-cyber/
+  date: '2026-08-12'
+  source: infosecurity
+  category: incident-response
+  summary: ''
+- title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+  url: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: WordPress Plugins Compromised Without a Single File Change
+  url: https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: “Ghostjacking” Exploits AI Agents’ Trusted Access to Evade Firewall Controls
+  url: https://www.infosecurity-magazine.com/news/ghostjacking-ai-gents-access/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Go-Based macOS Malware Steals Crypto and Secrets
+  url: https://www.infosecurity-magazine.com/news/gobased-macos-malware-crypto-and/
+  date: '2026-08-12'
+  source: infosecurity
+  category: malware-analysis
+  summary: ''
+- title: US Sanctions Iranian $6bn Crypto “Exchange” Shelbit
+  url: https://www.infosecurity-magazine.com/news/us-sanctions-iranian-6bn-crypto/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Healthcare and Victim Support Charities Affected by Beacon Cyber Incident
+  url: https://www.infosecurity-magazine.com/news/healthcare-victim-charities-beacon/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Google Links Redact Extortion Group to BlackFile Rebrand
+  url: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Ransomware Surges in July After Q2 Lull
+  url: https://www.infosecurity-magazine.com/news/ransomware-surges-july-q2-lull/
+  date: '2026-08-12'
+  source: infosecurity
+  category: malware-analysis
+  summary: ''
+- title: Toolkit Hidden Inside Oracle Database Evades Endpoint Tools
+  url: https://www.infosecurity-magazine.com/news/khunt-toolkit-oracle-database-sql/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: TeamPCP Traced Back to 2020 Cryptojacking Operation
+  url: https://www.infosecurity-magazine.com/news/teampcp-shadowray-ta-natalstatus/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
+  url: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Violent Physical Crypto Thefts Surge to $30m in Losses
+  url: https://www.infosecurity-magazine.com/news/violent-physical-crypto-thefts/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign
+  url: https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: NVIDIA Group Proposes SAFE Initiative for Agentic Threat Intel Sharing
+  url: https://www.infosecurity-magazine.com/news/safe-initiative-agentic-threat/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Fake Open VSX Extensions Harvest Private Repo and CI Data
+  url: https://www.infosecurity-magazine.com/news/open-vsx-evil-twin-extensions-git/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Paperclip AI Flaws Let Unauthenticated Attackers Run Commands
+  url: https://www.infosecurity-magazine.com/news/paperclip-ai-vulnerabilities-rce/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Prompt Injection Remains Biggest LLM Risk, Despite Limited Incidents
+  url: https://www.infosecurity-magazine.com/news/prompt-injection-llm-risk/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs
+  url: https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Frontier Models Engage in Unsanctioned Behavior During Testing
+  url: https://www.infosecurity-magazine.com/news/frontier-models-unsanctioned/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Fake Bank of America Phishing Scam Installs Remote Access Malware
+  url: https://www.infosecurity-magazine.com/news/fake-bank-of-america-phishing-scam/
+  date: '2026-08-12'
+  source: infosecurity
+  category: malware-analysis
+  summary: ''
+- title: WhatsApp Scam Hijacks Accounts via Linked Devices Feature
+  url: https://www.infosecurity-magazine.com/news/whatsapp-voting-scam-linked/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Cybercriminals Bypass AI Safety Controls by Splitting Malicious Tasks Across Multiple Sessions
+  url: https://www.infosecurity-magazine.com/news/talos-attackers-split-tasks-evade/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Cloud and SaaS Environments Now Top Targets for Attackers
+  url: https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/
+  date: '2026-08-12'
+  source: infosecurity
+  category: cloud-security
+  summary: ''
+- title: AI Accounts for Over Half of Cybercrime in Africa, Says Interpol
+  url: https://www.infosecurity-magazine.com/news/ai-accounts-over-half-cybercrime/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: UK’s Police National Legal Database Reveals Data Breach
+  url: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
+  date: '2026-08-12'
+  source: infosecurity
+  category: privacy
+  summary: ''
+- title: China-Linked Threat Actors Weaponize New Vulnerabilities in Under a Day
+  url: https://www.infosecurity-magazine.com/news/chinalinked-threat-actors/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Midnight Blizzard Targets Travelers via Captive Portals
+  url: https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/
+  date: '2026-08-12'
+  source: infosecurity
+  category: threat-intelligence
+  summary: ''
+- title: HollowFrame Loader Uses Fake Python DLL to Evade Defender
+  url: https://www.infosecurity-magazine.com/news/hollowframe-fake-python-dll/
+  date: '2026-08-12'
+  source: infosecurity
+  category: malware-analysis
+  summary: ''
+- title: Korea’s Largest Telco KT Fined $38m After Femtocell Campaign
+  url: https://www.infosecurity-magazine.com/news/koreas-largest-telco-kt-fine-39m/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked
+  url: https://www.infosecurity-magazine.com/news/coldcard-users-lose-89m-bitcoin/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits
+  url: https://www.infosecurity-magazine.com/news/chinese-hacker-deepseek-ai/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks
+  url: https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/
+  date: '2026-08-12'
+  source: infosecurity
+  category: supply-chain-security
+  summary: ''
+- title: Anthropic Reveals Claude Escaped Testing, Breaching Three Companies
+  url: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Cryptominer Abuses Linux PAM to Hide From SOC Analysts
+  url: https://www.infosecurity-magazine.com/news/xmrig-linux-pam-forensic/
+  date: '2026-08-12'
+  source: infosecurity
+  category: security-operations
+  summary: ''
+- title: AiTM Phishing Becomes Top Initial Access Threat to Law Firms
+  url: https://www.infosecurity-magazine.com/news/aitm-phishing-top-entry-point-law/
+  date: '2026-08-12'
+  source: infosecurity
+  category: human-factor
+  summary: ''
+- title: AI and Automation Fall Short of Sysadmin Expectations
+  url: https://www.infosecurity-magazine.com/news/ai-automation-fall-short-sysadmin/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Teams-Themed Phishing Campaign Abused Legitimate Microsoft Login Pages
+  url: https://www.infosecurity-magazine.com/news/teams-phishing-abused-legit/
+  date: '2026-08-12'
+  source: infosecurity
+  category: human-factor
+  summary: ''
+- title: Google Releases Patches for 370 Vulnerabilities in Chrome 151
+  url: https://www.infosecurity-magazine.com/news/google-patches-370-vulnerabilities/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: NCSC Calls on Vendors to Embed ‘Forensic Observability’ in Network Devices
+  url: https://www.infosecurity-magazine.com/news/ncsc-calls-device-manufacturers/
+  date: '2026-08-12'
+  source: infosecurity
+  category: network-security
+  summary: ''
+- title: LogoKit Phishing Kit Screenshots Victim Sites in Real Time
+  url: https://www.infosecurity-magazine.com/news/logokit-phishing-real-time/
+  date: '2026-08-12'
+  source: infosecurity
+  category: human-factor
+  summary: ''
+- title: Russian-Alligned TA488 Returns With Persistent Outlook Web Access Attack
+  url: https://www.infosecurity-magazine.com/news/ta488-outlook-half-click-owareaper/
+  date: '2026-08-12'
+  source: infosecurity
+  category: identity-access
+  summary: ''
+- title: The Average Cost of a Data Breach Rises to $5 Million
+  url: https://www.infosecurity-magazine.com/news/cost-of-a-data-breach-5m-ibm/
+  date: '2026-08-12'
+  source: infosecurity
+  category: privacy
+  summary: ''
+- title: Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows
+  url: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: Researchers Warn of AI-Enhanced Phone Fraud Ecosystem
+  url: https://www.infosecurity-magazine.com/news/researchers-aienhanced-phone-fraud/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: NCSC Publishes Guidance to Aid Incident Response and Recovery
+  url: https://www.infosecurity-magazine.com/news/ncsc-publishes-guidance-incident/
+  date: '2026-08-12'
+  source: infosecurity
+  category: incident-response
+  summary: ''
+- title: Bugs in Hugging Face Diffusers Bypass Custom Code Safeguard
+  url: https://www.infosecurity-magazine.com/news/hugging-face-diffusers-trust/
+  date: '2026-08-12'
+  source: infosecurity
+  category: vulnerability-management
+  summary: ''
+- title: AI-Assisted Bug Hunt Uncovers Linux Kernel 0-Day in net/sched
+  url: https://www.infosecurity-magazine.com/news/ai-linux-kernel-zero-day-net-sched/
+  date: '2026-08-12'
+  source: infosecurity
+  category: ai-security
+  summary: ''
+- title: Phishing Dominates as Initial Entry Method for Cyber-Attacks, as Hackers Hone Evasion Techniques
+  url: https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
+  date: '2026-08-12'
+  source: infosecurity
+  category: human-factor
+  summary: ''
+- title: A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months
+  url: https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: Signal’s new security feature checks if your encrypted chats were tampered with
+  url: https://www.helpnetsecurity.com/2026/08/12/signal-automatic-key-verification-feature/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: ScienceLogic delivers secure AI deployment and smarter IT operations with Skylar AI 2.5
+  url: https://www.helpnetsecurity.com/2026/08/12/sciencelogic-skylar-ai-2-5-secure-ai-deployment/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: ai-security
+  summary: ''
+- title: Deloitte strengthens AI governance to support trusted enterprise adoption
+  url: https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: ai-security
+  summary: ''
+- title: Lazarus hackers pair fake job offers with Windows zero-day exploit
+  url: https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: Microsoft patches 400+ vulnerabilities, one zero-day under attack (CVE-2026-68820)
+  url: https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: ConnectSecure helps MSPs automate Microsoft 365 security remediation
+  url: https://www.helpnetsecurity.com/2026/08/12/connectsecure-microsoft-365-auto-remediation-training-assessments/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: CBTS brings continuous penetration testing to enterprise security
+  url: https://www.helpnetsecurity.com/2026/08/12/cbts-penetration-testing-as-a-service-ptaas/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: vulnerability-management
+  summary: ''
+- title: Crytica’s RDAi detects OT device tampering from within
+  url: https://www.helpnetsecurity.com/2026/08/12/crytica-security-rapid-detection-alert-and-isolation-rdai/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: ai-security
+  summary: ''
+- title: Chrome’s anti-abuse protections block 7 billion unwanted Android notifications daily
+  url: https://www.helpnetsecurity.com/2026/08/12/google-chrome-abusive-web-push-notifications/
+  date: '2026-08-12'
+  source: helpnetsecurity
+  category: ai-security
+  summary: ''
+- title: OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+  url: https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
+  date: '2026-08-12'
+  source: thn
+  category: ai-security
+  summary: ''
+- title: Enterprise Defenses Recovered at the Edge and Collapsed Inside
+  url: https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html
+  date: '2026-08-12'
+  source: thn
+  category: vulnerability-management
+  summary: ''
+- title: Who (or What) Generates Images for EFF?
+  url: https://www.eff.org/deeplinks/2026/08/who-or-what-generates-images-eff
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Dismiss Church’s Trademark Lawsuit Against “Mormon Stories” Podcast, EFF Urges Court
+  url: https://www.eff.org/deeplinks/2026/08/dismiss-churchs-trademark-lawsuit-against-mormon-stories-podcast-eff-urges-court
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: Meta Must Stop Silencing Reproductive Health Information
+  url: https://www.eff.org/deeplinks/2026/08/meta-must-stop-silencing-reproductive-health-information
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 'Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction'
+  url: https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA
+  url: https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa
+  date: '2026-08-12'
+  source: eff
+  category: application-security
+  summary: ''
+- title: Mobile Ad Software Encourages Location Data Sharing, EFF Report Finds
+  url: https://www.eff.org/press/releases/mobile-ad-software-encourages-location-data-sharing-eff-report-finds
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 'Developers: Beware of Ad Libraries that Betray Your Users’ Location Privacy'
+  url: https://www.eff.org/deeplinks/2026/07/developers-beware-ad-libraries-betray-your-users-location-privacy
+  date: '2026-08-12'
+  source: eff
+  category: privacy
+  summary: ''
+- title: Technology's Power in the Hands of the People
+  url: https://www.eff.org/deeplinks/2026/07/vv26
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: The Senate Should Reject KOSA's Privacy Risks
+  url: https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks
+  date: '2026-08-12'
+  source: eff
+  category: privacy
+  summary: ''
+- title: EFF Joins 18 Civil Rights Organizations Calling on Governor Hochul to Reject the Stealth Crawler Prohibition Act
+  url: https://www.eff.org/deeplinks/2026/08/eff-joins-18-civil-rights-organizations-calling-governor-hochul-reject-stealth
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: EFF Joins Call for FTC to Drop Its Disastrous AI Policy Proposal
+  url: https://www.eff.org/deeplinks/2026/08/eff-joins-comments-calling-ftc-drop-its-ai-policy-proposal
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: The Youth AI Privacy Act’s Privacy Paradox
+  url: https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: EFF at BSidesLV, Black Hat, and DEF CON 👨‍💻
+  url: https://www.eff.org/deeplinks/2026/07/eff-bsideslv-black-hat-and-def-con
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 'Amending AB 1709 Doesn’t Fix It: California’s Social Media Ban Still Threatens Free Speech and Privacy'
+  url: https://www.eff.org/deeplinks/2026/07/amending-ab-1709-doesnt-fix-it-californias-social-media-ban-still-threatens-free
+  date: '2026-08-12'
+  source: eff
+  category: security-operations
+  summary: ''
+- title: The SCREEN Act Threatens Privacy Far Beyond Adult Websites
+  url: https://www.eff.org/deeplinks/2026/07/screen-act-threatens-privacy-far-beyond-adult-websites
+  date: '2026-08-12'
+  source: eff
+  category: privacy
+  summary: ''
+- title: The CHATBOT Act Forces One Parenting Model On Every Family
+  url: https://www.eff.org/deeplinks/2026/07/chatbot-act-forces-one-parenting-model-every-family
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: EFF Guide to Recording Law Enforcement
+  url: https://www.eff.org/deeplinks/2026/07/eff-guide-recording-law-enforcement
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 🏃 Fitness Tracker Privacy Fails | EFFector 38.14
+  url: https://www.eff.org/deeplinks/2026/07/fitness-tracker-privacy-fails-effector-3814
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: 'San Francisco: Don’t Fall for Industry Defense of Surveillance Pricing'
+  url: https://www.eff.org/deeplinks/2026/07/san-francisco-dont-fall-industry-defense-surveillance-pricing
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Why Are Gay Bars Building Databases of Their Patrons?
+  url: https://www.eff.org/deeplinks/2026/07/why-are-gay-bars-building-databases-their-patrons
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Missed EFF's Livestream with Adam Savage and iFixit? Listen Here!
+  url: https://www.eff.org/deeplinks/2026/07/miss-last-weeks-livestream-adam-savage-and-ifixit-listen-here
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Farmers Are Getting Control Of Their Equipment Back
+  url: https://www.eff.org/deeplinks/2026/07/farmers-are-getting-control-their-equipment-back
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country
+  url: https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: The Fourth Circuit Says Border Agents Can Search Your Phone By Hand, No Suspicion Required
+  url: https://www.eff.org/deeplinks/2026/07/fourth-circuit-says-border-agents-can-search-your-phone-hand-no-suspicion-required
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: New EU Court of Justice Ruling on Platform Liability Could Cause Collateral Damage to Freedom of Expression
+  url: https://www.eff.org/deeplinks/2026/07/new-eu-court-justice-ruling-platform-liability-could-cause-collateral-damage
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Protect Your Privacy with California's DROP Tool
+  url: https://www.eff.org/deeplinks/2026/07/what-you-need-know-about-californias-drop-tool
+  date: '2026-08-12'
+  source: eff
+  category: privacy
+  summary: ''
+- title: An Explosion of Surveillance Towers is Coming to U.S. Borders, Costing Over $1 Billion
+  url: https://www.eff.org/deeplinks/2026/07/explosion-surveillance-towers-coming-us-borders-costing-over-1-billion
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: “Stealth Crawlers” Are Not a Threat to the Open Web. Bills Targeting Them Would Be.
+  url: https://www.eff.org/deeplinks/2026/07/stealth-crawlers-are-not-threat-open-web-bills-targeting-them-would-be
+  date: '2026-08-12'
+  source: eff
+  category: iot-security
+  summary: ''
+- title: Victory! Flock Ends Rollout of Audio “Distress Detection” of Human Voices
+  url: https://www.eff.org/deeplinks/2026/07/victory-flock-ends-rollout-audio-distress-detection-human-voices
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Your Vision. Your Legacy. Your Future.
+  url: https://www.eff.org/deeplinks/2026/07/your-vision-your-legacy-your-future
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: How the Watch Dogs Video Game Series Mirrored and Predicted Real-World Digital Rights Issues
+  url: https://www.eff.org/deeplinks/2026/07/how-watch-dogs-video-game-series-mirrored-and-predicted-real-world-digital-rights
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: EFF and ARTICLE 19 Submission to the European Commission on the DSA Trusted Flagger Guidelines
+  url: https://www.eff.org/deeplinks/2026/07/eff-and-article-19-submission-european-commission-dsa-trusted-flagger-guidelines
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: California Steps Back From Dangerous Expansion of its Age-Gating Law
+  url: https://www.eff.org/deeplinks/2026/07/california-steps-back-dangerous-expansion-its-age-gating-law
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Most Smart Watches, Rings, and Bands Lack Basic Transparency Reports and Key Privacy Features
+  url: https://www.eff.org/deeplinks/2026/07/most-smart-watches-rings-and-bands-lack-basic-transparency-reports-and-key-privacy
+  date: '2026-08-12'
+  source: eff
+  category: cryptography
+  summary: ''
+- title: 🚫 Don't Let Congress Age-Gate the Internet | EFFector 38.13
+  url: https://www.eff.org/deeplinks/2026/07/dont-let-congress-age-gate-internet-effector-3813
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 'European Court: Apple Can Not Shirk Off its Interoperability Requirements'
+  url: https://www.eff.org/deeplinks/2026/07/european-court-apple-can-not-shirk-its-interoperability-requirements
+  date: '2026-08-12'
+  source: eff
+  category: iot-security
+  summary: ''
+- title: Don’t Repeat NY’s 3D Printing Blunder
+  url: https://www.eff.org/deeplinks/2026/07/dont-repeat-nys-3d-printing-blunder
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Sony Nerfs Videogame Ownership
+  url: https://www.eff.org/deeplinks/2026/07/sony-nerfs-videogame-ownership
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Building Our Future Together
+  url: https://www.eff.org/deeplinks/2026/07/building-our-future-together
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Automated Moderation Is Here to Stay—Accountability Must Keep Pace
+  url: https://www.eff.org/deeplinks/2026/07/part-2-automated-moderation-here-stay-accountability-must-keep-pace
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: '"We Want Texans to Know Their Rights": Q&A with Mayday Health on the Impact of Surveillance on Abortion Care'
+  url: https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: The House Passed The KIDS Act—The Senate Should Reject It
+  url: https://www.eff.org/deeplinks/2026/07/house-passed-kids-act-senate-should-reject-it
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: European Commission Chooses to Keep EU Users Locked Up Behind Big Tech’s Gates
+  url: https://www.eff.org/deeplinks/2026/07/european-commission-chooses-keep-eu-users-locked-behind-big-techs-gates
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Google's New Remote Attestation Scheme is As Bad As Its Old One
+  url: https://www.eff.org/deeplinks/2026/07/googles-new-remote-attestation-scheme-every-bit-terrible-its-old-remote
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Automated Moderation Is Here to Stay
+  url: https://www.eff.org/deeplinks/2026/07/part-1-automated-moderation-here-stay
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Help EFF Cut the AI Hype
+  url: https://www.eff.org/deeplinks/2026/07/help-eff-cut-ai-hype
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: 'LGBT Q&A: How Can I Wipe Online Data That Points To My Queer Identity?'
+  url: https://www.eff.org/deeplinks/2026/07/lgbt-qa-how-can-i-wipe-online-data-points-my-queer-identity
+  date: '2026-08-12'
+  source: eff
+  category: identity-access
+  summary: ''
+- title: 'EFF and Allies: X’s FTC Petition to Waive Privacy Violation Order Should be Rejected'
+  url: https://www.eff.org/deeplinks/2026/06/eff-and-allies-xs-ftc-petition-waive-privacy-violation-order-should-be-rejected
+  date: '2026-08-12'
+  source: eff
+  category: ai-security
+  summary: ''
+- title: 'LGBT Q&A: What Data Are Companies in the UK Collecting When Verifying My Age?'
+  url: https://www.eff.org/deeplinks/2026/06/lgbt-qa-what-data-are-companies-uk-collecting-when-verifying-my-age
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: 'EFF to Gov. Pritzker: Veto Illinois’ HB 5511'
+  url: https://www.eff.org/deeplinks/2026/06/eff-gov-pritzker-veto-illinois-hb-5511
+  date: '2026-08-12'
+  source: eff
+  category: vulnerability-management
+  summary: ''
+- title: Prompt Injections for Defense
+  url: https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html/feed/atom/
+  date: '2026-08-12'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition
+  url: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition
+  date: '2026-08-12'
+  source: darkreading
+  category: malware-analysis
+  summary: ''
+- title: 'Exposed: Woeful security at UK criminal records office that led to sensitive data leak'
+  url: https://www.theregister.com/security/2026/08/12/exposed-woeful-security-at-uk-criminal-records-office-that-led-to-sensitive-data-leak/5286736
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Akira ransomware scum blocked victim's security tools – and broke their own encryptor
+  url: https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515
+  date: '2026-08-12'
+  source: theregister
+  category: malware-analysis
+  summary: ''
+- title: Brit rail cops bring live facial recognition to the London Underground
+  url: https://www.theregister.com/security/2026/08/12/brit-rail-cops-bring-live-facial-recognition-to-the-london-underground/5286697
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Signal adds an extra layer of security to make sure you're actually chatting with the right person
+  url: https://www.theregister.com/security/2026/08/11/signal-adds-an-extra-layer-of-security-to-make-sure-youre-actually-chatting-with-the-right-person/5286461
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: 421 bugs in Microsoft's Patch Tuesday release, and the Norks have already attacked one
+  url: https://www.theregister.com/security/2026/08/11/421-bugs-in-microsofts-patch-tuesday-release-and-the-norks-have-already-attacked-one/5286483
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: DEF CON dingus suspected of trying to take over Delta in-flight Wi-Fi
+  url: https://www.theregister.com/security/2026/08/11/def-con-dingus-suspected-of-trying-to-take-over-delta-in-flight-wi-fi/5286331
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Two wars and a World Cup lead to epic DDoS attacks on publishers
+  url: https://www.theregister.com/security/2026/08/11/two-wars-and-a-world-cup-lead-to-epic-ddos-attacks-on-publishers/5286278
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Deepfake hiccup unmasks suspected digital certificate fraudster
+  url: https://www.theregister.com/security/2026/08/11/deepfake-hiccup-unmasks-suspected-digital-certificate-fraudster/5285934
+  date: '2026-08-12'
+  source: theregister
+  category: cryptography
+  summary: ''
+- title: Mozilla revokes Firefox signing key after unencrypted copy lands in GitHub
+  url: https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908
+  date: '2026-08-12'
+  source: theregister
+  category: cryptography
+  summary: ''
+- title: Malicious SIMs can shut down phones, steal files, and drag 5G back to 2G
+  url: https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: DEF CON hackers add new muscle to water utility protection
+  url: https://www.theregister.com/security/2026/08/10/def-con-hackers-add-new-muscle-to-water-utility-protection/5285715
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: North Korean spies are running local LLMs to cause AI mischief
+  url: https://www.theregister.com/security/2026/08/10/north-korean-spies-are-running-local-llms-to-cause-ai-mischief/5285632
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Gym rat asks AI agent to book him a class, it hacks a waitlist API to bump him up the list
+  url: https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Attackers pick Levi's pockets in social engineering attack
+  url: https://www.theregister.com/security/2026/08/10/attackers-pick-levis-pockets-in-social-engineering-attack/5285401
+  date: '2026-08-12'
+  source: theregister
+  category: human-factor
+  summary: ''
+- title: Wetherspoons bars smart glasses from filming customers
+  url: https://www.theregister.com/personal-tech/2026/08/10/wetherspoons-bars-smart-glasses-from-filming-customers/5285357
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Cyber vulnerability sweep picks up Royal Navy drones sending data to China
+  url: https://www.theregister.com/edge-and-iot/2026/08/10/cyber-vulnerability-sweep-picks-up-royal-navy-drones-sending-data-to-china/5285430
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Framework loses customer data in Metabase zero-day attack
+  url: https://www.theregister.com/personal-tech/2026/08/10/framework-loses-customer-data-in-metabase-zero-day-attack/5285302
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Claude Code puts auto mode in the driver's seat
+  url: https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Advertisers are trying to influence AI bots with secret ads
+  url: https://www.theregister.com/ai-and-ml/2026/08/10/advertisers-are-trying-to-influence-ai-bots-with-secret-ads/5285093
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Ransomware gangs skip the CEO, head straight for the 40-something IT manager
+  url: https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499
+  date: '2026-08-12'
+  source: theregister
+  category: malware-analysis
+  summary: ''
+- title: 'Devs to Anthropic, OpenAI, Cursor, and friends: Make security and privacy the default'
+  url: https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: OpenAI pledges to add Astra security as Anthropic loosens Fable's leash
+  url: https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Water system controllers don't belong on the internet, says ex-NSA chief after suspected Iran attacks
+  url: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Ransomware attacks spike as world distracted by AI
+  url: https://www.theregister.com/security/2026/08/07/ransomware-attacks-spike-as-world-distracted-by-ai/5284934
+  date: '2026-08-12'
+  source: theregister
+  category: malware-analysis
+  summary: ''
+- title: 'N-able God mode flaw: Vendor confirms attackers reached customer networks as second hotfix lands'
+  url: https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730
+  date: '2026-08-12'
+  source: theregister
+  category: network-security
+  summary: ''
+- title: MIT boffins' TONTOU attack slips through Spectre defenses on Intel and AMD CPUs
+  url: https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Scot NHS trust probes access to medical records of 9-year-old girl after man arrested on suspicion of murder
+  url: https://www.theregister.com/security/2026/08/07/nhs-tayside-investigates-breach-concerning-data-of-dead-girl/5284815
+  date: '2026-08-12'
+  source: theregister
+  category: identity-access
+  summary: ''
+- title: Attacker phished way into US defense supplier's Microsoft 365 account
+  url: https://www.theregister.com/security/2026/08/07/ieh-corp-says-phished-staffer-opened-gates-to-company-m365/5284523
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: '''Asimov was right'' about rules for robots, says ex-US Cyber Director'
+  url: https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: China launches mysterious probe into security of Palo Alto Networks' products
+  url: https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453
+  date: '2026-08-12'
+  source: theregister
+  category: network-security
+  summary: ''
+- title: How the famed USENIX Security conf is managing a flood of papers in the AI era
+  url: https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: AI struggles to patch vulns without adult supervision
+  url: https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Humans in the loop miss a third of dangerous AI coding agent requests
+  url: https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: IT department put sticky notes on the laptops to help employees log in
+  url: https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662
+  date: '2026-08-12'
+  source: theregister
+  category: threat-intelligence
+  summary: ''
+- title: Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway
+  url: https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794
+  date: '2026-08-12'
+  source: theregister
+  category: malware-analysis
+  summary: ''
+- title: OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack
+  url: https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Prompt injection isn't the bug, AI agent frameworks are
+  url: https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/5283585
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: IBM's agentic AI platform is under active attack - patch now
+  url: https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: London cops handed victim's new address and number to her stalker, watchdog says
+  url: https://www.theregister.com/security/2026/08/05/london-cops-handed-victims-new-address-and-number-to-her-stalker-watchdog-says/5283382
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: UK charities count the cost of Beacon CRM cyberattack
+  url: https://www.theregister.com/security/2026/08/05/uk-charities-count-the-cost-of-beacon-crm-cyberattack/5283305
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: AI researchers let models off the leash – then watched as they tried to add malware to a FOSS project
+  url: https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165
+  date: '2026-08-12'
+  source: theregister
+  category: malware-analysis
+  summary: ''
+- title: Bypassing AI guardrails is so easy a script kiddie can do it
+  url: https://www.theregister.com/security/2026/08/04/bypassing-ai-guardrails-is-so-easy-a-script-kiddie-can-do-it/5282973
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: This one time, at Hacker Summer Camp …
+  url: https://www.theregister.com/security/2026/08/04/this-one-time-at-hacker-summer-camp/5282999
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Feds get 3 days to patch N-able God mode flaw under active exploit
+  url: https://www.theregister.com/security/2026/08/04/feds-get-3-days-to-patch-n-able-god-mode-flaw-under-active-exploit/5282894
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: AI helps Microsoft bug hunters chase a record $20M payday
+  url: https://www.theregister.com/security/2026/08/04/ai-helps-microsoft-bug-hunters-chase-a-record-20m-payday/5282821
+  date: '2026-08-12'
+  source: theregister
+  category: ai-security
+  summary: ''
+- title: Tennessee congressional hopeful accused of shooting license plate cameras
+  url: https://www.theregister.com/security/2026/08/04/us-house-candidate-allegedly-shoots-down-four-flock-cameras/5282696
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: CAF Bank reopens online service but warns of further outages
+  url: https://www.theregister.com/security/2026/08/04/caf-bank-reopens-online-service-but-warns-of-further-outages/5282668
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: Cloudflare has mostly ditched third party security tools, suggests not trying that at home
+  url: https://www.theregister.com/security/2026/08/04/cloudflare-has-mostly-ditched-third-party-security-tools-suggests-not-trying-that-at-home/5282600
+  date: '2026-08-12'
+  source: theregister
+  category: cloud-security
+  summary: ''
+- title: Google dev kit spurs first-ever agent-on-agent violence
+  url: https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: AI slop pollutes the CVE pipeline with fake vulns
+  url: https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462
+  date: '2026-08-12'
+  source: theregister
+  category: vulnerability-management
+  summary: ''
+- title: AI Genie in the Wild
+  url: https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html/feed/atom/
+  date: '2026-08-11'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: AI for Military Support
+  url: https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html/feed/atom/
+  date: '2026-08-11'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: Python Now Has a Post-Quantum Encryption Library
+  url: https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html/feed/atom/
+  date: '2026-08-10'
+  source: schneier
+  category: cryptography
+  summary: ''
+- title: 'Friday Squid Blogging: Arctic Bobtail Squid Video'
+  url: https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html/feed/atom/
+  date: '2026-08-07'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: ICE Is Buying Access to Credit Card Records
+  url: https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html/feed/atom/
+  date: '2026-08-07'
+  source: schneier
+  category: identity-access
+  summary: ''
+- title: Adversarial Clothing Designed to Fool Facial Recognition Systems
+  url: https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html/feed/atom/
+  date: '2026-08-06'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: Vulnerabilities in Car Anti-Theft Device
+  url: https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html/feed/atom/
+  date: '2026-08-05'
+  source: schneier
+  category: vulnerability-management
+  summary: ''
+- title: Iran Cyberattacks Against Minnesota Water Systems
+  url: https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html/feed/atom/
+  date: '2026-08-04'
+  source: schneier
+  category: ai-security
+  summary: ''
+- title: Some Claude Chats Are Searchable on Google
+  url: https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html/feed/atom/
+  date: '2026-08-04'
+  source: schneier
+  category: vulnerability-management
+  summary: ''

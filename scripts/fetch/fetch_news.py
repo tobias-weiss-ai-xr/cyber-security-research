@@ -34,20 +34,43 @@ BASE = Path(__file__).resolve().parent.parent.parent
 NEWS_PATH = BASE / "news.yaml"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"}
 
-# (name, kind, url, category-hint) — kind: rss | html
+# (name, kind, url, slug-or-None) — kind: rss | atom | html
 SOURCES = {
-    "cisa":        ("html", "https://www.cisa.gov/news-events/news", "/news-events/news/", None),
+    # ── Government / official ──
+    "cisa":           ("html", "https://www.cisa.gov/news-events/news", "/news-events/news/"),
     "cisa-advisories": ("html", "https://www.cisa.gov/news-events/cybersecurity-advisories",
-                        "/news-events/cybersecurity-advisories/", None),
-    "nist":        ("rss", "https://www.nist.gov/news-events/news", None, None),
-    "enisa":       ("html", "https://www.enisa.europa.eu/news", "/news/", None),
-    "bsi":         ("html", "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen",
-                    "/Pressemitteilungen/", None),
-    "ncsc":        ("html", "https://www.ncsc.gov.uk/news", "/news/", None),
-    "thn":         ("rss", "https://feeds.feedburner.com/TheHackersNews", None, None),
-    "krebs":       ("rss", "https://krebsonsecurity.com/feed/", None, None),
-    "sans":        ("rss", "https://isc.sans.edu/rssfeed.xml", None, None),
+                        "/news-events/cybersecurity-advisories/"),
+    "nist":           ("html", "https://www.nist.gov/news-events/news", "/news-events/news/"),
+    "enisa":          ("html", "https://www.enisa.europa.eu/news", "/news/"),
+    "bsi":            ("html", "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen",
+                        "/Pressemitteilungen/"),
+    # ── Vendor / practitioner blogs ──
+    "cloudflare":     ("rss", "https://blog.cloudflare.com/rss/", None),
+    "google":         ("atom", "https://security.googleblog.com/feeds/posts/default", None),
+    "talos":          ("rss", "https://blog.talosintelligence.com/rss/", None),
+    "unit42":         ("rss", "https://unit42.paloaltonetworks.com/feed/", None),
+    "qualys":         ("rss", "https://blog.qualys.com/feed", None),
+    "sucuri":         ("rss", "https://blog.sucuri.net/feed", None),
+    # ── News outlets ──
+    "therecord":      ("rss", "https://therecord.media/feed", None),
+    "bleepingcomputer": ("rss", "https://www.bleepingcomputer.com/feed/", None),
+    "securityweek":   ("rss", "https://www.securityweek.com/feed/", None),
+    "threatpost":     ("rss", "https://threatpost.com/feed/", None),
+    "darkreading":    ("rss", "https://www.darkreading.com/rss.xml", None),
+    "theregister":    ("rss", "https://www.theregister.com/security/headlines.atom", None),
+    "cso":            ("rss", "https://www.csoonline.com/rss/", None),
+    "infosecurity":   ("rss", "https://www.infosecurity-magazine.com/rss/news/", None),
+    "helpnetsecurity": ("rss", "https://www.helpnetsecurity.com/feed/", None),
+    # ── Community / research ──
+    "thn":            ("rss", "https://feeds.feedburner.com/TheHackersNews", None),
+    "krebs":          ("rss", "https://krebsonsecurity.com/feed/", None),
+    "sans":           ("rss", "https://isc.sans.edu/rssfeed.xml", None),
+    "eff":            ("rss", "https://www.eff.org/rss/updates.xml", None),
+    "schneier":       ("atom", "https://www.schneier.com/feed/atom/", None),
 }
+# Note: NCSC-UK news is JS-rendered without a public feed (API 404) — pending;
+# GitHub security advisories feed returns 406 to all non-browser clients;
+# Mandiant, HackerOne, MSRC (Access Denied) and ISC2 (Next.js app) serve no usable feed — dropped.
 
 # keyword -> taxonomy category (first match wins, checked in order of specificity)
 CATEGORY_RULES = [
@@ -124,14 +147,26 @@ def fetch_url(url: str, via_host: str | None = None) -> str | None:
         return None
 
 
+_XML_SANITIZE = [
+    (re.compile(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)"), "&amp;"),
+    (re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]"), ""),
+]
+
+
+def _sanitize_xml(text: str) -> str:
+    for pat, rep in _XML_SANITIZE:
+        text = pat.sub(rep, text)
+    return text
+
+
 def parse_rss(text: str, source: str, cutoff: dt.date, limit: int = 60) -> list[dict]:
     items = []
     try:
-        root = ET.fromstring(text)
+        root = ET.fromstring(_sanitize_xml(text))
     except ET.ParseError:
         return items
     for item in root.iter():
-        if item.tag.endswith("item"):
+        if item.tag.split("}")[-1] == "item":
             title = pub = link = ""
             for child in item:
                 tag = child.tag.split("}")[-1]
@@ -153,6 +188,40 @@ def parse_rss(text: str, source: str, cutoff: dt.date, limit: int = 60) -> list[
                           "source": source})
             if len(items) >= limit:
                 break
+    return items
+
+
+def parse_atom(text: str, source: str, cutoff: dt.date, limit: int = 60) -> list[dict]:
+    """Parse ATOM feeds (Google blogs, The Register, Schneier) — namespace-agnostic."""
+    items = []
+    try:
+        root = ET.fromstring(_sanitize_xml(text))
+    except ET.ParseError:
+        return items
+    for entry in root.iter():
+        if entry.tag.split("}")[-1] != "entry":
+            continue
+        title = pub = link = ""
+        for child in entry:
+            tag = child.tag.split("}")[-1]
+            if tag == "title":
+                title = (child.text or "").strip()
+            elif tag in ("published", "updated"):
+                pub = (child.text or "").strip()
+            elif tag == "link":
+                link = child.get("href", "") or ""
+        if not title:
+            continue
+        try:
+            d = dt.datetime.fromisoformat(pub.replace("Z", "+00:00")).date()
+        except Exception:
+            d = dt.date.today()
+        if d < cutoff:
+            continue
+        items.append({"title": html.unescape(title), "url": link, "date": d.isoformat(),
+                      "source": source})
+        if len(items) >= limit:
+            break
     return items
 
 
@@ -208,7 +277,7 @@ def main():
     new_entries = []
     per_source = {}
 
-    for name, (kind, url, slug, _hint) in SOURCES.items():
+    for name, (kind, url, slug) in SOURCES.items():
         if wanted and name not in wanted:
             continue
         via = args.via_host if name.startswith("cisa") else None
@@ -216,7 +285,12 @@ def main():
         if not text:
             print(f"  {name}: fetch failed (blocked?) — {'use --via-host' if name.startswith('cisa') else 'skip'}")
             continue
-        items = parse_rss(text, name, cutoff) if kind == "rss" else parse_html(text, slug, name, cutoff)
+        if kind == "rss":
+            items = parse_rss(text, name, cutoff)
+        elif kind == "atom":
+            items = parse_atom(text, name, cutoff)
+        else:
+            items = parse_html(text, slug, name, cutoff)
         fresh = 0
         for it in items:
             if it["url"] in existing:

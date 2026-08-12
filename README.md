@@ -19,6 +19,8 @@ This repository combines two knowledge layers:
    with the taxonomy → momentum → burst → gap pipeline used in
    [business-development-research](https://github.com/tobias-weiss-ai-xr/business-development-research)
    and [graph-research](https://github.com/tobias-weiss-ai-xr/graph-research).
+
+**News feed:** 472 items from 27 sources — CISA news + advisories, NIST, ENISA, BSI, Cloudflare, Google Security, Talos, Unit 42, Qualys, Sucuri, The Record, BleepingComputer, SecurityWeek, Threatpost, Dark Reading, The Register, CSO Online, Infosecurity Magazine, Help Net Security, The Hacker News, Krebs, SANS ISC, EFF, Schneier.
 2. **News tracker** — a rolling feed of operational cyber-security news
    (CISA advisories, ENISA, BSI, NCSC, The Hacker News, Krebs on Security,
    SANS ISC, …), deduplicated by URL and mapped onto the same taxonomy
@@ -31,7 +33,7 @@ This repository combines two knowledge layers:
 | **Cyber-Security Disciplines** | 20 |
 | **Research Aspects** | 8 (theory · mechanism · method · application · development · systems · evaluation · review) |
 | **Taxonomy Cells** | 160 |
-| **News Sources Tracked** | 9 |
+| **News Sources Tracked** | 27 |
 
 ## 📰 News Tracker
 
