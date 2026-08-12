@@ -453,9 +453,9 @@ def main():
         "keyword_bursts": bursts[:15],
     }
     os.makedirs(os.path.join(BASE, "assets"), exist_ok=True)
-    with open(os.path.join(BASE, "assets", "ai_literacy_analysis.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(BASE, "assets", "cyber_security_analysis.json"), "w", encoding="utf-8") as f:
         json.dump(viz, f, indent=1)
-    print("Wrote assets/ai_literacy_analysis.json")
+    print("Wrote assets/cyber_security_analysis.json")
 
 
 def _url_venue(name):

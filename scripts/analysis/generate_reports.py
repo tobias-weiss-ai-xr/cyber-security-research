@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate research reports from the corpus:
   - docs/research/literature_review.md    (synthesis + top papers per category)
-  - docs/research/ai_literacy_trends_2026.md   (trend report from trend scanner)
+  - docs/research/cyber_security_trends_2026.md   (trend report from trend scanner)
 
 Usage:
     python3 scripts/analysis/generate_reports.py
@@ -303,7 +303,7 @@ def main():
         f.write(render_literature_review(papers, now, stats))
     print(f"Wrote {lit_path}")
 
-    trend_path = os.path.join(BASE, "docs", "research", "ai_literacy_trends_2026.md")
+    trend_path = os.path.join(BASE, "docs", "research", "cyber_security_trends_2026.md")
     with open(trend_path, "w", encoding="utf-8") as f:
         f.write(render_trend_report(papers, now, stats))
     print(f"Wrote {trend_path}")

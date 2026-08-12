@@ -58,6 +58,14 @@ def render_readme(stats):
     by_cat = stats["by_category"]
     by_sub = stats["by_subcategory"]
     by_year = stats["by_year"]
+    news_total = 0
+    news_path = BASE / "news.yaml"
+    if news_path.exists():
+        import yaml as _y
+        try:
+            news_total = len(_y.safe_load(news_path.read_text()).get("news", []))
+        except Exception:
+            news_total = 0
     by_cell = stats["by_cell"]
     themes = stats.get("emerging_themes_12m", [])
 
