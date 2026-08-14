@@ -1,47 +1,47 @@
 # Cyber-Security Research Trends (12-Month View)
 
-**Generated:** 2026-08-12  
-**Window:** since 2025-08 — 1054 of 8606 papers
+**Generated:** 2026-08-15  
+**Window:** since 2025-08 — 3827 of 14004 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| lifelong learning | 1 | 1 | 8.2× |
-| self-directed | 1 | 1 | 8.2× |
-| micro-learning | 1 | 1 | 8.2× |
-| agentic | 34 | 49 | 5.7× |
-| prompt engineering | 4 | 6 | 5.4× |
-| eu ai act | 5 | 8 | 5.1× |
-| agent | 81 | 161 | 4.1× |
-| k-12 | 1 | 2 | 4.1× |
-| llm | 152 | 350 | 3.5× |
-| genai | 6 | 15 | 3.3× |
-| large language model | 108 | 299 | 2.9× |
-| curriculum | 7 | 20 | 2.9× |
-| outcome | 19 | 56 | 2.8× |
-| generative ai | 20 | 60 | 2.7× |
-| workshop | 2 | 6 | 2.7× |
+| ai literacy | 1 | 1 | 3.7× |
+| lifelong learning | 1 | 1 | 3.7× |
+| self-directed | 1 | 1 | 3.7× |
+| micro-learning | 1 | 1 | 3.7× |
+| agentic | 149 | 170 | 3.2× |
+| prompt engineering | 18 | 22 | 3.0× |
+| agent | 389 | 502 | 2.8× |
+| prompting | 45 | 59 | 2.8× |
+| llm | 646 | 931 | 2.5× |
+| eu ai act | 9 | 14 | 2.4× |
+| evaluation | 510 | 798 | 2.3× |
+| large language model | 455 | 729 | 2.3× |
+| taxonomy | 83 | 134 | 2.3× |
+| outcome | 67 | 113 | 2.2× |
+| transfer | 102 | 179 | 2.1× |
 
 ## 📈 Fastest-Growing Cells
 
 | Cell | Recent | Total | Recent Share |
 |------|--------|-------|--------------|
 | `security-compliance/evaluation` | 1 | 1 | 100% |
-| `security-operations/theory` | 6 | 16 | 38% |
-| `vulnerability-management/theory` | 5 | 17 | 29% |
-| `security-operations/application` | 41 | 147 | 28% |
-| `threat-intelligence/theory` | 12 | 45 | 27% |
-| `iot-security/application` | 42 | 153 | 27% |
-| `security-compliance/theory` | 5 | 19 | 26% |
-| `security-operations/development` | 2 | 8 | 25% |
-| `human-factor/development` | 1 | 4 | 25% |
-| `security-operations/systems` | 24 | 102 | 24% |
-| `identity-access/application` | 30 | 126 | 24% |
-| `security-operations/review` | 4 | 17 | 24% |
-| `vulnerability-management/application` | 39 | 166 | 23% |
-| `cloud-security/theory` | 5 | 22 | 23% |
-| `zero-trust/review` | 6 | 26 | 23% |
+| `security-operations/evaluation` | 5 | 8 | 62% |
+| `ai-security/theory` | 35 | 60 | 58% |
+| `security-operations/theory` | 15 | 27 | 56% |
+| `ai-security/evaluation` | 20 | 36 | 56% |
+| `vulnerability-management/review` | 16 | 31 | 52% |
+| `vulnerability-management/application` | 170 | 343 | 50% |
+| `zero-trust/evaluation` | 1 | 2 | 50% |
+| `vulnerability-management/theory` | 18 | 37 | 49% |
+| `network-security/application` | 164 | 339 | 48% |
+| `ai-security/systems` | 73 | 151 | 48% |
+| `ai-security/application` | 108 | 231 | 47% |
+| `ai-security/development` | 11 | 24 | 46% |
+| `application-security/application` | 101 | 218 | 46% |
+| `ai-security/mechanism` | 59 | 133 | 44% |
 
 ## What This Means for the ALaaS Research Program
 

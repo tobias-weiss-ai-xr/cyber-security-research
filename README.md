@@ -15,7 +15,7 @@ factor — plus live tracking of authoritative news sources (CISA, NIST, ENISA, 
 
 This repository combines two knowledge layers:
 
-1. **Corpus** — 8,606 research papers across 20 cyber-security disciplines,
+1. **Corpus** — 14,004 research papers across 20 cyber-security disciplines,
    analyzed with the taxonomy → momentum → burst → gap pipeline used in
    [business-development-research](https://github.com/tobias-weiss-ai-xr/business-development-research)
    and [graph-research](https://github.com/tobias-weiss-ai-xr/graph-research).
@@ -27,12 +27,12 @@ This repository combines two knowledge layers:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 8,606 |
+| **Papers Analyzed** | 14,004 |
 | **Cyber-Security Disciplines** | 20 |
 | **Time Span** | 1991-2026 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 160 |
-| **Saturation** | 99.4% (159/160 cells) |
+| **Saturation** | 100.0% (160/160 cells) |
 | **News Items Tracked** | 763 |
 
 ### Top Evidence Areas
@@ -126,7 +126,7 @@ a weekly scheduled job opens a PR with newly discovered papers.
 
 ## 🙏 Acknowledgments
 
-This corpus synthesizes 8,606 papers across 1991-2026 — plus a rolling
+This corpus synthesizes 14,004 papers across 1991-2026 — plus a rolling
 news feed — to create the evidence base for the cyber-security research
 program: from academic findings to operational reality.
 
