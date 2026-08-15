@@ -1,7 +1,7 @@
 # Cyber-Security Research — Literature Review
 
 **Generated:** 2026-08-15  
-**Corpus:** 14,004 papers across 20 categories
+**Corpus:** 14,163 papers across 20 categories
 
 > Synthesis of the cyber-security research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -18,7 +18,7 @@
 | 5 | AI & Adversarial ML Security | 802 |
 
 **Time span:** 1991–2026 (median year 2014)
-**Dominant aspects:** Application (5317), Systems & Technology (2629), Method (1912)
+**Dominant aspects:** Application (5380), Systems & Technology (2668), Method (1914)
 
 ---
 
@@ -33,21 +33,21 @@ Categories ranked by a momentum score combining recent output density with year-
 | Security Operations & SOC | 590 | 242 | 176 | +37.5% | 41% | 20.2 |
 | Software Supply Chain Security | 743 | 274 | 219 | +25.1% | 37% | 22.8 |
 | Network & Perimeter Security | 1088 | 363 | 317 | +14.5% | 33% | 30.2 |
+| Human Factor & Social Engineering | 444 | 95 | 78 | +21.8% | 21% | 7.9 |
+| IoT, OT & ICS Security | 664 | 208 | 201 | +3.5% | 31% | 17.3 |
 | Application Security & DevSecOps | 704 | 216 | 209 | +3.3% | 31% | 18.0 |
 | Cryptography & Protocols | 970 | 282 | 312 | -9.6% | 29% | 23.5 |
 | Zero Trust Architecture | 620 | 186 | 225 | -17.3% | 30% | 15.5 |
 | Compliance, Regulation & Standards | 598 | 163 | 198 | -17.7% | 27% | 13.6 |
 | Threat Intelligence & Analysis | 715 | 193 | 234 | -17.5% | 27% | 16.1 |
 | Cloud & Container Security | 709 | 190 | 241 | -21.2% | 27% | 15.8 |
-| Cyber Warfare & State Threats | 391 | 71 | 92 | -22.8% | 18% | 5.9 |
+| Cyber Warfare & State Threats | 397 | 77 | 92 | -16.3% | 19% | 6.4 |
 | Malware Analysis & Reverse Engineering | 764 | 183 | 257 | -28.8% | 24% | 15.2 |
 | Incident Response & Forensics | 869 | 181 | 275 | -34.2% | 21% | 15.1 |
-| IoT, OT & ICS Security | 584 | 128 | 201 | -36.3% | 22% | 10.7 |
 | Identity, Access & Authentication | 676 | 127 | 268 | -52.6% | 19% | 10.6 |
 | Cyber Risk Management | 621 | 105 | 239 | -56.1% | 17% | 8.8 |
 | Security Education & Workforce | 668 | 102 | 268 | -61.9% | 15% | 8.5 |
 | Privacy & Data Protection | 679 | 90 | 276 | -67.4% | 13% | 7.5 |
-| Human Factor & Social Engineering | 371 | 22 | 78 | -71.8% | 6% | 1.8 |
 
 ---
 
@@ -63,8 +63,8 @@ Categories ranked by a momentum score combining recent output density with year-
 | `zero-trust/evaluation` | 2 |
 | `risk-management/evaluation` | 3 |
 | `iot-security/evaluation` | 3 |
-| `human-factor/development` | 4 |
 | `risk-management/development` | 4 |
+| `human-factor/development` | 5 |
 
 **White-space cells** (low total but fast-growing):
 
@@ -72,12 +72,12 @@ Categories ranked by a momentum score combining recent output density with year-
 |------|-------:|---------:|-----------:|
 | `security-operations/evaluation` | 8 | 5 | 62% |
 | `ai-security/development` | 24 | 11 | 46% |
+| `human-factor/theory` | 18 | 8 | 44% |
 | `supply-chain-security/evaluation` | 14 | 6 | 43% |
+| `iot-security/theory` | 24 | 10 | 42% |
 | `security-operations/development` | 11 | 4 | 36% |
 | `malware-analysis/theory` | 24 | 8 | 33% |
 | `incident-response/evaluation` | 15 | 5 | 33% |
-| `threat-intelligence/development` | 23 | 7 | 30% |
-| `cryptography/evaluation` | 19 | 5 | 26% |
 
 ---
 
@@ -285,6 +285,20 @@ Security-education research evaluates training, awareness programs and workforce
 
 ---
 
+### IoT, OT & ICS Security (`iot-security`)
+
+IoT/OT security research covers device vulnerabilities, ICS and SCADA protection. Patching constraints and air-gapped environments make traditional controls inapplicable — runtime anomaly detection is the workaround.
+
+**Corpus size:** 664 papers
+
+**Recent papers:**
+
+- [2026-08] ACG-Water-Testbed: Applied Cybersecurity Gap Testbed for Cyber-to-Physical Security Assessment — https://doi.org/10.5281/zenodo.21814947
+- [2026-08] Exploring cybersecurity adaptation assessment criteria in the oil and gas industry — https://doi.org/10.1038/s41598-026-66528-8
+- [2026-08] Identifying Control and Monitoring Data for Forensics of Safety-Critical Attacks on Control Room Ope — https://doi.org/10.1007/978-3-032-34867-8_6
+
+---
+
 ### Cyber Risk Management (`risk-management`)
 
 Risk-management research moves from qualitative matrices to quantitative models (FAIR-style). Cyber insurance pricing and board-level risk communication are the applied edge.
@@ -341,17 +355,17 @@ SOC research targets detection engineering, alert triage and automation. Alert f
 
 ---
 
-### IoT, OT & ICS Security (`iot-security`)
+### Human Factor & Social Engineering (`human-factor`)
 
-IoT/OT security research covers device vulnerabilities, ICS and SCADA protection. Patching constraints and air-gapped environments make traditional controls inapplicable — runtime anomaly detection is the workaround.
+Human-factor research quantifies phishing susceptibility, social engineering and risky behaviors. Just-in-time interventions and behavioral nudges outperform annual training — evidence transferable to security-awareness programs.
 
-**Corpus size:** 584 papers
+**Corpus size:** 444 papers
 
 **Recent papers:**
 
-- [2026-08] ACG-Water-Testbed: Applied Cybersecurity Gap Testbed for Cyber-to-Physical Security Assessment — https://doi.org/10.5281/zenodo.21814947
-- [2026-08] Exploring cybersecurity adaptation assessment criteria in the oil and gas industry — https://doi.org/10.1038/s41598-026-66528-8
-- [2026-08] Identifying Control and Monitoring Data for Forensics of Safety-Critical Attacks on Control Room Ope — https://doi.org/10.1007/978-3-032-34867-8_6
+- [2026-08] An Analysis of Architectural and Operational Dynamics of Phishkits in the Wild — https://arxiv.org/abs/2608.07451v1
+- [2026-08] SSHafe: A Real-Time SSH Brute Force Attack Detection and Novel Credential Rotation Standard — https://arxiv.org/abs/2608.09066v1
+- [2026-08] Beyond Detection: Evaluating Defensive LLMs Against AI-Generated Social Engineering in Live Turn-by- — https://arxiv.org/abs/2608.10239v1
 
 ---
 
@@ -359,27 +373,13 @@ IoT/OT security research covers device vulnerabilities, ICS and SCADA protection
 
 Cyber-warfare research analyzes state-sponsored operations, attribution and deterrence theory. Critical-infrastructure resilience and international norms are the policy frontier.
 
-**Corpus size:** 391 papers
+**Corpus size:** 397 papers
 
 **Recent papers:**
 
 - [2026-09] Improving international responsibility regime for cyberattacks against critical infrastructure in ou — https://doi.org/10.1016/j.ijcip.2026.100873
 - [2026-08] The Digital Maturity Paradox: A Comparative Analysis of e-Government Resilience Under Cyber Warfare — https://doi.org/10.1007/978-3-032-34304-8_6
 - [2026-07] Bridging the Epistemic Gap in the Invisible Internet: Extended Mathematical Modeling and Empirical C — https://arxiv.org/abs/2607.23825v1
-
----
-
-### Human Factor & Social Engineering (`human-factor`)
-
-Human-factor research quantifies phishing susceptibility, social engineering and risky behaviors. Just-in-time interventions and behavioral nudges outperform annual training — evidence transferable to security-awareness programs.
-
-**Corpus size:** 371 papers
-
-**Recent papers:**
-
-- [2026-07] Blockchain Transaction Simulation Phishing — https://arxiv.org/abs/2607.28747v1
-- [2026-05] Do users’ mental models of hackers affect their perceived susceptibility to and the perceived severi — https://doi.org/10.1108/ics-04-2023-0052
-- [2026-04] Cybersecurity in Action — https://doi.org/10.31803/tg-20240627004731
 
 ---
 

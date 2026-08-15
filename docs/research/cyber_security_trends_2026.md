@@ -1,27 +1,27 @@
 # Cyber-Security Research Trends (12-Month View)
 
 **Generated:** 2026-08-15  
-**Window:** since 2025-08 — 3827 of 14004 papers
+**Window:** since 2025-08 — 3986 of 14163 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| ai literacy | 1 | 1 | 3.7× |
-| lifelong learning | 1 | 1 | 3.7× |
-| self-directed | 1 | 1 | 3.7× |
-| micro-learning | 1 | 1 | 3.7× |
-| agentic | 149 | 170 | 3.2× |
-| prompt engineering | 18 | 22 | 3.0× |
-| agent | 389 | 502 | 2.8× |
-| prompting | 45 | 59 | 2.8× |
-| llm | 646 | 931 | 2.5× |
-| eu ai act | 9 | 14 | 2.4× |
-| evaluation | 510 | 798 | 2.3× |
-| large language model | 455 | 729 | 2.3× |
-| taxonomy | 83 | 134 | 2.3× |
-| outcome | 67 | 113 | 2.2× |
-| transfer | 102 | 179 | 2.1× |
+| lifelong learning | 2 | 2 | 3.6× |
+| ai literacy | 1 | 1 | 3.6× |
+| self-directed | 1 | 1 | 3.6× |
+| micro-learning | 1 | 1 | 3.6× |
+| agentic | 159 | 180 | 3.1× |
+| prompt engineering | 18 | 22 | 2.9× |
+| agent | 415 | 528 | 2.8× |
+| prompting | 47 | 61 | 2.7× |
+| llm | 683 | 968 | 2.5× |
+| eu ai act | 10 | 15 | 2.4× |
+| evaluation | 544 | 832 | 2.3× |
+| large language model | 480 | 754 | 2.3× |
+| taxonomy | 98 | 149 | 2.3× |
+| outcome | 73 | 119 | 2.2× |
+| transfer | 112 | 189 | 2.1× |
 
 ## 📈 Fastest-Growing Cells
 

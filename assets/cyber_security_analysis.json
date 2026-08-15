@@ -1214,37 +1214,37 @@
    "id": "iot-security",
    "name": "IoT, OT & ICS Security",
    "color": "#68a4ff",
-   "count": 584,
+   "count": 664,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 15
+     "count": 24
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 84
+     "count": 94
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 36
+     "count": 38
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 219
+     "count": 251
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 30
+     "count": 32
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 141
+     "count": 161
     },
     {
      "id": "evaluation",
@@ -1254,7 +1254,7 @@
     {
      "id": "review",
      "name": "Reviews & Surveys",
-     "count": 56
+     "count": 61
     }
    ],
    "trajectory": {
@@ -1268,36 +1268,36 @@
     "2022": 75,
     "2023": 87,
     "2024": 128,
-    "2025": 173,
-    "2026": 75
+    "2025": 207,
+    "2026": 121
    },
    "momentum": {
     "id": "iot-security",
     "name": "IoT, OT & ICS Security",
-    "total": 584,
-    "recent": 128,
+    "total": 664,
+    "recent": 208,
     "prior": 201,
-    "growth_pct": -36.3,
-    "recent_share": 0.219,
-    "papers_per_month": 10.7,
-    "score": -14.4
+    "growth_pct": 3.5,
+    "recent_share": 0.313,
+    "papers_per_month": 17.3,
+    "score": 34.8
    }
   },
   {
    "id": "human-factor",
    "name": "Human Factor & Social Engineering",
    "color": "#ffdf5d",
-   "count": 371,
+   "count": 444,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 12
+     "count": 18
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 57
+     "count": 70
     },
     {
      "id": "method",
@@ -1307,27 +1307,27 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 150
+     "count": 177
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 4
+     "count": 5
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 81
+     "count": 100
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 12
+     "count": 13
     },
     {
      "id": "review",
      "name": "Reviews & Surveys",
-     "count": 27
+     "count": 33
     }
    ],
    "trajectory": {
@@ -1337,36 +1337,36 @@
     "2022": 85,
     "2023": 82,
     "2024": 95,
-    "2025": 61,
-    "2026": 6
+    "2025": 83,
+    "2026": 57
    },
    "momentum": {
     "id": "human-factor",
     "name": "Human Factor & Social Engineering",
-    "total": 371,
-    "recent": 22,
+    "total": 444,
+    "recent": 95,
     "prior": 78,
-    "growth_pct": -71.8,
-    "recent_share": 0.059,
-    "papers_per_month": 1.8,
-    "score": -65.9
+    "growth_pct": 21.8,
+    "recent_share": 0.214,
+    "papers_per_month": 7.9,
+    "score": 43.2
    }
   },
   {
    "id": "cyber-warfare",
    "name": "Cyber Warfare & State Threats",
    "color": "#a371f7",
-   "count": 391,
+   "count": 397,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 54
+     "count": 55
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 22
+     "count": 23
     },
     {
      "id": "method",
@@ -1376,7 +1376,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 134
+     "count": 138
     },
     {
      "id": "development",
@@ -1409,19 +1409,19 @@
     "2022": 67,
     "2023": 69,
     "2024": 84,
-    "2025": 87,
-    "2026": 50
+    "2025": 89,
+    "2026": 54
    },
    "momentum": {
     "id": "cyber-warfare",
     "name": "Cyber Warfare & State Threats",
-    "total": 391,
-    "recent": 71,
+    "total": 397,
+    "recent": 77,
     "prior": 92,
-    "growth_pct": -22.8,
-    "recent_share": 0.182,
-    "papers_per_month": 5.9,
-    "score": -4.6
+    "growth_pct": -16.3,
+    "recent_share": 0.194,
+    "papers_per_month": 6.4,
+    "score": 3.1
    }
   }
  ],
@@ -1429,42 +1429,42 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 882
+   "count": 898
   },
   {
    "id": "mechanism",
    "name": "Mechanism",
-   "count": 1522
+   "count": 1546
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 1912
+   "count": 1914
   },
   {
    "id": "application",
    "name": "Application",
-   "count": 5317
+   "count": 5380
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 513
+   "count": 516
   },
   {
    "id": "systems",
    "name": "Systems & Technology",
-   "count": 2629
+   "count": 2668
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 289
+   "count": 290
   },
   {
    "id": "review",
    "name": "Reviews & Surveys",
-   "count": 940
+   "count": 951
   }
  ],
  "timeline": [
@@ -52115,6 +52115,11 @@
   ],
   [
    "2025-08",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2025-08",
    "identity-access",
    "application"
   ],
@@ -52262,6 +52267,16 @@
    "2025-08",
    "iot-security",
    "application"
+  ],
+  [
+   "2025-08",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-08",
+   "iot-security",
+   "mechanism"
   ],
   [
    "2025-08",
@@ -53611,6 +53626,26 @@
   [
    "2025-09",
    "human-factor",
+   "application"
+  ],
+  [
+   "2025-09",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-09",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-09",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-09",
+   "human-factor",
    "development"
   ],
   [
@@ -53621,6 +53656,11 @@
   [
    "2025-09",
    "human-factor",
+   "evaluation"
+  ],
+  [
+   "2025-09",
+   "human-factor",
    "mechanism"
   ],
   [
@@ -53640,6 +53680,16 @@
   ],
   [
    "2025-09",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "human-factor",
+   "theory"
+  ],
+  [
+   "2025-09",
    "identity-access",
    "application"
   ],
@@ -53791,12 +53841,32 @@
   [
    "2025-09",
    "iot-security",
+   "application"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-09",
+   "iot-security",
    "development"
   ],
   [
    "2025-09",
    "iot-security",
    "development"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "mechanism"
   ],
   [
    "2025-09",
@@ -53826,7 +53896,37 @@
   [
    "2025-09",
    "iot-security",
+   "review"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "review"
+  ],
+  [
+   "2025-09",
+   "iot-security",
    "systems"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "iot-security",
+   "theory"
   ],
   [
    "2025-09",
@@ -55430,6 +55530,31 @@
   ],
   [
    "2025-10",
+   "cyber-warfare",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-10",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-10",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2025-10",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2025-10",
    "identity-access",
    "application"
   ],
@@ -55626,12 +55751,47 @@
   [
    "2025-10",
    "iot-security",
+   "application"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-10",
+   "iot-security",
    "development"
   ],
   [
    "2025-10",
    "iot-security",
    "mechanism"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "review"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-10",
+   "iot-security",
+   "systems"
   ],
   [
    "2025-10",
@@ -57046,6 +57206,31 @@
   [
    "2025-11",
    "human-factor",
+   "application"
+  ],
+  [
+   "2025-11",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-11",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2025-11",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2025-11",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2025-11",
+   "human-factor",
    "theory"
   ],
   [
@@ -57251,12 +57436,52 @@
   [
    "2025-11",
    "iot-security",
+   "application"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-11",
+   "iot-security",
    "development"
   ],
   [
    "2025-11",
    "iot-security",
    "development"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "method"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-11",
+   "iot-security",
+   "systems"
   ],
   [
    "2025-11",
@@ -58592,6 +58817,11 @@
    "2025-12",
    "cryptography",
    "theory"
+  ],
+  [
+   "2025-12",
+   "cyber-warfare",
+   "application"
   ],
   [
    "2025-12",
@@ -58620,6 +58850,31 @@
   ],
   [
    "2025-12",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2025-12",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "human-factor",
+   "theory"
+  ],
+  [
+   "2025-12",
    "identity-access",
    "application"
   ],
@@ -58776,7 +59031,22 @@
   [
    "2025-12",
    "iot-security",
-   "systems"
+   "application"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "review"
   ],
   [
    "2025-12",
@@ -58795,6 +59065,26 @@
   ],
   [
    "2025-12",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "iot-security",
+   "theory"
+  ],
+  [
+   "2025-12",
    "malware-analysis",
    "application"
   ],
@@ -60297,6 +60587,11 @@
    "2026-01",
    "cryptography",
    "theory"
+  ],
+  [
+   "2026-01",
+   "cyber-warfare",
+   "application"
   ],
   [
    "2026-01",
@@ -60386,7 +60681,42 @@
   [
    "2026-01",
    "human-factor",
+   "application"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "development"
+  ],
+  [
+   "2026-01",
+   "human-factor",
    "mechanism"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "human-factor",
+   "systems"
   ],
   [
    "2026-01",
@@ -60616,6 +60946,16 @@
   [
    "2026-01",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-01",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-01",
+   "iot-security",
    "mechanism"
   ],
   [
@@ -60662,6 +61002,21 @@
    "2026-01",
    "iot-security",
    "systems"
+  ],
+  [
+   "2026-01",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "iot-security",
+   "theory"
   ],
   [
    "2026-01",
@@ -62670,6 +63025,61 @@
   ],
   [
    "2026-02",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "human-factor",
+   "theory"
+  ],
+  [
+   "2026-02",
    "identity-access",
    "application"
   ],
@@ -62776,7 +63186,52 @@
   [
    "2026-02",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "iot-security",
    "systems"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "iot-security",
+   "theory"
   ],
   [
    "2026-02",
@@ -63836,6 +64291,21 @@
   [
    "2026-03",
    "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "human-factor",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "human-factor",
    "theory"
   ],
   [
@@ -63971,6 +64441,11 @@
   [
    "2026-03",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-03",
+   "iot-security",
    "development"
   ],
   [
@@ -63992,6 +64467,11 @@
    "2026-03",
    "iot-security",
    "systems"
+  ],
+  [
+   "2026-03",
+   "iot-security",
+   "theory"
   ],
   [
    "2026-03",
@@ -65132,6 +65612,11 @@
    "2026-04",
    "cryptography",
    "theory"
+  ],
+  [
+   "2026-04",
+   "cyber-warfare",
+   "application"
   ],
   [
    "2026-04",
@@ -65170,6 +65655,56 @@
   ],
   [
    "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-04",
    "identity-access",
    "mechanism"
   ],
@@ -65281,6 +65816,26 @@
   [
    "2026-04",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "iot-security",
    "mechanism"
   ],
   [
@@ -65297,6 +65852,21 @@
    "2026-04",
    "iot-security",
    "review"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "iot-security",
+   "systems"
   ],
   [
    "2026-04",
@@ -66732,6 +67302,11 @@
    "2026-05",
    "cryptography",
    "theory"
+  ],
+  [
+   "2026-05",
+   "cyber-warfare",
+   "application"
   ],
   [
    "2026-05",
@@ -66751,7 +67326,52 @@
   [
    "2026-05",
    "human-factor",
+   "application"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-05",
+   "human-factor",
    "mechanism"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "human-factor",
+   "theory"
   ],
   [
    "2026-05",
@@ -66866,6 +67486,26 @@
   [
    "2026-05",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "development"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "development"
+  ],
+  [
+   "2026-05",
+   "iot-security",
    "development"
   ],
   [
@@ -66881,12 +67521,42 @@
   [
    "2026-05",
    "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "review"
+  ],
+  [
+   "2026-05",
+   "iot-security",
    "review"
   ],
   [
    "2026-05",
    "iot-security",
    "systems"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "iot-security",
+   "theory"
   ],
   [
    "2026-05",
@@ -68185,6 +68855,36 @@
   ],
   [
    "2026-06",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-06",
    "identity-access",
    "application"
   ],
@@ -68366,7 +69066,32 @@
   [
    "2026-06",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-06",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-06",
+   "iot-security",
    "mechanism"
+  ],
+  [
+   "2026-06",
+   "iot-security",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "iot-security",
+   "systems"
   ],
   [
    "2026-06",
@@ -69457,6 +70182,11 @@
    "2026-07",
    "cyber-warfare",
    "development"
+  ],
+  [
+   "2026-07",
+   "cyber-warfare",
+   "mechanism"
   ],
   [
    "2026-07",
@@ -69475,6 +70205,16 @@
   ],
   [
    "2026-07",
+   "human-factor",
+   "mechanism"
+  ],
+  [
+   "2026-07",
+   "human-factor",
+   "review"
+  ],
+  [
+   "2026-07",
    "identity-access",
    "application"
   ],
@@ -69586,6 +70326,21 @@
   [
    "2026-07",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-07",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-07",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-07",
+   "iot-security",
    "review"
   ],
   [
@@ -69602,6 +70357,16 @@
    "2026-07",
    "iot-security",
    "systems"
+  ],
+  [
+   "2026-07",
+   "iot-security",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "iot-security",
+   "theory"
   ],
   [
    "2026-07",
@@ -70485,6 +71250,21 @@
   ],
   [
    "2026-08",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-08",
+   "human-factor",
+   "application"
+  ],
+  [
+   "2026-08",
+   "human-factor",
+   "systems"
+  ],
+  [
+   "2026-08",
    "identity-access",
    "application"
   ],
@@ -70556,7 +71336,22 @@
   [
    "2026-08",
    "iot-security",
+   "application"
+  ],
+  [
+   "2026-08",
+   "iot-security",
+   "application"
+  ],
+  [
+   "2026-08",
+   "iot-security",
    "method"
+  ],
+  [
+   "2026-08",
+   "iot-security",
+   "systems"
   ],
   [
    "2026-08",
@@ -70912,7 +71707,7 @@
   }
  ],
  "source_breakdown": {
-  "arxiv": 3191,
+  "arxiv": 3350,
   "doi": 10639,
   "other": 174
  },
@@ -70921,106 +71716,106 @@
    "keyword": "cmmc",
    "recent": 3,
    "total": 3,
-   "burst_score": 3.66,
+   "burst_score": 3.55,
    "recent_share": 0.0008
   },
   {
    "keyword": "typosquatting",
    "recent": 1,
    "total": 1,
-   "burst_score": 3.66,
+   "burst_score": 3.55,
    "recent_share": 0.0003
   },
   {
    "keyword": "red teaming",
-   "recent": 9,
-   "total": 10,
-   "burst_score": 3.29,
-   "recent_share": 0.0024
+   "recent": 10,
+   "total": 11,
+   "burst_score": 3.23,
+   "recent_share": 0.0025
   },
   {
    "keyword": "detection engineering",
    "recent": 8,
    "total": 9,
-   "burst_score": 3.25,
-   "recent_share": 0.0021
+   "burst_score": 3.16,
+   "recent_share": 0.002
   },
   {
    "keyword": "jailbreak",
-   "recent": 31,
-   "total": 36,
-   "burst_score": 3.15,
-   "recent_share": 0.0081
+   "recent": 32,
+   "total": 37,
+   "burst_score": 3.07,
+   "recent_share": 0.008
+  },
+  {
+   "keyword": "alert fatigue",
+   "recent": 16,
+   "total": 20,
+   "burst_score": 2.84,
+   "recent_share": 0.004
   },
   {
    "keyword": "unpacking",
    "recent": 4,
    "total": 5,
-   "burst_score": 2.93,
+   "burst_score": 2.84,
    "recent_share": 0.001
-  },
-  {
-   "keyword": "alert fatigue",
-   "recent": 15,
-   "total": 19,
-   "burst_score": 2.89,
-   "recent_share": 0.0039
   },
   {
    "keyword": "nis2",
    "recent": 14,
    "total": 18,
-   "burst_score": 2.85,
-   "recent_share": 0.0037
+   "burst_score": 2.76,
+   "recent_share": 0.0035
   },
   {
    "keyword": "sandbox",
-   "recent": 24,
-   "total": 32,
-   "burst_score": 2.74,
+   "recent": 25,
+   "total": 33,
+   "burst_score": 2.69,
    "recent_share": 0.0063
   },
   {
    "keyword": "identity governance",
    "recent": 6,
    "total": 8,
-   "burst_score": 2.74,
-   "recent_share": 0.0016
+   "burst_score": 2.66,
+   "recent_share": 0.0015
   },
   {
-   "keyword": "prompt injection",
-   "recent": 160,
-   "total": 222,
-   "burst_score": 2.64,
-   "recent_share": 0.0418
+   "keyword": "passkey",
+   "recent": 3,
+   "total": 4,
+   "burst_score": 2.66,
+   "recent_share": 0.0008
   },
   {
    "keyword": "ttps",
-   "recent": 113,
-   "total": 158,
-   "burst_score": 2.62,
-   "recent_share": 0.0295
+   "recent": 122,
+   "total": 167,
+   "burst_score": 2.6,
+   "recent_share": 0.0306
+  },
+  {
+   "keyword": "prompt injection",
+   "recent": 164,
+   "total": 226,
+   "burst_score": 2.58,
+   "recent_share": 0.0411
   },
   {
    "keyword": "pqc",
-   "recent": 74,
-   "total": 110,
-   "burst_score": 2.46,
-   "recent_share": 0.0193
+   "recent": 76,
+   "total": 112,
+   "burst_score": 2.41,
+   "recent_share": 0.0191
   },
   {
    "keyword": "provenance",
    "recent": 49,
    "total": 73,
-   "burst_score": 2.46,
-   "recent_share": 0.0128
-  },
-  {
-   "keyword": "passkey",
-   "recent": 2,
-   "total": 3,
-   "burst_score": 2.44,
-   "recent_share": 0.0005
+   "burst_score": 2.39,
+   "recent_share": 0.0123
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 14004,
+    "total_papers": 14163,
     "generated_date": "2026-10",
     "taxonomy": {
       "categories": 20,
@@ -32,19 +32,19 @@
     "security-compliance": 598,
     "risk-management": 621,
     "privacy": 679,
-    "iot-security": 584,
-    "human-factor": 371,
-    "cyber-warfare": 391
+    "iot-security": 664,
+    "human-factor": 444,
+    "cyber-warfare": 397
   },
   "by_subcategory": {
-    "theory": 882,
-    "mechanism": 1522,
-    "method": 1912,
-    "application": 5317,
-    "development": 513,
-    "systems": 2629,
-    "evaluation": 289,
-    "review": 940
+    "theory": 898,
+    "mechanism": 1546,
+    "method": 1914,
+    "application": 5380,
+    "development": 516,
+    "systems": 2668,
+    "evaluation": 290,
+    "review": 951
   },
   "by_year": {
     "1991": 1,
@@ -71,8 +71,8 @@
     "2022": 1681,
     "2023": 1866,
     "2024": 3006,
-    "2025": 4402,
-    "2026": 2225,
+    "2025": 4460,
+    "2026": 2326,
     "unknown": 128
   },
   "by_cell": {
@@ -86,32 +86,32 @@
     "cloud-security/application": 285,
     "network-security/systems": 279,
     "incident-response/application": 253,
+    "iot-security/application": 251,
     "security-operations/application": 250,
     "malware-analysis/application": 242,
     "zero-trust/application": 240,
     "cryptography/application": 239,
     "cryptography/systems": 234,
     "ai-security/application": 231,
-    "iot-security/application": 219,
     "application-security/application": 218,
     "incident-response/method": 213,
     "identity-access/application": 200,
+    "human-factor/application": 177,
     "privacy/application": 175,
     "identity-access/systems": 169,
+    "iot-security/systems": 161,
     "privacy/method": 159,
     "cryptography/method": 156,
     "vulnerability-management/systems": 154,
     "ai-security/systems": 151,
-    "human-factor/application": 150,
     "cloud-security/systems": 148,
     "malware-analysis/method": 147,
     "incident-response/systems": 147,
     "malware-analysis/systems": 146,
-    "iot-security/systems": 141,
     "zero-trust/systems": 140,
     "security-operations/systems": 138,
+    "cyber-warfare/application": 138,
     "network-security/method": 137,
-    "cyber-warfare/application": 134,
     "ai-security/mechanism": 133,
     "application-security/systems": 131,
     "network-security/mechanism": 130,
@@ -123,19 +123,19 @@
     "privacy/systems": 107,
     "risk-management/method": 106,
     "malware-analysis/mechanism": 105,
+    "human-factor/systems": 100,
     "supply-chain-security/systems": 98,
     "security-education/method": 96,
     "vulnerability-management/mechanism": 95,
     "application-security/mechanism": 94,
+    "iot-security/mechanism": 94,
     "application-security/method": 94,
     "security-operations/method": 93,
     "cloud-security/mechanism": 92,
     "ai-security/method": 92,
     "identity-access/mechanism": 90,
     "risk-management/systems": 88,
-    "iot-security/mechanism": 84,
     "zero-trust/mechanism": 83,
-    "human-factor/systems": 81,
     "cryptography/theory": 80,
     "cyber-warfare/method": 77,
     "privacy/mechanism": 76,
@@ -143,6 +143,7 @@
     "threat-intelligence/method": 75,
     "ai-security/review": 75,
     "cyber-warfare/systems": 73,
+    "human-factor/mechanism": 70,
     "threat-intelligence/mechanism": 70,
     "security-education/systems": 70,
     "privacy/review": 70,
@@ -153,14 +154,13 @@
     "threat-intelligence/theory": 63,
     "incident-response/theory": 61,
     "supply-chain-security/method": 61,
+    "iot-security/review": 61,
     "ai-security/theory": 60,
     "supply-chain-security/mechanism": 58,
     "risk-management/theory": 57,
-    "human-factor/mechanism": 57,
     "threat-intelligence/review": 56,
-    "iot-security/review": 56,
+    "cyber-warfare/theory": 55,
     "privacy/theory": 54,
-    "cyber-warfare/theory": 54,
     "network-security/theory": 52,
     "network-security/evaluation": 51,
     "supply-chain-security/development": 50,
@@ -175,17 +175,19 @@
     "application-security/development": 40,
     "malware-analysis/evaluation": 39,
     "vulnerability-management/development": 38,
+    "iot-security/method": 38,
     "vulnerability-management/theory": 37,
     "cloud-security/development": 36,
     "ai-security/evaluation": 36,
-    "iot-security/method": 36,
     "application-security/theory": 36,
     "malware-analysis/review": 35,
     "risk-management/mechanism": 34,
     "cloud-security/theory": 33,
     "risk-management/review": 33,
+    "human-factor/review": 33,
     "identity-access/theory": 32,
     "security-operations/review": 32,
+    "iot-security/development": 32,
     "vulnerability-management/evaluation": 31,
     "vulnerability-management/review": 31,
     "network-security/development": 31,
@@ -193,13 +195,11 @@
     "identity-access/development": 31,
     "security-operations/mechanism": 31,
     "security-compliance/theory": 31,
-    "iot-security/development": 30,
     "security-education/mechanism": 29,
     "security-compliance/development": 29,
     "human-factor/method": 28,
     "supply-chain-security/review": 27,
     "security-operations/theory": 27,
-    "human-factor/review": 27,
     "malware-analysis/development": 26,
     "zero-trust/development": 26,
     "security-compliance/systems": 26,
@@ -208,18 +208,18 @@
     "cyber-warfare/review": 25,
     "malware-analysis/theory": 24,
     "ai-security/development": 24,
+    "iot-security/theory": 24,
     "zero-trust/method": 24,
     "threat-intelligence/development": 23,
-    "cyber-warfare/mechanism": 22,
+    "cyber-warfare/mechanism": 23,
     "security-compliance/method": 22,
     "cryptography/evaluation": 19,
+    "human-factor/theory": 18,
     "incident-response/evaluation": 15,
-    "iot-security/theory": 15,
     "application-security/evaluation": 15,
     "supply-chain-security/evaluation": 14,
     "privacy/evaluation": 13,
-    "human-factor/evaluation": 12,
-    "human-factor/theory": 12,
+    "human-factor/evaluation": 13,
     "security-operations/development": 11,
     "security-education/evaluation": 9,
     "threat-intelligence/evaluation": 8,
@@ -227,8 +227,8 @@
     "security-operations/evaluation": 8,
     "security-compliance/mechanism": 7,
     "security-education/development": 6,
+    "human-factor/development": 5,
     "cyber-warfare/development": 5,
-    "human-factor/development": 4,
     "risk-management/development": 4,
     "risk-management/evaluation": 3,
     "iot-security/evaluation": 3,
@@ -248,7 +248,7 @@
     },
     {
       "keyword": "red teaming",
-      "papers": 9
+      "papers": 10
     },
     {
       "keyword": "detection engineering",
@@ -256,15 +256,15 @@
     },
     {
       "keyword": "jailbreak",
-      "papers": 31
+      "papers": 32
+    },
+    {
+      "keyword": "alert fatigue",
+      "papers": 16
     },
     {
       "keyword": "unpacking",
       "papers": 4
-    },
-    {
-      "keyword": "alert fatigue",
-      "papers": 15
     },
     {
       "keyword": "nis2",
@@ -272,7 +272,7 @@
     },
     {
       "keyword": "sandbox",
-      "papers": 24
+      "papers": 25
     },
     {
       "keyword": "identity governance",
@@ -334,6 +334,28 @@
       "recent_share": 0.334,
       "papers_per_month": 30.2,
       "score": 47.9
+    },
+    {
+      "id": "human-factor",
+      "name": "Human Factor & Social Engineering",
+      "total": 444,
+      "recent": 95,
+      "prior": 78,
+      "growth_pct": 21.8,
+      "recent_share": 0.214,
+      "papers_per_month": 7.9,
+      "score": 43.2
+    },
+    {
+      "id": "iot-security",
+      "name": "IoT, OT & ICS Security",
+      "total": 664,
+      "recent": 208,
+      "prior": 201,
+      "growth_pct": 3.5,
+      "recent_share": 0.313,
+      "papers_per_month": 17.3,
+      "score": 34.8
     },
     {
       "id": "application-security",
@@ -404,13 +426,13 @@
     {
       "id": "cyber-warfare",
       "name": "Cyber Warfare & State Threats",
-      "total": 391,
-      "recent": 71,
+      "total": 397,
+      "recent": 77,
       "prior": 92,
-      "growth_pct": -22.8,
-      "recent_share": 0.182,
-      "papers_per_month": 5.9,
-      "score": -4.6
+      "growth_pct": -16.3,
+      "recent_share": 0.194,
+      "papers_per_month": 6.4,
+      "score": 3.1
     },
     {
       "id": "malware-analysis",
@@ -433,17 +455,6 @@
       "recent_share": 0.208,
       "papers_per_month": 15.1,
       "score": -13.4
-    },
-    {
-      "id": "iot-security",
-      "name": "IoT, OT & ICS Security",
-      "total": 584,
-      "recent": 128,
-      "prior": 201,
-      "growth_pct": -36.3,
-      "recent_share": 0.219,
-      "papers_per_month": 10.7,
-      "score": -14.4
     },
     {
       "id": "identity-access",
@@ -488,17 +499,6 @@
       "recent_share": 0.133,
       "papers_per_month": 7.5,
       "score": -54.1
-    },
-    {
-      "id": "human-factor",
-      "name": "Human Factor & Social Engineering",
-      "total": 371,
-      "recent": 22,
-      "prior": 78,
-      "growth_pct": -71.8,
-      "recent_share": 0.059,
-      "papers_per_month": 1.8,
-      "score": -65.9
     }
   ],
   "category_trajectory": {
@@ -720,8 +720,8 @@
       "2022": 75,
       "2023": 87,
       "2024": 128,
-      "2025": 173,
-      "2026": 75
+      "2025": 207,
+      "2026": 121
     },
     "human-factor": {
       "2017": 1,
@@ -730,8 +730,8 @@
       "2022": 85,
       "2023": 82,
       "2024": 95,
-      "2025": 61,
-      "2026": 6
+      "2025": 83,
+      "2026": 57
     },
     "cyber-warfare": {
       "2013": 1,
@@ -743,8 +743,8 @@
       "2022": 67,
       "2023": 69,
       "2024": 84,
-      "2025": 87,
-      "2026": 50
+      "2025": 89,
+      "2026": 54
     }
   },
   "keyword_bursts": [
@@ -752,110 +752,110 @@
       "keyword": "cmmc",
       "recent": 3,
       "total": 3,
-      "burst_score": 3.66,
+      "burst_score": 3.55,
       "recent_share": 0.0008
     },
     {
       "keyword": "typosquatting",
       "recent": 1,
       "total": 1,
-      "burst_score": 3.66,
+      "burst_score": 3.55,
       "recent_share": 0.0003
     },
     {
       "keyword": "red teaming",
-      "recent": 9,
-      "total": 10,
-      "burst_score": 3.29,
-      "recent_share": 0.0024
+      "recent": 10,
+      "total": 11,
+      "burst_score": 3.23,
+      "recent_share": 0.0025
     },
     {
       "keyword": "detection engineering",
       "recent": 8,
       "total": 9,
-      "burst_score": 3.25,
-      "recent_share": 0.0021
+      "burst_score": 3.16,
+      "recent_share": 0.002
     },
     {
       "keyword": "jailbreak",
-      "recent": 31,
-      "total": 36,
-      "burst_score": 3.15,
-      "recent_share": 0.0081
+      "recent": 32,
+      "total": 37,
+      "burst_score": 3.07,
+      "recent_share": 0.008
+    },
+    {
+      "keyword": "alert fatigue",
+      "recent": 16,
+      "total": 20,
+      "burst_score": 2.84,
+      "recent_share": 0.004
     },
     {
       "keyword": "unpacking",
       "recent": 4,
       "total": 5,
-      "burst_score": 2.93,
+      "burst_score": 2.84,
       "recent_share": 0.001
-    },
-    {
-      "keyword": "alert fatigue",
-      "recent": 15,
-      "total": 19,
-      "burst_score": 2.89,
-      "recent_share": 0.0039
     },
     {
       "keyword": "nis2",
       "recent": 14,
       "total": 18,
-      "burst_score": 2.85,
-      "recent_share": 0.0037
+      "burst_score": 2.76,
+      "recent_share": 0.0035
     },
     {
       "keyword": "sandbox",
-      "recent": 24,
-      "total": 32,
-      "burst_score": 2.74,
+      "recent": 25,
+      "total": 33,
+      "burst_score": 2.69,
       "recent_share": 0.0063
     },
     {
       "keyword": "identity governance",
       "recent": 6,
       "total": 8,
-      "burst_score": 2.74,
-      "recent_share": 0.0016
+      "burst_score": 2.66,
+      "recent_share": 0.0015
     },
     {
-      "keyword": "prompt injection",
-      "recent": 160,
-      "total": 222,
-      "burst_score": 2.64,
-      "recent_share": 0.0418
+      "keyword": "passkey",
+      "recent": 3,
+      "total": 4,
+      "burst_score": 2.66,
+      "recent_share": 0.0008
     },
     {
       "keyword": "ttps",
-      "recent": 113,
-      "total": 158,
-      "burst_score": 2.62,
-      "recent_share": 0.0295
+      "recent": 122,
+      "total": 167,
+      "burst_score": 2.6,
+      "recent_share": 0.0306
+    },
+    {
+      "keyword": "prompt injection",
+      "recent": 164,
+      "total": 226,
+      "burst_score": 2.58,
+      "recent_share": 0.0411
     },
     {
       "keyword": "pqc",
-      "recent": 74,
-      "total": 110,
-      "burst_score": 2.46,
-      "recent_share": 0.0193
+      "recent": 76,
+      "total": 112,
+      "burst_score": 2.41,
+      "recent_share": 0.0191
     },
     {
       "keyword": "provenance",
       "recent": 49,
       "total": 73,
-      "burst_score": 2.46,
-      "recent_share": 0.0128
-    },
-    {
-      "keyword": "passkey",
-      "recent": 2,
-      "total": 3,
-      "burst_score": 2.44,
-      "recent_share": 0.0005
+      "burst_score": 2.39,
+      "recent_share": 0.0123
     }
   ],
   "source_breakdown": {
-    "arxiv": 3191,
+    "arxiv": 3350,
     "doi": 10639,
     "other": 174
   },
@@ -948,12 +948,12 @@
         "papers": 3
       },
       {
-        "cell": "human-factor/development",
+        "cell": "risk-management/development",
         "papers": 4
       },
       {
-        "cell": "risk-management/development",
-        "papers": 4
+        "cell": "human-factor/development",
+        "papers": 5
       },
       {
         "cell": "cyber-warfare/development",
@@ -978,10 +978,22 @@
         "recent_share": 0.46
       },
       {
+        "cell": "human-factor/theory",
+        "total": 18,
+        "recent": 8,
+        "recent_share": 0.44
+      },
+      {
         "cell": "supply-chain-security/evaluation",
         "total": 14,
         "recent": 6,
         "recent_share": 0.43
+      },
+      {
+        "cell": "iot-security/theory",
+        "total": 24,
+        "recent": 10,
+        "recent_share": 0.42
       },
       {
         "cell": "security-operations/development",
@@ -1012,18 +1024,6 @@
         "total": 19,
         "recent": 5,
         "recent_share": 0.26
-      },
-      {
-        "cell": "security-compliance/method",
-        "total": 22,
-        "recent": 5,
-        "recent_share": 0.23
-      },
-      {
-        "cell": "zero-trust/method",
-        "total": 24,
-        "recent": 5,
-        "recent_share": 0.21
       }
     ]
   },
