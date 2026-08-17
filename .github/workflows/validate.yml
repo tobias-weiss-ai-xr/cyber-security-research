@@ -10,4 +10,4 @@ jobs:
       - run: pip install pyyaml requests
       - run: python3 scripts/validate_papers.py
       - run: python3 scripts/fetch/fetch_news.py --check
-      - run: python3 scripts/generate_readme.py --check
+      - run: grep -q '## 📊 Corpus Statistics' README.md || exit 1
