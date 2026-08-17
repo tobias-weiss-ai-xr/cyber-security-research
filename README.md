@@ -1,13 +1,23 @@
-# Cyber-Security Research Corpus
+<h1 align="center">
+  <strong>Cyber-Security Research Corpus</strong>
+</h1>
+<h3 align="center">Evidence base for the cyber-security landscape — 20 categories × 8 research aspects</h3>
 
-**Research program** — evidence base for the cyber-security landscape:
-20 categories × 8 aspects covering threat intelligence, vulnerabilities,
-incident response, malware, network/cloud/application security, zero trust,
-supply chain, AI security, compliance, risk, privacy, IoT/OT and the human
-factor — plus live tracking of authoritative news sources (CISA, NIST, ENISA, …).
+<div align="center">
+  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/cyber--security--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/cyber-security-research)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/cyber--security--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/cyber-security-research/actions/workflows/validate.yml)
+  [![DevOps](https://img.shields.io/badge/DevOps-devops--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/devops-research) [![C2-AI](https://img.shields.io/badge/C2-AI-c2--ai--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
+</div>
 
-**Author:** Tobias Weiss
-**Contact:** business@tobias-weiss.org
+> 🔒 **Cyber-security research corpus:** threat intelligence, vulnerabilities,
+> incident response, malware, network/cloud/application security, zero trust,
+> supply chain, AI security, compliance, risk, privacy, IoT/OT, and the human factor —
+> part of the family of `*-research` corpora.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/cyber-security-research/main/assets/visualizations/category_distribution.png" alt="Teaser" width="600" />
+</p>
 
 ---
 
@@ -15,7 +25,7 @@ factor — plus live tracking of authoritative news sources (CISA, NIST, ENISA, 
 
 This repository combines two knowledge layers:
 
-1. **Corpus** — 14,004 research papers across 20 cyber-security disciplines,
+1. **Corpus** — 14,163 research papers across 20 cyber-security disciplines,
    analyzed with the taxonomy → momentum → burst → gap pipeline used in
    [business-development-research](https://github.com/tobias-weiss-ai-xr/business-development-research)
    and [graph-research](https://github.com/tobias-weiss-ai-xr/graph-research).
@@ -27,7 +37,7 @@ This repository combines two knowledge layers:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 14,004 |
+| **Papers Analyzed** | 14,163 |
 | **Cyber-Security Disciplines** | 20 |
 | **Time Span** | 1991-2026 |
 | **Research Aspects** | 8 |
@@ -123,10 +133,180 @@ a weekly scheduled job opens a PR with newly discovered papers.
 - **Tools:** MIT License
 
 ---
+## 📊 Corpus Statistics
+
+**14,163 papers** across **20 categories**.  
+Sources: **arXiv** 3,350 (23%) · **DOI** 10,639 (75%) · **Other** 174 (1%).  
+Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/cyber-security-research).
+
+### Top categories
+
+| Category | Papers | Recent | |
+|----------|--------|--------|-|
+| network-security | **1,088** | 0 | ████████████ |
+| cryptography | **970** | 0 | ██████████░░ |
+| incident-response | **869** | 0 | █████████░░░ |
+| vulnerability-management | **842** | 0 | █████████░░░ |
+| ai-security | **802** | 0 | ████████░░░░ |
+| malware-analysis | **764** | 0 | ████████░░░░ |
+| supply-chain-security | **743** | 0 | ████████░░░░ |
+| threat-intelligence | **715** | 0 | ███████░░░░░ |
+| cloud-security | **709** | 0 | ███████░░░░░ |
+| application-security | **704** | 0 | ███████░░░░░ |
+| *other* | **5,957** | | |
+
+
+### By year
+
+| Year | Papers | |
+|------|--------|-|
+| 2025 | 4,460 | ████████████ |
+| 2026 | 2,326 | ██████░░░░░░ |
+| unknown | 128 | ░░░░░░░░░░░░ |
+
+
+### Momentum (hottest categories)
+
+| Category | Total | Rate | Recent | Score |
+|----------|-------|------|--------|-------|
+| Vulnerability Management | 842 | 29.8/mo | 42% | 124 |
+| AI & Adversarial ML Security | 802 | 29.3/mo | 44% | 106 |
+| Security Operations & SOC | 590 | 20.2/mo | 41% | 78 |
+| Software Supply Chain Security | 743 | 22.8/mo | 37% | 62 |
+| Network & Perimeter Security | 1,088 | 30.2/mo | 33% | 48 |
+
+
+### Trending keywords
+
+| Keyword | Papers | Burst |
+|---------|--------|-------|
+| cmmc | 3 | 3.55 |
+| typosquatting | 1 | 3.55 |
+| red teaming | 11 | 3.23 |
+| detection engineering | 9 | 3.16 |
+| jailbreak | 37 | 3.07 |
+| alert fatigue | 20 | 2.84 |
+| unpacking | 5 | 2.84 |
+| nis2 | 18 | 2.76 |
+
+
+### Top venues
+
+| Venue | Papers |
+|-------|--------|
+| IEEE Access | 277 |
+| Zenodo (CERN European Organization for Nuclear Research) | 243 |
+| SSRN Electronic Journal | 212 |
+| Lecture notes in computer science | 166 |
+| Applied Sciences | 123 |
+| Electronics | 121 |
+| Sensors | 120 |
+| Computers & Security | 112 |
+
+
+### Research gaps (thinnest cells)
+
+| Cell | Papers |
+|------|--------|
+| `security-compliance/evaluation` | 1 |
+| `cyber-warfare/evaluation` | 1 |
+| `cloud-security/evaluation` | 1 |
+| `zero-trust/evaluation` | 2 |
+| `risk-management/evaluation` | 3 |
+
+
+
+*Generated 2026-10 by `scripts/standard_stats.py`.*
+
+## 📊 Corpus Statistics
+
+**14,163 papers** across **20 categories**.  
+Sources: **arXiv** 3,350 (23%) · **DOI** 10,639 (75%) · **Other** 174 (1%).  
+Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/cyber-security-research).
+
+### Top categories
+
+| Category | Papers | Recent | |
+|----------|--------|--------|-|
+| network-security | **1,088** | 0 | ████████████ |
+| cryptography | **970** | 0 | ██████████░░ |
+| incident-response | **869** | 0 | █████████░░░ |
+| vulnerability-management | **842** | 0 | █████████░░░ |
+| ai-security | **802** | 0 | ████████░░░░ |
+| malware-analysis | **764** | 0 | ████████░░░░ |
+| supply-chain-security | **743** | 0 | ████████░░░░ |
+| threat-intelligence | **715** | 0 | ███████░░░░░ |
+| cloud-security | **709** | 0 | ███████░░░░░ |
+| application-security | **704** | 0 | ███████░░░░░ |
+| *other* | **5,957** | | |
+
+
+### By year
+
+| Year | Papers | |
+|------|--------|-|
+| 2025 | 4,460 | ████████████ |
+| 2026 | 2,326 | ██████░░░░░░ |
+| unknown | 128 | ░░░░░░░░░░░░ |
+
+
+### Momentum (hottest categories)
+
+| Category | Total | Rate | Recent | Score |
+|----------|-------|------|--------|-------|
+| Vulnerability Management | 842 | 29.8/mo | 42% | 124 |
+| AI & Adversarial ML Security | 802 | 29.3/mo | 44% | 106 |
+| Security Operations & SOC | 590 | 20.2/mo | 41% | 78 |
+| Software Supply Chain Security | 743 | 22.8/mo | 37% | 62 |
+| Network & Perimeter Security | 1,088 | 30.2/mo | 33% | 48 |
+
+
+### Trending keywords
+
+| Keyword | Papers | Burst |
+|---------|--------|-------|
+| cmmc | 3 | 3.55 |
+| typosquatting | 1 | 3.55 |
+| red teaming | 11 | 3.23 |
+| detection engineering | 9 | 3.16 |
+| jailbreak | 37 | 3.07 |
+| alert fatigue | 20 | 2.84 |
+| unpacking | 5 | 2.84 |
+| nis2 | 18 | 2.76 |
+
+
+### Top venues
+
+| Venue | Papers |
+|-------|--------|
+| IEEE Access | 277 |
+| Zenodo (CERN European Organization for Nuclear Research) | 243 |
+| SSRN Electronic Journal | 212 |
+| Lecture notes in computer science | 166 |
+| Applied Sciences | 123 |
+| Electronics | 121 |
+| Sensors | 120 |
+| Computers & Security | 112 |
+
+
+### Research gaps (thinnest cells)
+
+| Cell | Papers |
+|------|--------|
+| `security-compliance/evaluation` | 1 |
+| `cyber-warfare/evaluation` | 1 |
+| `cloud-security/evaluation` | 1 |
+| `zero-trust/evaluation` | 2 |
+| `risk-management/evaluation` | 3 |
+
+
+
+*Generated 2026-10 by `scripts/standard_stats.py`.*
+
 
 ## 🙏 Acknowledgments
 
-This corpus synthesizes 14,004 papers across 1991-2026 — plus a rolling
+This corpus synthesizes 14,163 papers across 1991-2026 — plus a rolling
 news feed — to create the evidence base for the cyber-security research
 program: from academic findings to operational reality.
 

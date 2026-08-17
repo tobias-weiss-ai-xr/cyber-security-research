@@ -6,6 +6,7 @@ Usage:
     python3 scripts/generate_readme.py --check  # verify README is up to date (CI)
 """
 
+STATS_ONLY = False  # Set True to skip full paper list generation
 import argparse
 import json
 import os
