@@ -4,10 +4,10 @@
 <h3 align="center">Evidence base for the cyber-security landscape — 20 categories × 8 research aspects</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/cyber--security--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/cyber-security-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/cyber--security--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/cyber-security-research/actions/workflows/validate.yml)
-  [![DevOps](https://img.shields.io/badge/DevOps-devops--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/devops-research) [![C2-AI](https://img.shields.io/badge/C2-AI-c2--ai--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/cyber-security-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/cyber-security-research/actions/workflows/validate.yml)
+  [**DevOps**](https://github.com/tobias-weiss-ai-xr/devops-research) [**C2-AI**](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
 </div>
 
 > 🔒 **Cyber-security research corpus:** threat intelligence, vulnerabilities,
