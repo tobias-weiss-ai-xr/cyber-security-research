@@ -3,12 +3,14 @@
 </h1>
 <h3 align="center">Evidence base for the cyber-security landscape — 20 categories × 8 research aspects</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/cyber-security-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/cyber-security-research/actions/workflows/validate.yml)
-  [**DevOps**](https://github.com/tobias-weiss-ai-xr/devops-research) [**C2-AI**](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/cyber-security-research
+- **License**: https://github.com/tobias-weiss-ai-xr/cyber-security-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/cyber-security-research/actions/workflows/validate.yml
+- **DevOps**: https://github.com/tobias-weiss-ai-xr/devops-research
+- **C2-AI**: https://github.com/tobias-weiss-ai-xr/c2-ai-research
+
 
 > 🔒 **Cyber-security research corpus:** threat intelligence, vulnerabilities,
 > incident response, malware, network/cloud/application security, zero trust,
