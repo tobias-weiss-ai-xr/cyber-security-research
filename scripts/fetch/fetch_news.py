@@ -3,9 +3,10 @@
 
 Sources: RSS where available (The Hacker News, SANS ISC, Krebs, NIST, BSI,
 ENISA, NCSC) and HTML pages (CISA news + cybersecurity advisories) parsed
-with stdlib only. CISA blocks some egress IPs with 403 — run with
---via-host HOST to pull the CISA pages through an SSH host whose IP is
-allowed (verified: tobias-weiss.org, tobi-yoga).
+with stdlib only, plus the CISA Known Exploited Vulnerabilities (KEV) JSON
+feed (the latest actively-exploited CVEs). CISA blocks some egress IPs with
+403 — run with --via-host HOST to pull the CISA pages through an SSH host
+whose IP is allowed (verified: tobias-weiss.org, tobi-yoga).
 
 Usage:
     python3 scripts/fetch/fetch_news.py                  # all sources, last 14 days
@@ -20,6 +21,7 @@ import argparse
 import datetime as dt
 import html
 import json
+import os
 import re
 import subprocess
 import sys
@@ -29,6 +31,10 @@ from xml.etree import ElementTree as ET
 
 import requests
 import yaml
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# KEV (CISA Known Exploited Vulnerabilities) is pulled as a JSON feed, not RSS/HTML.
+from fetch_kev import fetch_kev_raw, raw_to_news_items  # noqa: E402
 
 BASE = Path(__file__).resolve().parent.parent.parent
 NEWS_PATH = BASE / "news.yaml"
@@ -40,6 +46,9 @@ SOURCES = {
     "cisa":           ("html", "https://www.cisa.gov/news-events/news", "/news-events/news/"),
     "cisa-advisories": ("html", "https://www.cisa.gov/news-events/cybersecurity-advisories",
                         "/news-events/cybersecurity-advisories/"),
+    # CISA Known Exploited Vulnerabilities — the latest *actively exploited* CVEs.
+    # kind "kev" is special-cased in main(): fetched as JSON, not RSS/HTML.
+    "kev":             ("kev", None, None),
     "nist":           ("html", "https://www.nist.gov/news-events/news", "/news-events/news/"),
     "enisa":          ("html", "https://www.enisa.europa.eu/news", "/news/"),
     "bsi":            ("html", "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen",
@@ -101,7 +110,7 @@ CATEGORY_RULES = [
     (["cloud", "kubernetes", "container", "aws", "azure", "gcp", "misconfiguration"], "cloud-security"),
     (["identity", "authentication", "mfa", "credential", "password", "fido", "access"], "identity-access"),
     (["iot", "ot ", "scada", "ics", "industrial", "firmware", "embedded"], "iot-security"),
-    (["cryptography", "encryption", "quantum", "tls", "certificate", "key"], "cryptography"),
+    (["cryptography", "encryption", "quantum", "tls", "certificate"], "cryptography"),
     (["intrusion detection", "network", "firewall", "traffic", "dns"], "network-security"),
     (["threat intelligence", "ttps", "attribution", "nation state", "apt", "spyware"], "threat-intelligence"),
     (["soc", "siem", "detection engineering", "threat hunting", "alert"], "security-operations"),
@@ -296,23 +305,30 @@ def main():
     for name, (kind, url, slug) in SOURCES.items():
         if wanted and name not in wanted:
             continue
-        via = args.via_host if name.startswith("cisa") else None
-        text = fetch_url(url, via)
-        if not text:
-            print(f"  {name}: fetch failed (blocked?) — {'use --via-host' if name.startswith('cisa') else 'skip'}")
-            continue
-        if kind == "rss":
-            items = parse_rss(text, name, cutoff)
-        elif kind == "atom":
-            items = parse_atom(text, name, cutoff)
+        if kind == "kev":
+            raw = fetch_kev_raw(args.via_host)
+            if not raw or "vulnerabilities" not in raw:
+                print("  kev: fetch failed — run scripts/fetch/fetch_kev.py --merge-news")
+                continue
+            items = raw_to_news_items(raw, cutoff)
         else:
-            items = parse_html(text, slug, name, cutoff)
+            via = args.via_host if name.startswith("cisa") else None
+            text = fetch_url(url, via)
+            if not text:
+                print(f"  {name}: fetch failed (blocked?) — {'use --via-host' if name.startswith('cisa') else 'skip'}")
+                continue
+            if kind == "rss":
+                items = parse_rss(text, name, cutoff)
+            elif kind == "atom":
+                items = parse_atom(text, name, cutoff)
+            else:
+                items = parse_html(text, slug, name, cutoff)
         fresh = 0
         for it in items:
             if it["url"] in existing:
                 continue
-            it["category"] = classify(it["title"])
-            it["summary"] = ""
+            it["category"] = it.get("category") or classify(it["title"])
+            it["summary"] = it.get("summary", "")
             existing[it["url"]] = it
             new_entries.append(it)
             fresh += 1

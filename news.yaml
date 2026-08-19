@@ -1,4 +1,39 @@
 news:
+- title: Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-33824
+  date: '2026-08-18'
+  source: kev
+  category: vulnerability-management
+  summary: Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.
+  cve: CVE-2026-33824
+- title: Broadcom VMware vCenter Path Traversal Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-59310
+  date: '2026-08-18'
+  source: kev
+  category: vulnerability-management
+  summary: Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.
+  cve: CVE-2026-59310
+- title: Microsoft SharePoint Weak Authentication Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-55040
+  date: '2026-08-18'
+  source: kev
+  category: identity-access
+  summary: Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.
+  cve: CVE-2026-55040
+- title: Apple macOS Improper Authentication Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-65400
+  date: '2026-08-18'
+  source: kev
+  category: identity-access
+  summary: Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.
+  cve: CVE-2026-65400
+- title: Ray-Project Ray Code Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2025-62593
+  date: '2026-08-17'
+  source: kev
+  category: vulnerability-management
+  summary: Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.
+  cve: CVE-2025-62593
 - title: 'ENISA on Air: Our first podcast launches on Frontier AI'
   url: https://www.cisa.gov/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai
   date: '2026-08-12'
@@ -4535,6 +4570,27 @@ news:
   source: schneier
   category: ai-security
   summary: ''
+- title: Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-20349
+  date: '2026-08-11'
+  source: kev
+  category: network-security
+  summary: Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.
+  cve: CVE-2026-20349
+- title: Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-68820
+  date: '2026-08-11'
+  source: kev
+  category: vulnerability-management
+  summary: Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.
+  cve: CVE-2026-68820
+- title: Metabase SQL Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-72898
+  date: '2026-08-11'
+  source: kev
+  category: vulnerability-management
+  summary: Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.
+  cve: CVE-2026-72898
 - title: Python Now Has a Post-Quantum Encryption Library
   url: https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html/feed/atom/
   date: '2026-08-10'
@@ -4553,6 +4609,13 @@ news:
   source: schneier
   category: identity-access
   summary: ''
+- title: Progress LoadMaster Command Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-8037
+  date: '2026-08-07'
+  source: kev
+  category: vulnerability-management
+  summary: Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints.
+  cve: CVE-2026-8037
 - title: Adversarial Clothing Designed to Fool Facial Recognition Systems
   url: https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html/feed/atom/
   date: '2026-08-06'
@@ -4565,6 +4628,13 @@ news:
   source: schneier
   category: vulnerability-management
   summary: ''
+- title: JetBrains TeamCity Deserialization of Untrusted Data Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-63077
+  date: '2026-08-05'
+  source: kev
+  category: vulnerability-management
+  summary: JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.
+  cve: CVE-2026-63077
 - title: Iran Cyberattacks Against Minnesota Water Systems
   url: https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html/feed/atom/
   date: '2026-08-04'
@@ -4577,3 +4647,94 @@ news:
   source: schneier
   category: vulnerability-management
   summary: ''
+- title: N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-18556
+  date: '2026-08-04'
+  source: kev
+  category: identity-access
+  summary: N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.
+  cve: CVE-2026-18556
+- title: Apache Tomcat Missing Encryption of Sensitive Data Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-34486
+  date: '2026-08-04'
+  source: kev
+  category: cryptography
+  summary: Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813.
+  cve: CVE-2026-34486
+- title: IBM Langflow Code Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-9198
+  date: '2026-08-04'
+  source: kev
+  category: vulnerability-management
+  summary: Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.
+  cve: CVE-2026-9198
+- title: N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-18577
+  date: '2026-08-03'
+  source: kev
+  category: identity-access
+  summary: N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.
+  cve: CVE-2026-18577
+- title: Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-20316
+  date: '2026-07-29'
+  source: kev
+  category: identity-access
+  summary: Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.
+  cve: CVE-2026-20316
+- title: Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2025-68686
+  date: '2026-07-27'
+  source: kev
+  category: vulnerability-management
+  summary: Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level.
+  cve: CVE-2025-68686
+- title: Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-16812
+  date: '2026-07-27'
+  source: kev
+  category: cloud-security
+  summary: Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.
+  cve: CVE-2026-16812
+- title: Check Point SmartConsole Improper Authentication Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-16232
+  date: '2026-07-22'
+  source: kev
+  category: identity-access
+  summary: Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.
+  cve: CVE-2026-16232
+- title: 'Microsoft SharePoint Deserialization of Untrusted Data Vulnerability '
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-50522
+  date: '2026-07-22'
+  source: kev
+  category: vulnerability-management
+  summary: Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.
+  cve: CVE-2026-50522
+- title: WordPress Core SQL Injection Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-60137
+  date: '2026-07-21'
+  source: kev
+  category: vulnerability-management
+  summary: WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.
+  cve: CVE-2026-60137
+- title: WordPress Core Interpretation Conflict Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-63030
+  date: '2026-07-21'
+  source: kev
+  category: vulnerability-management
+  summary: WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.
+  cve: CVE-2026-63030
+- title: Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-0770
+  date: '2026-07-21'
+  source: kev
+  category: vulnerability-management
+  summary: Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations.
+  cve: CVE-2026-0770
+- title: DD-WRT Stack-Based Buffer Overflow Vulnerability
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-27137
+  date: '2026-07-21'
+  source: kev
+  category: vulnerability-management
+  summary: DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.
+  cve: CVE-2021-27137
