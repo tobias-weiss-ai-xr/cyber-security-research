@@ -1,156 +1,86 @@
 #!/usr/bin/env python3
-"""Bulk-fetch cyber-security research papers from OpenAlex, one request per category.
+"""Bulk-fetch papers from OpenAlex, one request per category (config-driven).
 
+Categories and search terms come from config/taxonomy.yaml (openalex_queries).
 Uses OpenAlex cursor pagination with a precise `title_and_abstract.search`
-filter (AND semantics) and relevance sorting, so results are on-topic and
-spread across the requested time window. Recommended for bootstrapping the
-corpus.
+filter (AND semantics) and relevance sorting.
 
 Usage:
     python3 scripts/fetch/fetch_openalex_bulk.py --per-category 100 --months 36
 """
 
 import argparse
-import os
 import re
-import subprocess
-import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+import sys
 
 import requests
 import yaml
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fetch_new_papers import ARXIV_ID_PATTERN, classify_subcategory, load_existing_papers  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+import research_config
 
 OPENALEX_API = "https://api.openalex.org/works"
-MAILTO = os.environ.get("OPENALEX_MAILTO", "business@tobias-weiss.org")
 
-# One main search term per taxonomy category
-CATEGORY_TERMS = [
-    ('threat-intelligence', [
-        'threat intelligence analysis',
-        'cyber threat intelligence sharing',
-        'threat actor profiling',
-        'threat intelligence platform',
-    ]),
-    ('vulnerability-management', [
-        'vulnerability management',
-        'coordinated vulnerability disclosure',
-        'vulnerability databases CVE',
-        'software patching prioritization',
-    ]),
-    ('incident-response', [
-        'incident response digital forensics',
-        'computer forensics investigation',
-        'security incident handling',
-        'digital evidence analysis',
-    ]),
-    ('malware-analysis', [
-        'malware analysis reverse engineering',
-        'ransomware detection analysis',
-        'malware classification machine learning',
-        'binary analysis malicious code',
-    ]),
-    ('network-security', [
-        'intrusion detection network',
-        'network security monitoring',
-        'firewall traffic analysis',
-        'network anomaly detection',
-    ]),
-    ('application-security', [
-        'application security vulnerabilities',
-        'secure software development lifecycle',
-        'static analysis code security',
-        'web application security',
-    ]),
-    ('cloud-security', [
-        'cloud security configuration',
-        'container security kubernetes',
-        'cloud misconfiguration',
-        'serverless security',
-    ]),
-    ('identity-access', [
-        'identity access management',
-        'multi-factor authentication security',
-        'single sign-on security',
-        'privileged access management',
-    ]),
-    ('cryptography', [
-        'cryptography encryption protocols',
-        'post-quantum cryptography',
-        'homomorphic encryption',
-        'key management secure systems',
-    ]),
-    ('zero-trust', [
-        'zero trust architecture',
-        'zero trust network access',
-        'zero trust security model',
-        'identity-centric security architecture',
-    ]),
-    ('supply-chain-security', [
-        'software supply chain security',
-        'dependency vulnerabilities software',
-        'software bill of materials',
-        'third-party component security',
-    ]),
-    ('security-operations', [
-        'security operations center',
-        'SIEM detection engineering',
-        'security orchestration automation',
-        'threat hunting',
-    ]),
-    ('ai-security', [
-        'adversarial machine learning',
-        'AI security attacks',
-        'prompt injection LLM',
-        'AI model poisoning',
-    ]),
-    ('security-education', [
-        'cybersecurity education training',
-        'security awareness program',
-        'cybersecurity workforce skills',
-        'security training effectiveness',
-    ]),
-    ('security-compliance', [
-        'cybersecurity regulation compliance',
-        'NIST CSF framework',
-        'ISO 27001 implementation',
-        'cybersecurity standards certification',
-    ]),
-    ('risk-management', [
-        'cyber risk management',
-        'cybersecurity risk assessment',
-        'quantitative cyber risk',
-        'risk quantification security',
-    ]),
-    ('privacy', [
-        'privacy data protection GDPR',
-        'privacy enhancing technologies',
-        'data breach notification',
-        'privacy impact assessment',
-    ]),
-    ('iot-security', [
-        'IoT security vulnerabilities',
-        'industrial control system security',
-        'OT security SCADA',
-        'firmware security embedded',
-    ]),
-    ('human-factor', [
-        'phishing detection user',
-        'social engineering attacks',
-        'security awareness human factor',
-        'cybersecurity behavior employees',
-    ]),
-    ('cyber-warfare', [
-        'cyber warfare nation state',
-        'cyberattack critical infrastructure',
-        'cyber deterrence',
-        'state-sponsored cyber operations',
-    ]),
-]
+ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})(v\d+)?")
+
+def load_category_terms(cfg):
+    """Load (category, search term) pairs from config/taxonomy.yaml."""
+    terms = []
+    for item in cfg.get("openalex_queries", []):
+        terms.append((item.get("category", "method"), item.get("query", "")))
+    if not terms:
+        short = cfg.get("topic", {}).get("short", "research")
+        terms = [("method", short)]
+    return terms
+
+
+def load_subcat_keywords(cfg):
+    """Subcategory keyword rules from config (via research_config).
+
+    Returns a list of (subcat_id, [keywords]).  Falls back to an empty
+    list; the caller then uses the heuristic classify_subcategory.
+    """
+    return research_config.get_subcategory_keywords(cfg)
+
+
+def load_existing_papers(yaml_path):
+    """Load existing papers and build lookup structures."""
+    if not yaml_path.exists():
+        return {}, []
+    with open(yaml_path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    papers = data.get("papers", [])
+    by_id = {}
+    titles_lower = []
+    for p in papers:
+        url = p.get("url", "")
+        match = ARXIV_ID_PATTERN.search(url)
+        if match:
+            by_id[match.group(1)] = p
+        else:
+            by_id.setdefault(url, p)
+        titles_lower.append((p.get("title") or "").lower().strip())
+    return by_id, titles_lower
+
+
+def classify_subcategory(title, abstract, keywords_rules=None):
+    """Assign a subcategory using config keyword rules against title + abstract.
+
+    keywords_rules: list of (subcat_id, [keywords]) from config. If not
+    provided, returns the first configured subcategory as a safe default.
+    """
+    if keywords_rules:
+        text = f"{title} {abstract}".lower()
+        for subcat, keywords in keywords_rules:
+            if any(k.lower() in text for k in keywords):
+                return subcat
+        # Fall back to first configured subcategory
+        return keywords_rules[0][0] if keywords_rules else ""
+    return ""
 
 
 def sanitize_date(date_str):
@@ -182,7 +112,7 @@ def reconstruct_abstract(inverted):
     return " ".join(pos[i] for i in sorted(pos))
 
 
-def fetch_category(terms, months, per_category, sleep):
+def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mailto=None):
     """Cursor-paginated, relevance-sorted fetch for one category."""
     entries = []
     cursor = "*"
@@ -194,7 +124,7 @@ def fetch_category(terms, months, per_category, sleep):
                 f"{search_filter}"
             ),
             "per-page": 100,
-            "mailto": MAILTO,
+            "mailto": mailto or "research@tobias-weiss-ai-xr.de",
             "cursor": cursor,
         }
         data = None
@@ -202,7 +132,7 @@ def fetch_category(terms, months, per_category, sleep):
             try:
                 resp = requests.get(OPENALEX_API, params=params, timeout=30)
                 if resp.status_code == 429:
-                    wait = 15 * (attempt + 1)
+                    wait = 5 * (attempt + 1)
                     print(f"    rate-limited (429), waiting {wait}s...", flush=True)
                     time.sleep(wait)
                     continue
@@ -227,7 +157,7 @@ def fetch_category(terms, months, per_category, sleep):
                 src = (loc.get("source") or {}).get("id", "")
                 lurl = loc.get("landing_page_url") or ""
                 if "arxiv" in src or "arxiv" in lurl:
-                    url = lurl.replace("http://", "https://")
+                    url = lurl.replace("http://", "https://").replace("https://arxiv.org/abs/", "https://arxiv.org/abs/")
                     url = re.sub(r"(arxiv\.org/abs/\d{4}\.\d{4,5})v\d+", r"\1", url)
                     break
             if not url:
@@ -250,9 +180,9 @@ def fetch_category(terms, months, per_category, sleep):
                     "date": date,
                     "url": url,
                     "category": None,
-                    "subcategory": classify_subcategory(title, abstract),
+                    "subcategory": classify_subcategory(title, abstract, subcat_keywords),
                     "authors": [a.get("author", {}).get("display_name", "") for a in work.get("authorships", [])][:3],
-                    "abstract": abstract[:200],
+                    "abstract": abstract,
                     "venue": ((work.get("primary_location") or {}).get("source") or {}).get("display_name") or "",
                 }
             )
@@ -276,7 +206,7 @@ def append_papers(yaml_path, new_papers):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Bulk-fetch graph papers from OpenAlex per category")
+    parser = argparse.ArgumentParser(description="Bulk-fetch papers from OpenAlex per category (config-driven)")
     parser.add_argument("--months", type=int, default=36)
     parser.add_argument("--per-category", type=int, default=100)
     parser.add_argument("--sleep", type=float, default=5.0)
@@ -286,23 +216,24 @@ def main():
     parser.add_argument("--local", action="store_true", help="Run locally without modifying remote repos")
     args = parser.parse_args()
 
+    cfg = research_config.load_config()
+    category_terms = load_category_terms(cfg)
+    subcat_keywords = load_subcat_keywords(cfg)
+    mailto = research_config.get_openalex_mailto(cfg)
+
     yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
     by_id, titles_lower = load_existing_papers(yaml_path)
     print(f"Loaded {len(by_id)} existing papers", flush=True)
 
     if args.categories:
         wanted = {c.strip() for c in args.categories.split(",") if c.strip()}
-        terms_list = [(c, t) for c, t in CATEGORY_TERMS if c in wanted]
+        terms_list = [(c, t) for c, t in category_terms if c in wanted]
     else:
-        terms_list = CATEGORY_TERMS
+        terms_list = category_terms
 
-    for cat, queries in terms_list:
-        if isinstance(queries, str):
-            queries = [queries]
-        print(f"\n=== [{cat}] {len(queries)} query variants ===", flush=True)
-        entries = []
-        for q in queries:
-            entries.extend(fetch_category(q, args.months, args.per_category, args.sleep))
+    for cat, terms in terms_list:
+        print(f"\n=== [{cat}] {terms} ===", flush=True)
+        entries = fetch_category(terms, args.months, args.per_category, args.sleep, subcat_keywords, mailto)
         new = []
         for e in entries:
             m = ARXIV_ID_PATTERN.search(e["url"])
