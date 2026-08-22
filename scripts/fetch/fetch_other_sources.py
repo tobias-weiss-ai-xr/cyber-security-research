@@ -338,9 +338,6 @@ def main():
     parser.add_argument("--config", type=str, default=None,
                         help="Path to query config YAML (default: "
                              "config/other_sources_queries.yaml)")
-    parser.add_argument("--local", action="store_true",
-                        help="Write to ./papers.yaml in the current directory "
-                             "instead of the repo-root papers.yaml")
     args = parser.parse_args()
 
     config_path = Path(args.config) if args.config else DEFAULT_CONFIG
