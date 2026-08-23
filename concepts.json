@@ -1,0 +1,2437 @@
+{
+  "count": 130,
+  "concepts": [
+    {
+      "term": "Network Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1251,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "network-security"
+      },
+      "top_cells": [
+        "network-security/application",
+        "network-security/systems",
+        "network-security/mechanism",
+        "network-security/method"
+      ],
+      "papers": 1251
+    },
+    {
+      "term": "Incident Response",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1202,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "incident-response"
+      },
+      "top_cells": [
+        "incident-response/application",
+        "incident-response/method",
+        "incident-response/systems",
+        "incident-response/mechanism"
+      ],
+      "papers": 1202
+    },
+    {
+      "term": "Vulnerability Management",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1122,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "vulnerability-management"
+      },
+      "top_cells": [
+        "vulnerability-management/application",
+        "vulnerability-management/systems",
+        "vulnerability-management/method",
+        "vulnerability-management/mechanism"
+      ],
+      "papers": 1122
+    },
+    {
+      "term": "Cryptography",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1061,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "cryptography"
+      },
+      "top_cells": [
+        "cryptography/systems",
+        "cryptography/application",
+        "cryptography/method",
+        "cryptography/mechanism"
+      ],
+      "papers": 1061
+    },
+    {
+      "term": "Malware Analysis",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 980,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "malware-analysis"
+      },
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/systems",
+        "malware-analysis/method",
+        "malware-analysis/mechanism"
+      ],
+      "papers": 980
+    },
+    {
+      "term": "Ai Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 970,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "ai-security"
+      },
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/systems",
+        "ai-security/mechanism",
+        "ai-security/method"
+      ],
+      "papers": 970
+    },
+    {
+      "term": "Application Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 963,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "application-security"
+      },
+      "top_cells": [
+        "application-security/application",
+        "application-security/systems",
+        "application-security/method",
+        "application-security/mechanism"
+      ],
+      "papers": 963
+    },
+    {
+      "term": "Identity Access",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 956,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "identity-access"
+      },
+      "top_cells": [
+        "identity-access/application",
+        "identity-access/systems",
+        "identity-access/method",
+        "identity-access/mechanism"
+      ],
+      "papers": 956
+    },
+    {
+      "term": "Supply Chain Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 931,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "supply-chain-security"
+      },
+      "top_cells": [
+        "supply-chain-security/application",
+        "supply-chain-security/systems",
+        "supply-chain-security/method",
+        "supply-chain-security/mechanism"
+      ],
+      "papers": 931
+    },
+    {
+      "term": "Cloud Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 910,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "cloud-security"
+      },
+      "top_cells": [
+        "cloud-security/application",
+        "cloud-security/systems",
+        "cloud-security/mechanism",
+        "cloud-security/method"
+      ],
+      "papers": 910
+    },
+    {
+      "term": "large language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 889,
+      "match": {
+        "type": "text",
+        "forms": [
+          "large language"
+        ]
+      },
+      "papers": 889,
+      "top_cells": [
+        "ai-security/application",
+        "vulnerability-management/application",
+        "application-security/application",
+        "ai-security/systems"
+      ]
+    },
+    {
+      "term": "Zero Trust",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 828,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "zero-trust"
+      },
+      "top_cells": [
+        "zero-trust/application",
+        "zero-trust/systems",
+        "zero-trust/mechanism",
+        "zero-trust/theory"
+      ],
+      "papers": 828
+    },
+    {
+      "term": "Threat Intelligence",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 786,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "threat-intelligence"
+      },
+      "top_cells": [
+        "threat-intelligence/application",
+        "threat-intelligence/systems",
+        "threat-intelligence/method",
+        "threat-intelligence/mechanism"
+      ],
+      "papers": 786
+    },
+    {
+      "term": "language models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 767,
+      "match": {
+        "type": "text",
+        "forms": [
+          "language models"
+        ]
+      },
+      "papers": 767,
+      "top_cells": [
+        "ai-security/application",
+        "vulnerability-management/application",
+        "application-security/application",
+        "ai-security/mechanism"
+      ]
+    },
+    {
+      "term": "Privacy",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 734,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "privacy"
+      },
+      "top_cells": [
+        "privacy/application",
+        "privacy/method",
+        "privacy/systems",
+        "privacy/mechanism"
+      ],
+      "papers": 734
+    },
+    {
+      "term": "Security Operations",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 713,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "security-operations"
+      },
+      "top_cells": [
+        "security-operations/application",
+        "security-operations/systems",
+        "security-operations/method",
+        "security-operations/mechanism"
+      ],
+      "papers": 713
+    },
+    {
+      "term": "intrusion detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 708,
+      "match": {
+        "type": "text",
+        "forms": [
+          "intrusion detection"
+        ]
+      },
+      "papers": 708,
+      "top_cells": [
+        "network-security/application",
+        "network-security/systems",
+        "network-security/mechanism",
+        "network-security/method"
+      ]
+    },
+    {
+      "term": "Security Education",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 704,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "security-education"
+      },
+      "top_cells": [
+        "security-education/application",
+        "security-education/method",
+        "security-education/systems",
+        "security-education/review"
+      ],
+      "papers": 704
+    },
+    {
+      "term": "Iot Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 703,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "iot-security"
+      },
+      "top_cells": [
+        "iot-security/application",
+        "iot-security/systems",
+        "iot-security/mechanism",
+        "iot-security/review"
+      ],
+      "papers": 703
+    },
+    {
+      "term": "Risk Management",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 662,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "risk-management"
+      },
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/method",
+        "risk-management/systems",
+        "risk-management/theory"
+      ],
+      "papers": 662
+    },
+    {
+      "term": "Security Compliance",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 632,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "security-compliance"
+      },
+      "top_cells": [
+        "security-compliance/application",
+        "security-compliance/review",
+        "security-compliance/theory",
+        "security-compliance/systems"
+      ],
+      "papers": 632
+    },
+    {
+      "term": "cyber threats",
+      "kind": "emergent",
+      "seed": false,
+      "df": 596,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber threats"
+        ]
+      },
+      "papers": 596,
+      "top_cells": [
+        "threat-intelligence/application",
+        "security-compliance/application",
+        "zero-trust/application",
+        "security-operations/application"
+      ]
+    },
+    {
+      "term": "anomaly detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 560,
+      "match": {
+        "type": "text",
+        "forms": [
+          "anomaly detection"
+        ]
+      },
+      "papers": 560,
+      "top_cells": [
+        "network-security/application",
+        "network-security/systems",
+        "network-security/method",
+        "network-security/mechanism"
+      ]
+    },
+    {
+      "term": "zero trust",
+      "kind": "emergent",
+      "seed": false,
+      "df": 555,
+      "match": {
+        "type": "text",
+        "forms": [
+          "zero trust"
+        ]
+      },
+      "papers": 555,
+      "top_cells": [
+        "zero-trust/application",
+        "zero-trust/systems",
+        "zero-trust/theory",
+        "zero-trust/mechanism"
+      ]
+    },
+    {
+      "term": "Human Factor",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 467,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "human-factor"
+      },
+      "top_cells": [
+        "human-factor/application",
+        "human-factor/systems",
+        "human-factor/mechanism",
+        "human-factor/review"
+      ],
+      "papers": 467
+    },
+    {
+      "term": "supply chain",
+      "kind": "emergent",
+      "seed": false,
+      "df": 454,
+      "match": {
+        "type": "text",
+        "forms": [
+          "supply chain"
+        ]
+      },
+      "papers": 454,
+      "top_cells": [
+        "supply-chain-security/application",
+        "supply-chain-security/theory",
+        "risk-management/application",
+        "vulnerability-management/application"
+      ]
+    },
+    {
+      "term": "Cyber Warfare",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 451,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "cyber-warfare"
+      },
+      "top_cells": [
+        "cyber-warfare/application",
+        "cyber-warfare/method",
+        "cyber-warfare/systems",
+        "cyber-warfare/theory"
+      ],
+      "papers": 451
+    },
+    {
+      "term": "cyber threat",
+      "kind": "emergent",
+      "seed": false,
+      "df": 435,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber threat"
+        ]
+      },
+      "papers": 435,
+      "top_cells": [
+        "threat-intelligence/application",
+        "threat-intelligence/systems",
+        "threat-intelligence/method",
+        "threat-intelligence/mechanism"
+      ]
+    },
+    {
+      "term": "cloud computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 394,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud computing"
+        ]
+      },
+      "papers": 394,
+      "top_cells": [
+        "cloud-security/application",
+        "cloud-security/systems",
+        "cloud-security/mechanism",
+        "zero-trust/application"
+      ]
+    },
+    {
+      "term": "homomorphic encryption",
+      "kind": "emergent",
+      "seed": false,
+      "df": 364,
+      "match": {
+        "type": "text",
+        "forms": [
+          "homomorphic encryption"
+        ]
+      },
+      "papers": 364,
+      "top_cells": [
+        "cryptography/systems",
+        "cryptography/application",
+        "cryptography/method",
+        "cryptography/theory"
+      ]
+    },
+    {
+      "term": "cyber security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 330,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber security"
+        ]
+      },
+      "papers": 330,
+      "top_cells": [
+        "risk-management/application",
+        "incident-response/application",
+        "security-compliance/application",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "risk assessment",
+      "kind": "emergent",
+      "seed": false,
+      "df": 284,
+      "match": {
+        "type": "text",
+        "forms": [
+          "risk assessment"
+        ]
+      },
+      "papers": 284,
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/theory",
+        "risk-management/systems",
+        "vulnerability-management/systems"
+      ]
+    },
+    {
+      "term": "prompt injection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 276,
+      "match": {
+        "type": "text",
+        "forms": [
+          "prompt injection"
+        ]
+      },
+      "papers": 276,
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/systems",
+        "ai-security/mechanism",
+        "ai-security/method"
+      ]
+    },
+    {
+      "term": "information security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 274,
+      "match": {
+        "type": "text",
+        "forms": [
+          "information security"
+        ]
+      },
+      "papers": 274,
+      "top_cells": [
+        "security-compliance/application",
+        "security-compliance/development",
+        "security-education/method",
+        "incident-response/application"
+      ]
+    },
+    {
+      "term": "critical infrastructure",
+      "kind": "emergent",
+      "seed": false,
+      "df": 272,
+      "match": {
+        "type": "text",
+        "forms": [
+          "critical infrastructure"
+        ]
+      },
+      "papers": 272,
+      "top_cells": [
+        "cyber-warfare/application",
+        "cyber-warfare/systems",
+        "cyber-warfare/theory",
+        "iot-security/application"
+      ]
+    },
+    {
+      "term": "risk management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 267,
+      "match": {
+        "type": "text",
+        "forms": [
+          "risk management"
+        ]
+      },
+      "papers": 267,
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/method",
+        "security-compliance/application",
+        "risk-management/theory"
+      ]
+    },
+    {
+      "term": "trust architecture",
+      "kind": "emergent",
+      "seed": false,
+      "df": 266,
+      "match": {
+        "type": "text",
+        "forms": [
+          "trust architecture"
+        ]
+      },
+      "papers": 266,
+      "top_cells": [
+        "zero-trust/application",
+        "zero-trust/systems",
+        "zero-trust/theory",
+        "zero-trust/mechanism"
+      ]
+    },
+    {
+      "term": "access management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 264,
+      "match": {
+        "type": "text",
+        "forms": [
+          "access management"
+        ]
+      },
+      "papers": 264,
+      "top_cells": [
+        "identity-access/systems",
+        "identity-access/application",
+        "identity-access/method",
+        "identity-access/mechanism"
+      ]
+    },
+    {
+      "term": "post-quantum cryptography",
+      "kind": "emergent",
+      "seed": false,
+      "df": 262,
+      "match": {
+        "type": "text",
+        "forms": [
+          "post-quantum cryptography"
+        ]
+      },
+      "papers": 262,
+      "top_cells": [
+        "cryptography/application",
+        "cryptography/systems",
+        "cryptography/mechanism",
+        "cryptography/method"
+      ]
+    },
+    {
+      "term": "security operations",
+      "kind": "emergent",
+      "seed": false,
+      "df": 259,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security operations"
+        ]
+      },
+      "papers": 259,
+      "top_cells": [
+        "security-operations/application",
+        "security-operations/systems",
+        "security-operations/method",
+        "security-operations/theory"
+      ]
+    },
+    {
+      "term": "software supply",
+      "kind": "emergent",
+      "seed": false,
+      "df": 258,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software supply"
+        ]
+      },
+      "papers": 258,
+      "top_cells": [
+        "supply-chain-security/application",
+        "supply-chain-security/theory",
+        "vulnerability-management/application",
+        "application-security/application"
+      ]
+    },
+    {
+      "term": "malware detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 246,
+      "match": {
+        "type": "text",
+        "forms": [
+          "malware detection"
+        ]
+      },
+      "papers": 246,
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/systems",
+        "malware-analysis/method",
+        "malware-analysis/mechanism"
+      ]
+    },
+    {
+      "term": "industrial control",
+      "kind": "emergent",
+      "seed": false,
+      "df": 237,
+      "match": {
+        "type": "text",
+        "forms": [
+          "industrial control"
+        ]
+      },
+      "papers": 237,
+      "top_cells": [
+        "iot-security/application",
+        "iot-security/systems",
+        "iot-security/mechanism",
+        "iot-security/review"
+      ]
+    },
+    {
+      "term": "threat detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 223,
+      "match": {
+        "type": "text",
+        "forms": [
+          "threat detection"
+        ]
+      },
+      "papers": 223,
+      "top_cells": [
+        "security-operations/application",
+        "threat-intelligence/application",
+        "network-security/application",
+        "cloud-security/application"
+      ]
+    },
+    {
+      "term": "digital forensics",
+      "kind": "emergent",
+      "seed": false,
+      "df": 222,
+      "match": {
+        "type": "text",
+        "forms": [
+          "digital forensics"
+        ]
+      },
+      "papers": 222,
+      "top_cells": [
+        "incident-response/application",
+        "incident-response/systems",
+        "incident-response/method",
+        "incident-response/mechanism"
+      ]
+    },
+    {
+      "term": "security vulnerabilities",
+      "kind": "emergent",
+      "seed": false,
+      "df": 220,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security vulnerabilities"
+        ]
+      },
+      "papers": 220,
+      "top_cells": [
+        "application-security/application",
+        "iot-security/application",
+        "supply-chain-security/application",
+        "iot-security/systems"
+      ]
+    },
+    {
+      "term": "access control",
+      "kind": "emergent",
+      "seed": false,
+      "df": 216,
+      "match": {
+        "type": "text",
+        "forms": [
+          "access control"
+        ]
+      },
+      "papers": 216,
+      "top_cells": [
+        "identity-access/application",
+        "zero-trust/application",
+        "zero-trust/mechanism",
+        "identity-access/systems"
+      ]
+    },
+    {
+      "term": "vulnerability detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 212,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vulnerability detection"
+        ]
+      },
+      "papers": 212,
+      "top_cells": [
+        "vulnerability-management/application",
+        "supply-chain-security/application",
+        "application-security/application",
+        "supply-chain-security/method"
+      ]
+    },
+    {
+      "term": "incident response",
+      "kind": "emergent",
+      "seed": false,
+      "df": 203,
+      "match": {
+        "type": "text",
+        "forms": [
+          "incident response"
+        ]
+      },
+      "papers": 203,
+      "top_cells": [
+        "incident-response/application",
+        "incident-response/method",
+        "incident-response/systems",
+        "security-operations/application"
+      ]
+    },
+    {
+      "term": "security risks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 199,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security risks"
+        ]
+      },
+      "papers": 199,
+      "top_cells": [
+        "supply-chain-security/application",
+        "ai-security/application",
+        "vulnerability-management/application",
+        "iot-security/application"
+      ]
+    },
+    {
+      "term": "cyber risk",
+      "kind": "emergent",
+      "seed": false,
+      "df": 191,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber risk"
+        ]
+      },
+      "papers": 191,
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/theory",
+        "risk-management/method",
+        "risk-management/systems"
+      ]
+    },
+    {
+      "term": "security challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 190,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security challenges"
+        ]
+      },
+      "papers": 190,
+      "top_cells": [
+        "cloud-security/application",
+        "zero-trust/application",
+        "iot-security/application",
+        "supply-chain-security/application"
+      ]
+    },
+    {
+      "term": "ransomware detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 183,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ransomware detection"
+        ]
+      },
+      "papers": 183,
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/method",
+        "malware-analysis/systems",
+        "malware-analysis/mechanism"
+      ]
+    },
+    {
+      "term": "iot devices",
+      "kind": "emergent",
+      "seed": false,
+      "df": 181,
+      "match": {
+        "type": "text",
+        "forms": [
+          "iot devices"
+        ]
+      },
+      "papers": 181,
+      "top_cells": [
+        "iot-security/application",
+        "iot-security/systems",
+        "network-security/application",
+        "iot-security/mechanism"
+      ]
+    },
+    {
+      "term": "digital transformation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 181,
+      "match": {
+        "type": "text",
+        "forms": [
+          "digital transformation"
+        ]
+      },
+      "papers": 181,
+      "top_cells": [
+        "incident-response/method",
+        "security-education/application",
+        "security-compliance/application",
+        "incident-response/mechanism"
+      ]
+    },
+    {
+      "term": "multi-factor authentication",
+      "kind": "emergent",
+      "seed": false,
+      "df": 181,
+      "match": {
+        "type": "text",
+        "forms": [
+          "multi-factor authentication"
+        ]
+      },
+      "papers": 181,
+      "top_cells": [
+        "identity-access/application",
+        "identity-access/systems",
+        "identity-access/mechanism",
+        "identity-access/method"
+      ]
+    },
+    {
+      "term": "adversarial attacks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 168,
+      "match": {
+        "type": "text",
+        "forms": [
+          "adversarial attacks"
+        ]
+      },
+      "papers": 168,
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/systems",
+        "ai-security/mechanism",
+        "ai-security/theory"
+      ]
+    },
+    {
+      "term": "quantum computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 161,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantum computing"
+        ]
+      },
+      "papers": 161,
+      "top_cells": [
+        "cryptography/application",
+        "cryptography/systems",
+        "cryptography/review",
+        "cryptography/mechanism"
+      ]
+    },
+    {
+      "term": "injection attacks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 161,
+      "match": {
+        "type": "text",
+        "forms": [
+          "injection attacks"
+        ]
+      },
+      "papers": 161,
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/systems",
+        "ai-security/mechanism",
+        "application-security/application"
+      ]
+    },
+    {
+      "term": "cloud security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 160,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud security"
+        ]
+      },
+      "papers": 160,
+      "top_cells": [
+        "cloud-security/application",
+        "cloud-security/systems",
+        "cloud-security/mechanism",
+        "incident-response/application"
+      ]
+    },
+    {
+      "term": "social engineering",
+      "kind": "emergent",
+      "seed": false,
+      "df": 160,
+      "match": {
+        "type": "text",
+        "forms": [
+          "social engineering"
+        ]
+      },
+      "papers": 160,
+      "top_cells": [
+        "human-factor/systems",
+        "human-factor/application",
+        "human-factor/mechanism",
+        "human-factor/review"
+      ]
+    },
+    {
+      "term": "web applications",
+      "kind": "emergent",
+      "seed": false,
+      "df": 159,
+      "match": {
+        "type": "text",
+        "forms": [
+          "web applications"
+        ]
+      },
+      "papers": 159,
+      "top_cells": [
+        "application-security/application",
+        "application-security/systems",
+        "application-security/method",
+        "application-security/mechanism"
+      ]
+    },
+    {
+      "term": "while maintaining",
+      "kind": "emergent",
+      "seed": false,
+      "df": 156,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while maintaining"
+        ]
+      },
+      "papers": 156,
+      "top_cells": [
+        "cryptography/systems",
+        "ai-security/application",
+        "network-security/application",
+        "cryptography/application"
+      ]
+    },
+    {
+      "term": "threat hunting",
+      "kind": "emergent",
+      "seed": false,
+      "df": 153,
+      "match": {
+        "type": "text",
+        "forms": [
+          "threat hunting"
+        ]
+      },
+      "papers": 153,
+      "top_cells": [
+        "security-operations/application",
+        "security-operations/systems",
+        "security-operations/method",
+        "security-operations/mechanism"
+      ]
+    },
+    {
+      "term": "iot networks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 152,
+      "match": {
+        "type": "text",
+        "forms": [
+          "iot networks"
+        ]
+      },
+      "papers": 152,
+      "top_cells": [
+        "network-security/application",
+        "network-security/systems",
+        "network-security/mechanism",
+        "iot-security/application"
+      ]
+    },
+    {
+      "term": "security threats",
+      "kind": "emergent",
+      "seed": false,
+      "df": 152,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security threats"
+        ]
+      },
+      "papers": 152,
+      "top_cells": [
+        "iot-security/application",
+        "network-security/application",
+        "incident-response/application",
+        "application-security/application"
+      ]
+    },
+    {
+      "term": "vulnerability management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 147,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vulnerability management"
+        ]
+      },
+      "papers": 147,
+      "top_cells": [
+        "vulnerability-management/application",
+        "vulnerability-management/systems",
+        "vulnerability-management/method",
+        "vulnerability-management/mechanism"
+      ]
+    },
+    {
+      "term": "systematic literature",
+      "kind": "emergent",
+      "seed": false,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "systematic literature"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "supply-chain-security/application",
+        "security-education/application",
+        "security-compliance/application",
+        "risk-management/review"
+      ]
+    },
+    {
+      "term": "attack surface",
+      "kind": "emergent",
+      "seed": false,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "attack surface"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "supply-chain-security/application",
+        "zero-trust/application",
+        "iot-security/application",
+        "network-security/application"
+      ]
+    },
+    {
+      "term": "cyber attacks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 145,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber attacks"
+        ]
+      },
+      "papers": 145,
+      "top_cells": [
+        "threat-intelligence/application",
+        "risk-management/application",
+        "supply-chain-security/application",
+        "security-operations/application"
+      ]
+    },
+    {
+      "term": "supply chains",
+      "kind": "emergent",
+      "seed": false,
+      "df": 145,
+      "match": {
+        "type": "text",
+        "forms": [
+          "supply chains"
+        ]
+      },
+      "papers": 145,
+      "top_cells": [
+        "supply-chain-security/application",
+        "risk-management/application",
+        "supply-chain-security/theory",
+        "application-security/application"
+      ]
+    },
+    {
+      "term": "operations centers",
+      "kind": "emergent",
+      "seed": false,
+      "df": 145,
+      "match": {
+        "type": "text",
+        "forms": [
+          "operations centers"
+        ]
+      },
+      "papers": 145,
+      "top_cells": [
+        "security-operations/application",
+        "security-operations/method",
+        "security-operations/systems",
+        "security-operations/theory"
+      ]
+    },
+    {
+      "term": "information technology",
+      "kind": "emergent",
+      "seed": false,
+      "df": 142,
+      "match": {
+        "type": "text",
+        "forms": [
+          "information technology"
+        ]
+      },
+      "papers": 142,
+      "top_cells": [
+        "security-compliance/application",
+        "iot-security/application",
+        "network-security/systems",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "source code",
+      "kind": "emergent",
+      "seed": false,
+      "df": 142,
+      "match": {
+        "type": "text",
+        "forms": [
+          "source code"
+        ]
+      },
+      "papers": 142,
+      "top_cells": [
+        "supply-chain-security/application",
+        "application-security/application",
+        "malware-analysis/application",
+        "application-security/mechanism"
+      ]
+    },
+    {
+      "term": "reverse engineering",
+      "kind": "emergent",
+      "seed": false,
+      "df": 138,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reverse engineering"
+        ]
+      },
+      "papers": 138,
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/systems",
+        "malware-analysis/mechanism",
+        "malware-analysis/development"
+      ]
+    },
+    {
+      "term": "cloud environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 138,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud environments"
+        ]
+      },
+      "papers": 138,
+      "top_cells": [
+        "cloud-security/application",
+        "zero-trust/application",
+        "cloud-security/systems",
+        "network-security/application"
+      ]
+    },
+    {
+      "term": "cybersecurity threats",
+      "kind": "emergent",
+      "seed": false,
+      "df": 134,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cybersecurity threats"
+        ]
+      },
+      "papers": 134,
+      "top_cells": [
+        "threat-intelligence/application",
+        "security-education/application",
+        "security-compliance/application",
+        "cyber-warfare/application"
+      ]
+    },
+    {
+      "term": "malware classification",
+      "kind": "emergent",
+      "seed": false,
+      "df": 133,
+      "match": {
+        "type": "text",
+        "forms": [
+          "malware classification"
+        ]
+      },
+      "papers": 133,
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/method",
+        "malware-analysis/systems",
+        "malware-analysis/mechanism"
+      ]
+    },
+    {
+      "term": "become increasingly",
+      "kind": "emergent",
+      "seed": false,
+      "df": 131,
+      "match": {
+        "type": "text",
+        "forms": [
+          "become increasingly"
+        ]
+      },
+      "papers": 131,
+      "top_cells": [
+        "incident-response/application",
+        "zero-trust/application",
+        "network-security/application",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "chain security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 131,
+      "match": {
+        "type": "text",
+        "forms": [
+          "chain security"
+        ]
+      },
+      "papers": 131,
+      "top_cells": [
+        "supply-chain-security/application",
+        "vulnerability-management/application",
+        "supply-chain-security/theory",
+        "supply-chain-security/mechanism"
+      ]
+    },
+    {
+      "term": "fully homomorphic",
+      "kind": "emergent",
+      "seed": false,
+      "df": 131,
+      "match": {
+        "type": "text",
+        "forms": [
+          "fully homomorphic"
+        ]
+      },
+      "papers": 131,
+      "top_cells": [
+        "cryptography/systems",
+        "cryptography/application",
+        "cryptography/method",
+        "cryptography/development"
+      ]
+    },
+    {
+      "term": "cybersecurity risk",
+      "kind": "emergent",
+      "seed": false,
+      "df": 130,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cybersecurity risk"
+        ]
+      },
+      "papers": 130,
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/theory",
+        "security-compliance/application",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "extensive experiments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 130,
+      "match": {
+        "type": "text",
+        "forms": [
+          "extensive experiments"
+        ]
+      },
+      "papers": 130,
+      "top_cells": [
+        "network-security/application",
+        "network-security/evaluation",
+        "network-security/mechanism",
+        "ai-security/application"
+      ]
+    },
+    {
+      "term": "natural language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 126,
+      "match": {
+        "type": "text",
+        "forms": [
+          "natural language"
+        ]
+      },
+      "papers": 126,
+      "top_cells": [
+        "ai-security/application",
+        "threat-intelligence/application",
+        "application-security/application",
+        "ai-security/systems"
+      ]
+    },
+    {
+      "term": "modern software",
+      "kind": "emergent",
+      "seed": false,
+      "df": 125,
+      "match": {
+        "type": "text",
+        "forms": [
+          "modern software"
+        ]
+      },
+      "papers": 125,
+      "top_cells": [
+        "supply-chain-security/application",
+        "application-security/application",
+        "supply-chain-security/theory",
+        "supply-chain-security/systems"
+      ]
+    },
+    {
+      "term": "detection methods",
+      "kind": "emergent",
+      "seed": false,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "detection methods"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "malware-analysis/application",
+        "network-security/application",
+        "network-security/systems",
+        "network-security/mechanism"
+      ]
+    },
+    {
+      "term": "adversarial examples",
+      "kind": "emergent",
+      "seed": false,
+      "df": 121,
+      "match": {
+        "type": "text",
+        "forms": [
+          "adversarial examples"
+        ]
+      },
+      "papers": 121,
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/mechanism",
+        "ai-security/theory",
+        "ai-security/systems"
+      ]
+    },
+    {
+      "term": "while preserving",
+      "kind": "emergent",
+      "seed": false,
+      "df": 119,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while preserving"
+        ]
+      },
+      "papers": 119,
+      "top_cells": [
+        "ai-security/systems",
+        "ai-security/theory",
+        "network-security/application",
+        "cryptography/application"
+      ]
+    },
+    {
+      "term": "significant challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 118,
+      "match": {
+        "type": "text",
+        "forms": [
+          "significant challenges"
+        ]
+      },
+      "papers": 118,
+      "top_cells": [
+        "malware-analysis/application",
+        "network-security/application",
+        "risk-management/application",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "iot security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 116,
+      "match": {
+        "type": "text",
+        "forms": [
+          "iot security"
+        ]
+      },
+      "papers": 116,
+      "top_cells": [
+        "iot-security/application",
+        "iot-security/systems",
+        "iot-security/mechanism",
+        "network-security/application"
+      ]
+    },
+    {
+      "term": "blockchain technology",
+      "kind": "emergent",
+      "seed": false,
+      "df": 116,
+      "match": {
+        "type": "text",
+        "forms": [
+          "blockchain technology"
+        ]
+      },
+      "papers": 116,
+      "top_cells": [
+        "privacy/application",
+        "cryptography/systems",
+        "supply-chain-security/application",
+        "cryptography/application"
+      ]
+    },
+    {
+      "term": "security measures",
+      "kind": "emergent",
+      "seed": false,
+      "df": 114,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security measures"
+        ]
+      },
+      "papers": 114,
+      "top_cells": [
+        "incident-response/application",
+        "network-security/systems",
+        "iot-security/systems",
+        "application-security/application"
+      ]
+    },
+    {
+      "term": "identity management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 114,
+      "match": {
+        "type": "text",
+        "forms": [
+          "identity management"
+        ]
+      },
+      "papers": 114,
+      "top_cells": [
+        "identity-access/application",
+        "identity-access/systems",
+        "zero-trust/application",
+        "identity-access/mechanism"
+      ]
+    },
+    {
+      "term": "security risk",
+      "kind": "emergent",
+      "seed": false,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security risk"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "supply-chain-security/application",
+        "risk-management/application",
+        "risk-management/systems",
+        "ai-security/application"
+      ]
+    },
+    {
+      "term": "serverless computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "serverless computing"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "cloud-security/application",
+        "cloud-security/systems",
+        "cloud-security/mechanism",
+        "cloud-security/review"
+      ]
+    },
+    {
+      "term": "attack detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "attack detection"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "network-security/application",
+        "ai-security/mechanism",
+        "network-security/systems",
+        "iot-security/application"
+      ]
+    },
+    {
+      "term": "protection regulation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "protection regulation"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "privacy/method",
+        "privacy/application",
+        "privacy/systems",
+        "privacy/mechanism"
+      ]
+    },
+    {
+      "term": "software security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 110,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software security"
+        ]
+      },
+      "papers": 110,
+      "top_cells": [
+        "vulnerability-management/application",
+        "supply-chain-security/application",
+        "application-security/application",
+        "supply-chain-security/systems"
+      ]
+    },
+    {
+      "term": "rapidly evolving",
+      "kind": "emergent",
+      "seed": false,
+      "df": 110,
+      "match": {
+        "type": "text",
+        "forms": [
+          "rapidly evolving"
+        ]
+      },
+      "papers": 110,
+      "top_cells": [
+        "malware-analysis/application",
+        "malware-analysis/systems",
+        "security-education/application",
+        "incident-response/application"
+      ]
+    },
+    {
+      "term": "sensitive information",
+      "kind": "emergent",
+      "seed": false,
+      "df": 104,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sensitive information"
+        ]
+      },
+      "papers": 104,
+      "top_cells": [
+        "human-factor/application",
+        "cryptography/systems",
+        "identity-access/systems",
+        "human-factor/review"
+      ]
+    },
+    {
+      "term": "open source",
+      "kind": "emergent",
+      "seed": false,
+      "df": 103,
+      "match": {
+        "type": "text",
+        "forms": [
+          "open source"
+        ]
+      },
+      "papers": 103,
+      "top_cells": [
+        "supply-chain-security/application",
+        "vulnerability-management/application",
+        "threat-intelligence/application",
+        "cloud-security/application"
+      ]
+    },
+    {
+      "term": "detection accuracy",
+      "kind": "emergent",
+      "seed": false,
+      "df": 103,
+      "match": {
+        "type": "text",
+        "forms": [
+          "detection accuracy"
+        ]
+      },
+      "papers": 103,
+      "top_cells": [
+        "network-security/application",
+        "network-security/systems",
+        "malware-analysis/application",
+        "ai-security/application"
+      ]
+    },
+    {
+      "term": "secure software",
+      "kind": "emergent",
+      "seed": false,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "secure software"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "application-security/application",
+        "supply-chain-security/application",
+        "application-security/systems",
+        "application-security/method"
+      ]
+    },
+    {
+      "term": "digital forensic",
+      "kind": "emergent",
+      "seed": false,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "digital forensic"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "incident-response/application",
+        "incident-response/method",
+        "incident-response/mechanism",
+        "incident-response/systems"
+      ]
+    },
+    {
+      "term": "key management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "key management"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "cryptography/systems",
+        "cryptography/application",
+        "cryptography/mechanism",
+        "cryptography/review"
+      ]
+    },
+    {
+      "term": "engineering attacks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 101,
+      "match": {
+        "type": "text",
+        "forms": [
+          "engineering attacks"
+        ]
+      },
+      "papers": 101,
+      "top_cells": [
+        "human-factor/systems",
+        "human-factor/application",
+        "human-factor/mechanism",
+        "human-factor/review"
+      ]
+    },
+    {
+      "term": "software bill",
+      "kind": "emergent",
+      "seed": false,
+      "df": 100,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software bill"
+        ]
+      },
+      "papers": 100,
+      "top_cells": [
+        "supply-chain-security/application",
+        "supply-chain-security/method",
+        "supply-chain-security/mechanism",
+        "supply-chain-security/systems"
+      ]
+    },
+    {
+      "term": "existing methods",
+      "kind": "emergent",
+      "seed": false,
+      "df": 99,
+      "match": {
+        "type": "text",
+        "forms": [
+          "existing methods"
+        ]
+      },
+      "papers": 99,
+      "top_cells": [
+        "network-security/application",
+        "network-security/evaluation",
+        "network-security/systems",
+        "malware-analysis/application"
+      ]
+    },
+    {
+      "term": "operations center",
+      "kind": "emergent",
+      "seed": false,
+      "df": 99,
+      "match": {
+        "type": "text",
+        "forms": [
+          "operations center"
+        ]
+      },
+      "papers": 99,
+      "top_cells": [
+        "security-operations/application",
+        "security-operations/systems",
+        "security-operations/method",
+        "security-operations/development"
+      ]
+    },
+    {
+      "term": "rapid growth",
+      "kind": "emergent",
+      "seed": false,
+      "df": 99,
+      "match": {
+        "type": "text",
+        "forms": [
+          "rapid growth"
+        ]
+      },
+      "papers": 99,
+      "top_cells": [
+        "application-security/application",
+        "network-security/application",
+        "malware-analysis/application",
+        "incident-response/application"
+      ]
+    },
+    {
+      "term": "software vulnerabilities",
+      "kind": "emergent",
+      "seed": false,
+      "df": 98,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software vulnerabilities"
+        ]
+      },
+      "papers": 98,
+      "top_cells": [
+        "vulnerability-management/application",
+        "vulnerability-management/systems",
+        "supply-chain-security/application",
+        "vulnerability-management/mechanism"
+      ]
+    },
+    {
+      "term": "future directions",
+      "kind": "emergent",
+      "seed": false,
+      "df": 97,
+      "match": {
+        "type": "text",
+        "forms": [
+          "future directions"
+        ]
+      },
+      "papers": 97,
+      "top_cells": [
+        "iot-security/review",
+        "threat-intelligence/review",
+        "ai-security/review",
+        "incident-response/review"
+      ]
+    },
+    {
+      "term": "cybersecurity education",
+      "kind": "emergent",
+      "seed": false,
+      "df": 97,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cybersecurity education"
+        ]
+      },
+      "papers": 97,
+      "top_cells": [
+        "security-education/application",
+        "security-education/theory",
+        "security-education/review",
+        "security-compliance/application"
+      ]
+    },
+    {
+      "term": "best practices",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "best practices"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "security-compliance/application",
+        "cloud-security/application",
+        "cloud-security/mechanism",
+        "identity-access/application"
+      ]
+    },
+    {
+      "term": "false positives",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "false positives"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "network-security/application",
+        "vulnerability-management/application",
+        "application-security/systems",
+        "security-operations/application"
+      ]
+    },
+    {
+      "term": "software engineering",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software engineering"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "application-security/application",
+        "supply-chain-security/application",
+        "application-security/systems",
+        "supply-chain-security/systems"
+      ]
+    },
+    {
+      "term": "widespread adoption",
+      "kind": "emergent",
+      "seed": false,
+      "df": 95,
+      "match": {
+        "type": "text",
+        "forms": [
+          "widespread adoption"
+        ]
+      },
+      "papers": 95,
+      "top_cells": [
+        "cloud-security/application",
+        "application-security/application",
+        "security-compliance/application",
+        "cloud-security/systems"
+      ]
+    },
+    {
+      "term": "security awareness",
+      "kind": "emergent",
+      "seed": false,
+      "df": 93,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security awareness"
+        ]
+      },
+      "papers": 93,
+      "top_cells": [
+        "security-education/method",
+        "security-education/application",
+        "security-education/systems",
+        "security-education/theory"
+      ]
+    },
+    {
+      "term": "security models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 92,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security models"
+        ]
+      },
+      "papers": 92,
+      "top_cells": [
+        "zero-trust/application",
+        "zero-trust/theory",
+        "zero-trust/systems",
+        "zero-trust/review"
+      ]
+    },
+    {
+      "term": "trust security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 90,
+      "match": {
+        "type": "text",
+        "forms": [
+          "trust security"
+        ]
+      },
+      "papers": 90,
+      "top_cells": [
+        "zero-trust/application",
+        "zero-trust/systems",
+        "zero-trust/theory",
+        "zero-trust/mechanism"
+      ]
+    },
+    {
+      "term": "unauthorized access",
+      "kind": "emergent",
+      "seed": false,
+      "df": 89,
+      "match": {
+        "type": "text",
+        "forms": [
+          "unauthorized access"
+        ]
+      },
+      "papers": 89,
+      "top_cells": [
+        "identity-access/mechanism",
+        "identity-access/systems",
+        "network-security/systems",
+        "vulnerability-management/systems"
+      ]
+    },
+    {
+      "term": "enhancing security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 78,
+      "match": {
+        "type": "text",
+        "forms": [
+          "enhancing security"
+        ]
+      },
+      "papers": 78,
+      "top_cells": [
+        "identity-access/application",
+        "iot-security/application",
+        "ai-security/systems",
+        "cloud-security/systems"
+      ]
+    },
+    {
+      "term": "identity access",
+      "kind": "emergent",
+      "seed": false,
+      "df": 27,
+      "match": {
+        "type": "text",
+        "forms": [
+          "identity access"
+        ]
+      },
+      "papers": 27,
+      "top_cells": [
+        "identity-access/systems",
+        "identity-access/application",
+        "identity-access/method",
+        "identity-access/mechanism"
+      ]
+    },
+    {
+      "term": "web security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 19,
+      "match": {
+        "type": "text",
+        "forms": [
+          "web security"
+        ]
+      },
+      "papers": 19,
+      "top_cells": [
+        "application-security/systems",
+        "cloud-security/application",
+        "application-security/application",
+        "application-security/method"
+      ]
+    },
+    {
+      "term": "address challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "address challenges"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "incident-response/mechanism",
+        "network-security/systems",
+        "cloud-security/systems",
+        "incident-response/application"
+      ]
+    },
+    {
+      "term": "privacy security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 7,
+      "match": {
+        "type": "text",
+        "forms": [
+          "privacy security"
+        ]
+      },
+      "papers": 7,
+      "top_cells": [
+        "cloud-security/method",
+        "supply-chain-security/systems",
+        "risk-management/systems",
+        "privacy/mechanism"
+      ]
+    },
+    {
+      "term": "however existing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "however existing"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "cryptography/method"
+      ]
+    },
+    {
+      "term": "detection ids",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "detection ids"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "network-security/application"
+      ]
+    },
+    {
+      "term": "Survey",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "survey"
+      },
+      "top_cells": [],
+      "papers": 0
+    },
+    {
+      "term": "Method",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "method"
+      },
+      "top_cells": [],
+      "papers": 0
+    }
+  ]
+}
