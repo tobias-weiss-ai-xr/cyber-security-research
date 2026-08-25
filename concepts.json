@@ -1,6 +1,25 @@
 {
-  "count": 22,
+  "count": 42,
   "concepts": [
+    {
+      "term": "framework",
+      "kind": "curated",
+      "seed": true,
+      "df": 2563,
+      "match": {
+        "type": "text",
+        "forms": [
+          "framework"
+        ]
+      },
+      "papers": 2563,
+      "top_cells": [
+        "security-compliance/application",
+        "network-security/application",
+        "vulnerability-management/application",
+        "risk-management/application"
+      ]
+    },
     {
       "term": "Network Security",
       "kind": "taxonomy",
@@ -290,6 +309,25 @@
       "papers": 703
     },
     {
+      "term": "dataset",
+      "kind": "curated",
+      "seed": true,
+      "df": 680,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dataset"
+        ]
+      },
+      "papers": 680,
+      "top_cells": [
+        "network-security/application",
+        "vulnerability-management/application",
+        "network-security/systems",
+        "malware-analysis/application"
+      ]
+    },
+    {
       "term": "Risk Management",
       "kind": "taxonomy",
       "seed": true,
@@ -326,6 +364,25 @@
       "papers": 632
     },
     {
+      "term": "survey",
+      "kind": "curated",
+      "seed": true,
+      "df": 498,
+      "match": {
+        "type": "text",
+        "forms": [
+          "survey"
+        ]
+      },
+      "papers": 498,
+      "top_cells": [
+        "application-security/review",
+        "network-security/review",
+        "ai-security/review",
+        "iot-security/review"
+      ]
+    },
+    {
       "term": "Human Factor",
       "kind": "taxonomy",
       "seed": true,
@@ -360,6 +417,321 @@
         "cyber-warfare/theory"
       ],
       "papers": 451
+    },
+    {
+      "term": "benchmark",
+      "kind": "curated",
+      "seed": true,
+      "df": 380,
+      "match": {
+        "type": "text",
+        "forms": [
+          "benchmark"
+        ]
+      },
+      "papers": 380,
+      "top_cells": [
+        "network-security/application",
+        "vulnerability-management/application",
+        "ai-security/application",
+        "network-security/systems"
+      ]
+    },
+    {
+      "term": "case study",
+      "kind": "curated",
+      "seed": true,
+      "df": 240,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case study"
+        ]
+      },
+      "papers": 240,
+      "top_cells": [
+        "risk-management/application",
+        "vulnerability-management/application",
+        "incident-response/application",
+        "security-education/application"
+      ]
+    },
+    {
+      "term": "literature review",
+      "kind": "curated",
+      "seed": true,
+      "df": 212,
+      "match": {
+        "type": "text",
+        "forms": [
+          "literature review"
+        ]
+      },
+      "papers": 212,
+      "top_cells": [
+        "supply-chain-security/application",
+        "security-education/application",
+        "risk-management/application",
+        "zero-trust/review"
+      ]
+    },
+    {
+      "term": "taxonomy",
+      "kind": "curated",
+      "seed": true,
+      "df": 168,
+      "match": {
+        "type": "text",
+        "forms": [
+          "taxonomy"
+        ]
+      },
+      "papers": 168,
+      "top_cells": [
+        "supply-chain-security/application",
+        "ai-security/application",
+        "ai-security/review",
+        "iot-security/application"
+      ]
+    },
+    {
+      "term": "systematic review",
+      "kind": "curated",
+      "seed": true,
+      "df": 164,
+      "match": {
+        "type": "text",
+        "forms": [
+          "systematic review"
+        ]
+      },
+      "papers": 164,
+      "top_cells": [
+        "incident-response/review",
+        "privacy/review",
+        "threat-intelligence/review",
+        "security-education/review"
+      ]
+    },
+    {
+      "term": "quantitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantitative"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "risk-management/application",
+        "risk-management/systems",
+        "risk-management/theory",
+        "vulnerability-management/application"
+      ]
+    },
+    {
+      "term": "qualitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 101,
+      "match": {
+        "type": "text",
+        "forms": [
+          "qualitative"
+        ]
+      },
+      "papers": 101,
+      "top_cells": [
+        "risk-management/application",
+        "security-education/application",
+        "vulnerability-management/application",
+        "security-compliance/application"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 66,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 66,
+      "top_cells": [
+        "supply-chain-security/application",
+        "vulnerability-management/application",
+        "supply-chain-security/systems",
+        "malware-analysis/application"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 58,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 58,
+      "top_cells": [
+        "security-education/application",
+        "human-factor/application",
+        "incident-response/application",
+        "network-security/application"
+      ]
+    },
+    {
+      "term": "peer review",
+      "kind": "curated",
+      "seed": true,
+      "df": 14,
+      "match": {
+        "type": "text",
+        "forms": [
+          "peer review"
+        ]
+      },
+      "papers": 14,
+      "top_cells": [
+        "ai-security/systems",
+        "vulnerability-management/mechanism",
+        "vulnerability-management/systems",
+        "ai-security/theory"
+      ]
+    },
+    {
+      "term": "interview",
+      "kind": "curated",
+      "seed": true,
+      "df": 12,
+      "match": {
+        "type": "text",
+        "forms": [
+          "interview"
+        ]
+      },
+      "papers": 12,
+      "top_cells": [
+        "supply-chain-security/application",
+        "security-compliance/application",
+        "vulnerability-management/method",
+        "malware-analysis/evaluation"
+      ]
+    },
+    {
+      "term": "mixed methods",
+      "kind": "curated",
+      "seed": true,
+      "df": 6,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mixed methods"
+        ]
+      },
+      "papers": 6,
+      "top_cells": [
+        "incident-response/application",
+        "privacy/systems",
+        "identity-access/application",
+        "vulnerability-management/mechanism"
+      ]
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 6,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 6,
+      "top_cells": [
+        "iot-security/application",
+        "human-factor/application",
+        "vulnerability-management/review",
+        "cryptography/review"
+      ]
+    },
+    {
+      "term": "open access",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "open access"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "human-factor/mechanism",
+        "cloud-security/theory",
+        "identity-access/review",
+        "supply-chain-security/application"
+      ]
+    },
+    {
+      "term": "grounded theory",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "grounded theory"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "cloud-security/theory",
+        "vulnerability-management/application"
+      ]
+    },
+    {
+      "term": "meta analysis",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "meta analysis"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "human-factor/systems"
+      ]
+    },
+    {
+      "term": "triangulation",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "triangulation"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "application-security/systems"
+      ]
     },
     {
       "term": "Survey",
