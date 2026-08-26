@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 17026,
+    "total_papers": 17119,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 20,
@@ -15,36 +15,36 @@
     }
   },
   "by_category": {
-    "threat-intelligence": 786,
-    "vulnerability-management": 1122,
-    "incident-response": 1202,
-    "malware-analysis": 980,
-    "network-security": 1251,
+    "ai-security": 970,
     "application-security": 963,
     "cloud-security": 910,
-    "identity-access": 956,
-    "cryptography": 1061,
-    "zero-trust": 828,
-    "supply-chain-security": 931,
-    "security-operations": 713,
-    "ai-security": 970,
-    "security-education": 704,
-    "security-compliance": 632,
-    "risk-management": 662,
-    "privacy": 734,
-    "iot-security": 703,
+    "cryptography": 1111,
+    "cyber-warfare": 451,
     "human-factor": 467,
-    "cyber-warfare": 451
+    "identity-access": 956,
+    "incident-response": 1202,
+    "iot-security": 703,
+    "malware-analysis": 980,
+    "network-security": 1283,
+    "privacy": 738,
+    "risk-management": 662,
+    "security-compliance": 632,
+    "security-education": 704,
+    "security-operations": 713,
+    "supply-chain-security": 937,
+    "threat-intelligence": 786,
+    "vulnerability-management": 1122,
+    "zero-trust": 829
   },
   "by_subcategory": {
-    "theory": 1148,
-    "mechanism": 1869,
-    "method": 2265,
     "application": 6465,
     "development": 627,
-    "systems": 3206,
     "evaluation": 344,
-    "review": 1102
+    "mechanism": 1925,
+    "method": 2297,
+    "review": 1102,
+    "systems": 3206,
+    "theory": 1153
   },
   "by_year": {
     "1991": 1,
@@ -72,8 +72,7 @@
     "2023": 1866,
     "2024": 3006,
     "2025": 4460,
-    "2026": 5176,
-    "unknown": 137
+    "2026": 5269
   },
   "by_cell": {
     "supply-chain-security/application": 490,
@@ -104,6 +103,8 @@
     "ai-security/systems": 190,
     "zero-trust/systems": 188,
     "human-factor/application": 187,
+    "network-security/method": 183,
+    "cryptography/mechanism": 183,
     "malware-analysis/systems": 181,
     "malware-analysis/method": 174,
     "privacy/method": 170,
@@ -116,10 +117,8 @@
     "ai-security/mechanism": 154,
     "vulnerability-management/method": 153,
     "cyber-warfare/application": 152,
-    "network-security/method": 151,
     "incident-response/mechanism": 143,
     "malware-analysis/mechanism": 142,
-    "cryptography/mechanism": 133,
     "vulnerability-management/mechanism": 129,
     "supply-chain-security/systems": 120,
     "application-security/method": 119,
@@ -139,7 +138,7 @@
     "cryptography/theory": 97,
     "risk-management/systems": 96,
     "application-security/review": 94,
-    "zero-trust/theory": 91,
+    "zero-trust/theory": 92,
     "threat-intelligence/method": 91,
     "cyber-warfare/method": 90,
     "privacy/mechanism": 84,
@@ -149,12 +148,12 @@
     "supply-chain-security/method": 78,
     "ai-security/review": 78,
     "security-education/systems": 76,
+    "supply-chain-security/mechanism": 75,
     "human-factor/mechanism": 75,
     "network-security/review": 75,
     "incident-response/review": 74,
     "ai-security/theory": 73,
     "privacy/review": 70,
-    "supply-chain-security/mechanism": 69,
     "cryptography/review": 69,
     "threat-intelligence/theory": 68,
     "network-security/theory": 66,
@@ -163,6 +162,7 @@
     "cyber-warfare/theory": 62,
     "threat-intelligence/review": 62,
     "supply-chain-security/development": 60,
+    "privacy/theory": 58,
     "network-security/evaluation": 58,
     "cryptography/development": 58,
     "supply-chain-security/theory": 58,
@@ -171,7 +171,6 @@
     "application-security/development": 57,
     "application-security/theory": 56,
     "identity-access/theory": 55,
-    "privacy/theory": 54,
     "vulnerability-management/theory": 54,
     "vulnerability-management/development": 53,
     "security-compliance/review": 51,
@@ -239,44 +238,44 @@
   },
   "emerging_themes_12m": [
     {
-      "keyword": "cmmc",
-      "papers": 3
+      "keyword": "injection",
+      "papers": 348
     },
     {
-      "keyword": "typosquatting",
-      "papers": 3
+      "keyword": "prompt",
+      "papers": 406
     },
     {
-      "keyword": "red teaming",
-      "papers": 13
+      "keyword": "prioritization",
+      "papers": 74
     },
     {
-      "keyword": "jailbreak",
-      "papers": 46
+      "keyword": "ai security",
+      "papers": 23
     },
     {
-      "keyword": "detection engineering",
-      "papers": 8
+      "keyword": "language",
+      "papers": 808
     },
     {
-      "keyword": "unpacking",
-      "papers": 6
+      "keyword": "static",
+      "papers": 415
     },
     {
-      "keyword": "identity governance",
-      "papers": 11
+      "keyword": "large",
+      "papers": 1112
     },
     {
-      "keyword": "sandbox",
-      "papers": 39
+      "keyword": "security operations",
+      "papers": 182
     },
     {
-      "keyword": "alert fatigue",
-      "papers": 17
+      "keyword": "susceptibility",
+      "papers": 42
     },
     {
-      "keyword": "nis2",
-      "papers": 16
+      "keyword": "poisoning",
+      "papers": 99
     }
   ],
   "momentum": [
@@ -293,7 +292,7 @@
     },
     {
       "id": "ai-security",
-      "name": "AI & Adversarial ML Security",
+      "name": "Ai Security",
       "total": 970,
       "recent": 520,
       "prior": 217,
@@ -304,7 +303,7 @@
     },
     {
       "id": "application-security",
-      "name": "Application Security & DevSecOps",
+      "name": "Application Security",
       "total": 963,
       "recent": 475,
       "prior": 209,
@@ -315,18 +314,18 @@
     },
     {
       "id": "supply-chain-security",
-      "name": "Software Supply Chain Security",
-      "total": 931,
-      "recent": 462,
+      "name": "Supply Chain Security",
+      "total": 937,
+      "recent": 468,
       "prior": 219,
-      "growth_pct": 111.0,
-      "recent_share": 0.496,
-      "papers_per_month": 38.5,
-      "score": 160.6
+      "growth_pct": 113.7,
+      "recent_share": 0.499,
+      "papers_per_month": 39.0,
+      "score": 163.6
     },
     {
       "id": "security-operations",
-      "name": "Security Operations & SOC",
+      "name": "Security Operations",
       "total": 713,
       "recent": 365,
       "prior": 176,
@@ -337,7 +336,7 @@
     },
     {
       "id": "incident-response",
-      "name": "Incident Response & Forensics",
+      "name": "Incident Response",
       "total": 1202,
       "recent": 514,
       "prior": 275,
@@ -348,29 +347,29 @@
     },
     {
       "id": "zero-trust",
-      "name": "Zero Trust Architecture",
-      "total": 828,
-      "recent": 393,
+      "name": "Zero Trust",
+      "total": 829,
+      "recent": 394,
       "prior": 225,
-      "growth_pct": 74.7,
+      "growth_pct": 75.1,
       "recent_share": 0.475,
       "papers_per_month": 32.8,
-      "score": 122.2
+      "score": 122.6
     },
     {
       "id": "network-security",
-      "name": "Network & Perimeter Security",
-      "total": 1251,
-      "recent": 523,
+      "name": "Network Security",
+      "total": 1283,
+      "recent": 555,
       "prior": 317,
-      "growth_pct": 65.0,
-      "recent_share": 0.418,
-      "papers_per_month": 43.6,
-      "score": 106.8
+      "growth_pct": 75.1,
+      "recent_share": 0.433,
+      "papers_per_month": 46.2,
+      "score": 118.4
     },
     {
       "id": "cloud-security",
-      "name": "Cloud & Container Security",
+      "name": "Cloud Security",
       "total": 910,
       "recent": 390,
       "prior": 241,
@@ -381,7 +380,7 @@
     },
     {
       "id": "malware-analysis",
-      "name": "Malware Analysis & Reverse Engineering",
+      "name": "Malware Analysis",
       "total": 980,
       "recent": 399,
       "prior": 257,
@@ -392,7 +391,7 @@
     },
     {
       "id": "identity-access",
-      "name": "Identity, Access & Authentication",
+      "name": "Identity Access",
       "total": 956,
       "recent": 407,
       "prior": 268,
@@ -402,8 +401,19 @@
       "score": 94.5
     },
     {
+      "id": "cryptography",
+      "name": "Cryptography",
+      "total": 1111,
+      "recent": 423,
+      "prior": 312,
+      "growth_pct": 35.6,
+      "recent_share": 0.381,
+      "papers_per_month": 35.2,
+      "score": 73.7
+    },
+    {
       "id": "human-factor",
-      "name": "Human Factor & Social Engineering",
+      "name": "Human Factor",
       "total": 467,
       "recent": 116,
       "prior": 78,
@@ -414,7 +424,7 @@
     },
     {
       "id": "cyber-warfare",
-      "name": "Cyber Warfare & State Threats",
+      "name": "Cyber Warfare",
       "total": 451,
       "recent": 129,
       "prior": 92,
@@ -425,7 +435,7 @@
     },
     {
       "id": "iot-security",
-      "name": "IoT, OT & ICS Security",
+      "name": "Iot Security",
       "total": 703,
       "recent": 247,
       "prior": 201,
@@ -435,19 +445,8 @@
       "score": 58.0
     },
     {
-      "id": "cryptography",
-      "name": "Cryptography & Protocols",
-      "total": 1061,
-      "recent": 373,
-      "prior": 312,
-      "growth_pct": 19.6,
-      "recent_share": 0.352,
-      "papers_per_month": 31.1,
-      "score": 54.8
-    },
-    {
       "id": "threat-intelligence",
-      "name": "Threat Intelligence & Analysis",
+      "name": "Threat Intelligence",
       "total": 786,
       "recent": 264,
       "prior": 234,
@@ -458,7 +457,7 @@
     },
     {
       "id": "security-compliance",
-      "name": "Compliance, Regulation & Standards",
+      "name": "Security Compliance",
       "total": 632,
       "recent": 197,
       "prior": 198,
@@ -469,7 +468,7 @@
     },
     {
       "id": "risk-management",
-      "name": "Cyber Risk Management",
+      "name": "Risk Management",
       "total": 662,
       "recent": 144,
       "prior": 239,
@@ -480,18 +479,18 @@
     },
     {
       "id": "privacy",
-      "name": "Privacy & Data Protection",
-      "total": 734,
-      "recent": 145,
+      "name": "Privacy",
+      "total": 738,
+      "recent": 149,
       "prior": 276,
-      "growth_pct": -47.5,
-      "recent_share": 0.198,
-      "papers_per_month": 12.1,
-      "score": -27.7
+      "growth_pct": -46.0,
+      "recent_share": 0.202,
+      "papers_per_month": 12.4,
+      "score": -25.8
     },
     {
       "id": "security-education",
-      "name": "Security Education & Workforce",
+      "name": "Security Education",
       "total": 704,
       "recent": 137,
       "prior": 268,
@@ -502,74 +501,15 @@
     }
   ],
   "category_trajectory": {
-    "threat-intelligence": {
-      "2017": 4,
-      "2018": 1,
-      "2020": 1,
-      "2021": 26,
-      "2022": 97,
-      "2023": 86,
-      "2024": 173,
-      "2025": 227,
-      "2026": 170
-    },
-    "vulnerability-management": {
-      "2002": 1,
-      "2007": 9,
-      "2013": 2,
-      "2017": 1,
-      "2018": 1,
-      "2021": 30,
-      "2022": 90,
-      "2023": 91,
-      "2024": 131,
-      "2025": 249,
-      "2026": 511
-    },
-    "incident-response": {
-      "2005": 5,
-      "2007": 2,
-      "2012": 1,
-      "2013": 3,
-      "2014": 1,
-      "2015": 1,
-      "2016": 2,
-      "2018": 1,
+    "ai-security": {
       "2019": 1,
       "2020": 1,
-      "2021": 35,
-      "2022": 137,
-      "2023": 141,
-      "2024": 202,
-      "2025": 230,
-      "2026": 434
-    },
-    "malware-analysis": {
-      "2010": 1,
-      "2018": 2,
-      "2021": 43,
-      "2022": 100,
-      "2023": 106,
-      "2024": 194,
-      "2025": 204,
-      "2026": 324
-    },
-    "network-security": {
-      "1995": 2,
-      "2000": 1,
-      "2002": 1,
-      "2003": 1,
-      "2011": 5,
-      "2013": 1,
-      "2014": 2,
-      "2016": 2,
-      "2020": 2,
-      "2021": 53,
-      "2022": 143,
-      "2023": 120,
-      "2024": 190,
-      "2025": 334,
-      "2026": 383
+      "2021": 18,
+      "2022": 54,
+      "2023": 88,
+      "2024": 145,
+      "2025": 292,
+      "2026": 361
     },
     "application-security": {
       "2003": 1,
@@ -596,6 +536,39 @@
       "2025": 233,
       "2026": 314
     },
+    "cryptography": {
+      "2013": 1,
+      "2014": 2,
+      "2021": 38,
+      "2022": 114,
+      "2023": 123,
+      "2024": 204,
+      "2025": 329,
+      "2026": 288
+    },
+    "cyber-warfare": {
+      "2013": 1,
+      "2014": 2,
+      "2015": 1,
+      "2019": 1,
+      "2020": 7,
+      "2021": 15,
+      "2022": 67,
+      "2023": 69,
+      "2024": 84,
+      "2025": 89,
+      "2026": 106
+    },
+    "human-factor": {
+      "2017": 1,
+      "2019": 4,
+      "2021": 25,
+      "2022": 85,
+      "2023": 82,
+      "2024": 95,
+      "2025": 83,
+      "2026": 78
+    },
     "identity-access": {
       "2014": 3,
       "2016": 1,
@@ -608,55 +581,101 @@
       "2025": 242,
       "2026": 346
     },
-    "cryptography": {
-      "2013": 1,
-      "2014": 2,
-      "2021": 38,
-      "2022": 114,
-      "2023": 123,
-      "2024": 204,
-      "2025": 329,
-      "2026": 238
-    },
-    "zero-trust": {
-      "2016": 1,
-      "2020": 1,
-      "2021": 15,
-      "2022": 51,
-      "2023": 75,
-      "2024": 117,
-      "2025": 245,
-      "2026": 312
-    },
-    "supply-chain-security": {
-      "1991": 1,
-      "2008": 2,
-      "2021": 17,
-      "2022": 68,
-      "2023": 88,
-      "2024": 139,
-      "2025": 267,
-      "2026": 343
-    },
-    "security-operations": {
-      "2015": 4,
-      "2017": 4,
-      "2021": 19,
-      "2022": 52,
-      "2023": 52,
-      "2024": 87,
-      "2025": 202,
-      "2026": 288
-    },
-    "ai-security": {
+    "incident-response": {
+      "2005": 5,
+      "2007": 2,
+      "2012": 1,
+      "2013": 3,
+      "2014": 1,
+      "2015": 1,
+      "2016": 2,
+      "2018": 1,
       "2019": 1,
       "2020": 1,
-      "2021": 18,
-      "2022": 54,
-      "2023": 88,
-      "2024": 145,
-      "2025": 292,
-      "2026": 361
+      "2021": 35,
+      "2022": 137,
+      "2023": 141,
+      "2024": 202,
+      "2025": 230,
+      "2026": 434
+    },
+    "iot-security": {
+      "2013": 3,
+      "2016": 4,
+      "2017": 1,
+      "2018": 1,
+      "2019": 1,
+      "2020": 3,
+      "2021": 29,
+      "2022": 75,
+      "2023": 87,
+      "2024": 128,
+      "2025": 207,
+      "2026": 160
+    },
+    "malware-analysis": {
+      "2010": 1,
+      "2018": 2,
+      "2021": 43,
+      "2022": 100,
+      "2023": 106,
+      "2024": 194,
+      "2025": 204,
+      "2026": 324
+    },
+    "network-security": {
+      "1995": 2,
+      "2000": 1,
+      "2002": 1,
+      "2003": 1,
+      "2011": 5,
+      "2013": 1,
+      "2014": 2,
+      "2016": 2,
+      "2020": 2,
+      "2021": 53,
+      "2022": 143,
+      "2023": 120,
+      "2024": 190,
+      "2025": 334,
+      "2026": 415
+    },
+    "privacy": {
+      "2003": 1,
+      "2007": 1,
+      "2009": 1,
+      "2017": 1,
+      "2019": 3,
+      "2021": 26,
+      "2022": 92,
+      "2023": 100,
+      "2024": 191,
+      "2025": 208,
+      "2026": 100
+    },
+    "risk-management": {
+      "2011": 1,
+      "2015": 1,
+      "2018": 1,
+      "2019": 3,
+      "2020": 3,
+      "2021": 21,
+      "2022": 85,
+      "2023": 93,
+      "2024": 153,
+      "2025": 202,
+      "2026": 94
+    },
+    "security-compliance": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2021": 15,
+      "2022": 48,
+      "2023": 84,
+      "2024": 148,
+      "2025": 187,
+      "2026": 138
     },
     "security-education": {
       "2008": 1,
@@ -673,190 +692,170 @@
       "2025": 208,
       "2026": 87
     },
-    "security-compliance": {
-      "2017": 1,
-      "2018": 1,
-      "2019": 2,
-      "2021": 15,
-      "2022": 48,
-      "2023": 84,
-      "2024": 148,
-      "2025": 187,
-      "2026": 138
-    },
-    "risk-management": {
-      "2011": 1,
-      "2015": 1,
-      "2018": 1,
-      "2019": 3,
-      "2020": 3,
-      "2021": 21,
-      "2022": 85,
-      "2023": 93,
-      "2024": 153,
+    "security-operations": {
+      "2015": 4,
+      "2017": 4,
+      "2021": 19,
+      "2022": 52,
+      "2023": 52,
+      "2024": 87,
       "2025": 202,
-      "2026": 94
+      "2026": 288
     },
-    "privacy": {
-      "2003": 1,
-      "2007": 1,
-      "2009": 1,
-      "2017": 1,
-      "2019": 3,
+    "supply-chain-security": {
+      "1991": 1,
+      "2008": 2,
+      "2021": 17,
+      "2022": 68,
+      "2023": 88,
+      "2024": 139,
+      "2025": 267,
+      "2026": 349
+    },
+    "threat-intelligence": {
+      "2017": 4,
+      "2018": 1,
+      "2020": 1,
       "2021": 26,
-      "2022": 92,
-      "2023": 100,
-      "2024": 191,
-      "2025": 208,
-      "2026": 96
+      "2022": 97,
+      "2023": 86,
+      "2024": 173,
+      "2025": 227,
+      "2026": 170
     },
-    "iot-security": {
-      "2013": 3,
-      "2016": 4,
+    "vulnerability-management": {
+      "2002": 1,
+      "2007": 9,
+      "2013": 2,
       "2017": 1,
       "2018": 1,
-      "2019": 1,
-      "2020": 3,
-      "2021": 29,
-      "2022": 75,
-      "2023": 87,
-      "2024": 128,
-      "2025": 207,
-      "2026": 160
+      "2021": 30,
+      "2022": 90,
+      "2023": 91,
+      "2024": 131,
+      "2025": 249,
+      "2026": 511
     },
-    "human-factor": {
-      "2017": 1,
-      "2019": 4,
-      "2021": 25,
-      "2022": 85,
-      "2023": 82,
-      "2024": 95,
-      "2025": 83,
-      "2026": 78
-    },
-    "cyber-warfare": {
-      "2013": 1,
-      "2014": 2,
-      "2015": 1,
-      "2019": 1,
-      "2020": 7,
+    "zero-trust": {
+      "2016": 1,
+      "2020": 1,
       "2021": 15,
-      "2022": 67,
-      "2023": 69,
-      "2024": 84,
-      "2025": 89,
-      "2026": 106
+      "2022": 51,
+      "2023": 75,
+      "2024": 117,
+      "2025": 245,
+      "2026": 313
     }
   },
   "keyword_bursts": [
     {
-      "keyword": "cmmc",
-      "recent": 3,
-      "total": 3,
-      "burst_score": 2.49,
-      "recent_share": 0.0004
+      "keyword": "injection",
+      "recent": 348,
+      "total": 465,
+      "burst_score": 1.85,
+      "recent_share": 0.0502
     },
     {
-      "keyword": "typosquatting",
-      "recent": 3,
-      "total": 3,
-      "burst_score": 2.49,
-      "recent_share": 0.0004
+      "keyword": "prompt",
+      "recent": 406,
+      "total": 546,
+      "burst_score": 1.84,
+      "recent_share": 0.0586
     },
     {
-      "keyword": "red teaming",
-      "recent": 13,
-      "total": 14,
-      "burst_score": 2.31,
-      "recent_share": 0.0019
+      "keyword": "prioritization",
+      "recent": 74,
+      "total": 103,
+      "burst_score": 1.78,
+      "recent_share": 0.0107
     },
     {
-      "keyword": "jailbreak",
-      "recent": 46,
-      "total": 51,
-      "burst_score": 2.25,
-      "recent_share": 0.0067
+      "keyword": "ai security",
+      "recent": 23,
+      "total": 33,
+      "burst_score": 1.72,
+      "recent_share": 0.0033
     },
     {
-      "keyword": "detection engineering",
-      "recent": 8,
-      "total": 9,
-      "burst_score": 2.21,
-      "recent_share": 0.0012
+      "keyword": "language",
+      "recent": 808,
+      "total": 1203,
+      "burst_score": 1.66,
+      "recent_share": 0.1166
     },
     {
-      "keyword": "unpacking",
-      "recent": 6,
-      "total": 7,
-      "burst_score": 2.13,
-      "recent_share": 0.0009
+      "keyword": "static",
+      "recent": 415,
+      "total": 622,
+      "burst_score": 1.65,
+      "recent_share": 0.0599
     },
     {
-      "keyword": "identity governance",
-      "recent": 11,
-      "total": 13,
-      "burst_score": 2.11,
-      "recent_share": 0.0016
+      "keyword": "large",
+      "recent": 1112,
+      "total": 1691,
+      "burst_score": 1.62,
+      "recent_share": 0.1605
     },
     {
-      "keyword": "sandbox",
-      "recent": 39,
-      "total": 47,
-      "burst_score": 2.07,
-      "recent_share": 0.0057
+      "keyword": "security operations",
+      "recent": 182,
+      "total": 278,
+      "burst_score": 1.62,
+      "recent_share": 0.0263
     },
     {
-      "keyword": "alert fatigue",
-      "recent": 17,
-      "total": 21,
-      "burst_score": 2.02,
-      "recent_share": 0.0025
+      "keyword": "susceptibility",
+      "recent": 42,
+      "total": 65,
+      "burst_score": 1.6,
+      "recent_share": 0.0061
     },
     {
-      "keyword": "nis2",
-      "recent": 16,
-      "total": 20,
-      "burst_score": 1.99,
-      "recent_share": 0.0023
+      "keyword": "poisoning",
+      "recent": 99,
+      "total": 154,
+      "burst_score": 1.59,
+      "recent_share": 0.0143
     },
     {
-      "keyword": "prompt injection",
-      "recent": 233,
-      "total": 295,
-      "burst_score": 1.97,
-      "recent_share": 0.0341
+      "keyword": "nist",
+      "recent": 324,
+      "total": 510,
+      "burst_score": 1.57,
+      "recent_share": 0.0468
     },
     {
-      "keyword": "ttps",
-      "recent": 153,
-      "total": 198,
-      "burst_score": 1.92,
-      "recent_share": 0.0224
+      "keyword": "models",
+      "recent": 1330,
+      "total": 2122,
+      "burst_score": 1.55,
+      "recent_share": 0.1919
     },
     {
-      "keyword": "dast",
-      "recent": 6,
-      "total": 8,
-      "burst_score": 1.87,
-      "recent_share": 0.0009
+      "keyword": "adversarial",
+      "recent": 547,
+      "total": 871,
+      "burst_score": 1.55,
+      "recent_share": 0.0789
     },
     {
-      "keyword": "fido",
-      "recent": 3,
-      "total": 4,
-      "burst_score": 1.87,
-      "recent_share": 0.0004
+      "keyword": "framework",
+      "recent": 1817,
+      "total": 2925,
+      "burst_score": 1.53,
+      "recent_share": 0.2622
     },
     {
-      "keyword": "passkey",
-      "recent": 3,
-      "total": 4,
-      "burst_score": 1.87,
-      "recent_share": 0.0004
+      "keyword": "dependency",
+      "recent": 134,
+      "total": 216,
+      "burst_score": 1.53,
+      "recent_share": 0.0193
     }
   ],
   "source_breakdown": {
-    "arxiv": 3840,
+    "arxiv": 3933,
     "doi": 12804,
     "other": 382
   },
@@ -878,7 +877,7 @@
       "papers": 206
     },
     {
-      "name": "arXiv",
+      "name": "arXiv (Cornell University)",
       "papers": 166
     },
     {

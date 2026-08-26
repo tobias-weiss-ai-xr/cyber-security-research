@@ -265196,3 +265196,2970 @@ papers:
     labeled attack data and remains effective even when the DT view is degraded. These
     results suggest that DT degradation, often treated as a limitation, can instead
     serve as a useful signal for cyber physical security monitoring.
+- title: Multi-population Diversity-guided Genetic Algorithm for Feature Selection
+    in Network Intrusion Detection
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.19864v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Chunzhen Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Network Intrusion Detection System is a critical means of ensuring cybersecurity.
+    However, existing Genetic Algorithm-based feature selection methods face several
+    limitations when dealing with high-dimensional redundant traffic features. For
+    example, population diversity is difficult to maintain, and evolutionary operators
+    lack guidance. To solve these problems, this study proposes the Multi-Population
+    Diversity-Guided Genetic Algorithm (MPDGGA). First, we build a chained multi-population
+    evolutionary structure. Second, we introduce a diversity-guided operator based
+    on information gain ratio. Experiments on NSL-KDD, UNSW-NB15, and 9 UCI datasets
+    show that the proposed model significantly outperforms four other advanced multi-population
+    feature selection models. Across the 11 datasets, it attains the highest accuracy
+    on 10 datasets and at least 2.26% of the features were selected.
+- title: Extending Adaptive Cruise Control with Machine Learning Intrusion Detection
+    Systems
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.01173v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Lotfi Ben Othmane
+  - Yasaswini Konapalli
+  - Naga Prudhvi Mareedu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'An Adaptive Cruise Control (ACC) system automatically adjusts the host
+    vehicle''s speed to maintain a safe following distance from a lead vehicle. In
+    typical implementations, a feedback controller (e.g., a Proportional-Integral-Derivative
+    (PID) controller) computes the host vehicle''s acceleration using a target speed
+    and a spacing error, defined as the difference between the measured inter-vehicle
+    distance and a desired safe distance. ACC is often assumed to be resilient to
+    fault-injection attacks because a Kalman filter (KF) can smooth noisy speed measurements.
+    However, we show--through analytical proofs and simulation results--that a KF
+    can tolerate injected speed values only up to a bounded threshold. When injected
+    values exceed this threshold, the filter can be driven off track, causing the
+    ACC controller to make unsafe acceleration decisions and potentially leading to
+    collisions. Our main contribution is to augment the PID-based controller with
+    Intrusion Detection System (IDS) outputs, yielding Intrusion Detection Systems-Based
+    Adaptive Cruise Control (ACC-IDS). The ACC-IDS controller is simple and implementable:
+    a binary intrusion flag switches the control law to emergency braking. We prove
+    that augmenting ACC with an IDS, under assumed detection-performance and latency
+    constraints, can mitigate these attacks and help preserve ACC''s collision-avoidance
+    guarantees.'
+- title: A Comparative Study of Recent Advances in Internet of Intrusion Detection
+    Things
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.08218v1
+  category: network-security
+  subcategory: method
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The Internet of Things (IoT) has revolutionized the way devices communicate
+    and interact with each other, but it has also created new challenges in terms
+    of security. In this context, intrusion detection has become a crucial mechanism
+    to ensure the safety of IoT systems. To address this issue, a comprehensive comparative
+    study of advanced techniques and types of IoT intrusion detection systems (IDS)
+    has been conducted. The study delves into various architectures, classifications,
+    and evaluation methodologies of IoT IDS. This paper provides a valuable resource
+    for researchers and practitioners interested in IoT security and intrusion detection.
+- title: Towards Agentic Honeynet Configuration
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.14122v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Federico Mirra
+  - Matteo Boffa
+  - Idilio Drago
+  - Danilo Giordano
+  - Marco Mellia
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Honeypots are deception systems that emulate vulnerable services to collect
+    threat intelligence. While deploying many honeypots increases the opportunity
+    to observe attacker behaviour, in practise network and computational resources
+    limit the number of honeypots that can be exposed. Hence, practitioners must select
+    the assets to deploy, a decision that is typically made statically despite attackers'
+    tactics evolving over time. This work investigates an AI-driven agentic architecture
+    that autonomously manages honeypot exposure in response to ongoing attacks. The
+    proposed agent analyses Intrusion Detection System (IDS) alerts and network state
+    to infer the progression of the attack, identify compromised assets, and predict
+    likely attacker targets. Based on this assessment, the agent dynamically reconfigures
+    the system to maintain attacker engagement while minimizing unnecessary exposure.
+    The approach is evaluated in a simulated environment where attackers execute Proof-of-Concept
+    exploits for known CVEs. Preliminary results indicate that the agent can effectively
+    infer the intent of the attacker and improve the efficiency of exposure under
+    resource constraints
+- title: A Tsetlin Machine-driven Intrusion Detection System for Next-Generation IoMT
+    Security
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.03205v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Rahul Jaiswal
+  - Per-Arne Andersen
+  - Linga Reddy Cenkeramaddi
+  - Lei Jiao
+  - Ole-Christoffer Granmo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The rapid adoption of the Internet of Medical Things (IoMT) is transforming
+    healthcare by enabling seamless connectivity among medical devices, systems, and
+    services. However, it also introduces serious cybersecurity and patient safety
+    concerns as attackers increasingly exploit new methods and emerging vulnerabilities
+    to infiltrate IoMT networks. This paper proposes a novel Tsetlin Machine (TM)-based
+    Intrusion Detection System (IDS) for detecting a wide range of cyberattacks targeting
+    IoMT networks. The TM is a rule-based and interpretable machine learning (ML)
+    approach that models attack patterns using propositional logic. Extensive experiments
+    conducted on the CICIoMT-2024 dataset, which includes multiple IoMT protocols
+    and cyberattack types, demonstrate that the proposed TM-based IDS outperforms
+    traditional ML classifiers. The proposed model achieves an accuracy of 99.5\%
+    in binary classification and 90.7\% in multi-class classification, surpassing
+    existing state-of-the-art approaches. Moreover, to enhance model trust and interpretability,
+    the proposed TM-based model presents class-wise vote scores and clause activation
+    heatmaps, providing clear insights into the most influential clauses and the dominant
+    class contributing to the final model decision.
+- title: Verification-Guided Specification Synthesis with Large Language Models for
+    Intrusion Detection Rules
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22889v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Kohei Yamamoto
+  - Marie Katsurai
+  venue: CIKM 2026
+  code_url: ''
+  project_url: ''
+  abstract: Attacks against Internet-connected IoT devices continue to increase; however,
+    transforming observed attack traffic into deployable intrusion detection system
+    (IDS) rules remains largely a manual process. Recent studies have explored using
+    large language models (LLMs) to generate IDS rules; nonetheless, existing approaches
+    often require auxiliary information beyond observed traffic or generate rules
+    without validating their detection logic against benign traffic. This study presents
+    a verification-guided specification synthesis framework for generating Suricata
+    rules directly from HTTP request traces. Instead of having an LLM generate IDS
+    rules in a single step, an LLM first identifies a vulnerable parameter and synthesizes
+    a semantic detection specification. These specifications are iteratively refined
+    through counterexample-guided inductive synthesis (CEGIS), in which benign traffic
+    samples serve as counterexamples during synthesis and verification. Verified specifications
+    are then deterministically compiled into Suricata rules. Experiments on 281 real-world
+    CVEs and benign traffic collected from real IoT devices show that the proposed
+    method achieves a detection rate of 81.5% while maintaining a false positive rate
+    of 0.0%. An ablation study also demonstrates that CEGIS-based verification improves
+    detection performance while maintaining a low false positive rate.
+- title: 'parHSOM: A novel parallel Hierarchical Self-Organizing Map implementation'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.08164v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Rebekah Lane
+  - Logan Cummins
+  - Andy Perkins
+  - George Trawick
+  - Ioana Banicescu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The digital age has completely transformed the way that information is
+    processed and stored, which makes cybersecurity a crucial field of research. Cybersecurity
+    contains many different domains, but this work focuses on Intrusion Detection
+    Systems (IDSs). Within the literature, Hierarchical Self-Organizing Maps (HSOMs)
+    have been used to create trustworthy, explainable, and AI-based IDSs. However,
+    HSOMs are trained sequentially, which means that training HSOMs on large datasets
+    is slow. This work presents a novel parallel HSOM architecture, called parHSOM.
+    The purpose of this research is to investigate the effect that parallel computation
+    has on the HSOM training time. parHSOM is tested on two different testbeds, four
+    different output grid sizes, and five different cybersecurity datasets. Performance
+    metrics collected from these experiments show that parHSOM consistently trains
+    faster than the Sequential HSOM algorithm without any significant loss in performance.
+    Additionally, this work provides a platform for further investigation into parallel
+    HSOM implementations.
+- title: Strategy Phasing of Cyber Attacks on Digital Substations
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.27661v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Akila Herath
+  - Chen-Ching Liu
+  - Junho Hong
+  - Kuchan Park
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Digital substations that comply with IEC 61850 have improved the operational
+    efficiency of modern power systems. However, adversaries can abuse IEC 61850 communication
+    to manipulate circuit breaker operations in substations, which can result in severe
+    system impacts. These cyber attacks are crafted based on broader multi-phase strategies.
+    The existing intrusion detection systems (IDSs) often flag only isolated symptoms.
+    Thus, there is a lack of context in the attack phase to support the deployment
+    of mitigation measures. This paper proposes Substation Cyber Attack Strategy Phasing
+    (SubCASP), a Hidden Markov Model(HMM)- based method that fuses IDS data logs to
+    infer the current attack phase, next attack phase, and retrospective attack path.
+    The attack phases are derived from an ATT&amp;CK-based threat modeling. The SubCASP
+    model is trained and evaluated on a reproducible attack-graph dataset. Test results
+    are presented to demonstrate the robustness of SubCASP for various IDS observability
+    levels and missing IDS data logs scenarios.
+- title: An Experimental Study of Machine Learning-Based Intrusion Detection for OPC
+    UA over Industrial Private 5G Networks
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.23416v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Song Son Ha
+  - Kunal Singh
+  - Florian Foerster
+  - Henry Beuster
+  - Tim Kittel
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Industrial deployments increasingly rely on Open Platform Communications
+    Unified Architecture (OPC UA) as a secure and platform-independent communication
+    protocol, while private Fifth Generation (5G) networks provide low-latency and
+    high-reliability connectivity for modern automation systems. However, their combination
+    introduces new attack surfaces and traffic characteristics that remain insufficiently
+    understood, particularly with respect to machine learning-based intrusion detection
+    systems (ML-based IDS). This paper presents an experimental study on detecting
+    cyberattacks against OPC UA applications operating over an operational private
+    5G network. Multiple attack scenarios are executed, and OPC UA traffic is captured
+    and enriched with statistical flow-, packet-, and protocol-aware features. Several
+    supervised ML models are trained and evaluated to distinguish benign and malicious
+    traffic. The results demonstrate that the proposed ML-based IDS achieves high
+    detection performance for a representative set of OPC UA-specific attack scenarios
+    over an operational private 5G network.
+- title: A Novel Solution for Zero-Day Attack Detection in IDS using Self-Attention
+    and Jensen-Shannon Divergence in WGAN-GP
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.19350v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Ziyu Mu
+  - Xiyu Shi
+  - Safak Dogan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The increasing sophistication of cyber threats, especially zero-day attacks,
+    poses a significant challenge to cybersecurity. Zero-day attacks exploit unknown
+    vulnerabilities, making them difficult to detect and defend against. Existing
+    approaches patch flaws and deploy an Intrusion Detection System (IDS). Using advanced
+    Wasserstein GANs with Gradient Penalty (WGAN-GP), this paper makes a novel proposition
+    to synthesize network traffic that mimics zero-day patterns, enriching data diversity
+    and improving IDS generalization. SA-WGAN-GP is first introduced, which adds a
+    Self-Attention (SA) mechanism to capture long-range cross-feature dependencies
+    by reshaping the feature vector into tokens after dense projections. A JS-WGAN-GP
+    is then proposed, which adds a Jensen-Shannon (JS) divergence-based auxiliary
+    discriminator that is trained with Binary Cross-Entropy (BCE), frozen during updates,
+    and used to regularize the generator for smoother gradients and higher sample
+    quality. Third, SA-JS-WGAN-GP is created by combining the SA mechanism with JS
+    divergence, thereby enhancing the data generation ability of WGAN-GP. As data
+    augmentation does not equate with true zero-day attack discovery, we emulate zero-day
+    attacks via the leave-one-attack-type-out method on the NSL-KDD dataset for training
+    all GANs and IDS models in the assessment of the effectiveness of the proposed
+    solution. The evaluation results show that integrating SA and JS divergence into
+    WGAN-GP yields superior IDS performance and more effective zero-day risk detection.
+- title: Risk Averse Alert Prioritization for IDS Using Subnormal Gaussian Fuzzy Models
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.27299v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Murat Moran
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Modern intrusion detection systems generate thousands of alerts daily,
+    but alert fatigue severely limits security operations effectiveness due to too
+    many false positives or low-impact events. We address this by proposing a principled
+    framework for alert prioritization based on subnormal Gaussian fuzzy numbers,
+    explicitly modeling three sources of uncertainty: threat severity, detection confidence,
+    and organizational risk attitude. Each alert is represented as a fuzzy number
+    with the core indicating severity, spread indicating uncertainty, and height reflecting
+    detection reliability. We apply ranking indices to prioritize alerts, allowing
+    organizations to tune security posture through a risk-attitude parameter. Experimental
+    validation on CIC-IDS2017 and NSL-KDD demonstrates greater robustness than baselines
+    under detector degradation (0.9963 vs 0.8215 NDCGrel@100), with distinct differentiation
+    in mid-confidence alerts and near-parity with baselines under robust detectors.
+    The framework is theoretically grounded, computationally efficient, provides interpretable
+    reasoning, and remains robust across detector families and miscalibration scenarios.'
+- title: 'SoK: Reshaping Research on Network Intrusion Detection Systems'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.17556v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Giovanni Apruzzese
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Network Intrusion Detection Systems (NIDS) have been studied for decades.
+    Hundreds of papers have, e.g., proposed ways to enhance, harden or bypass NIDS.
+    However, the findings of prior literature are hardly reflected in real-world operational
+    contexts. Such a disconnection is problematic for research itself: it is unclear
+    what scenario envisioned by prior work can be used as a baseline for future advancements.
+    We argue that a key reason for this disconnection is a fundamental misunderstanding
+    of intrinsic characteristics of NIDS. For instance, the fact that a compromised
+    NIDS cannot be expected to work well; the fact that some evaluations are done
+    without carrying out any experiment in a (even synthetic) "real" network; the
+    fact that security operators triage high-level reports -- and not individual samples
+    flagged by some classifier. In this SoK, which is primarily a reflective piece,
+    we first constructively highlight such quintessential properties (without criticizing
+    _any_ work by different authors) by stating three Assertions. Then, we provide
+    recommendations -- further emphasized through an original and reproducible case
+    study that challenges some established practices. Ultimately, we seek to lay a
+    foundation to reshape research on NIDS.'
+- title: 'From Detection to Response: A Deep Learning and Retrieval-Augmented Generation
+    Framework for Network Intrusion Mitigation'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.17960v1
+  category: network-security
+  subcategory: method
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Machine-learning-based Intrusion Detection Systems (IDS) have achieved
+    impressive accuracy in classifying network attacks, yet they consistently fall
+    short on the question that matters most to a security analyst: what should I do
+    next? This paper presents a unified, end-to-end framework that closes the gap
+    between threat detection and actionable response. The system operates in two tightly
+    coupled stages. First, an ensemble of three independently trained binary Deep
+    Neural Networks (DNNs) classifies network traffic flows as Benign, Denial of Service
+    (DoS), or Distributed Denial of Service (DDoS), achieving 99.84% accuracy on the
+    CICIDS2018 dataset and 95.30% on the UNSW-NB15 dataset. Second, a Retrieval-Augmented
+    Generation (RAG) pipeline constructs explanation-aware prompts from the top-5
+    anomalous features, retrieves the most semantically and lexically relevant guidance
+    from a knowledge base derived from authorized sources and di- rects a locally
+    deployed language model to synthesise structured, citation-grounded mitigation
+    reports. The RAG-enhanced reports outperform vanilla LLM outputs across all automated
+    evaluation metrics.'
+- title: 'Enhancing Adversarial Robustness in Network Intrusion Detection: A Layer-wise
+    Adaptive Regularization Approach'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.08910v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Hira Nasir
+  - Eiman Javed
+  - Balawal Shabir
+  - Zunera Jalil
+  - Ahmad Mohsin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The new wave of adversarial attacks that utilize gradient-related vulnerabilities
+    in neural network-based classifiers makes Network Intrusion Detection Systems
+    more open to such threats. Although state-of-the-art adversarial training methods
+    have shown promising results in producing more robust classifiers, their interpretability
+    and defense ability are limited due to their lack of understanding of how adversarial
+    attacks propagate in different layers of network classifiers. In this paper, we
+    present an insightful approach, called LARAR (Layer-wise Adversarial Robustness
+    using Adaptive Regularization), that incorporates additional layer-wise vulnerability
+    analysis and adaptive weighting in conventional adversarial training methods.
+    Additionally, we utilize 'Auxiliary Classifiers' in our approach. LARAR provides
+    interpretable layer-wise vulnerability scores, achieves a clean accuracy of 95.01%,
+    and provides better robustness against adversarial attacks (FGSM, PGD, and transfer
+    attacks) on the UNSW-NB15 dataset. Through the identification of vulnerable layers,
+    the proposed framework reduces computational complexity and enables the early
+    detection of adversarial samples, thus enhancing the effectiveness and interpretability
+    of adversarial defense mechanisms in NIDS.
+- title: Smart Railway Obstruction Detection System using IoT and Computer Vision
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.08246v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Pravin Kumar
+  - Mritunjay Shall Peelam
+  - Ramakant Kumar
+  - Sanjay Kumar
+  - Vinay Chamola
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Railway track intrusions pose a critical safety challenge for Indian Railways,
+    encompassing wildlife incursions and deliberate malicious obstructions. The December
+    2025 collision in Assam, in which seven elephants were killed by the Rajdhani
+    Express, underscores the urgency of effective real-time detection. Existing solutions
+    such as the optical fiber-based Gajraj system suffer from prohibitive costs (\$1000/km)
+    and high false alarm rates, limiting deployment to only 20 of India's 101 elephant
+    corridors. This paper proposes NETRA, a cost-effective, internet-independent intrusion
+    detection system deployed on Raspberry Pi Zero W and Raspberry Pi 4 edge platforms.
+    NETRA employs probabilistic sensor fusion integrating a PIR motion sensor and
+    an HC-SR04 ultrasonic distance sensor with a tunable threshold (tau_c = 0.65),
+    enabling event-driven camera activation that reduces unnecessary visual processing
+    by 52%. Upon confirmed intrusion, edge-AI classification using MobileNet-SSD (Pi
+    Zero) or YOLOv5 ONNX (Pi 4) identifies threats including humans, large animals,
+    and track obstructions. Confirmed threats are transmitted via LoRa (868 MHz) to
+    alert the locomotive driver within 2.4 seconds end-to-end. Experimental evaluation
+    across 113 motion events demonstrated 95% detection accuracy with zero false alarms
+    through probabilistic fusion, compared to 85% for binary methods. Raspberry Pi
+    4 with YOLOv5 achieved 83.5% elephant F1-score, a 5.6x improvement over Pi Zero's
+    heuristic approach (14.8%). LoRa communication achieved 100% packet delivery across
+    1-2 km in field trials. NETRA reduces deployment cost by 75% (\$247/km vs \$1000/km
+    for Gajraj) while providing unified detection of both wildlife and obstruction
+    threats.
+- title: Effective Pivot Attack Detection via System and Network Information
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23731v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Ava Powelson
+  - Carson Kuzniar
+  - Hyojoon Kim
+  - Israat Haque
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Perimeter-based security appliances, such as firewalls or Intrusion Detection
+    Systems, are ineffective against modern attacks that use pivoting, wherein attackers
+    "pivot" traffic through compromised hosts to gain access to additional targets
+    that would otherwise be inaccessible. Due to the legitimate appearance of the
+    relayed traffic, pivoting is extremely difficult to detect. Although the consequences
+    of these attacks are known to be severe, existing defenses suffer from drawbacks
+    such as high processing delays, low accuracy, or reliance on network-wide participation,
+    making them inconvenient or even ineffective. This work presents Stitch, a host-based
+    system that uses the programmable kernel to detect pivoting in real time. By observing
+    host-traversing flows, Stitch uses process tracing to effectively combine system
+    and network-level information, connecting incoming and outgoing communications
+    and identifying pivoting characteristics between them. Showing 31% gains in accuracy
+    over state-of-the-art pivoting defenses and a maximum false positive rate of 0.006%
+    over two separate real-world deployments, Stitch covers the gap in current pivot
+    detection solutions by providing accurate, lightweight, and independent coverage
+    for vulnerable hosts in a network.
+- title: 'Towards Resilient Intrusion Detection in CubeSats: Challenges, TinyML Solutions,
+    and Future Directions'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.06411v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Yasamin Fayyaz
+  - Li Yang
+  - Khalil El-Khatib
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: CubeSats have revolutionized access to space by providing affordable and
+    accessible platforms for research and education. However, their reliance on Commercial
+    Off-The-Shelf (COTS) components and open-source software has introduced significant
+    cybersecurity vulnerabilities. Ensuring the cybersecurity of CubeSats is vital
+    as they play increasingly important roles in space missions. Traditional security
+    measures, such as intrusion detection systems (IDS), are impractical for CubeSats
+    due to resource constraints and unique operational environments. This paper provides
+    an in-depth review of current cybersecurity practices for CubeSats, highlighting
+    limitations and identifying gaps in existing methods. Additionally, it explores
+    non-cyber anomaly detection techniques that offer insights into adaptable algorithms
+    and deployment strategies suitable for CubeSat constraints. Open research problems
+    are identified, including the need for resource-efficient intrusion detection
+    mechanisms, evaluation of IDS solutions under realistic mission scenarios, development
+    of autonomous response systems, and creation of cybersecurity frameworks. The
+    addition of TinyML into CubeSat systems is explored as a promising solution to
+    address these challenges, offering resource-efficient, real-time intrusion detection
+    capabilities. Future research directions are proposed, such as integrating cybersecurity
+    with health monitoring systems, and fostering collaboration between cybersecurity
+    researchers and space domain experts.
+- title: 'FIRCE: A Framework for Intrusion Response and Conformal Evaluation'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.01962v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Seth Barrett
+  - Lin Li
+  - Gokila Dorai
+  - Swarnamugi Rajaganapathy
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Machine learning-based intrusion detection systems deployed in real-world
+    environments frequently suffer from model degradation due to concept drift, where
+    changes in traffic patterns invalidate training assumptions. To address this,
+    we present FIRCE, a Framework for Intrusion Response and Conformal Evaluation
+    that augments supervised IDS classifiers with conformal evaluation-based uncertainty
+    quantification and drift detection. FIRCE supports four conformal evaluation strategies:
+    Inductive, Cross, Approximate Transductive, and our proposed Approximate Cross-Conformal
+    Evaluator, which achieves robust performance with minimal calibration overhead.
+    FIRCE also introduces an adaptive chunking mechanism that dynamically adjusts
+    evaluation granularity in response to stream volatility, improving drift responsiveness
+    while preserving computational efficiency. Using a custom IoT testbed of 10 commercial
+    devices and time-series network captures under simulated attack and drift conditions,
+    we demonstrate FIRCE''s ability to detect distributional shifts and trigger model
+    retraining. We additionally benchmark FIRCE on the CICIDS2018 and UNSW-NB15 datasets
+    to validate its generalizability. Experimental results show that conformal evaluation-based
+    drift detection, combined with adaptive chunking, enables an efficient and robust
+    response to evolving threats.'
+- title: Residual Observability and Attack Detectability in Encrypted OPC UA Traffic
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.17809v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Song Son Ha
+  - Florian Foerster
+  - Henry Beuster
+  - Eduard Zeller
+  - Dominik Merli
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: OPC Unified Architecture (OPC UA) encryption conceals application-layer
+    semantics and restricts intrusion detection to residual communication structure.
+    Although machine learning-based intrusion detection systems (IDSs) can detect
+    attacks in encrypted OPC UA traffic, the relationship between residual structural
+    observability and attack detectability remains insufficiently understood. This
+    paper presents an explanatory framework combining a structural observability profile,
+    the Structural Leakage Score (SLS), controlled within-family and cross-family
+    comparisons, phase-specific analysis, and dimension-ablation analysis. Jensen--Shannon
+    divergence is used to characterize transport, temporal, and protocol-lifecycle
+    dimensions, while the SLS summarizes the residual structural magnitude. Evaluation
+    on an industrial private 5G testbed covers four attack families with progressively
+    reduced nominal activity. SLS generally tracks within-family recall trends but
+    does not reproduce cross-family detectability ordering. Interpreting these mismatches
+    also requires temporal prevalence, inter-burst persistence, predictive utility,
+    unique contribution, and redundancy. The framework complements conventional IDS
+    metrics by relating detection outcomes to the magnitude, temporal distribution,
+    and predictive role of observable structural evidence.
+- title: Explainable Threat Attribution for IoT Networks Using Conditional SHAP and
+    Flow Behavior Modelling
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.22771v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Samuel Ozechi
+  - Jennifer Okonkwoabutu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As the Internet of Things (IoT) continues to expand across critical infrastructure,
+    smart environments, and consumer devices, securing them against cyber threats
+    has become increasingly vital. Traditional intrusion detection models often treat
+    IoT threats as binary classification problems or rely on opaque models, thereby
+    limiting trust. This work studies multiclass threat attribution in IoT environments
+    using the CICIoT2023 dataset, grouping over 30 attack variants into 8 semantically
+    meaningful classes. We utilize a combination of a gradient boosting model and
+    SHAP (SHapley Additive exPlanations) to deliver both global and class-specific
+    explanations, enabling detailed insight into the features driving each attack
+    classification. The results show that the model distinguishes distinct behavioral
+    signatures of the attacks using flow timing, packet size uniformity, TCP flag
+    dynamics, and statistical variance. Additional analysis that exposes both feature
+    attribution and the decision trajectory per class further validates these observed
+    patterns. Our findings contribute to the development of more accurate and explainable
+    intrusion detection systems, bridging the gap between high-performance machine
+    learning and the need for trust and accountability in AI-driven cybersecurity
+    for IoT environments.
+- title: 'How Far Should We Need to Go : Evaluate Provenance-based Intrusion Detection
+    Systems in Industrial Scenarios'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.22982v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Yue Xiao
+  - Ling Jiang
+  - Sen Nie
+  - Ding Li
+  - Shi Wu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Provenance-based Intrusion Detection Systems (PIDSes) have been widely
+    used to detect Advanced Persistent Threats (APTs). Although many studies achieve
+    high performance in the evaluations of their original papers, their performance
+    in industrial scenarios remains unclear. To fill this gap, we conduct the first
+    systematic evaluation and analysis of PIDSes in industrial scenarios. We first
+    analyze the differences between the data from DARPA datasets and that collected
+    in industrial scenarios, identifying three main new characteristics in industry:
+    heterogeneous multi-source inputs, more powerful attackers, and increasing benign
+    activity complexity. We then build several datasets to evaluate five state-of-the-art
+    PIDSes. The evaluation results reveal challenges for existing PIDSes, including
+    poor portability across different hosts and platforms, low detection performance
+    against real-world attacks, and high false positive rates with ever-changing benign
+    activities. Based on the evaluation results and our industrial practices, we provide
+    several insights to solve or explain the above problems. For example, we propose
+    a method to mitigate the high false positives, which reduces manual effort by
+    2/3. Finally, we propose several research suggestions to improve PIDSes.'
+- title: 'GMA-SAWGAN-GP: A Novel Data Generative Framework to Enhance IDS Detection
+    Performance'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.28838v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Ziyu Mu
+  - Xiyu Shi
+  - Safak Dogan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Intrusion Detection System (IDS) is often calibrated to known attacks
+    and generalizes poorly to unknown threats. This paper proposes GMA-SAWGAN-GP,
+    a novel generative augmentation framework built on a Self-Attention-enhanced Wasserstein
+    GAN with Gradient Penalty (WGAN-GP). The generator employs Gumbel-Softmax regularization
+    to model discrete fields, while a Multilayer Perceptron (MLP)-based AutoEncoder
+    acts as a manifold regularizer. A lightweight gating network adaptively balances
+    adversarial and reconstruction losses via entropy regularization, improving stability
+    and mitigating mode collapse. The self-attention mechanism enables the generator
+    to capture both short- and long-range dependencies among features within each
+    record while preserving categorical semantics through Gumbel-Softmax heads. Extensive
+    experiments on NSL-KDD, UNSW-NB15, and CICIDS2017 using five representative IDS
+    models demonstrate that GMA-SAWGAN-GP significantly improves detection performance
+    on known attacks and enhances generalization to unknown attacks. Leave-One-Attack-type-Out
+    (LOAO) evaluations using Area Under the Receiver Operating Characteristic (AUROC)
+    and True Positive Rate at a 5 percent False Positive Rate confirm that IDS models
+    trained on augmented datasets achieve higher robustness under unseen attack scenarios.
+    Ablation studies validate the contribution of each component to performance gains.
+    Compared with baseline models, the proposed framework improves binary classification
+    accuracy by an average of 5.3 percent and multi-classification accuracy by 2.2
+    percent, while AUROC and True Positive Rate at a 5 percent False Positive Rate
+    for unknown attacks increase by 3.9 percent and 4.8 percent, respectively, across
+    the three datasets. Overall, GMA-SAWGAN-GP provides an effective approach to generative
+    augmentation for mixed-type network traffic, improving IDS accuracy and resilience.
+- title: GRASP -- Graph-Based Anomaly Detection Through Self-Supervised Classification
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.07812v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Robin Buchta
+  - Carsten Kleiner
+  - Felix Heine
+  - Gabi Dreo Rodosek
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Advanced persistent threat (APT) attacks remain difficult to detect due
+    to their stealth, adaptability, and use of legitimate system components. Provenance-based
+    intrusion detection systems (PIDS) offer a promising defense by capturing detailed
+    relationships between system components and actions. However, current PIDS rely
+    on predefined or subset-determined thresholds, which limit detection stability
+    and the ability to detect any anomalous behavior in general. Furthermore, related
+    work often neglects the role of process executables, which describe system activity
+    by interacting through a process with files, network components, and other processes.
+    We introduce GRASP, a PIDS based on masked self-supervised classification. GRASP
+    masks the executable information of processes and learns to infer it from their
+    two-hop provenance graph neighborhood, marking misclassified processes as anomalies.
+    It captures behavior patterns for the learned executables without thresholding,
+    making it robust against interference and unknown activities. Evaluations on the
+    DARPA TC and OpTC datasets demonstrate that GRASP consistently detects anomalous
+    behavior, including known attack-related activities, outperforming existing systems.
+    Our PIDS identifies all documented attacks on datasets where the behavior of executables
+    is learnable. In addition, compared to existing systems, GRASP uncovers potentially
+    malicious anomalous behavior not labeled as an attack in the documentation.
+- title: 'CLAD: A Clustered Label-Agnostic Federated Learning Framework for Joint
+    Anomaly Detection and Attack Classification'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.06571v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Iason Ofeidis
+  - Nikos Papadis
+  - Randeep Bhatia
+  - Leandros Tassiulas
+  - TV Lakshman
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The rapid expansion of the Internet of Things (IoT) and Industrial IoT
+    (IIoT) has created a massive, heterogeneous attack surface that challenges traditional
+    network security mechanisms. While Federated Learning (FL) offers a privacy-preserving
+    alternative to centralized Intrusion Detection Systems (IDS), standard approaches
+    struggle to generalize across diverse device behaviors and typically fail to utilize
+    the vast amounts of unlabeled data present in realistic edge environments. To
+    bridge these gaps, we propose CLAD, a holistic framework that seamlessly incorporates
+    Clustered Federated Learning (CFL) with a novel Dual-Mode Micro-Architecture ($\text{DM}^2\text{A}$).
+    This unified approach simultaneously tackles the two primary bottlenecks of IoT
+    security: device heterogeneity and label scarcity. The $\text{DM}^2\text{A}$ component
+    features a shared encoder followed by two branches, enabling joint unsupervised
+    anomaly detection and supervised attack classification; this allows the framework
+    to harvest intelligence from both labeled and unlabeled clients. Concurrently,
+    the clustering component dynamically groups devices with congruent traffic patterns,
+    preventing global model divergence. By carefully combining these elements, CLAD
+    ensures that no data is discarded and distinct operational patterns are preserved.
+    Extensive evaluations demonstrate that this integrated approach significantly
+    outperforms state-of-the-art baselines, achieving a 30% relative improvement in
+    detection performance in scenarios with 80% unlabeled clients, with only half
+    the communication cost.'
+- title: 'An AI Security Agent for University ACMIS: Multi-Vector Threat Detection
+    and Automated Response'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.08270v3
+  category: network-security
+  subcategory: method
+  authors:
+  - Joseph Walusimbi
+  - Joshua Benjamin Ssentongo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'University Academic Management Information Systems (ACMIS) are high-value
+    targets for a wide spectrum of security threats including brute-force login attacks,
+    payment fraud, privilege escalation, insider data theft, and academic integrity
+    violations. Traditional rule-based intrusion detection systems are inadequate
+    because many malicious activities are structurally indistinguishable from normal
+    operations. This paper presents an AI-based security agent for ACMIS that combines
+    supervised anomaly detection, behavioural analytics, and a natural language processing
+    chatbot for secure password recovery. The agent monitors five operational layers:
+    authentication, authorisation, financial transactions, user behaviour, and system
+    health, and responds through a four-tier risk escalation framework. A modular
+    architecture allows the core engine to be extended to other institutional systems.
+    Experiments on a simulated ACMIS event log dataset of 147,922 sessions demonstrate
+    a threat detection macro-average F1 of 0.966, compared to 0.156 for a rule-based
+    baseline and 0.836 for a sequence-only (LSTM) baseline, with end-to-end critical-tier
+    automated response latency under 1 ms on a single-node prototype. The integrated
+    recovery chatbot achieves 97.1 percent identity verification accuracy and an 87.3
+    percent mass-reset attack detection rate with zero false positives on legitimate
+    high volume recovery periods.'
+- title: 'MI$^2$DAS: A Multi-Layer Intrusion Detection Framework with Incremental
+    Learning for Securing Industrial IoT Networks'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.23846v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Wei Lian
+  - Alejandro Guerra-Manzanares
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The rapid expansion of Industrial IoT (IIoT) systems has amplified security
+    challenges, as heterogeneous devices and dynamic traffic patterns increase exposure
+    to sophisticated and previously unseen cyberattacks. Traditional intrusion detection
+    systems often struggle in such environments due to their reliance on extensive
+    labeled data and limited ability to detect new threats. To address these challenges,
+    we propose MI$^2$DAS, a multi-layer intrusion detection framework that integrates
+    anomaly-based hierarchical traffic pooling, open-set recognition to distinguish
+    between known and unknown attacks and incremental learning for adapting to novel
+    attack types with minimal labeling. Experiments conducted on the Edge-IIoTset
+    dataset demonstrate strong performance across all layers. In the first layer,
+    GMM achieves superior normal-attack discrimination (accuracy = 0.953, TPR = 1.000).
+    In open-set recognition, GMM attains a recall of 0.813 for known attacks, while
+    LOF achieves 0.882 recall for unknown attacks. For fine-grained classification
+    of known attacks, Random Forest achieves a macro-F1 of 0.941. Finally, the incremental
+    learning module maintains robust performance when incorporation novel attack classes,
+    achieving a macro-F1 of 0.8995. These results showcase MI$^2$DAS as an effective,
+    scalable and adaptive framework for enhancing IIoT security against evolving threats.
+- title: 'XAI-SOH-FL: Enhancing SOH-FL with Adaptive Aggregation and Explainable AI
+    for Intrusion Detection in Heterogeneous IoT'
+  date: 2026-05
+  url: https://arxiv.org/abs/2606.00134v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Ambreen Aslam
+  - Maaz Hassan
+  - Bibi Zahra
+  - Muhammad Khuram Shahzad
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Intrusion Detection Systems (IDS) in Internet of Things (IoT) environments
+    face significant challenges due to data heterogeneity, lack of labeled data, and
+    limited model interpretability. Federated Learning (FL) offers a privacy-preserving
+    solution; however, existing approaches such as SOH-FL suffer from two key limitations:
+    reliance on a manually tuned aggregation parameter γ and lack of explainability
+    in model predictions. In this paper, we propose XAI-SOH-FL, an enhanced framework
+    that integrates adaptive aggregation and explainable artificial intelligence into
+    the SOH-FL paradigm. First, we introduce a dynamic γ selection mechanism based
+    on similarity thresholding, enabling the aggregation process to adapt to evolving
+    data distributions. Second, Bayesian Optimization is employed to automatically
+    determine optimal γ values, eliminating the need for manual tuning. Third, SHAP
+    (SHapley Additive exPlanations) is incorporated to provide feature-level interpretability
+    for intrusion detection decisions. Experimental evaluation on the CICIDS2017 dataset
+    demonstrates that the proposed approach achieves an accuracy of 94.12% and an
+    F1-score of 0.92, outperforming the baseline SOH-FL model while converging in
+    fewer communication rounds. Furthermore, SHAP-based analysis reveals that flow-level
+    features such as Flow Duration and Packet Length significantly influence model
+    predictions. These results indicate that XAI-SOH-FL provides an effective balance
+    between accuracy, adaptability, and interpretability in heterogeneous IoT environments.'
+- title: Defending Network Intrusion Detection Systems Based on Graph Neural Networks
+    Against Structural Adversarial Attacks
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24454v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Dimitri Galli
+  - Andrea Venturi
+  - Dario Stabili
+  - Mauro Andreolini
+  - Mirco Marchetti
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Graph Neural Networks (GNNs) represent a promising solution for Machine
+    Learning (ML) based Network Intrusion Detection Systems (NIDS), thanks to their
+    ability to leverage both network flow features and topological patterns. While
+    GNN classifiers demonstrate superior robustness against feature-based adversarial
+    attacks compared to other ML detectors, they remain vulnerable to structural adversarial
+    attacks, where an attacker perturbs the underlying network graph topology by injecting
+    edges or inserting nodes. Such attacks pose a realistic and severe threat, undermining
+    the reliability of GNN-based NIDS in practical deployments. While countermeasures
+    have been proposed in the literature, they often rely on assumptions that are
+    unrealistic in real-world cybersecurity scenarios. In this paper, we propose a
+    defense framework based on adversarial training to strengthen GNN-based NIDS against
+    structural attacks. We generate adversarial samples by strategically replacing
+    the source and destination nodes in benign network flows, thereby efficiently
+    mimicking edge injection attacks. We evaluate our approach on two widely used
+    datasets (CTU-13 and TON-IoT) using E-GraphSAGE as the base GNN classifier. Experimental
+    results show that our approach produces hardened detectors with superior detection
+    performance on clean graphs and enhanced robustness against structural adversarial
+    attacks.
+- title: 'SoK: Harmonizing Attack Graphs and Intrusion Detection Systems'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.08295v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Andrea Agiollo
+  - Enkeleda Bardhi
+  - Alessandro Palma
+  - Riccardo Lazzeretti
+  - Silvia Bonomi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Detecting and responding to cyber attacks is increasingly difficult as
+    high-volume, complex network traffic allows threats to remain concealed. While
+    Intrusion Detection Systems (IDSs) identify anomalous behavior, Attack Graphs
+    (AGs) serve as the primary threat model for analyzing attacker strategies and
+    informing any response. Despite the conceptual connection being recognized in
+    early research, the field of AG and IDS integration lacks a common structure.
+    This paper presents the first systematic analysis of AG-IDS integration, reviewing
+    a 73 comprehensive works in literature. We introduce a novel taxonomy revealing
+    that current research is dominated by specialized, single-purpose integrations,
+    such as using AGs to filter IDS false positives or using IDS alerts to prune AGs.
+    Our analysis highlights a critical gap: the absence of a unifying framework that
+    treats IDSs and AGs as a cohesive, integrated system. To address this gap, we
+    propose a formal AG-IDS lifecycle. This framework establishes a continuous feedback
+    loop where IDSs refine the accuracy of AG models, and those updated models, in
+    turn, enhance IDS detection capabilities. We provide a proof-of-concept implementation
+    demonstrating the practical advantages of this lifecycle for threat detection
+    and incident response. Finally, we conclude by elaborating on significant opportunities
+    for future development within the AG-IDS domain.'
+- title: 'Characterizing AI-Assisted Bot Traffic in Darknet Data: Implications for
+    ICS and IIoT Security'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.14209v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Alex Carbajal
+  - Caleb Faultersack
+  - Jonahtan Vasquez
+  - Shereen Ismail
+  - Asma Jodeiri Akbarfam
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The rise of automated scanning tools and AI assisted reconnaissance agents
+    has significantly altered internet background traffic patterns, threatening the
+    baseline assumptions underlying intrusion detection systems (IDS) deployed in
+    critical infrastructure networks. This paper characterizes the evolution of automated
+    bot traffic by analyzing a longitudinal dataset of 192 million passive darknet
+    packets captured across 2021 and 2025 from the Merit ORION Network Telescope.
+    A modular analysis pipeline was developed to compute metrics including average
+    packet rate, global Shannon entropy, inter-arrival time (IAT) burstiness, geographic
+    attribution, and destination port targeting across key industrial protocols. Results
+    reveal a highly distributed yet focused reconnaissance landscape, with traffic
+    targeting ICS-relevant ports nearly doubling from 0.82% to 1.51% over the four-year
+    period. Furthermore, burstiness analysis exposes intentional micro-pacing behaviors
+    (1ms to 100ms delays) that allow modern botnets to artificially smooth their overall
+    volume. Our simulated anomaly-based IDS demonstrates that these evasion techniques
+    enable 97.47% of modern bot traffic to bypass standard volumetric thresholds undetected.
+    Compensatory sensitivity tuning triggers a 68.10% false-positive rate, highlighting
+    fundamental visibility and alerting gaps in operational technology (OT) environments.
+- title: 'BiTA: Bidirectional Gated Recurrent Unit-Transformer Aggregator in a Temporal
+    Graph Network Framework for Alert Prediction in Computer Networks'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.22781v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Zahra Makki Nayeri
+  - Mohsen Rezvani
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Proactive alert prediction in computer networks is critical for mitigating
+    evolving cyber threats and enabling timely defensive actions. Temporal Graph Neural
+    Networks (TGNs) provide a principled framework for modeling time-evolving interactions;
+    however, existing TGN-based methods predominantly rely on unidirectional or single-mechanism
+    temporal aggregation, which limits their ability to capture recursive, multi-scale
+    temporal patterns commonly observed in real-world attack behaviors. In this paper,
+    we propose BiTA, a Bidirectional Gated Recurrent Unit-Transformer Aggregator for
+    temporal graph learning. Rather than introducing a deeper or higher-capacity model,
+    BiTA redesigns the temporal aggregation function within the TGN framework by jointly
+    encoding bidirectional sequential dependencies and long-range contextual relations
+    over each node's temporal neighborhood. This aggregation strategy enables complementary
+    temporal reasoning at different scales while preserving the original TGN memory
+    and message-passing structure. We evaluate BiTA on real-world alert datasets,
+    demonstrating significant improvements in key performance metrics such as area
+    under the curve, average precision, mean reciprocal rank, and per-category prediction
+    accuracy when compared to state-of-the-art temporal graph models. BiTA outperforms
+    baseline methods under both transductive and inductive settings, highlighting
+    its robustness and generalization capabilities in dynamic network environments.
+    BiTA is a scalable and interpretable framework for real-time cyber threat anticipation,
+    paving the way toward more intelligent and adaptive intrusion detection systems.
+- title: 'HIDBench: Benchmarking Large Language Models for Host-Based Intrusion Detection'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.21773v1
+  category: network-security
+  subcategory: method
+  authors:
+  - Danyu Sun
+  - Jinghuai Zhang
+  - Yuan Tian
+  - Zhou Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Recent benchmark efforts have advanced the evaluation of large language
+    models (LLMs) in cybersecurity, including tasks such as penetration testing and
+    vulnerability identification. However, a critical cybersecurity task, namely intrusion
+    detection from system logs, remains unexplored. In this work, we present a new
+    benchmark to assess LLMs' capabilities in supporting host-based intrusion detection
+    systems (HIDS). This task requires fine-grained reasoning over large-scale, noisy,
+    and highly imbalanced system logs, where complex interactions between benign and
+    malicious activities make reliable detection challenging. Our benchmark unifies
+    three public system log datasets, DARPA-E3, DARPA-E5, and NodLink, and introduces
+    a data construction pipeline that transforms raw host telemetry into LLM-compatible
+    inputs, enabling systematic evaluation under realistic intrusion detection settings.
+    Our evaluation of frontier LLMs reveals substantial performance gaps across datasets.
+    While many models achieve high precision (often above 0.8) on simpler datasets,
+    their performance degrades significantly as system logs become noisier and more
+    complex, with MCC frequently dropping below 0.5 and false positive rates increasing
+    sharply. We further analyze model behavior and identify distinct regimes, including
+    conservative detectors with low false positive rates and over-sensitive models
+    that generate excessive alerts. Overall, our results highlight that while LLMs
+    show strong potential for HIDS, their effectiveness is highly sensitive to data
+    complexity, and robust system design is essential for reliable deployment.
+- title: HQC Post-Quantum Cryptography Decryption with Generalized Minimum-Distance
+    Reed-Solomon Decoder
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.20156v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Jiaxuan Cai
+  - Xinmiao Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Hamming Quasi-Cyclic (HQC) was chosen for the latest post-quantum cryptography
+    standardization. A concatenated Reed-Muller (RM) and Reed-Solomon (RS) code is
+    decoded during the HQC decryption. Soft-decision RS decoders achieve better error-correcting
+    performance than hard-decision decoders and accordingly shorten the required codeword
+    and key lengths. However, the only soft-decision decoder for HQC in prior works
+    is an erasure-only decoder, which has limited coding gain. This paper analyzes
+    other hardware-friendly soft-decision RS decoders and discovers that the generalized
+    minimum-distance (GMD) decoder can better utilize the soft information available
+    in HQC. Extending the Agrawal-Vardy bound for the scenario of HQC, it was found
+    that the RS codeword length for HQC-128 can be reduced from 46 to 36. This paper
+    also proposes efficient GMD decoder hardware architectures optimized for the short
+    and low-rate RS codes used in HQC. The HQC-128 decryption utilizing the proposed
+    GMD decoder achieves 20% and 15% reductions on the latency and area, respectively,
+    compared to the decryption with hard-decision decoders.
+- title: On the Practical Feasibility of Harvest-Now, Decrypt-Later Attacks
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.01091v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Javier Blanco-Romero
+  - Florina Almenares Mendoza
+  - Carlos García Rubio
+  - Celeste Campo
+  - Daniel Díaz Sánchez
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Harvest-now, decrypt-later (HN-DL) attacks threaten today''s encrypted
+    communications by archiving ciphertext until a quantum computer can break the
+    underlying key exchange. This paper reframes HN-DL as an economic problem, quantifying
+    adversary costs across Transport Layer Security (TLS) 1.2, TLS 1.3, QUIC, and
+    Secure Shell (SSH) with an open-source testbed that reproduces the full attack
+    sequence. Our model shows that retaining intercepted traffic is economically trivial,
+    shifting the defensive question from whether an adversary can archive to how much
+    decryption will cost. We evaluate protocol configuration strategies that act along
+    two independent cost axes: storage overhead and quantum workload. Beyond the ongoing
+    migration to post-quantum cryptography, these strategies provide defense in depth
+    with current infrastructure. Encrypted Client Hello forces indiscriminate bulk
+    collection, inflating the archive the adversary must retain, while aggressive
+    rekeying and larger key exchange parameters multiply the quantum computations
+    required to recover plaintext. Because storage inflation penalizes both sides
+    while quantum cost inflation targets the adversary alone, rekeying and key size
+    selection offer the strongest defensive levers.'
+- title: 'The Colossus with Feet of Clay: Debunking Encrypted Traffic Classifiers
+    under PQC Evolution'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22683v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Bingzhen Li
+  - Lingjia Meng
+  - Runhan Song
+  - Chuanzhou Pan
+  - Tongjun Pu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Encrypted traffic classifiers often achieve high accuracy under matched
+    training and testing conditions, implicitly assuming that deployment traffic follows
+    the training distribution. TLS migration toward post-quantum cryptography (PQC)
+    challenges this assumption because hybrid key establishment can reshape observable
+    traffic without changing application labels. We frame this change as PQC-induced
+    protocol drift and study its effects through closed-world HTTPS website fingerprinting
+    using the deployed TLS~1.3 Hybrid-PQC group \texttt{\detokenize{X25519MLKEM768}}.
+    We build a controlled, PQC-aware benchmark pairing Traditional (Non-PQC) and Hybrid-PQC
+    traffic, then evaluate five representative classifiers and side-channel representations
+    under matched-domain, cross-domain, and deployment-ratio settings. Collectively,
+    the experiments show that PQC evolution does not remove learnable website information.
+    Instead, it changes how that information appears in traffic, causing classifiers
+    and feature combinations that perform well in-domain to lose reliability across
+    cryptographic domains. By exposing the fragility of matched-domain evaluation,
+    we offer strategic guidance, identify cross-domain robustness as a research priority,
+    and recommend protocol-aware practices for dependable real-world encrypted traffic
+    classification. The code is available at http://anonymous.4open.science/r/PQ-WF-Eval.
+- title: Detecting Cryptographically Relevant Software Packages with Collaborative
+    LLMs
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.07204v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Eduard Hirsch
+  - Kristina Raab
+  - Tobias J. Bauer
+  - Daniel Loebenberger
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: IT systems are facing an increasing number of security threats, including
+    advanced persistent attacks and future quantum-computing vulnerabilities. The
+    move towards crypto-agility and post-quantum cryptography (PQC) requires a reliable
+    inventory of cryptographic assets across heterogeneous IT environments. Due to
+    the sheer amount of packets, it is infeasible to manually detect cryptographically
+    relevant software. Further, static code analysis pipelines often fail to address
+    the diversity of modern ecosystems. Our research explores the use of large language
+    models (LLMs) as heuristic tools for cryptographic asset discovery. We propose
+    a collaborative framework that employs multiple LLMs to assess software relevance
+    and aggregates their outputs through majority voting. To preserve data privacy,
+    the approach operates on-premises without reliance on external servers. Using
+    over 65,000 Fedora Linux packages, we evaluate the reliability of this method
+    through statistical analysis, inter-model agreement, and manual validation. Preliminary
+    results suggest that~LLM ensembles can serve as an efficient first-pass filter
+    for identifying cryptographic software, resulting in reduced manual workload and
+    assisting PQC transition. The study also compares on-premises and online LLM configurations,
+    highlighting key advantages, limitations, and future directions for automated
+    cryptographic asset discovery.
+- title: 'Lightweight Quantum Agent for Edge Systems: Joint PQC and NOMA Resource
+    Allocation'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.25980v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yongtao Yao
+  - Wenjing Xiao
+  - Miaojiang Chen
+  - Anfeng Liu
+  - Zhiquan Liu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In the context of quantum secure scenarios, existing research on mobile
+    edge devices and intelligent computing and edge (ICE) systems based on the Non-Orthogonal
+    Multiple Access (NOMA) communication model have overlooked the energy consumption
+    overhead of Post-Quantum Cryptography (PQC) modules, and the high complexity of
+    traditional resource allocation algorithms fails to meet the demands of real-time
+    decision-making. To address these challenges, this paper proposes a lightweight
+    agentic AI framework designed for online joint optimization within ICE-enabled
+    mobile devices. The scheme constructs a multi-stage stochastic Mixed Integer Nonlinear
+    Programming (MINLP) model that incorporates static power-consumption constraints
+    for PQC modules. Based on Lyapunov optimization theory, the long-term optimization
+    problem is decoupled, and a linear complexity algorithm is proposed to solve the
+    nonconvex challenges of NOMA power allocation . Simulation results verify that
+    the proposed scheme significantly improves computational throughput while ensuring
+    system queue stability and energy consumption constraints. Compared with traditional
+    Successive Convex Approximation (SCA) algorithms, the complexity is reduced to
+    $\mathcal{O}(N)$, achieving a speedup of approximately 46 times when the number
+    of devices $N=35$, thereby meeting the real-time decision-making requirements
+    in dynamic wireless environments.
+- title: Empowering Mobile Networks Security Resilience by using Post-Quantum Cryptography
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.28626v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Ricardo Alves Faval
+  - Rodrigo Moreira
+  - Flávio de Oliveira Silva
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The transition to a cloud-native 5G Service-Based Architecture (SBA)
+    improves scalability but exposes control-plane signaling to emerging quantum threats,
+    including Harvest-Now, Decrypt-Later (HNDL) attacks. While NIST has standardized
+    post-quantum cryptography (PQC), practical, deployable integration in operational
+    5G cores remains underexplored. This work experimentally integrates NIST-standardized
+    ML-KEM-768 and ML-DSA into an open-source 5G core (free5GC) using a sidecar proxy
+    pattern that preserves unmodified network functions (NFs). Implemented on free5GC,
+    we compare three deployments: (i) native HTTPS/TLS, (ii) TLS sidecar, and (iii)
+    PQC-enabled sidecar. Measurements at the HTTP/2 request-response boundary over
+    repeated independent runs show that PQC increases end-to-end Service-Based Interface
+    (SBI) latency to approximately 54 ms, adding a deterministic 48-49 ms overhead
+    relative to the classical baseline, while maintaining tightly bounded variance
+    (IQR &lt;= 0.2 ms, CV &lt; 0.4%). We also quantify the impact of Certification
+    Authority (CA) security levels, identifying certificate validation as a tunable
+    contributor to overall delay. Overall, the results demonstrate that sidecar-based
+    PQC insertion enables a non-disruptive and operationally predictable migration
+    path for quantum-resilient 5G signaling.'
+- title: Quantum-Resistant Quantum Teleportation
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.16101v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Xin Jin
+  - Nitish Kumar Chandra
+  - Mohadeseh Azari
+  - Jinglei Cheng
+  - Zilin Shen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We propose a quantum-resistant quantum teleportation (QRQT) framework
+    protected by post-quantum cryptography (PQC) to secure the classical correction
+    channel, which is vulnerable to quantum adversaries. By applying PQC to the classical
+    control bits, QRQT eliminates the classical attack surface of quantum teleportation.
+    Our analysis reveals that quantum memory is a hidden bottleneck linking physical
+    and computational security: its finite coherence time simultaneously limits communication
+    distance, constrains tolerable PQC overhead, and restricts the adversary attack
+    window. Under realistic parameters (1 ms coherence, fiber-optic propagation),
+    the maximum secure teleportation distance ranges from 191 km (FrodoKEM-1344) to
+    199 km (Kyber512). We show that the joint classical-quantum attack probability
+    exhibits a non-monotonic, Bell-shaped profile due to the opposing time dependencies
+    of classical cryptanalysis and quantum decoherence, establishing a bounded optimal
+    attack window beyond which adversarial success decays exponentially. We further
+    analyze how leakage of classical correction bits affects teleportation security
+    under four stochastic leakage models: independent exponential, sequential, burst,
+    and correlated leakage, also accounting for amplitude damping on the shared Bell
+    pair. For each scenario, we derive closed-form expressions for the average Holevo
+    quantity and teleportation fidelity as functions of time, providing measurement-independent
+    upper bounds on extractable information and guiding the design of leakage-resilient
+    quantum communication protocols.'
+- title: 'Explicit Factorization of $x^{p+1}-1$ over $\mathbb{Z}_{p^e}$: A Structural
+    Approach via Dickson Polynomials'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.19038v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yongchao Wang
+  - Yang Ding
+  - Jiansheng Yang
+  - Zhiqiu Huang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Let $p$ be an odd prime. The factorization of the polynomial $x^{p+1}-1$
+    over the integer residue ring $\mathbb{Z}_{p^e}$ is pivotal for constructing cyclic
+    codes with Hermitian symmetry, a critical resource for Linear Complementary Dual
+    (LCD) codes and Entanglement-Assisted Quantum Error-Correcting Codes (EAQECC).
+    Traditionally, lifting factorizations relies on the generic Hensel's Lemma, masking
+    the underlying algebraic structure. In this paper, we establish a structural isomorphism
+    between the lifting process and the roots of a special auxiliary polynomial $V(x)$,
+    unveiling a deterministic link to Dickson polynomials. Based on this theory, we
+    develop \texttt{Dickson-Engine}, a linear-time algorithm ($O(ep)$) that outperforms
+    standard libraries by orders of magnitude. Applying this engine to $\mathbb{Z}_{169}$,
+    we explicitly construct a family of classical LCD codes of length $n=182$ via
+    the isometric Gray map. Our search reveals codes with parameters (e.g., $[182,
+    1, 168]_{13}$ and $[182, 2, 144]_{13}$) that are \textbf{near-optimal} with respect
+    to the theoretical Griesmer Bound. Notably, we discover a ``robustness plateau''
+    starting from non-trivial dimensions ($k=4$), where the minimum distance remains
+    stable ($d=120$) even as the dimension triples ($k=4 \rightarrow 12$). These codes
+    provide exceptional resources for post-quantum cryptography and quantum error
+    correction without entanglement consumption ($c=0$).
+- title: Operationalising Post Quantum TLS Automated Configuration Profiling and Hybrid
+    PQC Deployment in Financial Infrastructure
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.17955v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Harish Balaji
+  - Aarav Varshney
+  - Prasanna Ravi
+  - Sripal Jain
+  - Robin Foe
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Organisations are upgrading their cryptographic infrastructure to become
+    quantum safe before large scale quantum computers materialise. Post quantum cryptography
+    (PQC) standards now exist for key exchange and digital signatures, but the urgent
+    question for adopters is how to operationalise PQC in complex environments with
+    confidence. In banking, Transport Layer Security (TLS), for example, protects
+    data in transit across public facing channels and internal services, and is terminated
+    at many heterogeneous endpoints (web servers, API gateways, load balancers, reverse
+    proxies), each a potential quantum vulnerable component and migration target.
+    We argue that the bottleneck is operational rather than algorithmic, hybrid key
+    exchanges such as MLKEM and hybrid MLKEM key exchanges are already available in
+    mainstream libraries, but security teams lack precise visibility into TLS configurations
+    and repeatable methods for enabling PQC compatible settings across a heterogeneous
+    estate. This paper presents a configuration parsing methodology that automatically
+    extracts and normalises TLS cryptographic posture across dominant enterprise web
+    server stacks, producing a unified, provenance traced cryptographic inventory
+    as a foundation for migration and compliance. We demonstrate the approach on 8,443
+    real world Nginx configurations from public repositories and in a proof of concept
+    deployment at a financial institution, where MLKEM and hybrid MLKEM key exchanges
+    at TLS termination points (web server and API gateway) securing an internal application,
+    with zero application layer changes and manageable performance overhead.
+- title: Network Impact of Post-Quantum Certificate Chain sizes on Time to First Byte
+    in TLS Deployments
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24869v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Matthew Chou
+  - Phuong Cao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Post-Quantum Cryptography (PQC) is a rapidly growing deployment challenge
+    as cryptographically relevant quantum computers (CRQC) continue to advance, leaving
+    traditional cryptographic algorithms used in X.509 vulnerable to attack. However,
+    PQC introduces significant deployment challenges in real-world networks, with
+    handshake sizes increasing from 5x to over 20x compared to classical algorithms.
+    In this work, we evaluate the time to first byte (TTFB) under CDN-focused TLS
+    conditions to characterize the latency cost of transitioning existing internet
+    infrastructure to quantum-safe certificate schemes. We observe discrete increases
+    in TTFB as certificate chain sizes exceed transport layer data flight limits.
+    To isolate the impact of certificate chains, we evaluate both ECDSA and ML-DSA-based
+    certificate schemes, generating similarly sized certificate chains through controlled
+    addition of certificate extensions. We additionally examine how CDN properties
+    such as session resumption, certificate size optimizations, and geographical distribution
+    reduce latency penalties. We utilize Zeek-monitored TLS traffic through a High-Performance
+    Computing System (NCSA) with terabyte network connectivity across the nation to
+    quantify real-world session resumption rates. We compare CDN-driven size optimization
+    with Merkle Tree Certificates (MTC) to examine how size reductions allow certificate
+    chains to remain under the flight limit threshold. We find that MTC allows for
+    2x-3x increase in supportable certificate chain size, whereas CDN-based optimizations
+    yield more limited reductions, supporting up to approximately 1.6x certificate
+    chain size increase.
+- title: 'Aquaman: A Transparent Proxy Architecture for Quantum Resilient Key Establishment'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.06932v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Tushin Mallick
+  - Ashish Kundu
+  - Ramana Kompella
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The harvest-now, decrypt-later (HNDL) threat--adversaries intercepting
+    and archiving ciphertext today for retrospective decryption once quantum computers
+    mature--turns the future quantum threat into a present liability for the public-key
+    primitives (RSA, Diffie-Hellman, ECC) that anchor modern session-key exchange.
+    We present Aquaman, a transparent-proxy architecture for quantum-resilient session-key
+    establishment. A transparent proxy intercepts session-key requests at the edge
+    of a trusted network without requiring client-side configuration, deploying quantum-resistant
+    capability at the network boundary on behalf of clients that may themselves lack
+    post-quantum cryptography (PQC). Aquaman supports four operating modes: PQC offloaded
+    to the proxy for clients without trusted PQC stacks; classical multi-path key
+    fragmentation over heterogeneous media (with an optional anonymous proxy-pool
+    variant); QKD with the SKIP/ETSI GS QKD 014 key-delivery interface; and classical/PQC
+    hybrid handshakes. We implement and evaluate the first two modes; the latter two
+    are well-trodden in the PQC literature and we discuss but do not implement them.
+    The implemented multi-path mode splits the session key into ciphertext fragments
+    distributed across diverse media (Wi-Fi, Bluetooth, NFC, cellular, Ethernet);
+    reconstruction requires all fragments. We formalize the security argument and
+    prove that recovery probability decays as (B/d)^n in the diversity dimension.
+    A 1,000-run prototype evaluation on AWS EC2 shows that latency is dominated by
+    network transmission, not by multi-path overhead.'
+- title: 'Towards Geostrategic Critical Minerals and Materials Resilience: Secure
+    Supply-Chain and Criticality Analyses for Quantum Technologies in Arctic and Space
+    Environments'
+  date: 2026-04
+  url: https://arxiv.org/abs/2605.02926v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Min-Ha Lee
+  - Alan J. Hurd
+  - Jolante Wieke Van Wijk
+  - Mauritz Kop
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This manuscript maps secure-supply and criticality risks for quantum
+    technologies deployed in extreme environments, linking upstream critical minerals
+    and materials (CMMs) to downstream system performance, continuity of security,
+    and mission assurance. It adopts a reproducible "Critical Level I" screening method
+    to identify materials whose supply concentration, essentiality, and limited mitigatability
+    can create bottlenecks for quantum deployment. The analysis is structured around
+    two use cases: (i) niobium as a key input for superconducting quantum computing
+    and related manufacturing and toolchain dependencies; and (ii) space-qualified
+    superconducting nanowire single-photon detectors (SNSPDs), alongside adjacent
+    single-photon detector platforms such as SPADs, where radiation, thermal cycling,
+    vibration, and electromagnetic interference can degrade device metrics and, in
+    communications settings, threaten continuity of security. The manuscript further
+    situates these dependencies within U.S.-China strategic competition over critical
+    materials, refining capacity, export controls, and overseas mineral acquisitions,
+    while also connecting them to standards-first governance, post-quantum cryptography
+    migration, and the emerging security logic of quantum networking. It argues that
+    static national critical-minerals lists are insufficient for mission-relevant
+    quantum technology and proposes a dedicated Quantum Criticality and Critical Minerals
+    (QCCM) dashboard as a living decision-support tool for tracking concentration,
+    substitutability, qualification bottlenecks, stockpiling gaps, and geopolitical
+    stress signals across quantum platforms. The paper concludes with implications
+    for substitution, diversification, stockpiling, shielding, qualification-by-design,
+    and standards-aligned governance to support secure, sustained, and mission-relevant
+    quantum deployment.'
+- title: Secure Medical Data Transmission Using Quantum Key Distribution and Post-Quantum
+    Cryptography in Real-World Fiber Networks
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.18869v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Vasile-Laurentiu Dosan
+  - Paul Spooren
+  - Sebastian Moeckel
+  - Alessandro Zannotti
+  - Alek Lagarrigue
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The threat quantum computers pose to classical public-key cryptography
+    motivates the deployment of quantum-safe communication for critical infrastructure
+    such as healthcare, finance, and energy systems. Quantum key distribution (QKD)
+    and post-quantum cryptography (PQC) offer complementary security guarantees, information-theoretic
+    key exchange and quantum-resistant end-to-end authentication that can be combined
+    in a layered architecture. Here, we demonstrate a field-deployed quantum-secure
+    network integrating entanglement-based QKD with end-to-end PQC over 140 km of
+    installed fiber in Thuringia, Germany, connecting a rural health kiosk to a university
+    hospital via a trusted-node architecture comprising heterogeneous underground
+    and aerial fiber links. Unlike conventional deployments that rely on a dedicated
+    key management system to forward keys to applications, our architecture injects
+    QKD keys directly into standard Linux-based VPN tunnels between adjacent nodes,
+    while PQC secures the communication end-to-end, remaining fully compatible with
+    existing infrastructure and software. Polarization-entangled photon pairs were
+    generated at 810 nm and 1550 nm, with the telecom photon transmitted over deployed
+    fiber. Active polarization stabilization and dispersion compensation preserve
+    the entanglement and enable 22 days of continuous, fully autonomous operation,
+    further underscoring the technological maturity of entanglement-based QKD approaches
+    in a real-world fiber environment. Although the two deployed links were operated
+    during separate rather than concurrent periods, the predominantly aerial link
+    exhibited markedly greater instability, with QBER variations most strongly correlated
+    with wind speed. The generated keys secured a telemedicine proof-of-concept without
+    modifying existing medical systems, demonstrating a practical framework for quantum-safe
+    critical infrastructures.
+- title: Evaluating PQC KEMs, Combiners, and Cascade Encryption via Adaptive IND-CPA
+    Testing Using Deep Learning
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.06942v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Simon Calderon
+  - Niklas Johansson
+  - Onur Günlü
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Ensuring ciphertext indistinguishability is fundamental to cryptographic
+    security, but empirically validating this property in real implementations and
+    hybrid settings presents practical challenges. The transition to post-quantum
+    cryptography (PQC), with its hybrid constructions combining classical and quantum-resistant
+    primitives, makes empirical validation approaches increasingly valuable. By modeling
+    IND-CPA games as binary classification tasks and training on labeled ciphertext
+    data with BCE loss, we study deep neural network (DNN) distinguishers for ciphertext
+    indistinguishability. We apply this methodology to PQC KEMs. We specifically test
+    the public-key encryption (PKE) schemes used to construct examples such as ML-KEM,
+    BIKE, and HQC. Moreover, a novel extension of this DNN modeling for empirical
+    distinguishability testing of hybrid KEMs is presented. We implement and test
+    this on combinations of PQC KEMs with plain RSA, RSA-OAEP, and plaintext. Finally,
+    methodological generality is illustrated by applying the DNN IND-CPA classification
+    framework to cascade symmetric encryption, where we test combinations of AES-CTR,
+    AES-CBC, AES-ECB, ChaCha20, and DES-ECB. In our experiments on PQC algorithms,
+    KEM combiners, and cascade encryption, no algorithm or combination of algorithms
+    demonstrates a significant advantage (two-sided binomial test, significance level
+    $α= 0.01$), consistent with theoretical guarantees that hybrids including at least
+    one IND-CPA-secure component preserve indistinguishability, and with the absence
+    of exploitable patterns under the considered DNN adversary model. These illustrate
+    the potential of using deep learning as an adaptive, practical, and versatile
+    empirical estimator for indistinguishability in more general IND-CPA settings,
+    allowing data-driven validation of implementations and compositions and complementing
+    the analytical security analysis.
+- title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities:
+    Resource Estimates and Mitigations'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.28846v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Ryan Babbush
+  - Adam Zalcman
+  - Craig Gidney
+  - Michael Broughton
+  - Tanuj Khattar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This whitepaper seeks to elucidate implications that the capabilities
+    of developing quantum architectures have on blockchain vulnerabilities and mitigation
+    strategies. First, we provide new resource estimates for breaking the 256-bit
+    Elliptic Curve Discrete Logarithm Problem, the core of modern blockchain cryptography.
+    We demonstrate that Shor's algorithm for this problem can execute with either
+    &lt;1200 logical qubits and &lt;90 million Toffoli gates or &lt;1450 logical qubits
+    and &lt;70 million Toffoli gates. In the interest of responsible disclosure, we
+    use a zero-knowledge proof to validate these results without disclosing attack
+    vectors. On superconducting architectures with 1e-3 physical error rates and planar
+    connectivity, those circuits can execute in minutes using fewer than half a million
+    physical qubits. We introduce a critical distinction between fast-clock (such
+    as superconducting and photonic) and slow-clock (such as neutral atom and ion
+    trap) architectures. Our analysis reveals that the first fast-clock CRQCs would
+    enable on-spend attacks on public mempool transactions of some cryptocurrencies.
+    We survey major cryptocurrency vulnerabilities through this lens, identifying
+    systemic risks associated with advanced features in some blockchains such as smart
+    contracts, Proof-of-Stake consensus, and Data Availability Sampling, as well as
+    the enduring concern of abandoned assets. We argue that technical solutions would
+    benefit from accompanying public policy and discuss various frameworks of digital
+    salvage to regulate the recovery or destruction of dormant assets while preventing
+    adversarial seizure. We also discuss implications for other digital assets and
+    tokenization as well as challenges and successful examples of the ongoing transition
+    to Post-Quantum Cryptography (PQC). Finally, we urge all vulnerable cryptocurrency
+    communities to join the ongoing migration to PQC without delay.
+- title: A Drop-in KEM Replacement for Client Signatures in Post-Quantum SSH
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24447v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Hongbo Liu
+  - Yufan Su
+  - Jiangxia Ge
+  - Qionglu Zhang
+  - Zhaoxuan Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The transition to post-quantum cryptography is reshaping the Secure Shell
+    (SSH) protocol for remote administration. Post-quantum key exchange has been deployed
+    in OpenSSH and is being standardized, while SSH authentication largely remains
+    a signature-replacement effort. This path preserves the familiar public-key credential
+    model, but inherits the size and computation overhead of post-quantum signatures,
+    which can increase latency, traffic, and server-side load. KEM-based authentication
+    offers a natural alternative to this signature-centric path, and SSH makes this
+    especially attractive at the user-authentication layer, which is method-extensible,
+    separated from transport-layer key exchange and host-key authentication, and already
+    protected by the established channel. We present a drop-in KEM-based user-authentication
+    method for SSH that replaces client public-key signatures with a session-bound
+    challenge-response proof. The method fits into SSH''s existing user-authentication
+    framework, preserving the public-key credential model and enabling incremental
+    deployment alongside existing methods. We provide a reduction-based security argument
+    in the post-quantum ACCE framework, implement the design in OpenSSH using liboqs,
+    and evaluate it under representative RTTs, TCP initial-window settings, and post-quantum
+    migration configurations. Our results show that KEM-based authentication is competitive
+    with compact signature-based authentication under representative network settings,
+    while reducing median handshake latency by up to about 10% against large-signature
+    hybrid baselines. The advantages are clearer when post-quantum signatures stress
+    transmission or computation: median latency under small TCP initial windows falls
+    by up to 7.3% versus ML-DSA and 17.9% versus SLH-DSA, while server-side online
+    cryptographic cost is 59.1% lower than that for ML-DSA in the same NIST category.'
+- title: A Scenario-Based Evaluation of CRQC+AI Vulnerability Spectrum for TLS 1.3
+    Cryptographic Dependencies
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23785v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Noel Grover
+  - Mussie Haile
+  - Brad Pedersen
+  - Eric Uner
+  - Bradley J Erickson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper evaluates quantum and AI-accelerated risks to TLS 1.3 cryptographic
+    dependencies under an evidence-tiered model, distinguishing mechanism-backed threats
+    (Shor algorithm against RSA and ECC) from contingency-backed risks to lattice-based
+    post-quantum cryptography (PQC) and hypothesis-only risks to hash-based and symmetric
+    primitives. We do not identify any known breaks of ML-KEM, ML-DSA, SLH-DSA, or
+    AES-256. Instead, we use explicit scenario assumptions, organized as a four-scenario
+    capability model with parameters and pseudocode for reproducibility, to stress-test
+    migration timelines accompanied by parameter sensitivity analysis and explicit
+    falsification analysis. The primary methodological contribution is a reproducible
+    scenario-estimation instrument together with its explicit update mechanics: every
+    parameter is a named, anchored quantity that can be varied and the model rerun;
+    a stated protocol maps observed conformance to, or deviation from, the modeled
+    curves onto revisions of specific parameters, so progressive refinements can be
+    tested against accumulating historical data. The paper is a methodological companion
+    to quantum resource-estimation studies and to expert-elicitation timeline surveys
+    such as the Global Risk Institute quantum threat reports, with its revision rules
+    stated explicitly. As of mid-2026, the model does not show any NIST-approved algorithms
+    as broken. Instead, the vulnerability spectrum under different scenarios shows
+    RSA risk crossing the 50% threshold between 2030-2032 and the PQC risk becoming
+    a non-zero risk after 2032-2035 under contingency scenarios conditional on the
+    unproven dimension-collapse. We urge PQC migration as mandatory per the 2030 and
+    2031 federal deadlines and by Mosca HNDL reasoning, and that crypto-agility and
+    hybrid cryptographic deployment be considered necessary complements to any PQC
+    migration efforts.'
+- title: Post-Quantum Cryptography from Quantum Stabilizer Decoding
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.19110v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Jonathan Z. Lu
+  - Alexander Poremba
+  - Yihui Quek
+  - Akshar Ramkumar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Post-quantum cryptography currently rests on a small number of hardness
+    assumptions, posing significant risks should any one of them be compromised. This
+    vulnerability motivates the search for new and cryptographically versatile assumptions
+    that make a convincing case for quantum hardness. In this work, we argue that
+    decoding random quantum stabilizer codes -- a quantum analog of the well-studied
+    LPN problem -- is an excellent candidate. This task occupies a unique middle ground:
+    it is inherently native to quantum computation, yet admits an equivalent formulation
+    with purely classical input and output, as recently shown by Khesin et al. (STOC
+    ''26). We prove that the average-case hardness of quantum stabilizer decoding
+    implies the core primitives of classical Cryptomania, including public-key encryption
+    (PKE) and oblivious transfer (OT), as well as one-way functions. Our constructions
+    are moreover practical: our PKE scheme achieves essentially the same efficiency
+    as state-of-the-art LPN-based PKE, and our OT is round-optimal. We also provide
+    substantial evidence that stabilizer decoding does not reduce to LPN, suggesting
+    that the former problem constitutes a genuinely new post-quantum assumption. Our
+    primary technical contributions are twofold. First, we give a reduction from random
+    quantum stabilizer decoding to an average-case problem closely resembling LPN,
+    but which is equipped with additional symplectic algebraic structure. While this
+    structure is essential to the quantum nature of the problem, it raises significant
+    barriers to cryptographic security reductions. Second, we develop a new suit of
+    scrambling techniques for such structured linear spaces, and use them to produce
+    rigorous security proofs for all of our constructions.'
+- title: 'The 1-Bit Barrier is Universal: k-Stage Pipeline Composition and Unified
+    Leakage Bounds for Standard Modular Reductions in PQC Hardware'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.02856v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Ray Iskander
+  - Khaled Kirah
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This is Paper 7 of a series of formally-verified analyses of masked NTT
+    hardware for post-quantum cryptography; Paper 1 [1] established structural dependency
+    analysis of the QANARY platform, and Paper 2 [2] quantified security margins under
+    partial NTT masking. Arbitrary-depth $k$-stage masked NTT pipelines with fresh
+    inter-stage masking and per-stage PF-PINI($\leq 2$) gadgets satisfy a per-observation
+    cardinality bound of $2 \cdot q^{2k-2}$ on the preimage of any output value, machine-checked
+    in Lean 4 with zero \texttt{sorry}. Under the standard (informal) semantic translation
+    that divides this cardinality by the total mask-tuple space size $q^{2k-1}$, the
+    per-observation conditional probability bound is $2/q$, independent of pipeline
+    depth $k$. The QANARY program has previously established machine-checked cardinality
+    bounds on the per-observation leakage of masked NTT hardware: PF-PINI(2) for Barrett
+    reduction (Paper 5 [3]), 2-stage composition with fresh inter-stage masking (Paper
+    6 [4]), an underlying universality theorem (Paper 3 [5]), and PF-PINI(1) for butterfly
+    wires (Paper 4 [6]). This paper closes the program with four contributions. First,
+    a $k$-stage composition theorem generalizing Paper 6''s two-stage result to arbitrary
+    $k \geq 1$ gives the last-stage-determined bound $G_{k-1}.\texttt{maxMult} \cdot
+    q^{2k-2}$: only the last stage''s PF-PINI parameter survives, with intermediate
+    parameters erased by fresh inter-stage masking. Second, Montgomery reduction satisfies
+    PF-PINI(2) with tight max-multiplicity 2. Third, we assemble these into the end-to-end
+    bound $2 \cdot q^{2k-2}$ for any depth-$k$ PF-PINI($\leq 2$) pipeline under fresh
+    inter-stage masking. Fourth, a Lean-verified hypothesis-violation conditional
+    anchors the prior empirical and structural Adams Bridge analyses ([1, 2, 7, 8]).'
+- title: 'quantum-safe: Bridging the Post-Quantum Production Gap with a Hybrid-by-Default
+    Python Cryptography Library'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.17061v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Animesh Shaw
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The August 2024 finalisation of FIPS 203 (ML-KEM), FIPS 204 (ML-DSA),
+    and FIPS 205 (SLH-DSA) closed the algorithmic gap in post-quantum cryptography
+    (PQC). The production gap -- hybrid combiners, versioned key formats, protocol
+    helpers, and migration tooling -- remains open. We present quantum-safe, a Python
+    library that closes all three critical gaps we identify, and a systematic evaluation
+    of the nine-library ecosystem that quantifies them. We score nine PQC libraries
+    across eight production-readiness dimensions. Three dimensions have coverage below
+    35%: hybrid KEM support (11%), migration tooling (22%), and protocol integration
+    (33%). quantum-safe scores Full on all eight. The full API reduces the hybrid
+    KEM task from 45 lines of manual combiner code to three lines, directly lowering
+    the risk of insecure combiner implementations. We report the first statistically
+    rigorous per-operation overhead measurement for a Python hybrid PQC library (3,000
+    iterations, CPU-pinned, bootstrapped 95% confidence intervals). A full X25519
+    + ML-KEM-768 handshake completes in 243 μs under Docker/Linux -- 0.5--2.5% of
+    a typical TLS 1.3 round-trip budget. At 5,000 concurrent users, throughput holds
+    at 2,848 ops/s with only 4.9% degradation versus the single-user baseline, confirming
+    that liboqs releases the Python GIL during C-level operations. We introduce Coefficient
+    of Variation (CoV) as a practical timing side-channel proxy across all FIPS 203/204
+    operations. ML-KEM-768 decapsulation achieves CoV = 3.9%, within the AES-256-GCM
+    noise floor (2.1%). ML-DSA-65 signing shows CoV = 51.5%, expected from FIPS 204
+    rejection sampling, not a side-channel. This CoV methodology has not previously
+    been applied to PQC library evaluation and provides a lightweight complement to
+    formal constant-time verification tools. All results are reproducible via a single
+    Docker command.'
+- title: 'Machine-Checked Cardinality Bounds for Masked Barrett Reduction: A 1-Bit
+    Side-Channel Leakage Barrier in Post-Quantum Cryptographic Hardware'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24670v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Ray Iskander
+  - Khaled Kirah
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Barrett reduction is the nonlinear core of every practical NTT-based
+    post-quantum cryptography implementation. Existing composition frameworks (ISW,
+    t-SNI, PINI, DOM) address Boolean masking over GF(2); none provides a machine-checked
+    characterization of Barrett''s leakage under first-order arithmetic masking and
+    the first-order probing model over prime fields. Building on our prior series,
+    QANARY [15], partial-NTT-masking margins [14], algebraic foundations [16], and
+    butterfly composition [18], we close this gap. We prove a trichotomy: for any
+    $q &gt; 0$ and shift $s$, the Barrett internal wire map $f_x(m) = ((x + 2^s -
+    m) \bmod 2^s) \bmod q$ has preimage cardinality in $\{0, 1, 2\}$, never more.
+    We call this the 1-Bit Barrier: max-multiplicity 2 implies at most 1 bit of min-entropy
+    loss per internal wire, universal over all moduli. The count-zero cases, unreachable
+    output values, reveal that actual leakage is often strictly less than 1 bit, making
+    the bound conservative. We introduce PF-PINI (Prime-Field PINI): Barrett satisfies
+    PF-PINI(2); the Cooley-Tukey butterfly satisfies PF-PINI(1). We observe (not yet
+    proved) that with fresh inter-stage masking, the composed pipeline has max-multiplicity
+    $\max(k_1, k_2)$, so the 1-Bit Barrier propagates. The trichotomy, the PF-PINI
+    instantiations, and cardinality results are machine-checked in Lean 4 with Mathlib:
+    12 proved results, zero sorry, universal over all $q &gt; 0$ (the min-entropy
+    bound follows by standard definitions). Adams Bridge lacks fresh inter-stage masking,
+    violating PF-PINI composition and explaining why Papers 1 [15] and 2 [14] found
+    vulnerabilities. NIST IR 8547 recommends formal methods for PQC implementation
+    validation. The 1-Bit Barrier provides the first universal machine-checked cardinality
+    bound for masked Barrett reduction in ML-KEM (FIPS 203) and ML-DSA (FIPS 204),
+    with a corresponding 1-bit leakage interpretation.'
+- title: Characterizing Linear Alignment Across Language Models
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.18908v4
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Matt Gorbett
+  - Suman Jana
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Language models increasingly appear to learn similar representations,
+    despite differences in training objectives, architectures, and data modalities.
+    This emerging compatibility between independently trained models introduces new
+    opportunities for cross-model alignment to downstream objectives. Moreover, this
+    capability unlocks new potential application domains, such as settings where security,
+    privacy, or competitive constraints prohibit direct data or model sharing. In
+    this work, we investigate the extent to which representational convergence enables
+    practical linear alignment between large language models. Specifically, we learn
+    affine transformations between the final hidden states of independent models and
+    empirically evaluate these mappings across text generation, embedding classification,
+    and out-of-distribution detection. We find that performance is largely preserved
+    across model pairs, and show for the first time that linear alignment sometimes
+    enables text generation across independently trained models. We further highlight
+    a potential application of linear alignment for privacy-preserving cross-silo
+    inference. The framework learns an affine transformation over a shared public
+    dataset and uses homomorphic encryption to protect client queries. By encrypting
+    only the linear classification operation, the method achieves sub-second inference
+    latency.
+- title: On the Vulnerability of FHE Computation to Silent Data Corruption
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.23253v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Jianan Mu
+  - Ge Yu
+  - Zhaoxuan Kan
+  - Song Bian
+  - Liang Kong
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Fully Homomorphic Encryption (FHE) is rapidly emerging as a promising
+    foundation for privacy-preserving cloud services, enabling computation directly
+    on encrypted data. As FHE implementations mature and begin moving toward practical
+    deployment in domains such as secure finance, biomedical analytics, and privacy-preserving
+    AI, a critical question remains insufficiently explored: how reliable is FHE computation
+    on real hardware? This question is especially important because, compared with
+    plaintext computation, FHE incurs much higher computational overhead, making it
+    more susceptible to transient hardware faults. Moreover, data corruptions are
+    likely to remain silent: the FHE service has no access to the underlying plaintext,
+    causing unawareness even though the corresponding decrypted result has already
+    been corrupted. To this end, we conduct a comprehensive evaluation of SDCs in
+    FHE ciphertext computation. Through large-scale fault-injection experiments, we
+    characterize the vulnerability of FHE to transient faults, and through a theoretical
+    analysis of error-propagation behaviors, we gain deeper algorithmic insight into
+    the mechanisms underlying this vulnerability. We further assess the effectiveness
+    of different fault-tolerance mechanisms for mitigating these faults.'
+- title: Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic
+    Encryption
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.04742v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yang Gao
+  - Gang Quan
+  - Wujie Wen
+  - Scott Piersall
+  - Qian Lou
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Sparse matrix-vector multiplication (SpMV) is a fundamental operation
+    in scientific computing, data analysis, and machine learning. When the data being
+    processed are sensitive, preserving privacy becomes critical, and homomorphic
+    encryption (HE) has emerged as a leading approach for addressing this challenge.
+    Although HE enables privacy-preserving computation, its application to SpMV has
+    remained largely unaddressed. To the best of our knowledge, this paper presents
+    the first framework that efficiently integrates HE with SpMV, addressing the dual
+    challenges of computational efficiency and data privacy. In particular, we introduce
+    a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC),
+    which is specifically designed to optimize encrypted sparse matrix computations.
+    By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly
+    reduces storage and computational overhead. Our experimental results on real-world
+    datasets demonstrate that the proposed method achieves significant gains in both
+    processing time and memory usage. This study advances privacy-preserving SpMV
+    and lays the groundwork for secure applications in federated learning, encrypted
+    databases, scientific computing, and beyond.
+- title: 'DisAgg: Distributed Aggregators for Efficient Secure Aggregation in Federated
+    Learning'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.13708v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Haaris Mehmood
+  - Giorgos Tatsis
+  - Dimitrios Alexopoulos
+  - Karthikeyan Saravanan
+  - Jie Xu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Federated learning enables collaborative model training across distributed
+    clients, yet vanilla FL exposes client updates to the central server. Secure-aggregation
+    schemes protect privacy against an honest-but-curious server, but existing approaches
+    often suffer from many communication rounds, heavy public-key operations, or difficulty
+    handling client dropouts. Recent methods like One-Shot Private Aggregation (OPA)
+    cut rounds to a single server interaction per FL iteration, yet they impose substantial
+    cryptographic and computational overhead on both server and clients. We propose
+    a new protocol called DisAgg that leverages a small committee of clients called
+    Aggregators to perform the aggregation itself: each client secret-shares its update
+    vector to Aggregators, which locally compute partial sums and return only aggregated
+    shares for server-side reconstruction. This design eliminates local masking and
+    expensive homomorphic encryption, reducing endpoint computation while preserving
+    privacy against a curious server and a limited fraction of colluding clients.
+    By leveraging optimal trade-offs between communication and computation costs,
+    DisAgg processes 100k-dimensional update vectors from 100k 5G clients with a 4.6x
+    speedup compared to OPA, the previous best protocol.'
+- title: Triple-Hoisted Baby-Step Giant-Step Linear Transformation over CKKS Homomorphic
+    Encryption and Hardware Accelerator
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.17222v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Sajjad Akherati
+  - Xinmiao Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Computations can be directly carried out over ciphertexts using homomorphic
+    encryption (HE), which is indispensable for privacy-preserving cloud computing.
+    Linear transformation is widely used in neural networks, including large language
+    models. However, the implementation of linear transformation over HE requires
+    a large number of ciphertext rotations, which incur significant memory and hardware
+    overhead despite existing simplification techniques. This paper proposes a triple-hoisted
+    baby-step giant-step algorithm that decomposes the baby step further to substantially
+    reduce the number of ciphertext rotations needed for the CKKS HE evaluation of
+    linear transformation. Moreover, to reduce off-chip memory access, which contributes
+    to the majority of the latency, a memory-optimized data path is proposed by partitioning
+    the algorithm into multiple phases. Furthermore, an efficient FPGA-based hardware
+    accelerator with an optimized permutation circuit for message routing is designed
+    for the proposed scheme. For a set of typical parameters, the proposed design
+    reduces the off-chip memory access by 2.9x compared to the best prior design.
+    Synthesized for Xilinx Virtex UltraScale+ devices, the proposed design achieves
+    a 5.8x reduction in computational latency compared with the baseline design.
+- title: 'NSHEDB: Noise-Sensitive Homomorphic Encrypted Database Query Engine'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.24271v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Boram Jung
+  - Yuliang Li
+  - Hung-Wei Tseng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Homomorphic encryption (HE) enables computations directly on encrypted
+    data, offering strong cryptographic guarantees for secure and privacy-preserving
+    data storage and query execution. However, despite its theoretical power, practical
+    adoption of HE in database systems remains limited due to extreme cipher-text
+    expansion, memory overhead, and the computational cost of bootstrapping, which
+    resets noise levels for correctness. This paper presents NSHEDB, a secure query
+    processing engine designed to address these challenges at the system architecture
+    level. NSHEDB uses word-level leveled HE (LHE) based on the BFV scheme to minimize
+    ciphertext expansion and avoid costly bootstrapping. It introduces novel techniques
+    for executing equality, range, and aggregation operations using purely homomorphic
+    computation, without transciphering between different HE schemes (e.g., CKKS/BFV/TFHE)
+    or relying on trusted hardware. Additionally, it incorporates a noise-aware query
+    planner to extend computation depth while preserving security guarantees. We implement
+    and evaluate NSHEDB on real-world database workloads (TPC-H) and show that it
+    achieves 20x-V1370x speedup and a 73x storage reduction compared to state-of-the-art
+    HE-based systems, while upholding 128-bit security in a semi-honest model with
+    no key release or trusted components.
+- title: Integrating Homomorphic Encryption and Synthetic Data in FL for Privacy and
+    Learning Quality
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.02969v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yenan Wang
+  - Carla Fabiana Chiasserini
+  - Elad Michael Schiller
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Federated learning (FL) enables collaborative training of machine learning
+    models without sharing sensitive client data, making it a cornerstone for privacy-critical
+    applications. However, FL faces the dual challenge of ensuring learning quality
+    and robust privacy protection while keeping resource consumption low, particularly
+    when using computationally expensive techniques such as homomorphic encryption
+    (HE). In this work, we enhance an FL process that preserves privacy using HE by
+    integrating it with synthetic data generation and an interleaving strategy. Specifically,
+    our solution, named Alternating Federated Learning (Alt-FL), consists of alternating
+    between local training with authentic data (authentic rounds) and local training
+    with synthetic data (synthetic rounds) and transferring the encrypted and plaintext
+    model parameters on authentic and synthetic rounds (resp.). Our approach improves
+    learning quality (e.g., model accuracy) through datasets enhanced with synthetic
+    data, preserves client data privacy via HE, and keeps manageable encryption and
+    decryption costs through our interleaving strategy. We evaluate our solution against
+    data leakage attacks, such as the DLG attack, demonstrating robust privacy protection.
+    Also, Alt-FL provides 13.4% higher model accuracy and decreases HE-related costs
+    by up to 48% with respect to Selective HE.
+- title: Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.19890v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Erwin Eko Wahyudi
+  - Yan Solihin
+  - Qian Lou
+  venue: ''
+  code_url: https://github.com/UCF-Lou-Lab-PET/Universal-BGV
+  project_url: ''
+  abstract: 'Fully homomorphic encryption (FHE) enables computation on encrypted data
+    without decryption, making it central to privacy-preserving applications. However,
+    no existing scheme efficiently supports both arithmetic and comparison operations
+    in a unified framework. Prior approaches such as scheme switching and polynomial
+    approximation face serious limitations: switching incurs prohibitive overhead
+    for large inputs, while approximation methods introduce errors near critical points,
+    restricting use in accuracy-sensitive tasks. We propose space switching method
+    to integrate arithmetic and comparison computation seamlessly within FV-style
+    schemes. Our approach identifies that the two types of operations require different
+    plaintext spaces and introduces two procedures: a reduction step to transition
+    from the number space $\mathbb{Z}_{p^r}$ to the digit space $\mathbb{Z}_{p}$,
+    and a modulus-raising step to map results back to $\mathbb{Z}_{p^r}$. This design
+    enables continuous evaluation of arithmetic and comparison within the same scheme.
+    Experiments show that our method achieves up to $17\times$ faster performance
+    than scheme switching and $15\times$ faster than direct comparison on database
+    workloads, demonstrating its practicality for real-world privacy-preserving computation.
+    Code and artifacts are available at https://github.com/UCF-Lou-Lab-PET/Universal-BGV.'
+- title: 'Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of
+    Threats, Defenses and Benchmarks'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.21654v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yanming Mu
+  - Hao Hu
+  - Feiyang Li
+  - Qiao Yuan
+  - Jiang Wu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Retrieval-Augmented Generation (RAG) significantly mitigates the hallucinations
+    and domain knowledge deficiency in large language models by incorporating external
+    knowledge bases. However, the multi-module architecture of RAG introduces complex
+    system-level security vulnerabilities. Guided by the RAG workflow, this paper
+    analyzes the underlying vulnerability mechanisms and systematically categorizes
+    core threat vectors such as data poisoning, adversarial attacks, and membership
+    inference attacks. Based on this threat assessment, we construct a taxonomy of
+    RAG defense technologies from a dual perspective encompassing both input and output
+    stages. The input-side analysis reviews data protection mechanisms including dynamic
+    access control, homomorphic encryption retrieval, and adversarial pre-filtering.
+    The output-side examination summarizes advanced leakage prevention techniques
+    such as federated learning isolation, differential privacy perturbation, and lightweight
+    data sanitization. To establish a unified benchmark for future experimental design,
+    we consolidate authoritative test datasets, security standards, and evaluation
+    frameworks. To the best of our knowledge, this paper presents the first end-to-end
+    survey dedicated to the security of RAG systems. Distinct from existing literature
+    that isolates specific vulnerabilities, we systematically map the entire pipeline-providing
+    a unified analysis of threat models, defense mechanisms, and evaluation benchmarks.
+    By enabling deep insights into potential risks, this work seeks to foster the
+    development of highly robust and trustworthy next-generation RAG systems.
+- title: Privacy-Preserving Product-Quantized Approximate Nearest Neighbor Search
+    Framework for Large-scale Datasets via A Hybrid of Fully Homomorphic Encryption
+    and Trusted Execution Environment
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.17816v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Shozo Saeki
+  - Minoru Kawahara
+  - Hirohisa Aman
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: A nearest-neighbor framework is a fundamental tool for various applications
+    involving Large Language Models (LLMs) and Visual Language Models (VLMs). Vectors
+    used for nearest-neighbor searches have richer information for similarity searches.
+    This information leads to security risks, such as embedding inversion and membership
+    attacks. Therefore, Privacy-Preserving Approximate Nearest-Neighbor (PP-ANN) approaches
+    are necessary for highly confidential data. However, conventional PP-ANN approaches
+    based on a Trusted Execution Environment (TEE) or Fully Homomorphic Encryption
+    (FHE) do not achieve practical security or performance. Additionally, conventional
+    approaches focus on the search process rather than database generation for nearest-neighbor.
+    To address these issues, we propose a Privacy-Preserving Product-Quantization
+    Approximate Nearest Neighbor (PPPQ-ANN) framework. PPPQ-ANN provides a multi-layered
+    security structure for vectors based on a hybrid of FHE and TEE. Additionally,
+    PPPQ-ANN minimizes FHE ciphertext computations by combining Product-Quantization
+    (PQ) with optimized data packing. We demonstrate the performance of PPPQ-ANN on
+    million-scale datasets. As a result, PPPQ-ANN achieves database generation in
+    less than 2 hours and more than 50 QPS in a sequential search while preserving
+    privacy. Therefore, PPPQ-ANN optimizes the trade-off between security and performance
+    by utilizing a hybrid of FHE and TEE, achieving practical performance while preserving
+    privacy.
+- title: 'Towards Deep Encrypted Training: Low-Latency, Memory-Efficient, and High-Throughput
+    Inference for Privacy-Preserving Neural Networks'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.16834v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Nges Brian Njungle
+  - Eric Jahns
+  - Michel A. Kinsy
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Privacy-preserving machine learning (PPML) has become increasingly important
+    in applications where sensitive data must remain confidential. Homomorphic Encryption
+    (HE) enables computation directly on encrypted data, allowing neural network inference
+    without revealing raw inputs. While prior works have largely focused on inference
+    over a single encrypted image, batch processing of encrypted inputs lags behind,
+    despite being critical for high-throughput inference scenarios and training-oriented
+    workloads. In this work, we address this gap by developing optimized algorithms
+    for batched HE-friendly neural networks. We also introduced a pipeline architecture
+    designed to maximize resource efficiency for different batch size execution. We
+    implemented these algorithms and evaluated our work using HE-friendly ResNet-20
+    and ResNet-34 models on encrypted CIFAR-10 and CIFAR-100 datasets, respectively.
+    For ResNet-20, our approach achieves an amortized inference time of 8.86 seconds
+    per image when processing a batch of 512 encrypted images, with a peak memory
+    usage of 98.96 GB. These results represent a 1.78x runtime improvement and a 3.74x
+    reduction in memory usage compared to the state-of-the-art design. For the deeper
+    ResNet-34 model, we achieve an amortized inference time of 28.14 on a batch of
+    256 encrypted images using 246.78GB of RAM
+- title: A Pragmatic Comparison of Cryptographic Computation Technologies for Machine
+    Learning
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.04858v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Marcus Taubert
+  - Adam Skuta
+  - Thomas Loruenser
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As security demands increase, the importance of secure computation technologies
+    grows, yet these technologies can often seem overwhelming to practitioners. Furthermore,
+    many approaches focus only on a single technology, potentially overlooking superior
+    alternatives. This work aims to address the issue of selecting the right technology
+    for secure computation by presenting a comparative analysis of two highly relevant
+    cryptographic methods and their software implementations, with a particular focus
+    on machine learning. Firstly, we provide a theoretical summary and comparison
+    of the secure computation paradigms of secure multi-party computation (SMPC) and
+    fully homomorphic encryption (FHE). We outline the advantages and limitations
+    of the protocols, as well as the relevant open-source software implementations.
+    Secondly, we present the results of extensive benchmarking of the main software
+    frameworks identified for machine learning operations and models. Regarding the
+    current state of the art in FHE, we observe that it outperforms SMPC for regressions.
+    Additionally it may be faster for simple dense networks using GPUs or Hybrid Models.
+    Conversely, SMPC showed superior performance for complex models such as CNNs.
+    Our results should pave the way for more technology-agnostic benchmarking of secure
+    computation technologies for machine learning, providing guidance for practitioners
+    looking to adopt these technologies.
+- title: 'AEGIS: Scaling Long-Sequence Homomorphic Encrypted Transformer Inference
+    via Hybrid Parallelism on Multi-GPU Systems'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.03425v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Zhaoting Gong
+  - Ran Ran
+  - Fan Yao
+  - Wujie Wen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Fully Homomorphic Encryption (FHE) enables privacy-preserving Transformer
+    inference, but long-sequence encrypted Transformers quickly exceed single-GPU
+    memory capacity because encoded weights are already large and encrypted activations
+    grow rapidly with sequence length. Multi-GPU execution therefore becomes unavoidable,
+    yet scaling remains challenging because communication is jointly induced by application-level
+    aggregation and encryption-level RNS coupling. Existing approaches either synchronize
+    between devices frequently or replicate encrypted tensors across devices, leading
+    to excessive communication and latency. We present AEGIS, an Application-Encryption
+    Guided Inference System for scalable long-sequence encrypted Transformer inference
+    on multi-GPU platforms. AEGIS derives device placement from ciphertext dependencies
+    jointly induced by Transformer dataflow and CKKS polynomial coupling, co-locating
+    modulus-coherent and token-coherent data so that communication is introduced only
+    when application dependencies require it, while reordering polynomial operators
+    to overlap the remaining collectives with computation. On 2048-token inputs, AEGIS
+    reduces inter-GPU communication by up to 57.9% in feed-forward networks and 81.3%
+    in self-attention versus prior state-of-the-art designs. On four GPUs, it achieves
+    up to 96.62% scaling efficiency, 3.86x end-to-end speedup, and 69.1% per-device
+    memory reduction. These results establish coordinated application-encryption parallelism
+    as a practical foundation for scalable homomorphic Transformer inference.
+- title: Diagonal Packing for Efficient Homomorphic Sparse Matrix-Vector Multiplication
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.04683v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Kemal Mutluergil
+  - Deniz Elbek
+  - Kamer Kaya
+  - Erkay Savaş
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Homomorphic encryption (HE) enables computation over encrypted data but
+    incurs a substantial overhead. For sparse matrix-vector multiplication, the widely
+    used Halevi-Shoup scheme works over the non-empty diagonals, which may be many
+    due to the irregular nonzero pattern of the matrix. Existing HE matrix-vector
+    methods either use dense diagonal packing, which wastes rotations on empty diagonals,
+    or sparse-coordinate compression, which can expose structural metadata. In this
+    work, we instead keep the diagonal-method representation but reorder rows and
+    columns to reduce the number of occupied cyclic diagonals. We formalize this problem
+    as the 2D-diagonal packing problem and provide an integer programming formulation
+    that yields optimal solutions for small instances. For large matrices, we propose
+    practical ordering and iterative-improvement-based optimization heuristics. We
+    also introduce a dense row/column elimination strategy. Experiments on 175 real-life
+    matrices show that our ordering-optimization variants can reduce the diagonal
+    count by $5.5\times$ on average ($45.6\times$ for one instance). In addition,
+    the dense row/column elimination approach can be useful for cases where the proposed
+    permutation techniques are not sufficient; for instance, in one case, the additional
+    elimination helped to reduce the encrypted multiplication cost by $23.7\times$
+    whereas without elimination, the improvement was only $1.9\times$.
+- title: Balancing Privacy-Quality-Efficiency in Federated Learning through Round-Based
+    Interleaving of Protection Techniques
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.05158v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Yenan Wang
+  - Carla Fabiana Chiasserini
+  - Elad Michael Schiller
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In federated learning (FL), balancing privacy protection, learning quality,
+    and efficiency remains a challenge. Privacy protection mechanisms, such as Differential
+    Privacy (DP), degrade learning quality, or, as in the case of Homomorphic Encryption
+    (HE), incur substantial system overhead. To address this, we propose Alt-FL, a
+    privacy-preserving FL framework that combines DP, HE, and synthetic data via a
+    novel round-based interleaving strategy. Alt-FL introduces three new methods,
+    Privacy Interleaving (PI), Synthetic Interleaving with DP (SI/DP), and Synthetic
+    Interleaving with HE (SI/HE), that enable flexible quality-efficiency trade-offs
+    while providing privacy protection. We systematically evaluate Alt-FL against
+    representative reconstruction attacks, including Deep Leakage from Gradients,
+    Inverting Gradients, When the Curious Abandon Honesty, and Robbing the Fed, using
+    a LeNet-5 model on CIFAR-10 and Fashion-MNIST. To enable fair comparison between
+    DP- and HE-based defenses, we introduce a new attacker-centric framework that
+    compares empirical attack success rates across the three proposed interleaving
+    methods. Our results show that, for the studied attacker model and dataset, PI
+    achieves the most balanced trade-offs at high privacy protection levels, while
+    DP-based methods are preferable at intermediate privacy requirements. We also
+    discuss how such results can be the basis for selecting privacy-preserving FL
+    methods under varying privacy and resource constraints.
+- title: Zero-Knowledge Federated Learning with Lattice-Based Hybrid Encryption for
+    Quantum-Resilient Medical AI
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.03398v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Edouard Lansiaux
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Federated Learning (FL) enables collaborative training of medical AI
+    models across hospitals without centralizing patient data. However, the exchange
+    of model updates exposes critical vulnerabilities: gradient inversion attacks
+    can reconstruct patient information, Byzantine clients can poison the global model,
+    and the \emph{Harvest Now, Decrypt Later} (HNDL) threat renders today''s encrypted
+    traffic vulnerable to future quantum adversaries.We introduce \textbf{ZKFL-PQ}
+    (\emph{Zero-Knowledge Federated Learning, Post-Quantum}), a three-tiered cryptographic
+    protocol that hybridizes (i) ML-KEM (FIPS~203) for quantum-resistant key encapsulation,
+    (ii) lattice-based Zero-Knowledge Proofs for verifiable \emph{norm-constrained}
+    gradient integrity, and (iii) BFV homomorphic encryption for privacy-preserving
+    aggregation. We formalize the security model and prove correctness and zero-knowledge
+    properties under the Module-LWE, Ring-LWE, and SIS assumptions \emph{in the classical
+    random oracle model}. We evaluate ZKFL-PQ on synthetic medical imaging data across
+    5 federated clients over 10 training rounds. Our protocol achieves \textbf{100\%
+    rejection of norm-violating updates} while maintaining model accuracy at 100\%,
+    compared to a catastrophic drop to 23\% under standard FL. The computational overhead
+    (factor $\sim$20$\times$) is analyzed and shown to be compatible with clinical
+    research workflows operating on daily or weekly training cycles. We emphasize
+    that the current defense guarantees rejection of large-norm malicious updates;
+    robustness against subtle low-norm or directional poisoning remains future work.'
+- title: On the (non-)resilience of encrypted controllers to covert attacks
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.14230v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Philipp Binfet
+  - Janis Adamek
+  - Moritz Schulze Darup
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The security of networked control systems (NCS) is receiving increasing
+    attention from both cyber-security and system-theoretic perspectives. The former
+    focuses on classical IT security goals such as confidentiality, integrity, and
+    availability of process data, while the latter investigates tailored attacks (and
+    detection schemes), including covert and zero-dynamics attacks. Confidentiality
+    in control systems can, for instance, be achieved by securely outsourcing the
+    evaluation of the controller to third-party platforms, such as cloud services.
+    The underlying technology enabling such secure computation often is homomorphic
+    encryption (HE). Recent works in encrypted control have proposed modifications
+    to underlying HE schemes to achieve not only confidentiality but also resilience
+    to certain types of integrity attacks. While extensions in this direction are
+    desirable in principle, we show that the integrity problem in encrypted control
+    cannot be solved by public-key HE schemes alone due to their inherent malleability.
+    In other words, the same homomorphisms that enable encrypted control in the first
+    place can be leveraged not only constructively but also destructively. More precisely,
+    we demonstrate that NCS are vulnerable to covert attacks, even when encrypted
+    control is employed. Remarkably, this remains possible without knowledge of an
+    unencrypted model. Yet, resilience to such attacks can still be achieved through
+    complementary techniques. We present an approach based on verifiable computation
+    that integrates with modern homomorphic cryptosystems and is asymptotically secure
+    while incurring no communication overhead.
+- title: Efficient Encrypted Computation in Convolutional Spiking Neural Networks
+    with TFHE
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.26781v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Longfei Guo
+  - Pengbo Li
+  - Ting Gao
+  - Yonghai Zhong
+  - Haojie Fan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: With the rapid advancement of AI technology, we have seen more and more
+    concerns on data privacy, leading to some cutting-edge research on machine learning
+    with encrypted computation. Fully Homomorphic Encryption (FHE) is a crucial technology
+    for privacy-preserving computation, while it struggles with continuous non-polynomial
+    functions, as it operates on discrete integers and supports only addition and
+    multiplication. Spiking Neural Networks (SNNs), which use discrete spike signals,
+    naturally complement FHE's characteristics. In this paper, we introduce FHE-DiCSNN,
+    a framework built on the TFHE scheme, utilizing the discrete nature of SNNs for
+    secure and efficient computations. By leveraging bootstrapping techniques, we
+    successfully implement Leaky Integrate-and-Fire (LIF) neuron models on ciphertexts,
+    allowing SNNs of arbitrary depth. Our framework is adaptable to other spiking
+    neuron models, offering a novel approach to homomorphic evaluation of SNNs. Additionally,
+    we integrate convolutional methods inspired by CNNs to enhance accuracy and reduce
+    the simulation time associated with random encoding. Parallel computation techniques
+    further accelerate bootstrapping operations. Experimental results on the MNIST
+    and FashionMNIST datasets validate the effectiveness of FHE-DiCSNN, with a loss
+    of less than 3\% compared to plaintext, respectively, and computation times of
+    under 1 second per prediction. We also apply the model into real medical image
+    classification problems and analyze the parameter optimization and selection.
+- title: 'Informationally Compressive Anonymization: Non-Degrading Sensitive Input
+    Protection for Privacy-Preserving Supervised Machine Learning'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.15842v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Jeremy J Samuelson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modern machine learning systems increasingly rely on sensitive data, creating
+    significant privacy, security, and regulatory risks that existing privacy-preserving
+    machine learning (ppML) techniques, such as Differential Privacy (DP) and Homomorphic
+    Encryption (HE), address only at the cost of degraded performance, increased complexity,
+    or prohibitive computational overhead. This paper introduces Informationally Compressive
+    Anonymization (ICA) and the VEIL architecture, a privacy-preserving ML framework
+    that achieves strong privacy guarantees through architectural and mathematical
+    design rather than noise injection or cryptography. ICA embeds a supervised, multi-objective
+    encoder within a trusted Source Environment to transform raw inputs into low-dimensional,
+    task-aligned latent representations, ensuring that only irreversibly anonymized
+    vectors are exported to untrusted training and inference environments. The paper
+    rigorously proves that these encodings are structurally non-invertible using topological
+    and information-theoretic arguments, showing that inversion is logically impossible,
+    even under idealized attacker assumptions, and that, in realistic deployments,
+    the attacker conditional entropy over the original data diverges, driving reconstruction
+    probability to zero. Unlike prior autoencoder-based ppML approaches, ICA preserves
+    predictive utility by aligning representation learning with downstream supervised
+    objectives, enabling low-latency, high-performance ML without gradient clipping,
+    noise budgets, or encryption at inference time. The VEIL architecture enforces
+    strict trust boundaries, supports scalable multi-region deployment, and naturally
+    aligns with privacy-by-design regulatory frameworks, establishing a new foundation
+    for enterprise ML that is secure, performant, and safe by construction, even in
+    the face of post-quantum threats.
+- title: A Threshold Homomorphic Blockchain Architecture for Secure and Scalable IoT
+    Sensor Data Aggregation
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23396v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Narendra Kumar Dewangan
+  - Mounira Msahli
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Homomorphic-encryption blockchain frameworks for IoT sensor aggregation
+    generally rely on classical cryptographic hardness assumptions and seldom account
+    for network topology in liveness and performance analysis. This work introduces
+    Phi-PHE-BC, a topology-aware homomorphic blockchain architecture for secure and
+    privacy-preserving IoT sensor data aggregation. The framework combines threshold
+    Paillier decryption with graph-parameterized security and performance analysis,
+    linking protocol behavior to the validator graph. On-chain Paillier ciphertexts
+    support homomorphic aggregation while providing IND-CPA confidentiality under
+    the Decisional Composite Residuosity assumption, and authentication signatures
+    provide EUF-CMA transaction integrity. Threshold partial-decryption shares are
+    protected by a noise-flooding wrapper that provides information-theoretic privacy
+    under the configured statistical-hiding condition. Under partial synchrony and
+    Byzantine fault-tolerance assumptions, liveness requires validator connectivity
+    kappa(Gv) &gt;= f+1. We derive topology-dependent throughput bounds for tree,
+    star, mesh, and scale-free networks, together with a per-block communication-cost
+    model. A game-theoretic analysis shows that honest validator participation is
+    a dominant strategy under the stated utility model, yielding an all-honest Nash
+    equilibrium. Experiments on Hyperledger Fabric 2.5 show lower end-to-end latency
+    than the selected traditional PHE-blockchain baseline while maintaining controllable
+    threshold-decryption overhead. Results across topology scaling, validator sensitivity,
+    threshold decryption, and Byzantine-load experiments indicate that Phi-PHE-BC
+    is a practical architecture for secure, privacy-preserving, and topology-aware
+    IoT sensor aggregation.
+- title: 'mmFHE: mmWave Sensing with End-to-End Fully Homomorphic Encryption'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.22437v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Tanvir Ahmed
+  - Yixuan Gao
+  - Adnan Armouti
+  - Rajalakshmi Nandakumar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We present mmFHE, the first system that enables fully homomorphic encryption
+    (FHE) for end-to-end mmWave radar sensing. mmFHE encrypts raw range profiles on
+    a lightweight edge device and executes the entire mmWave signal-processing and
+    ML inference pipeline homomorphically on an untrusted cloud that operates exclusively
+    on ciphertexts. At the core of mmFHE is a library of seven composable, data-oblivious
+    FHE kernels that replace standard DSP routines with fixed arithmetic circuits.
+    These kernels can be flexibly composed into different application-specific pipelines.
+    We demonstrate this approach on two representative tasks: vital-sign monitoring
+    and gesture recognition. We formally prove two cryptographic guarantees for any
+    pipeline assembled from this library: input privacy, the cloud learns nothing
+    about the sensor data; and data obliviousness, the execution trace is identical
+    on the cloud regardless of the data being processed. These guarantees effectively
+    neutralize various supervised and unsupervised privacy attacks on raw data, including
+    re-identification and data-dependent privacy leakage. Evaluation on three public
+    radar datasets (270 vital-sign recordings, 600 gesture trials) shows that encryption
+    introduces negligible error: HR/RR MAE &lt;10^-3 bpm versus plaintext, and 84.5%
+    gesture accuracy (vs. 84.7% plaintext) with end-to-end cloud GPU latency of 103s
+    for a 10s vital-sign window and 37s for a 3s gesture window. These results show
+    that privacy-preserving end-to-end mmWave sensing is feasible on commodity hardware
+    today.'
+- title: 'Privacy-Preserving Iris Recognition: Performance Challenges and Outlook'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.26890v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Christina Karakosta
+  - Lian Alhedaithy
+  - William J. Knottenbelt
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Iris-based biometric identification is increasingly recognized for its
+    significant accuracy and long-term stability compared to other biometric modalities
+    such as fingerprints or facial features. However, all biometric modalities are
+    highly sensitive data that raise serious privacy and security concerns, particularly
+    in decentralized and untrusted environments. While Fully Homomorphic Encryption
+    (FHE) has emerged as a promising solution for protecting sensitive data during
+    computation, existing privacy-preserving iris recognition systems face significant
+    performance limitations that hinder their practical deployment. This paper investigates
+    the performance challenges of the current landscape of privacy-preserving iris
+    recognition systems using FHE. Based on these insights, we outline a scalable
+    privacy-preserving framework that aligns with all the requirements specified in
+    the ISO/IEC 24745 standard. Leveraging the Open Iris library, our approach starts
+    with robust iris segmentation, followed by normalization and feature extraction
+    using Gabor filters to generate iris codes. We then apply binary masking to filter
+    out unreliable regions and perform matching using Hamming distance on encrypted
+    iris codes. The accuracy and performance of our proposed privacy-preserving framework
+    is evaluated on the CASIA-Iris-Thousand dataset. Results show that our privacy-preserving
+    framework yields very similar accuracy to the cleartext equivalent, but a much
+    higher computational overhead with respect to pairwise iris template comparisons,
+    of $\sim 120\,000 \times$. This points towards the need for the deployment of
+    two-level schemes in the context of scalable $1-N$ template comparisons.
+- title: Scalable and Verifiable Federated Learning for Cross-Institution Financial
+    Fraud Detection
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.23437v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Prajwal Panth
+  - Nishant Nigam
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Financial fraud increasingly exploits institutional boundaries: laundering
+    networks distribute transactions across multiple banks because no single institution
+    can observe the full pattern. Federated Learning (FL) enables collaborative detection
+    without raw data sharing, yet practical deployment in banking environments remains
+    constrained by three pressures. First, homomorphic encryption schemes impose high
+    computational costs that limit real-time aggregation at scale. Second, mask-based
+    protocols such as Google''s SecAgg require O(N^2) pairwise key exchanges, which
+    become inefficient as participant count grows. Third, existing protocols provide
+    limited verification that submitted gradient updates are well-formed, leaving
+    aggregation vulnerable to consistency attacks. This paper presents Dynamic Sharded
+    Federated Learning (DSFL), a secure aggregation framework for cross-institution
+    fraud detection. DSFL introduces Dynamic Stochastic Sharding, which partitions
+    participants into small cryptographically ephemeral clusters of fixed size m,
+    reducing communication complexity to O(N*m). Within each cluster, participants
+    submit Linear Integrity Tags, additive-homomorphic commitments that allow the
+    server to verify update consistency without decryption. The mechanism detects
+    inconsistent updates rather than malicious gradients. An Active Neighborhood Recovery
+    protocol handles mid-round dropouts by reconstructing orphaned masks. Experiments
+    on the ULB Credit Card Fraud Detection dataset (284,807 transactions across 10
+    simulated banking nodes) show that DSFL achieves approximately 34x lower aggregation
+    latency than Paillier-based secure aggregation at N=1000, based on analytical
+    extrapolation from empirical baselines, while maintaining 99% recovery fidelity
+    under a 20% dropout regime. Global fraud recall reached 91.2% (+/-0.8%), above
+    the 68% average of locally trained models.'
+- title: Adapting AlphaEvolve to Optimize Fully Homomorphic Encryption on TPUs
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.14718v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Shruthi Gorantala
+  - Jianming Tong
+  - Asra Ali
+  - Baiyu Li
+  - Jonathan Katz
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The deployment of Fully Homomorphic Encryption (FHE) at scale is hindered
+    due to its heavy computational overhead. While specialized hardware accelerators
+    like Google Tensor Processing Units (TPUs) can help, mapping complex cryptographic
+    kernels onto such architectures remains a challenge. Efficient execution requires
+    co-optimization between the systolic array-based Matrix Multiplication Unit (MXU)
+    and Vector Processing Units (VPUs), as well as the orchestration of data movement
+    across the vector register files. Existing compiler stacks often abstract low-level
+    hardware utilization, requiring developers to adopt a manual trial-and-error process
+    that often results in fragmented execution and underutilized resources. To accelerate
+    this development process, we use AlphaEvolve to automate the exploration of hardware-aware
+    cryptographic-kernel optimizations. We frame optimization as an evolutionary search
+    problem, utilizing the closed-loop system provided by AlphaEvolve, that leverages
+    LLM-driven code generation. We use real-world feedback from hardware execution
+    and rigorous correctness testing to guide the evolution process. We evaluate AlphaEvolve
+    optimization on primitives for both the TFHE (Jaxite) and CKKS (CROSS) FHE schemes
+    on Google Cloud TPUv5e, a contemporary TPU architecture. Within 24 hours of automated
+    exploration, AlphaEvolve discovered implementation-level optimizations that improve
+    TFHE bootstrap latency by 2.5x and CKKS rotation and multiplication latency by
+    1.31x and 1.18x, respectively, relative to human-engineered state of the art.
+    These results demonstrate that AlphaEvolve can be used to enable researchers to
+    navigate the optimization trade-offs between cryptography, compilers, and hardware
+    accelerators.
+- title: 'Towards Securing IIoT: An Innovative Privacy-Preserving Anomaly Detector
+    Based on Federated Learning'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.06101v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Samira Kamali Poorazad
+  - Chafika Benzaïd
+  - Tarik Taleb
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In the light of the growing connectivity and sensitivity of industrial
+    data, cyberattacks and data breaches are becoming more common in the Industrial
+    Internet of Things (IIoT). To cope with such threats, this study presents an anomaly
+    detection system based on a novel Federated Learning (FL) framework. This system
+    detects anomalies such as cyberattacks and protects industrial data privacy by
+    processing data locally and training anomaly detection models on industrial agents
+    without sharing raw data. The proposed FL framework incorporates two key components
+    to enhance both privacy and efficiency. The first component is Homomorphic Encryption
+    (HE), which is integrated into the framework to further protect sensitive data
+    transmissions such as model parameters. HE enhances privacy in FL by preventing
+    adversaries from inferring private industrial data through attacks, such as model
+    inversion attacks. The second component is an innovative dynamic agent selection
+    scheme, wherein a selection threshold is calculated based on agent delays and
+    data size. The purpose of this new scheme is to mitigate the straggler effect
+    and the communication bottleneck that occur in traditional FL architectures, such
+    as synchronous and asynchronous architectures. It ensures that agents are not
+    unfairly selected by the different delays resulting from heterogeneous data in
+    IIoT environments, while simultaneously improving model performance and convergence
+    speed. The proposed framework exhibits superior performance over baseline approaches
+    in terms of accuracy, precision, F1-scores, communication costs, convergence speeds,
+    and fairness rate.
+- title: Public-Decay Homomorphic State Space Models for Private Sequence Inference
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.16647v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Luis Brito
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Fully homomorphic encryption (FHE) changes sequence-model design because
+    rotations, encrypted products, ciphertext materialization, multiplicative depth,
+    and bootstrapping pressure can dominate ordinary neural-network costs. This paper
+    presents public-decay homomorphic state space models (HSSMs), recurrent/state-space
+    blocks whose carried state is updated through ciphertext-plaintext public decay
+    while ciphertext-ciphertext multiplication remains on a local write path. The
+    design keeps a fixed encrypted state across the sequence. The evaluated workflow
+    separates client-side tokenization, frozen fastText lookup, projection, clipping,
+    encryption, decryption, and thresholding from server-side encrypted evaluation
+    over bounded projected features. On full Rotten Tomatoes and SST-2 validation
+    splits, the encrypted HSSM path exactly matches plaintext classifications and
+    reaches 0.7505 and 0.7420 accuracy. Against HE-friendly polynomial attention on
+    the same fastText workloads, HSSM matches or exceeds full-sequence task quality
+    while running about 5x faster. Paired L40S operation-level rows show 1.34-1.62x
+    lower latency than cached final-token polynomial attention, 30-258x lower latency
+    than full-sequence polynomial attention, and lower logical encrypted-state footprint.
+    A T = 16/32 comparator with encrypted public-linear input and Q/K/V projections
+    shows projected HSSM succeeding under depth 8/ring 32768, while projected attention
+    succeeds under depth 10/ring 65536. A matched T = 8 OpenFHE/FIDESlib trace finishes
+    at final level 3 and noise-scale degree 2 on both backends. These results make
+    public-decay carry a practical FHE co-design lever for encrypted sequence inference
+    from bounded projected features.
+- title: 'Beyond Latency: A System-Level Characterization of MPC and FHE for PPML'
+  date: 2026-03
+  url: https://arxiv.org/abs/2604.00169v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Pengzhi Huang
+  - Kiwan Maeng
+  - G. Edward Suh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Privacy protection has become an increasing concern in modern machine
+    learning applications. Privacy-preserving machine learning (PPML) has attracted
+    growing research attention, with approaches such as secure multiparty computation
+    (MPC) and fully homomorphic encryption (FHE) being actively explored. However,
+    existing evaluations of these approaches have frequently been done on a narrow,
+    fragmented setup and only focused on a specific performance metric, such as the
+    online inference latency of a specific batch size. From the existing reports,
+    it is hard to compare different approaches, especially when considering other
+    metrics like energy/cost or broader system setups (various hyperparameters, offline
+    overheads, future hardware/network configurations, etc.). We present a unified
+    characterization of three popular approaches -- two variants of MPC based on arithmetic/binary
+    sharing conversion and function secret sharing, and FHE -- on their performance
+    and cost in performing privacy-preserving inference on multiple CNN and Transformer
+    models. We study a range of LAN and WAN environments, model sizes, batch sizes,
+    and input sequence lengths. We evaluate not only the performance but also the
+    energy consumption and monetary cost of deploying under a realistic scenario,
+    taking into account their offline and online computation/communication overheads.
+    We provide empirical guidance for selecting, optimizing, and deploying these privacy-preserving
+    compute paradigms, and outline how evolving hardware and network trends are likely
+    to shift trade-offs between the two MPC schemes and FHE. This work provides system-level
+    insights for researchers and practitioners who seek to understand or accelerate
+    PPML workloads.
+- title: Privacy-Preserving Federated Learning via Differential Privacy and Homomorphic
+    Encryption for Cardiovascular Disease Risk Modeling
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.27598v2
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - Gaurang Sharma
+  - Juha Pajula
+  - Aada Illikainen
+  - Markus Rautell
+  - Noora Lipsonen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Protecting sensitive health data while enabling collaborative analysis
+    is a central challenge in healthcare. Traditional machine learning (ML) requires
+    institutions to pool anonymized patient records, centralizing analytical development
+    and privacy risks at a single site. Privacy-enhancing technologies (PETs), including
+    Differential Privacy (DP) and Homomorphic Encryption (HE), can mitigate these
+    risks. However, they are mainly studied in conventional data-sharing settings
+    and often introduce trade-offs, including reduced model utility, higher computational
+    cost, and increased implementation complexity. Federated Learning (FL) reduces
+    data centralization by enabling institutions to train models locally and share
+    only model updates. Nevertheless, FL does not eliminate privacy risks, as shared
+    parameters or gradients may still reveal sensitive information. Integrating DP
+    or HE into FL can strengthen privacy guarantees, yet their comparative performance
+    and deployment implications in real-world healthcare settings remain unclear.
+    We systematically evaluated DP and HE integration in FL under real-world conditions,
+    comparing them with standard FL and centralized ML (cML) to quantify privacy-utility
+    trade-offs in multi-institutional settings. Using nationwide Swedish healthcare
+    data, we evaluated cardiovascular disease risk prediction using logistic regression
+    (LR) and neural network (NN) learners. FL with HE achieved performance comparable
+    to cML but introduced measurable cryptographic overhead, particularly in the NN
+    implementation. FL with DP incurred lower computational cost; however, LR was
+    more sensitive to calibrated noise than the NN, resulting in greater performance
+    degradation. Our findings provide practical guidance for deploying privacy-preserving
+    FL in fragmented healthcare systems.
+- title: 'Privacy-Preserving Distributed Learning in IoT Systems: A Unified Threat
+    Model and Evaluation Framework'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.09232v1
+  category: cryptography
+  subcategory: mechanism
+  authors:
+  - John Cartmell
+  - Alexander Williams
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The increasing deployment of Internet-of-Things (IoT) devices has accelerated
+    the use of distributed learning frameworks, where data remains local while model
+    updates are shared across decentralized systems. Although this reduces centralized
+    data collection, it introduces privacy risks through the exchange of gradients,
+    model parameters, and intermediate representations. A variety of privacy-preserving
+    techniques have been proposed to address these risks, including differential privacy,
+    cryptographic methods, and lightweight system-level approaches. However, existing
+    surveys often evaluate these methods in isolation and lack a unified framework
+    for comparing their effectiveness under realistic attack models and IoT resource
+    constraints. This paper presents a structured analysis of privacy-preserving techniques
+    for distributed learning in IoT environments. A unified threat model is introduced
+    that captures model inversion, membership inference, gradient leakage, and communication-based
+    attacks. Building on this model, an evaluation framework is developed to compare
+    methods in terms of both privacy robustness and system-level efficiency, including
+    computational, memory, and communication overhead. Using this framework, representative
+    approaches including differential privacy, homomorphic encryption, secure multi-party
+    computation, distributed selective stochastic gradient descent, and Bloom Filter-based
+    methods are analyzed. The results highlight a fundamental trade-off between privacy
+    strength and system efficiency. In particular, Bloom Filter-based encodings are
+    shown to provide lightweight privacy through collision-induced ambiguity while
+    maintaining low computational and communication overhead. The paper provides a
+    unified perspective on privacy-preserving design choices for distributed learning
+    in IoT systems.
+- title: 'ExplainGuard: A Zero Trust Framework for Post-Hoc Explanation Integrity
+    Guarantees in Blackbox XAI Models'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21803v1
+  category: zero-trust
+  subcategory: theory
+  authors:
+  - Maraz Mia
+  - Shovan Roy
+  - Mir Mehedi A. Pritom
+  - Maanak Gupta
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'As machine learning (ML) models are increasingly deployed in high-stakes
+    environments, explainable AI (XAI) methods like SHAP and LIME have become essential
+    for regulatory compliance and trust. However, the current auditing paradigm relies
+    on an implicit "chain of trust" where third-party auditors are assumed to be trusted.
+    Recent research demonstrates that this assumption is flawed and adversarial auditors
+    can manipulate XAI explanations through manipulation attacks such as output shuffling
+    or scaffolding out-of-distribution (OOD) to conceal model biases while maintaining
+    high prediction accuracy aiming for fairwashed explanation. In this paper, we
+    introduce a novel defense framework, ExplainGuard, that leverages a Zero-Trust
+    architecture (ZTA) design to be incorporated within the XAI explanation supply
+    chain and ensures the integrity of the generated explanation. This framework would
+    help us to replace the ambiguous default assumption of "auditor is trustworthy,"
+    with a continuous "verify-then-trust" approach. Our design architecture establishes
+    a Policy Decision Point (PDP) that enforces three distinct pillars of verification
+    before any explanation is released to the user: (1) asset integrity via behavioral
+    fingerprint to detect model substitution, (2) semantic validity using axiomatic
+    consistency checks to reject mathematically impossible explanations, and (3) feature
+    faithfulness verification utilizing a ranking stability approach with minimal
+    computational overhead. Finally, we evaluate how ExplainGuard can effectively
+    neutralize state- of-the-art explanation manipulation attacks while transforming
+    the auditing process into a verifiable operation.'
+- title: Assessing the Cross-Version Applicability of Java Library Vulnerability Exploits
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.25997v2
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Zirui Chen
+  - Qi Zhan
+  - Jiayuan Zhou
+  - Xing Hu
+  - Xin Xia
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Open-source software supply chain security relies heavily on assessing
+    affected versions of library vulnerabilities. While prior studies have leveraged
+    exploits for verifying vulnerability affected versions, they point out a key limitation
+    that exploits are version-specific and cannot be directly applied across library
+    versions. Despite being widely acknowledged, this limitation has not been systematically
+    validated at scale, leaving the actual applicability of exploits across versions
+    unexplored. To fill this gap, we conduct the first large-scale empirical study
+    on exploit applicability across library versions. We construct a comprehensive
+    dataset consisting of 259 exploits spanning 128 Java libraries and 28,150 historical
+    versions, covering 61 CWEs that account for 76.33% of vulnerabilities in Maven.
+    Leveraging this dataset, we execute each exploit against the library version history
+    and compare the execution outcomes with our manually annotated ground-truth affected
+    versions. We further investigate the root causes of inconsistencies between exploit
+    execution and ground truth, and explore strategies for exploit migration. Our
+    results (RQ1) show that, even without migration, exploits achieve 83.0% recall
+    and 99.3% precision in identifying affected versions in Java, outperforming most
+    widely used vulnerability databases and assessment tools. Notably, this capability
+    enables us to contribute 796 confirmed missing affected versions to the CPE dictionary.
+    We investigate the remaining exploit failures (RQ2) and find that they mainly
+    stem from compatibility issues introduced by library evolution and changing environmental
+    constraints. Based on these observations, we manually migrate exploits for 1,885
+    versions and distill a taxonomy of 10 strategies from these successful adaptation
+    cases (RQ3), thereby increasing the overall recall to 96.1%.
+- title: 'When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability
+    Detection'
+  date: 2026-03
+  url: https://arxiv.org/abs/2604.00079v1
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Noor Khalal
+  - Chakib Fettal
+  - Lazhar Labiod
+  - Mohamed Nadif
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine-learning-based code vulnerability detection (CVD) has progressed
+    rapidly, from deep program representations to pretrained code models and LLM-centered
+    pipelines. Yet dependable vulnerability labeling remains expensive, noisy, and
+    uneven across projects, languages, and CWE types, motivating approaches that reduce
+    reliance on human labeling. This survey maps these approaches, synthesizing five
+    paradigm families and the mechanisms they use. It connects mechanisms to token,
+    graph, hybrid, and knowledgebased representations, and consolidates evaluation
+    and reporting axes that limit comparison (label-budget specification, compute/cost
+    assumptions, leakage, and granularity mismatches). A Design Map and constraintfirst
+    Decision Guide distill trade-offs and failure modes for practical method selection.
+- title: 'From Weights to Concepts: Data-Free Interpretability of CLIP via Singular
+    Vector Decomposition'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.24653v1
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Francesco Gentile
+  - Nicola Dall'Asen
+  - Francesco Tonini
+  - Massimiliano Mancini
+  - Lorenzo Vaquero
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As vision-language models are deployed at scale, understanding their internal
+    mechanisms becomes increasingly critical. Existing interpretability methods predominantly
+    rely on activations, making them dataset-dependent, vulnerable to data bias, and
+    often restricted to coarse head-level explanations. We introduce SITH (Semantic
+    Inspection of Transformer Heads), a fully data-free, training-free framework that
+    directly analyzes CLIP's vision transformer in weight space. For each attention
+    head, we decompose its value-output matrix into singular vectors and interpret
+    each one via COMP (Coherent Orthogonal Matching Pursuit), a new algorithm that
+    explains them as sparse, semantically coherent combinations of human-interpretable
+    concepts. We show that SITH yields coherent, faithful intra-head explanations,
+    validated through reconstruction fidelity and interpretability experiments. This
+    allows us to use SITH for precise, interpretable weight-space model edits that
+    amplify or suppress specific concepts, improving downstream performance without
+    retraining. Furthermore, we use SITH to study model adaptation, showing how fine-tuning
+    primarily reweights a stable semantic basis rather than learning entirely new
+    features.
+- title: Quantifying Memory Cells Vulnerability for DRAM Security
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.18549v1
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Zilong Hu
+  - Hongming Fei
+  - Prosanta Gope
+  - Jack Miskelly
+  - Owen Millwood
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Dynamic Random Access Memory (DRAM) is pervasive in computer systems.
+    Cell vulnerabilities caused by unintended phenomena (forced retention failure,
+    latency alteration, rowhammer and rowpress) lead to unintended bit flips in memory.
+    These phenomena have been explored as attacks to violate data integrity and confidentiality
+    during normal operation, but also exploited as a benefit in security systems as
+    a method to generate random secret keys and unique device fingerprints (e.g. Physically
+    Unclonable Functions). In both cases, attackers may wish to exploit knowledge
+    of individual cell flip vulnerability to predict the current/future data contents
+    of a set of cells, which can be utilised to break security systems. In this work,
+    we develop a quantitative, cell-level circuit framework that models DRAM vulnerability
+    directly from its physical charge leakage and disturbance pathways. By linking
+    these device-layer behaviours to system-level security properties, our framework
+    enables systematic evaluation of DRAM with respect to volatility (retention),
+    integrity (disturbance-induced modification), and confidentiality (pattern-dependent
+    leakage). We further demonstrate how the framework can be applied to well-known
+    failure modes, revealing non-uniform and context-dependent vulnerability patterns.
+    This work provides both theoretical foundations and practical evaluation tools
+    for evaluating the suitability of DRAM use within security applications.
+- title: 'Persona Non Grata: Single-Method Safety Evaluation Is Incomplete for Persona-Imbued
+    LLMs'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.11120v2
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Wenkai Li
+  - Fan Yang
+  - Shaunak A. Mehta
+  - Koichi Onoue
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Personality imbuing customizes LLM behavior, but safety evaluations almost
+    always study prompt-based personas alone. We show this is incomplete: prompting
+    and activation steering expose *different*, architecture-dependent vulnerability
+    profiles, and testing with only one method can miss a model''s dominant failure
+    mode. Across 5,568 judged conditions on four standard models from three architecture
+    families, persona danger rankings under system prompting are preserved across
+    all architectures ($ρ= 0.71$--$0.96$), but activation-steering vulnerability diverges
+    sharply and cannot be predicted from prompt-side rankings: Llama-3.1-8B is substantially
+    more AS-vulnerable, whereas Gemma-3-27B and Qwen3.5 are more vulnerable to prompting.
+    The most striking illustration of this divergence is the *prosocial persona paradox*:
+    on Llama-3.1-8B, P12 (high conscientiousness + high agreeableness) is among the
+    safest personas under prompting yet becomes the highest-ASR activation-steered
+    persona (ASR ~0.818). This is an inversion robust to coefficient ablation and
+    matched-strength calibration, and replicated on DeepSeek-R1-Distill-Qwen-32B.
+    A trait refusal alignment framework, in which conscientiousness is strongly anti-aligned
+    with refusal on Llama-3.1-8B, offers a partial geometric account. Reasoning provides
+    only partial protection: two 32B reasoning models reach 15--18% prompt-side ASR,
+    and activation steering separates them sharply in both baseline susceptibility
+    and persona-specific vulnerability. Heuristic trace diagnostics suggest that the
+    safer model retains stronger policy recall and self-correction behavior, not merely
+    longer reasoning.'
+- title: Quality-Diversity Stress Tests for Process Reward Models:What Archive Coverage
+    Can and Cannot Certify
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08008v1
+  category: supply-chain-security
+  subcategory: mechanism
+  authors:
+  - Ibne Farabi Shihab
+  - Fariya Afrin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Process reward models (PRMs) score intermediate reasoning steps and are
+    widely used for search, ranking, and training, but optimization can exploit these
+    learned proxies by increasing reward while turning correct reasoning into incorrect
+    reasoning. We formulate PRM stress testing as a quality-diversity search problem
+    using MAP-Elites, retaining the most severe correctness-flipping edit in each
+    behavior-space region while separating search coverage from exploit coverage.
+    We characterize what such archives certify: finite-cell repair bounds covered-cell
+    tail risk and average residual severity but cannot bound the worst remaining cell
+    from covered fraction alone; under Lipschitz post-repair loss and metric-cover
+    auditing, the residual is bounded by archive fitting error plus the Lipschitz
+    constant times the covering radius. A controlled landscape validates this certificate
+    and the impossibility of any fraction-only worst-case guarantee. On real PRMs,
+    the search reveals an aggregation-dependent vulnerability in Qwen2.5-Math-PRM-7B:
+    padding yields 44 strict exploits with maximum gain 0.294 under mean pooling versus
+    one exploit under minimum readout; a matched syntactic control isolates the mechanism,
+    and an RLHFlow value-head model shows the same qualitative effect with maximum
+    gain 0.005. A predeclared paired LoRA repair protocol reduces exploit rates from
+    0.148 to 0.037 to 0.074, lowers the worst attack from 0.333 to 0.177 to 0.212,
+    improves ranking AUROC without degrading best-of-4 accuracy, attributes gains
+    to adversarial fine-tuning rather than archive diversity, and is confirmed by
+    independent unpaired replications (44 to 1, clean-split worst gain 0.0092, MATH-500
+    41 to 0, clean ranking 40/40).'
+- title: 'Mind the Gap: Mapping Wearer-Bystander Privacy Tensions and Context-Adaptive
+    Pathways for Camera Glasses'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.04930v1
+  category: privacy
+  subcategory: theory
+  authors:
+  - Xueyang Wang
+  - Kewen Peng
+  - Xin Yi
+  - Hewu Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Camera glasses create fundamental privacy tensions between wearers seeking
+    recording functionality and bystanders concerned about unauthorized surveillance.
+    We present a systematic multi-stakeholder evaluation of privacy mechanisms through
+    surveys (N=525) and paired interviews (N=20) in China. Study 1 quantifies expectation-willingness
+    gaps: bystanders consistently demand stronger information transparency and protective
+    measures than wearers will provide, with disparities intensifying in sensitive
+    contexts where 65-90% of bystanders would take defensive action. Study 2 evaluates
+    twelve privacy-enhancing technologies, revealing four fundamental trade-offs that
+    undermine current approaches: visibility versus disruption, empowerment versus
+    burden, protection versus agency, and accountability versus exposure. These gaps
+    reflect structural incompatibilities rather than inadequate goodwill, with context
+    emerging as the primary determinant of privacy acceptability. We propose context-adaptive
+    pathways that dynamically adjust protection strategies: minimal-friction visibility
+    in public spaces, structured negotiation in semi-public environments, and automatic
+    protection in sensitive contexts. Our findings contribute a diagnostic framework
+    for evaluating privacy mechanisms and implications for context-aware design in
+    ubiquitous sensing.'
+- title: 'Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.23659v2
+  category: privacy
+  subcategory: theory
+  authors:
+  - Jeff Nijsse
+  - Andrea Pinto
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In an age of financial system digitisation and the increasing adoption
+    of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as
+    a focal point for technological innovation. Privacy compliance has become a key
+    factor in the successful design of CBDCs, extending beyond technical requirements
+    to influence legal requirements, user trust, and security considerations. Implementing
+    Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach,
+    however, the lack of a common understanding of privacy and the essential technological
+    characteristics restricts progress. This work investigates: (1) How privacy can
+    be defined within the framework of CBDCs and what implications does this definition
+    have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in
+    CBDC design? We propose a comprehensive definition for privacy that is mapped
+    to the cryptographic landscape for feature implementation. The research is validated
+    against case studies from 20 current CBDCs. The study shows that comprehensive
+    privacy can be designed in the proposal stage, but that privacy does not reach
+    the launched version of the CBDC. A failure analysis of abandoned privacy pilots
+    identifies four root causes of this research-to-launch gap: regulatory visibility
+    requirements, computational overhead, liability allocation, and institutional
+    incentives.'
+- title: 'Privacy Engineering: A Systematic Literature Review'
+  date: 2026-04
+  url: https://arxiv.org/abs/2606.23696v1
+  category: privacy
+  subcategory: theory
+  authors:
+  - Nemania Borovits
+  - Damian Andrew Tamburri
+  - Willem-Jan van den Heuvel
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Privacy obligations under GDPR increasingly shape software engineering.
+    We synthesize 90 studies from 2018 to 2025 using a systematic review with thematic
+    synthesis to chart privacy engineering. Thirteen dimensions form two recurrent
+    cores: Privacy Enhancing Technologies (PETs) with Privacy Metrics (PM) and Verification
+    and Testing (VT) and Governance and Accountability (GA) with Transparency and
+    Communication (TC) and Organizational Measures (OM). Modeling and Specification
+    (MS) mediates between the cores. Lifecycle mapping shows concentrations at requirements
+    and design (MS, GA), at implementation and verification (PETs, VT, PM, TC) and
+    at operation and decommissioning (GA, OM, Data Subject Rights Management (DSRM),
+    Incident Response and Management (IRM), Lifelong Management (LM)). Handoffs link
+    models to rules and tests, mechanisms to metrics and deployments such as enclaves
+    and ledgers to governance records. Domains reweight but do not alter structure:
+    healthcare weights GA with VT and PETs, IoT and edge weight PETs with VT and PM
+    at device and edge, web measurement weights TC with VT, AI and ML weight PETs
+    with PM. IRM, LM and Data Minimization and Purpose Limitation (DMPL) are less
+    often primary foci, signaling priorities for future work. The results provide
+    a practical map and a replication-ready scaffold for assessment and updates.'
+- title: 'Digital Privacy in IoT: Exploring Challenges, Approaches and Open Issues'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.04572v1
+  category: privacy
+  subcategory: theory
+  authors:
+  - Shini Girija
+  - Pranav M. Pawar
+  - Raja Muthalagu
+  - Mithun Mukherjee
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Privacy has always been a critical issue in the digital era, particularly
+    with the increasing use of Internet of Things (IoT) devices. As the IoT continues
+    to transform industries such as healthcare, smart cities, and home automation,
+    it has also introduced serious challenges regarding the security of sensitive
+    and private data. This paper examines the complex landscape of digital privacy
+    in IoT ecosystems, highlighting the need to protect personally identifiable information
+    (PII) of individuals and uphold their rights to digital independence. Global events,
+    such as the COVID-19 pandemic, have accelerated the adoption of IoT, raising concerns
+    about privacy and data protection. This paper provides an in-depth examination
+    of digital privacy risks in the IoT domain and introduces a clear taxonomy for
+    evaluating them using the IEEE Digital Privacy Model. The proposed framework categorizes
+    privacy risks into five types: identity-oriented, behavioral, inference, data
+    manipulation, and regulatory risks. We review existing digital privacy solutions,
+    including encryption technologies, blockchain, federated learning, differential
+    privacy, reinforcement learning, AI, and dynamic consent mechanisms, to mitigate
+    these risks. We also highlight how these privacy-enhancing technologies (PETs)
+    help with data confidentiality, access control, and trust management. Additionally,
+    this study presents AURA-IoT, a futuristic framework that tackles AI-driven privacy
+    risks through a multi-layered structure. AURA-IoT integrates adversarial robustness,
+    explainability, transparency, fairness, compliance, dynamic consent, and policy
+    enforcement mechanisms to ensure digital privacy, security, and accountable IoT
+    operations. Finally, we discuss ongoing challenges and potential research directions
+    for integrating AI and encryption-based privacy solutions to achieve comprehensive
+    digital privacy in future IoT systems.'
