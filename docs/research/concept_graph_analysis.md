@@ -1,21 +1,21 @@
 # Concept Graph Analysis
 
-**Generated:** 42 nodes, 269 edges, 1 components, 1 communities (modularity -372.826). Edges = co-occurrence.
+**Generated:** 42 nodes, 269 edges, 1 components, 1 communities (modularity -383.857). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2248, degree 32, df 2563
-- **dataset** — PR 0.0769, degree 32, df 680
-- **benchmark** — PR 0.0486, degree 27, df 380
-- **survey** — PR 0.0473, degree 32, df 498
-- **Network Security** — PR 0.0419, degree 11, df 1251
-- **Ai Security** — PR 0.0330, degree 13, df 970
-- **Vulnerability Management** — PR 0.0308, degree 13, df 1122
-- **Incident Response** — PR 0.0277, degree 13, df 1202
-- **case study** — PR 0.0274, degree 29, df 240
-- **Application Security** — PR 0.0258, degree 12, df 963
-- **taxonomy** — PR 0.0256, degree 28, df 168
-- **Malware Analysis** — PR 0.0247, degree 12, df 980
+- **framework** — PR 0.2251, degree 32, df 2602
+- **dataset** — PR 0.0775, degree 32, df 695
+- **benchmark** — PR 0.0484, degree 27, df 384
+- **survey** — PR 0.0470, degree 32, df 501
+- **Network Security** — PR 0.0432, degree 11, df 1283
+- **Ai Security** — PR 0.0326, degree 13, df 970
+- **Vulnerability Management** — PR 0.0305, degree 13, df 1122
+- **Incident Response** — PR 0.0275, degree 13, df 1202
+- **case study** — PR 0.0272, degree 29, df 241
+- **taxonomy** — PR 0.0259, degree 28, df 172
+- **Application Security** — PR 0.0255, degree 12, df 963
+- **Supply Chain Security** — PR 0.0248, degree 12, df 937
 
 ## Bridge nodes (high betweenness — connect clusters)
 

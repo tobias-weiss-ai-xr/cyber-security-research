@@ -5,14 +5,14 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 2563,
+      "df": 2602,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 2563,
+      "papers": 2602,
       "top_cells": [
         "security-compliance/application",
         "network-security/application",
@@ -24,7 +24,7 @@
       "term": "Network Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1251,
+      "df": 1283,
       "match": {
         "type": "field",
         "field": "category",
@@ -33,10 +33,10 @@
       "top_cells": [
         "network-security/application",
         "network-security/systems",
-        "network-security/mechanism",
-        "network-security/method"
+        "network-security/method",
+        "network-security/mechanism"
       ],
-      "papers": 1251
+      "papers": 1283
     },
     {
       "term": "Incident Response",
@@ -78,7 +78,7 @@
       "term": "Cryptography",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1061,
+      "df": 1111,
       "match": {
         "type": "field",
         "field": "category",
@@ -87,10 +87,10 @@
       "top_cells": [
         "cryptography/systems",
         "cryptography/application",
-        "cryptography/method",
-        "cryptography/mechanism"
+        "cryptography/mechanism",
+        "cryptography/method"
       ],
-      "papers": 1061
+      "papers": 1111
     },
     {
       "term": "Malware Analysis",
@@ -168,7 +168,7 @@
       "term": "Supply Chain Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 931,
+      "df": 937,
       "match": {
         "type": "field",
         "field": "category",
@@ -180,7 +180,7 @@
         "supply-chain-security/method",
         "supply-chain-security/mechanism"
       ],
-      "papers": 931
+      "papers": 937
     },
     {
       "term": "Cloud Security",
@@ -204,7 +204,7 @@
       "term": "Zero Trust",
       "kind": "taxonomy",
       "seed": true,
-      "df": 828,
+      "df": 829,
       "match": {
         "type": "field",
         "field": "category",
@@ -216,7 +216,7 @@
         "zero-trust/mechanism",
         "zero-trust/theory"
       ],
-      "papers": 828
+      "papers": 829
     },
     {
       "term": "Threat Intelligence",
@@ -240,7 +240,7 @@
       "term": "Privacy",
       "kind": "taxonomy",
       "seed": true,
-      "df": 734,
+      "df": 738,
       "match": {
         "type": "field",
         "field": "category",
@@ -252,7 +252,7 @@
         "privacy/systems",
         "privacy/mechanism"
       ],
-      "papers": 734
+      "papers": 738
     },
     {
       "term": "Security Operations",
@@ -312,14 +312,14 @@
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 680,
+      "df": 695,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 680,
+      "papers": 695,
       "top_cells": [
         "network-security/application",
         "vulnerability-management/application",
@@ -367,14 +367,14 @@
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 498,
+      "df": 501,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 498,
+      "papers": 501,
       "top_cells": [
         "application-security/review",
         "network-security/review",
@@ -422,14 +422,14 @@
       "term": "benchmark",
       "kind": "curated",
       "seed": true,
-      "df": 380,
+      "df": 384,
       "match": {
         "type": "text",
         "forms": [
           "benchmark"
         ]
       },
-      "papers": 380,
+      "papers": 384,
       "top_cells": [
         "network-security/application",
         "vulnerability-management/application",
@@ -441,14 +441,14 @@
       "term": "case study",
       "kind": "curated",
       "seed": true,
-      "df": 240,
+      "df": 241,
       "match": {
         "type": "text",
         "forms": [
           "case study"
         ]
       },
-      "papers": 240,
+      "papers": 241,
       "top_cells": [
         "risk-management/application",
         "vulnerability-management/application",
@@ -460,14 +460,14 @@
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 212,
+      "df": 213,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 212,
+      "papers": 213,
       "top_cells": [
         "supply-chain-security/application",
         "security-education/application",
@@ -479,14 +479,14 @@
       "term": "taxonomy",
       "kind": "curated",
       "seed": true,
-      "df": 168,
+      "df": 172,
       "match": {
         "type": "text",
         "forms": [
           "taxonomy"
         ]
       },
-      "papers": 168,
+      "papers": 172,
       "top_cells": [
         "supply-chain-security/application",
         "ai-security/application",
@@ -498,14 +498,14 @@
       "term": "systematic review",
       "kind": "curated",
       "seed": true,
-      "df": 164,
+      "df": 165,
       "match": {
         "type": "text",
         "forms": [
           "systematic review"
         ]
       },
-      "papers": 164,
+      "papers": 165,
       "top_cells": [
         "incident-response/review",
         "privacy/review",
@@ -517,14 +517,14 @@
       "term": "quantitative",
       "kind": "curated",
       "seed": true,
-      "df": 146,
+      "df": 147,
       "match": {
         "type": "text",
         "forms": [
           "quantitative"
         ]
       },
-      "papers": 146,
+      "papers": 147,
       "top_cells": [
         "risk-management/application",
         "risk-management/systems",
@@ -536,14 +536,14 @@
       "term": "qualitative",
       "kind": "curated",
       "seed": true,
-      "df": 101,
+      "df": 102,
       "match": {
         "type": "text",
         "forms": [
           "qualitative"
         ]
       },
-      "papers": 101,
+      "papers": 102,
       "top_cells": [
         "risk-management/application",
         "security-education/application",
@@ -555,14 +555,14 @@
       "term": "reproducibility",
       "kind": "curated",
       "seed": true,
-      "df": 66,
+      "df": 67,
       "match": {
         "type": "text",
         "forms": [
           "reproducibility"
         ]
       },
-      "papers": 66,
+      "papers": 67,
       "top_cells": [
         "supply-chain-security/application",
         "vulnerability-management/application",
@@ -574,14 +574,14 @@
       "term": "experiment",
       "kind": "curated",
       "seed": true,
-      "df": 58,
+      "df": 59,
       "match": {
         "type": "text",
         "forms": [
           "experiment"
         ]
       },
-      "papers": 58,
+      "papers": 59,
       "top_cells": [
         "security-education/application",
         "human-factor/application",
