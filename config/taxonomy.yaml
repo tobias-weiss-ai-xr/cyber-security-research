@@ -64,6 +64,18 @@ taxonomy:
     display: Systems
   - id: development
     display: Development
+  - id: evaluation
+    display: Evaluation
+    description: Auto-added subcategory 'evaluation' from ingested papers
+    category: threat-intelligence
+  - id: review
+    display: Review
+    description: Auto-added subcategory 'review' from ingested papers
+    category: threat-intelligence
+  - id: mechanism
+    display: Mechanism
+    description: Auto-added subcategory 'mechanism' from ingested papers
+    category: threat-intelligence
 arxiv_queries:
 - query: abs:"threat intelligence analysis"
   category: threat-intelligence
