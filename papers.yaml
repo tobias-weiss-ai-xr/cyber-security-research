@@ -82834,7 +82834,7 @@ papers:
     encryption offers a possible solution. We
   venue: 2021 IEEE 20th International Conference on Trust, Security and Privacy in
     Computing and Communications (TrustCom)
-- title: '$\mathsf {Rubato}$: Noisy Ciphers for Approximate Homomorphic Encryption'
+- title: '\mathsf {Rubato}: Noisy Ciphers for Approximate Homomorphic Encryption'
   date: 2022-01
   url: https://doi.org/10.1007/978-3-031-06944-4_20
   category: cryptography
