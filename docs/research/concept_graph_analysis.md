@@ -1,21 +1,21 @@
 # Concept Graph Analysis
 
-**Generated:** 42 nodes, 350 edges, 1 components, 1 communities (modularity -1020.091). Edges = co-occurrence.
+**Generated:** 42 nodes, 350 edges, 1 components, 1 communities (modularity -1018.664). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2117, degree 37, df 4679
+- **framework** — PR 0.2117, degree 37, df 4677
 - **dataset** — PR 0.0805, degree 34, df 1585
-- **Network Security** — PR 0.0458, degree 13, df 2515
-- **survey** — PR 0.0447, degree 35, df 864
+- **Network Security** — PR 0.0459, degree 13, df 2511
+- **survey** — PR 0.0447, degree 35, df 863
 - **benchmark** — PR 0.0391, degree 31, df 598
 - **Threat Intelligence** — PR 0.0362, degree 16, df 1751
-- **case study** — PR 0.0321, degree 31, df 522
-- **Application Security** — PR 0.0298, degree 14, df 1881
+- **case study** — PR 0.0321, degree 31, df 521
+- **Application Security** — PR 0.0297, degree 14, df 1876
 - **qualitative** — PR 0.0295, degree 34, df 356
-- **literature review** — PR 0.0287, degree 32, df 459
-- **quantitative** — PR 0.0274, degree 32, df 339
-- **Incident Response** — PR 0.0273, degree 15, df 2087
+- **literature review** — PR 0.0286, degree 32, df 458
+- **quantitative** — PR 0.0274, degree 32, df 338
+- **Incident Response** — PR 0.0273, degree 15, df 2081
 
 ## Bridge nodes (high betweenness — connect clusters)
 

@@ -5,14 +5,14 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 4679,
+      "df": 4677,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 4679,
+      "papers": 4677,
       "top_cells": [
         "network-security/method",
         "threat-intelligence/method",
@@ -24,7 +24,7 @@
       "term": "Network Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 2515,
+      "df": 2511,
       "match": {
         "type": "field",
         "field": "category",
@@ -36,7 +36,7 @@
         "network-security/systems",
         "network-security/theory"
       ],
-      "papers": 2515
+      "papers": 2511
     },
     {
       "term": "Cryptography",
@@ -60,7 +60,7 @@
       "term": "Incident Response",
       "kind": "taxonomy",
       "seed": true,
-      "df": 2087,
+      "df": 2081,
       "match": {
         "type": "field",
         "field": "category",
@@ -72,13 +72,13 @@
         "incident-response/theory",
         "incident-response/systems"
       ],
-      "papers": 2087
+      "papers": 2081
     },
     {
       "term": "Application Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1881,
+      "df": 1876,
       "match": {
         "type": "field",
         "field": "category",
@@ -90,7 +90,7 @@
         "application-security/theory",
         "application-security/systems"
       ],
-      "papers": 1881
+      "papers": 1876
     },
     {
       "term": "Threat Intelligence",
@@ -114,7 +114,7 @@
       "term": "Identity Access",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1748,
+      "df": 1743,
       "match": {
         "type": "field",
         "field": "category",
@@ -126,13 +126,13 @@
         "identity-access/theory",
         "identity-access/systems"
       ],
-      "papers": 1748
+      "papers": 1743
     },
     {
       "term": "Malware Analysis",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1719,
+      "df": 1715,
       "match": {
         "type": "field",
         "field": "category",
@@ -144,13 +144,13 @@
         "malware-analysis/systems",
         "malware-analysis/theory"
       ],
-      "papers": 1719
+      "papers": 1715
     },
     {
       "term": "Supply Chain Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1712,
+      "df": 1707,
       "match": {
         "type": "field",
         "field": "category",
@@ -162,7 +162,7 @@
         "supply-chain-security/theory",
         "supply-chain-security/systems"
       ],
-      "papers": 1712
+      "papers": 1707
     },
     {
       "term": "dataset",
@@ -187,7 +187,7 @@
       "term": "Cloud Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1544,
+      "df": 1543,
       "match": {
         "type": "field",
         "field": "category",
@@ -199,13 +199,13 @@
         "cloud-security/systems",
         "cloud-security/theory"
       ],
-      "papers": 1544
+      "papers": 1543
     },
     {
       "term": "Vulnerability Management",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1358,
+      "df": 1348,
       "match": {
         "type": "field",
         "field": "category",
@@ -217,13 +217,13 @@
         "vulnerability-management/systems",
         "vulnerability-management/theory"
       ],
-      "papers": 1358
+      "papers": 1348
     },
     {
       "term": "Zero Trust",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1319,
+      "df": 1314,
       "match": {
         "type": "field",
         "field": "category",
@@ -235,13 +235,13 @@
         "zero-trust/theory",
         "zero-trust/systems"
       ],
-      "papers": 1319
+      "papers": 1314
     },
     {
       "term": "Security Operations",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1025,
+      "df": 1024,
       "match": {
         "type": "field",
         "field": "category",
@@ -253,13 +253,13 @@
         "security-operations/systems",
         "security-operations/theory"
       ],
-      "papers": 1025
+      "papers": 1024
     },
     {
       "term": "Ai Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 970,
+      "df": 968,
       "match": {
         "type": "field",
         "field": "category",
@@ -271,20 +271,20 @@
         "ai-security/mechanism",
         "ai-security/method"
       ],
-      "papers": 970
+      "papers": 968
     },
     {
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 864,
+      "df": 863,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 864,
+      "papers": 863,
       "top_cells": [
         "application-security/review",
         "network-security/review",
@@ -296,7 +296,7 @@
       "term": "Privacy",
       "kind": "taxonomy",
       "seed": true,
-      "df": 785,
+      "df": 782,
       "match": {
         "type": "field",
         "field": "category",
@@ -308,13 +308,13 @@
         "privacy/systems",
         "privacy/theory"
       ],
-      "papers": 785
+      "papers": 782
     },
     {
       "term": "Security Education",
       "kind": "taxonomy",
       "seed": true,
-      "df": 704,
+      "df": 702,
       "match": {
         "type": "field",
         "field": "category",
@@ -326,13 +326,13 @@
         "security-education/systems",
         "security-education/review"
       ],
-      "papers": 704
+      "papers": 702
     },
     {
       "term": "Iot Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 703,
+      "df": 702,
       "match": {
         "type": "field",
         "field": "category",
@@ -344,7 +344,7 @@
         "iot-security/mechanism",
         "iot-security/review"
       ],
-      "papers": 703
+      "papers": 702
     },
     {
       "term": "Risk Management",
@@ -368,7 +368,7 @@
       "term": "Security Compliance",
       "kind": "taxonomy",
       "seed": true,
-      "df": 632,
+      "df": 631,
       "match": {
         "type": "field",
         "field": "category",
@@ -380,7 +380,7 @@
         "security-compliance/theory",
         "security-compliance/systems"
       ],
-      "papers": 632
+      "papers": 631
     },
     {
       "term": "benchmark",
@@ -405,14 +405,14 @@
       "term": "case study",
       "kind": "curated",
       "seed": true,
-      "df": 522,
+      "df": 521,
       "match": {
         "type": "text",
         "forms": [
           "case study"
         ]
       },
-      "papers": 522,
+      "papers": 521,
       "top_cells": [
         "threat-intelligence/theory",
         "application-security/method",
@@ -424,7 +424,7 @@
       "term": "Human Factor",
       "kind": "taxonomy",
       "seed": true,
-      "df": 489,
+      "df": 487,
       "match": {
         "type": "field",
         "field": "category",
@@ -436,20 +436,20 @@
         "human-factor/mechanism",
         "human-factor/review"
       ],
-      "papers": 489
+      "papers": 487
     },
     {
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 459,
+      "df": 458,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 459,
+      "papers": 458,
       "top_cells": [
         "threat-intelligence/theory",
         "threat-intelligence/method",
@@ -461,7 +461,7 @@
       "term": "Cyber Warfare",
       "kind": "taxonomy",
       "seed": true,
-      "df": 451,
+      "df": 446,
       "match": {
         "type": "field",
         "field": "category",
@@ -473,7 +473,7 @@
         "cyber-warfare/systems",
         "cyber-warfare/theory"
       ],
-      "papers": 451
+      "papers": 446
     },
     {
       "term": "qualitative",
@@ -517,14 +517,14 @@
       "term": "quantitative",
       "kind": "curated",
       "seed": true,
-      "df": 339,
+      "df": 338,
       "match": {
         "type": "text",
         "forms": [
           "quantitative"
         ]
       },
-      "papers": 339,
+      "papers": 338,
       "top_cells": [
         "threat-intelligence/method",
         "incident-response/method",
@@ -536,14 +536,14 @@
       "term": "taxonomy",
       "kind": "curated",
       "seed": true,
-      "df": 258,
+      "df": 257,
       "match": {
         "type": "text",
         "forms": [
           "taxonomy"
         ]
       },
-      "papers": 258,
+      "papers": 257,
       "top_cells": [
         "threat-intelligence/method",
         "supply-chain-security/application",
@@ -574,14 +574,14 @@
       "term": "reproducibility",
       "kind": "curated",
       "seed": true,
-      "df": 111,
+      "df": 110,
       "match": {
         "type": "text",
         "forms": [
           "reproducibility"
         ]
       },
-      "papers": 111,
+      "papers": 110,
       "top_cells": [
         "supply-chain-security/application",
         "supply-chain-security/method",

@@ -1,43 +1,43 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 42 concepts, 350 relationships from 26357 papers. Edges = co-occurrence (shared papers).
+**Generated:** 42 concepts, 350 relationships from 26295 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| framework | curated | 4679 |
-| Network Security | taxonomy | 2515 |
+| framework | curated | 4677 |
+| Network Security | taxonomy | 2511 |
 | Cryptography | taxonomy | 2302 |
-| Incident Response | taxonomy | 2087 |
-| Application Security | taxonomy | 1881 |
+| Incident Response | taxonomy | 2081 |
+| Application Security | taxonomy | 1876 |
 | Threat Intelligence | taxonomy | 1751 |
-| Identity Access | taxonomy | 1748 |
-| Malware Analysis | taxonomy | 1719 |
-| Supply Chain Security | taxonomy | 1712 |
+| Identity Access | taxonomy | 1743 |
+| Malware Analysis | taxonomy | 1715 |
+| Supply Chain Security | taxonomy | 1707 |
 | dataset | curated | 1585 |
-| Cloud Security | taxonomy | 1544 |
-| Vulnerability Management | taxonomy | 1358 |
-| Zero Trust | taxonomy | 1319 |
-| Security Operations | taxonomy | 1025 |
-| Ai Security | taxonomy | 970 |
-| survey | curated | 864 |
-| Privacy | taxonomy | 785 |
-| Security Education | taxonomy | 704 |
-| Iot Security | taxonomy | 703 |
+| Cloud Security | taxonomy | 1543 |
+| Vulnerability Management | taxonomy | 1348 |
+| Zero Trust | taxonomy | 1314 |
+| Security Operations | taxonomy | 1024 |
+| Ai Security | taxonomy | 968 |
+| survey | curated | 863 |
+| Privacy | taxonomy | 782 |
+| Security Education | taxonomy | 702 |
+| Iot Security | taxonomy | 702 |
 | Risk Management | taxonomy | 662 |
-| Security Compliance | taxonomy | 632 |
+| Security Compliance | taxonomy | 631 |
 | benchmark | curated | 598 |
-| case study | curated | 522 |
-| Human Factor | taxonomy | 489 |
-| literature review | curated | 459 |
-| Cyber Warfare | taxonomy | 451 |
+| case study | curated | 521 |
+| Human Factor | taxonomy | 487 |
+| literature review | curated | 458 |
+| Cyber Warfare | taxonomy | 446 |
 | qualitative | curated | 356 |
 | systematic review | curated | 339 |
-| quantitative | curated | 339 |
-| taxonomy | curated | 258 |
+| quantitative | curated | 338 |
+| taxonomy | curated | 257 |
 | experiment | curated | 170 |
-| reproducibility | curated | 111 |
+| reproducibility | curated | 110 |
 | interview | curated | 44 |
 | peer review | curated | 35 |
 | research gap | curated | 27 |
@@ -55,7 +55,7 @@
 - dataset — 461 shared paper(s)
 - Threat Intelligence — 417 shared paper(s)
 - Cryptography — 412 shared paper(s)
-- Application Security — 357 shared paper(s)
+- Application Security — 356 shared paper(s)
 - Zero Trust — 337 shared paper(s)
 - Malware Analysis — 300 shared paper(s)
 - Cloud Security — 297 shared paper(s)
@@ -68,8 +68,8 @@
 - survey — 98 shared paper(s)
 - experiment — 25 shared paper(s)
 - literature review — 24 shared paper(s)
-- case study — 21 shared paper(s)
 - systematic review — 21 shared paper(s)
+- case study — 21 shared paper(s)
 
 ### Cryptography
 
@@ -90,12 +90,12 @@
 - dataset — 71 shared paper(s)
 - qualitative — 50 shared paper(s)
 - case study — 38 shared paper(s)
-- literature review — 35 shared paper(s)
 - quantitative — 34 shared paper(s)
+- literature review — 34 shared paper(s)
 
 ### Application Security
 
-- framework — 357 shared paper(s)
+- framework — 356 shared paper(s)
 - dataset — 97 shared paper(s)
 - survey — 88 shared paper(s)
 - case study — 57 shared paper(s)
@@ -146,7 +146,7 @@
 - literature review — 29 shared paper(s)
 - benchmark — 28 shared paper(s)
 - taxonomy — 27 shared paper(s)
-- reproducibility — 26 shared paper(s)
+- quantitative — 26 shared paper(s)
 
 ### dataset
 
@@ -186,8 +186,8 @@
 - framework — 337 shared paper(s)
 - survey — 49 shared paper(s)
 - dataset — 33 shared paper(s)
-- case study — 21 shared paper(s)
 - literature review — 21 shared paper(s)
+- case study — 20 shared paper(s)
 - benchmark — 17 shared paper(s)
 - quantitative — 12 shared paper(s)
 - taxonomy — 10 shared paper(s)
@@ -201,7 +201,7 @@
 - benchmark — 19 shared paper(s)
 - literature review — 17 shared paper(s)
 - systematic review — 11 shared paper(s)
-- qualitative — 7 shared paper(s)
+- taxonomy — 7 shared paper(s)
 
 ### Ai Security
 
@@ -209,7 +209,7 @@
 - benchmark — 58 shared paper(s)
 - survey — 58 shared paper(s)
 - dataset — 45 shared paper(s)
-- taxonomy — 23 shared paper(s)
+- taxonomy — 22 shared paper(s)
 - case study — 10 shared paper(s)
 - systematic review — 10 shared paper(s)
 - peer review — 9 shared paper(s)
@@ -244,12 +244,12 @@
 - survey — 14 shared paper(s)
 - systematic review — 10 shared paper(s)
 - dataset — 7 shared paper(s)
-- quantitative — 7 shared paper(s)
 - qualitative — 7 shared paper(s)
+- quantitative — 6 shared paper(s)
 
 ### Iot Security
 
-- framework — 127 shared paper(s)
+- framework — 126 shared paper(s)
 - survey — 35 shared paper(s)
 - dataset — 19 shared paper(s)
 - benchmark — 11 shared paper(s)
@@ -307,7 +307,7 @@
 - framework — 46 shared paper(s)
 - dataset — 42 shared paper(s)
 - taxonomy — 20 shared paper(s)
-- survey — 17 shared paper(s)
+- survey — 16 shared paper(s)
 - literature review — 14 shared paper(s)
 - case study — 12 shared paper(s)
 - benchmark — 9 shared paper(s)
@@ -320,7 +320,7 @@
 - Application Security — 45 shared paper(s)
 - case study — 39 shared paper(s)
 - Cryptography — 38 shared paper(s)
-- Incident Response — 35 shared paper(s)
+- Incident Response — 34 shared paper(s)
 - systematic review — 32 shared paper(s)
 - survey — 29 shared paper(s)
 
