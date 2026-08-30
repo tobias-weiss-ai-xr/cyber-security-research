@@ -1,51 +1,51 @@
 # Concept Graph Analysis
 
-**Generated:** 42 nodes, 269 edges, 1 components, 1 communities (modularity -383.857). Edges = co-occurrence.
+**Generated:** 42 nodes, 350 edges, 1 components, 1 communities (modularity -1020.091). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2251, degree 32, df 2602
-- **dataset** — PR 0.0775, degree 32, df 695
-- **benchmark** — PR 0.0484, degree 27, df 384
-- **survey** — PR 0.0470, degree 32, df 501
-- **Network Security** — PR 0.0432, degree 11, df 1283
-- **Ai Security** — PR 0.0326, degree 13, df 970
-- **Vulnerability Management** — PR 0.0305, degree 13, df 1122
-- **Incident Response** — PR 0.0275, degree 13, df 1202
-- **case study** — PR 0.0272, degree 29, df 241
-- **taxonomy** — PR 0.0259, degree 28, df 172
-- **Application Security** — PR 0.0255, degree 12, df 963
-- **Supply Chain Security** — PR 0.0248, degree 12, df 937
+- **framework** — PR 0.2117, degree 37, df 4679
+- **dataset** — PR 0.0805, degree 34, df 1585
+- **Network Security** — PR 0.0458, degree 13, df 2515
+- **survey** — PR 0.0447, degree 35, df 864
+- **benchmark** — PR 0.0391, degree 31, df 598
+- **Threat Intelligence** — PR 0.0362, degree 16, df 1751
+- **case study** — PR 0.0321, degree 31, df 522
+- **Application Security** — PR 0.0298, degree 14, df 1881
+- **qualitative** — PR 0.0295, degree 34, df 356
+- **literature review** — PR 0.0287, degree 32, df 459
+- **quantitative** — PR 0.0274, degree 32, df 339
+- **Incident Response** — PR 0.0273, degree 15, df 2087
 
 ## Bridge nodes (high betweenness — connect clusters)
 
-- survey
 - framework
-- dataset
-- Incident Response
-- case study
-- literature review
-- systematic review
-- taxonomy
-- benchmark
 - qualitative
+- survey
+- dataset
+- benchmark
+- quantitative
+- systematic review
+- case study
+- taxonomy
+- literature review
 
 ## Bridge edges (high edge-betweenness)
 
-- Incident Response ↔ mixed methods (weight 2, EB 34.0)
-- survey ↔ interview (weight 2, EB 17.0833)
-- framework ↔ peer review (weight 4, EB 13.3333)
-- dataset ↔ peer review (weight 2, EB 13.3333)
-- qualitative ↔ interview (weight 3, EB 9.9167)
-- Incident Response ↔ dataset (weight 25, EB 6.7146)
-- Incident Response ↔ survey (weight 24, EB 6.7146)
-- framework ↔ Incident Response (weight 143, EB 6.7146)
-- Incident Response ↔ systematic review (weight 20, EB 5.9805)
-- Incident Response ↔ qualitative (weight 9, EB 5.9386)
+- framework ↔ triangulation (weight 4, EB 15.3333)
+- framework ↔ grounded theory (weight 4, EB 14.0333)
+- benchmark ↔ triangulation (weight 2, EB 12.0)
+- qualitative ↔ grounded theory (weight 5, EB 11.6167)
+- survey ↔ mixed methods (weight 4, EB 8.7024)
+- qualitative ↔ mixed methods (weight 5, EB 8.369)
+- framework ↔ research gap (weight 9, EB 7.6484)
+- quantitative ↔ mixed methods (weight 6, EB 7.4524)
+- framework ↔ Cyber Warfare (weight 36, EB 6.419)
+- Identity Access ↔ triangulation (weight 2, EB 5.9)
 
 ## Communities (clusters of related concepts)
 
-### Cluster 1 (35 concepts)
+### Cluster 1 (39 concepts)
 
 Ai Security, Application Security, Cloud Security, Cryptography, Cyber Warfare, Human Factor, Identity Access, Incident Response, Iot Security, Malware Analysis, Network Security, Privacy
 
