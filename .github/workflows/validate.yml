@@ -2,12 +2,21 @@ name: validate
 on: [push, pull_request, workflow_dispatch]
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ci-host]
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-validate-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
-      - run: pip install pyyaml requests
+      - run: pip install pyyaml requests --quiet
       - run: python3 scripts/validate_papers.py
       - run: python3 scripts/fetch/fetch_news.py --check
       - run: python3 scripts/fetch/fetch_kev.py --check
