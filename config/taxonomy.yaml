@@ -2,7 +2,7 @@ topic:
   name: Cyber Security
   short: cyber-security
   description: '- GitHub: https://github.com/tobias-weiss-ai-xr/cyber-security-research'
-  openalex_mailto: research@tobias-weiss-ai-xr.de
+  openalex_mailto: tobias@tobias-weiss.org
 taxonomy:
   categories:
   - id: threat-intelligence
