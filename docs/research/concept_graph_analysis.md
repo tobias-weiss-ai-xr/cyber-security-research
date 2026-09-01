@@ -1,19 +1,19 @@
 # Concept Graph Analysis
 
-**Generated:** 42 nodes, 352 edges, 1 components, 1 communities (modularity -1014.554). Edges = co-occurrence.
+**Generated:** 42 nodes, 352 edges, 1 components, 1 communities (modularity -1015.367). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2117, degree 37, df 4692
-- **dataset** — PR 0.0803, degree 34, df 1586
+- **framework** — PR 0.2117, degree 37, df 4693
+- **dataset** — PR 0.0803, degree 34, df 1588
 - **Network Security** — PR 0.0460, degree 13, df 2518
 - **survey** — PR 0.0445, degree 35, df 863
 - **benchmark** — PR 0.0391, degree 31, df 600
 - **Threat Intelligence** — PR 0.0362, degree 16, df 1753
 - **case study** — PR 0.0321, degree 31, df 522
-- **Application Security** — PR 0.0298, degree 14, df 1882
+- **Application Security** — PR 0.0298, degree 14, df 1884
 - **qualitative** — PR 0.0295, degree 34, df 357
-- **literature review** — PR 0.0289, degree 33, df 461
+- **literature review** — PR 0.0290, degree 33, df 462
 - **quantitative** — PR 0.0275, degree 32, df 340
 - **Incident Response** — PR 0.0275, degree 15, df 2087
 

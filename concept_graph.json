@@ -4,7 +4,7 @@
       "id": 0,
       "term": "framework",
       "kind": "curated",
-      "df": 4692
+      "df": 4693
     },
     {
       "id": 1,
@@ -28,7 +28,7 @@
       "id": 4,
       "term": "Application Security",
       "kind": "taxonomy",
-      "df": 1882
+      "df": 1884
     },
     {
       "id": 5,
@@ -52,13 +52,13 @@
       "id": 8,
       "term": "Supply Chain Security",
       "kind": "taxonomy",
-      "df": 1710
+      "df": 1711
     },
     {
       "id": 9,
       "term": "dataset",
       "kind": "curated",
-      "df": 1586
+      "df": 1588
     },
     {
       "id": 10,
@@ -148,7 +148,7 @@
       "id": 24,
       "term": "literature review",
       "kind": "curated",
-      "df": 461
+      "df": 462
     },
     {
       "id": 25,
@@ -537,7 +537,7 @@
     {
       "source": 0,
       "target": 8,
-      "weight": 244
+      "weight": 245
     },
     {
       "source": 0,
@@ -652,7 +652,7 @@
     {
       "source": 4,
       "target": 9,
-      "weight": 97
+      "weight": 99
     },
     {
       "source": 9,
@@ -1147,7 +1147,7 @@
     {
       "source": 9,
       "target": 24,
-      "weight": 12
+      "weight": 13
     },
     {
       "source": 9,
@@ -1537,7 +1537,7 @@
     {
       "source": 4,
       "target": 24,
-      "weight": 45
+      "weight": 46
     },
     {
       "source": 15,
@@ -2018,6 +2018,6 @@
   "stats": {
     "concepts": 42,
     "edges": 352,
-    "papers": 26340
+    "papers": 26343
   }
 }

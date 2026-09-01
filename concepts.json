@@ -5,14 +5,14 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 4692,
+      "df": 4693,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 4692,
+      "papers": 4693,
       "top_cells": [
         "network-security/method",
         "threat-intelligence/method",
@@ -78,7 +78,7 @@
       "term": "Application Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1882,
+      "df": 1884,
       "match": {
         "type": "field",
         "field": "category",
@@ -90,7 +90,7 @@
         "application-security/theory",
         "application-security/systems"
       ],
-      "papers": 1882
+      "papers": 1884
     },
     {
       "term": "Threat Intelligence",
@@ -150,7 +150,7 @@
       "term": "Supply Chain Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1710,
+      "df": 1711,
       "match": {
         "type": "field",
         "field": "category",
@@ -162,20 +162,20 @@
         "supply-chain-security/theory",
         "supply-chain-security/systems"
       ],
-      "papers": 1710
+      "papers": 1711
     },
     {
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 1586,
+      "df": 1588,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 1586,
+      "papers": 1588,
       "top_cells": [
         "network-security/method",
         "malware-analysis/method",
@@ -442,14 +442,14 @@
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 461,
+      "df": 462,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 461,
+      "papers": 462,
       "top_cells": [
         "threat-intelligence/theory",
         "threat-intelligence/method",

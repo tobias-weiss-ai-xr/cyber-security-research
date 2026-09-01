@@ -1,21 +1,21 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 42 concepts, 352 relationships from 26340 papers. Edges = co-occurrence (shared papers).
+**Generated:** 42 concepts, 352 relationships from 26343 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| framework | curated | 4692 |
+| framework | curated | 4693 |
 | Network Security | taxonomy | 2518 |
 | Cryptography | taxonomy | 2305 |
 | Incident Response | taxonomy | 2087 |
-| Application Security | taxonomy | 1882 |
+| Application Security | taxonomy | 1884 |
 | Threat Intelligence | taxonomy | 1753 |
 | Identity Access | taxonomy | 1745 |
 | Malware Analysis | taxonomy | 1720 |
-| Supply Chain Security | taxonomy | 1710 |
-| dataset | curated | 1586 |
+| Supply Chain Security | taxonomy | 1711 |
+| dataset | curated | 1588 |
 | Cloud Security | taxonomy | 1545 |
 | Vulnerability Management | taxonomy | 1348 |
 | Zero Trust | taxonomy | 1320 |
@@ -30,7 +30,7 @@
 | benchmark | curated | 600 |
 | case study | curated | 522 |
 | Human Factor | taxonomy | 487 |
-| literature review | curated | 461 |
+| literature review | curated | 462 |
 | Cyber Warfare | taxonomy | 446 |
 | qualitative | curated | 357 |
 | systematic review | curated | 340 |
@@ -96,11 +96,11 @@
 ### Application Security
 
 - framework — 358 shared paper(s)
-- dataset — 97 shared paper(s)
+- dataset — 99 shared paper(s)
 - survey — 88 shared paper(s)
 - case study — 57 shared paper(s)
 - benchmark — 55 shared paper(s)
-- literature review — 45 shared paper(s)
+- literature review — 46 shared paper(s)
 - quantitative — 28 shared paper(s)
 - qualitative — 24 shared paper(s)
 
@@ -139,7 +139,7 @@
 
 ### Supply Chain Security
 
-- framework — 244 shared paper(s)
+- framework — 245 shared paper(s)
 - dataset — 82 shared paper(s)
 - survey — 45 shared paper(s)
 - case study — 42 shared paper(s)
@@ -155,7 +155,7 @@
 - Malware Analysis — 314 shared paper(s)
 - benchmark — 202 shared paper(s)
 - Vulnerability Management — 101 shared paper(s)
-- Application Security — 97 shared paper(s)
+- Application Security — 99 shared paper(s)
 - Threat Intelligence — 86 shared paper(s)
 - Supply Chain Security — 82 shared paper(s)
 
@@ -317,7 +317,7 @@
 
 - framework — 94 shared paper(s)
 - Threat Intelligence — 88 shared paper(s)
-- Application Security — 45 shared paper(s)
+- Application Security — 46 shared paper(s)
 - case study — 40 shared paper(s)
 - Cryptography — 38 shared paper(s)
 - Incident Response — 35 shared paper(s)
